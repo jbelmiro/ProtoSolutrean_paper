@@ -125,25 +125,19 @@ Specificallt, by combining techno-typological information with stratigraphy and 
 
 # Materials and methods
 
-The materials used for this analysis include all lithic artifacts from Vale Boi's layers 5 and 4E of the Terrace area and levels U and T from Lapa do Picareiro.
+The materials used for this analysis include all lithic artifacts from Vale Boi's layers 5 and 4E of the Terrace area and levels U and T from Lapa do Picareiro (see below).
 
-The present study adopted an attribute analysis methodology, which aims to recover morphological and metrical attributes of technological classes. The attributes analyzed followed those previously used in European and Portuguese contexts for the Upper Paleolithic [see @bicho1992; @zilhao1997; @almeida2000; @cascalheira2013].
+For lithic analysis we adopted an attribute-based methodology, which aims to describe morphological and metrical attributes of technological classes. The attributes analyzed followed those present in specialized literature, such as @brezillon1968 and @tixier1980, paired with the methodologies used in Upper Paleolithic lithic attribute analysis works, such as @bicho1992, @zilhao1997 or @almeida2000.
 
-For this study, all artifacts and their technological and morphological attributes were recorded using two different databases, thus dividing the analysis in two phases: basic and complete attribute-based analysis.
-
-In both cases, data collection was done through E4, a software developed by Dibble and McPherron (2003), available for download at http://www.oldstoneage.com/software/default.shtml. The software allows the user to program a database file which filters variables through conditions, defined by previous choices and attributes, which allows for better control of the database and homogeneous results. After recording, all information is gathered in one single database in an Access type output.
+Artifacts and their techno-morphological attributes were recorded using two different databases, thus dividing the analysis in two phases: basic and complete attribute-based analysis.
 
 The basic analysis was applied to all of Vale Boi’s quartz artifacts (layers 5 and 4E), since all lithics from the same assemblage in other raw-materials (*e.g.* chert and greywacke) had been previously analysed with the same database  [see @belmiro2018]. This database consists of a reduced set of variables which allow for the general classification of metric and morphologic characteristics of the artifacts, as well as the identification of raw material preference and preferential use.
 
 The complex analysis was applied to Vale Boi cores, debitage products and retouched pieces. Only pieces which were complete were chosen for this stage for two main reasons: 1) the collection is well preserved, with high percentages of complete cores and blanks (~80%), guaranteeing that the sample is representative; 2) only complete pieces gather all the necessary attributes for a thorough analysis. The same database was applied to the whole assemblage of Lapa do Picareiro, given its small sample size.
 
-The several attributes analysed in this database follow those present in specialized literature, such as @brezillon1968 and @tixier1980, paired with the methodologies used in Upper Paleolithic lithic attribute analysis works, such as @bicho1992, @zilhao1997 or @almeida2000. 
+Data collection was done through E4, a software developed by Dibble and McPherron (2003). The complete Data Dictionary with all variables, attributes, values and description, with reference to the consulted literature is available in our research compendium at https://doi.org/xxxx.
 
-The complete Data Dictionary with all variables, attributes, values and description, with reference to the consulted literature can be found in the supplementary material.
-
-The measurements were registered equally for debitage products and cores, including maximum length, width (proximal, mesial and distal), thickness, platform width and thickness and platform angle according to @dibble1997.
-
-After data collection, the databases were imported into R environment, where the information was processed through the creation of descriptive statistical analysis and writing of this article. We include the entire R code used for all the analysis and visualizations contained in this paper is in our online research compendium at https://doi.org/. To produce those files, we followed the procedures described by Marwick et al. (XXXX) for the creation of research compendiums to enhance the reproducibility of research. To enable maximum re-use, our code is released under the MIT license, our data as CC-0, and our figures as CC-BY (for more information, see Marwick XXXX).
+After data collection, the databases were imported into R environment, where the information was processed through the creation of descriptive statistical analysis and writing of this article. We include the entire R code used for all the analysis and visualizations contained in this paper is in our online research compendium. To produce those files, we followed the procedures described by Marwick et al. (XXXX) for the creation of research compendiums to enhance the reproducibility of research. To enable maximum re-use, our code is released under the MIT license, our data as CC-0, and our figures as CC-BY (for more information, see Marwick XXXX).
 
 
 ```{r VB_analysis_setup, include=FALSE}
@@ -236,7 +230,7 @@ datasetlp <- datasetlp %>%
 
 ```
 
-## Vale Boi
+# Vale Boi
 
 Vale Boi is an open-air site and rockshelter, located on the western coast of Algarve (Portugal), near a small homonymous village, within the municipality of Vila do Bispo (Figure \@ref(fig:protomap)). The site is situated in a small valley that runs south to the Atlantic coast, about 2 km distance, relatively open, with a natural boundary to the east and bordered by a limestone hill through all its extension. This hill is marked, at specific points, by limestone exposures that form rock shelters with faces facing west or southwest (Figure \@ref(fig:vbphoto))[@bicho2003; @cascalheira2010; @cascalheiraetal2008].
 
@@ -422,7 +416,7 @@ During the analysis, an unprecedented type of raw material in the whole site of 
 
 The absence of cores, with only one core fragment identified in the Lower 5 group, and low quantity of debitage waste may be explained by the importation of finished pieces or blanks to the site, suggesting that, most likely, no knapping activities occurred with this raw material at the site. This interpretation is, however, truncated by this study’s phase analysis. As the identification of the inner aspect of dolerite was only achieved at the start of the second phase, which as referred before, consisted of the analysis of all cores and debitage products with a more complete database, shatter, chips and fragments were not revisited, thus not allowing for the possible identification of unpatinated dolerite within those classes, which might have been mistaken for fine-grained greywacke. This caveat does not, however, seem to influence the patterns regarding complete blank and retouched tools frequency.
 
-### Technology
+## Lithic technology
 
 The core assemblage from Vale Boi totals 123 pieces, with 46 total pieces coming from the Lower 5 levels, and 77 from the Upper 5/4E group.
 
@@ -510,7 +504,7 @@ One of these newly introduced retouched types is the Vale Comprido point, althou
 
 The analysed Vale Comprido points have been identified in chert (n=1), greywacke (n=1), dolerite (n=3) and chalcedony (n=1, which makes up 100% of retouched pieces made in this raw material). In fact, dolerite had already been identified as a preferred means for making these products (Marreiros 2009), a fact only strengthened by the fact this raw material has more Vale Comprido points than any other and only appears in one other typology: endscrapers. Comparatively, dolerite does not seem to be used for the production of any retouched piece in Lower 5.
 
-## Lapa do Picareiro
+# Lapa do Picareiro
 
 Lapa do Picareiro is a cave site on the west facing slope of Serra d’Aire, a limestone massif north of the Tagus River valley and Lisbon, Portugal (Figure \@ref(fig:protomap)) [@benedettietal2019; @bicho2006]. The massif is underlain by the Serra d’Aire formation, a thick-bedded limestone of the Middle Jurassic age [@carvalho2018]. Serra d’Aire is part of a large limestone province (Maciço Calcário Estremenho), which accounts for several Palaeolithic occupations, both cave and open-air sites [@almeida2000; @benedettietal2019].
 
@@ -564,7 +558,7 @@ The number of chips in quartz is extremely high, representing nearly 60% of this
 
 Chert is characterized by a high frequency of complete blanks (c. 53% for U/Lower T and c. 63% for Middle T), with frequencies of cumulative c. 22% and c. 15% for chips and shatters in the U/Lower T and Middle T phases, respectively. Blank fragments are poorly represented comparatively to quartz, with an absolute count of 4 elements for U/Lower T and 9 for the Middle T phase, representing c. 9% and c. 12% of the whole chert assemblage. Although there are few cores (n=2), retouched pieces have a relatively high frequency within chert (c. 11% on U/Lower T and c. 7% on Middle T) but also across all materials, suggesting that chert was preferentially used for the manufacture of formal tools.
 
-### Technology
+## Lithic technology
 
 A total of 7 cores were recorded on the Lapa do Picareiro assemblages, two in the U/Lower T group (both in quartz) and five in the Middle T, of which 2 are in chert and 2 are in quartz.
 
