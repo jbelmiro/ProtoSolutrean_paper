@@ -1,16 +1,21 @@
 ---
-title: "Proto-Solutrean lithic technology of western Iberia: the sites of Vale Boi and Lapa do Picareiro"
+title: "The Gravettian-Solutrean transition in westernmost Iberia: new data from the sites of Vale Boi and Lapa do Picareiro"
 author:
   - Joana Belmiro: 
       email: jnetobelmiro@gmail.com
-      institute: [Ualg]
+      institute: [ICArEHB]
       correspondence: true
   - João Cascalheira:
       email: jmcascalheira@ualg.pt
-      institute: [Ualg]
+      institute: [ICArEHB]
       correspondence: false
-institute:
-  - Ualg: Universidade do Algarve, Portugal
+  - Nuno Bicho:
+      email:
+      institute: [ICArEHB]
+  - Jonathan Haws:
+    email:
+    institute: [UL] [ICArEHB]
+  - Ualg: ICArEHB, Universidade do Algarve, Portugal
   - UL: University of Louisville
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
@@ -33,8 +38,6 @@ keywords: |
   Upper Paleolithic; Stone tool analysis; Climate change; Portugal
 ---
 
-
-<!-- This is the format for text comments that will be ignored during renderings. Do not put R code in these comments because it will not be ignored. -->
 
 ```{r setup, echo = FALSE}
 knitr::opts_chunk$set(
@@ -75,11 +78,11 @@ library(ggalluvial)
 
 ```
 
-# 1 Introduction
+# Introduction
 
-The replacement of the Gravettian technocomplex by the Solutrean, impacted by adverse climatic conditions during the Heinrich event 2 (HE2), continues to be an essential topic to understand the Upper Paleolithic evolution and human adaptations to climatic changes at the end of the Pleistocene.
+The trantion from the Gravettian to the Solutrean, impacted by adverse climatic conditions during the Heinrich Event 2 (HE2) and the onset of the Last Glacial Maximum (LGM), continues to be an essential topic to understand the Upper Paleolithic evolution and human adaptations to climatic changes at the end of the Pleistocene in Westernmost Europe.
 
-In fact, there has been a significant amount of proposals suggesting a full synchronism between the onset of each Upper Paleolithic technocomplex and the occurrence of the most severe climate events [@cascalheiraandbicho2013; @bichoetal2017]. Bradtmöller *et al.* [-@bradtmoller2012] suggest a direct relationship between three of the HEs (4, 3 and 2) and the substitution of Neanderthal populations with the emergence of the Aurignacian, the appearance of the Gravettian, and the development of the Solutrean, respectively (Table \@ref(tab:climatetable)). Based on the theoretical framework of Panarchy [@holling2002], the authors propose the Repeated Replacement Model (RRM), where the HEs are understood as the primary climatic triggers for population turnover, through the breakdown of communication networks and cultural traditions, which were subsequently reorganized under different socio-cultural conditions [@bradtmoller2012].
+There has been a significant amount of proposals suggesting a full synchronism between the onset of each Upper Paleolithic technocomplex and the occurrence of the most severe climate events [@cascalheiraandbicho2013; @bichoetal2017]. Bradtmöller et al. [-@bradtmoller2012] suggest a direct relationship between three of the HEs (4, 3 and 2) and the substitution of Neanderthal populations with the emergence of the Aurignacian, the appearance of the Gravettian, and the development of the Solutrean, respectively (Table \@ref(tab:climatetable)). Based on the theoretical framework of Panarchy [@holling2002], the authors propose the Repeated Replacement Model (RRM), where the HEs are understood as the primary climatic triggers for population turnover, through the breakdown of communication networks and cultural traditions, which were subsequently reorganized under different socio-cultural conditions [@bradtmoller2012].
 
 ```{r climatetable}
 climate_table <- as_tibble(read_csv(here::here("analysis/data/raw_data/climate_table.csv")))
@@ -87,111 +90,55 @@ knitr::kable(climate_table,
              caption = 'Correspondence between Upper Paleolithic cultural phases (Aurignacian, Gravettian and Solutrean), Heinrich Events and D-O cycles, with respective chronology. Following dates and chronologies from Bradtmöller et al. (2012), Cascalheira and Bicho (2013), Sanchéz-Goñi and Harrison (2010).')
 ```
 
-In this framework, the rapid climatic changes brought by the HE 2 were the trigger for the reorganization of human groups after the Gravettian. Records indicate that during HEs, and with particular severity in the HE 2, western and southern Iberia must have experienced abrupt environmental changes, which altered the location, abundance and availability of resources for the communities of hunter-gatherers [@cascalheiraandbicho2013]. This led to the development of the Solutrean, marked by harsher evironmental conditions at the onset of the LGM. A technological continuum with clear succession between the two technocomplexes is seen, at least in Iberia [@bradtmoller2012], making the comprehension of these rapid climatic events of extreme importance for the understanding of human cultural change, specifically for the Proto-Solutrean and Solutrean technocomplexes.
-
-However, in order to fully understand the impact of the HE 2 and the environmental changes on the replacement of the Gravettian technocomplex by the Solutrean as mentioned above, the Proto-Solutrean needs to be understood and regarded as an independent unit, as a means to understand its role in the RRM. This issue has been addressed by Cascalheira and Bicho (2013), where within the RRM, the authors suggest the Proto-Solutrean as a moment of creative destruction [@holling2001], which allowed the separation from the Gravettian cultural system to the development of a new structure, the Solutrean. There is, however, the need for more technological and chronological data in order to understand how the many different pieces fit together in this framework.
+In this framework, the rapid climatic changes brought by the HE 2 were the trigger for the reorganization of human groups at the end of the Gravettian. Records indicate that during HEs, and with particular severity in the HE 2, western and southern Iberia must have experienced abrupt environmental changes, which altered the location, abundance and availability of resources for the communities of hunter-gatherers [@cascalheiraandbicho2013]. In some parts of Iberia and southwestern France these changes seem to be accompanied by significant techno-typological modifications, combining both elements from the previous and succeeding phases. For some authors, the temporal and spatial patterning of the elements that mark the transiton is, however, sufficiently significant to individualized different technocomplexes - such as the case of the Proto-Solutrean (@cascalheiraandbicho2013; @renard2011; @zilhaoetal1995; @zilhao1997).
 
 Although an essential piece to understand how hunter-gatherer communities adapted, reinvented and abandoned their social and technological organization, most of what is known for the Proto-Solutrean is still geographically constricted and lacking good chronological markers [@cascalheiraandbicho2013], which hampers the understanding of the Proto-Solutrean solutions and their role in the Gravettian-Solutrean transition.
 
-Result of the study of materials from old excavations by Manuel Heleno in Rio Maior (Portuguese Estremadura), and new archaeological works in the same region, in the 1980s, the Proto-Solutrean has thus been described as a transitional technocomplex from Gravettian to Solutrean technologies, through a process of local development, and synchronous to all of southwestern Europe [@zilhaoetal1999]. 
+Result of the study of materials from old excavations by Manuel Heleno in Rio Maior (Portuguese Estremadura) in the 1980s, and new archaeological works in the same region, the Proto-Solutrean has thus been described as a transitional technocomplex from Gravettian to Solutrean technologies, through a process of local development, and synchronous to all of southwestern Europe [@zilhaoetal1999]. 
 
-This technocomplex is best known in the Portuguese Estremadura (as abovementioned), encompassing open-air and cave sites (Figure \@ref(fig:protomap)).
+In the westermost edge of Iberia this technocomplex is best known from open-air and cave sites located in the Portuguese Estremadura (Figure \@ref(fig:protomap)).
 
 ```{r protomap, fig.cap="Location of Proto-Solutrean sites in Portugal or with Proto-Solutrean finds, including the two sites analysed in this study. Legend: 1-Buraca Escura; 2-Alecrim e Lagar Velho; 3-Caldeirão; 4-Lapa do Anecrial; 5-Lapa do Picareiro; 6-Terra do José Pereira; 7-Terra do Manuel; 8-Vales de Senhora da Luz; 9-Vale Comprido - encosta; 10-CPM III; 11-Gato Preto; 12-Gruta das Salemas; 13-Vale Boi"}
 knitr::include_graphics(here::here("analysis/figures/map_proto_solutrean.png"))
 ```
 
-The Gravettian-Solutrean transition has been described through several phases, each with its technological characteristics and patterns. Through the techno-typological characteristics of assemblages from key-sites, two models were created: the Two-stage model and Three-stage model [@zilhao1994; @zilhao1997; @zilhaoetal1999].
+Here, the Proto-Solutrean has been integrated into the Gravettian-Solutrean transition as part of a sequence of techno-typological mofications that could have occured across two or three different stages [@zilhao1994; @zilhao1997; @zilhaoetal1999].
 
-The Two-stage model starts with a final Gravettian stage, characterized by a moderate use of quartz (~15%), production of truncated backed bladelets and proto-magdalenian retouch blades [@zilhao1997]. The second stage is the Proto-Solutrean, frequently characterized by a high percentage of quartz use (~30%), rare presence of backed bladelets or, when retouch is present, being marginal, and the production of Vale Comprido points, the technocomplex’s index fossil [@almeida2000; @zilhao1997; @zilhaoetal1995]. For the production of these tools, the Proto-Solutrean shows three different operative sequences: one for the production of Vale Comprido points, through the removal of elongated blanks with convergent profiles and thick platforms; another for the production of blades, of Gravettian tradition; and another for the production of bladelets, probably obtained through the exploitation of thick endscapers or carinated elements [@zilhao1997].
+The Two-stage model starts with a Final Gravettian phase, characterized by a moderate use of quartz (~15%), production of truncated backed bladelets and proto-magdalenian retouched blades [@zilhao1997]. The second phase is the Proto-Solutrean, frequently characterized by a high percentage of quartz use (~30%), rare presence of backed bladelets or, when retouch is present, being marginal, and the production of Vale Comprido points, the technocomplex’s index fossil [@almeida2000; @zilhao1997; @zilhaoetal1995]. For the production of these tools, the Proto-Solutrean shows three different operative sequences: one for the production of Vale Comprido points, through the removal of elongated blanks with convergent profiles and thick platforms; another for the production of blades, of Gravettian tradition; and another for the production of bladelets, probably obtained through the exploitation of thick endscapers or carinated elements [@zilhao1997].
 
 Vale Comprido points are described as robust pieces, often characterized by convergent shapes, triangular cross-sections and plain platforms, often having a high elongation ratio, although not necessarily falling into the blade category. The Vale Comprido points have been used to describe the technological transition between the Proto-Solutrean and the Solutrean. In this case, these points are seen as an element of discontinuity with the previous technocomplex, where the organic points armed with microliths from the Gravettian are replaced by lithic points, with enough similarities to the *pointes à face plane* of the Middle Solutrean to be understood as a technological development [@zilhao2013].
 
-The Three-stage model maintains the first final Gravettian stage and its defining characteristics but subdivides the following Proto-Solutrean stage in two. As such, there is an intermediate stage characterized by the intensive use of quartz (~30%), which corresponds to Laugerie-Haute’s Aurignatian V. The third stage is the Proto-Solutrean, where quartz use diminishes. In this model, the Vale Comprido points and associated reduction sequence may appear in either of the last two stages [@zilhao1997]. Alternatively, in the Two-phase model, the Aurignacian V is understood as a functional facies, related to specialized occupations and production activities within the technocomplex.
+The Three-stage model maintains the Final Gravettian phase and its defining characteristics but subdivides the following Proto-Solutrean stage in two. As such, there is an intermediate stage characterized by the intensive use of quartz (~30%), which corresponds to Laugerie-Haute’s Aurignatian V (also known as Terminal Gravettian). The third stage is the Proto-Solutrean, where quartz use diminishes. In this model, the Vale Comprido points and associated reduction sequence may appear in either of the last two stages [@zilhao1997]. Alternatively, in the Two-phase model, the Terminal Gravettian is understood as a functional facies, related to specialized occupations and production activities within the technocomplex.
 
-Regardless of what model is accepted, the Proto-Solutrean, from the beginning of its transitional stage, stands as a technocomplex with technological innovations. These are reflected in the manufacture of Vale Comprido points and a complete operative sequence for their production, but marked by a high degree of technological variability in their lithic assemblages [@almeida2000; @zilhao1997; @zilhaoetal1999].
+Regardless of what model is accepted, the Proto-Solutrean, stands out for its technological innovations. These are reflected in the manufacture of Vale Comprido points and a complete operative sequence for their production, but marked by a high degree of technological variability in their lithic assemblages [@almeida2000; @zilhao1997; @zilhaoetal1999].
 
-This variability has been interpreted as a technological race in response to the environmental modifications taking course during the HE 2 [@cascalheiraandbicho2013]. The authors suggest that, in order to correspond to the external pressures, there may have been the need to diversify the economic strategies in use until that moment. The high exploitation of quartz, for example, formerly a secondary raw material, and the use of similar reduction strategies between quartz and chert, might represent one such economic response. The same possibly applies to the use of unprecedented raw materials, as is the case of the Proto-Solutrean levels in Vale Boi, where there is the presence of previously unknown raw materials, used mainly in the manufacture of Vale Comprido points [@belmiro2017; @marreiros2009]. Likewise, alterations recorded in territoriality patterns for the Proto-Solutrean can be interpreted has extensive regional networks and may be related to modifications in the landscape that occurred during the HE 2 [@cascalheiraandbicho2013; @cascalheira2019].
+This variability has been interpreted as a technological race in response to the environmental modifications taking course during the HE 2 [@cascalheiraandbicho2013]. The authors suggest that, in order to correspond to the external pressures, there may have been the need to diversify the economic strategies in use until that moment. The high exploitation of quartz, for example, formerly a secondary raw material, and the use of similar reduction strategies between quartz and chert, might represent one such economic response. The same possibly applies to the use of unprecedented raw materials, as is the case of the Proto-Solutrean levels in Vale Boi, where there is the presence of previously unknown raw materials, used mainly for the manufacture of Vale Comprido points [@belmiro2017; @marreiros2009]. Likewise, alterations recorded in territoriality patterns for the Proto-Solutrean can be interpreted has extensive regional networks and may be related to modifications in the landscape that occurred during the HE 2 [@cascalheiraandbicho2013; @cascalheira2019].
 
-These technological and behavioral changes, when understood under the light of the Repeated Replacement Model previously discussed [@bradtmoller2012] and Panarchy [@holling2002; @allen2014], might be understood as moments of release and restructuration led by external pressures, in this case, climate changes [@cascalheiraandbicho2013], while maintaining a certain degree of resilience [@bicho2013; @walker2006]. 
+However, despite the existence of rather comprehensive literature about the technocomplex in the Portuguese Estremadura, which has allowed for a better understanding of the impacts of HE 2 in hunter-gatherer communities and the emergence of the Solutrean, there is still the need for further studies, in order to fill existing gaps. One of these gaps is the concentration of data regarding this technocomplex in the Estremadura, whereas the Proto-Solutrean is still relatively unknown in other places throughout southwestern Europe. In the case of Portugal, only one other site in the south (Figure \@ref(fig:protomap)) has so far revealed the presence of this techno-complex. Another issue is the small amount of absolute datings for Proto-Solutrean contexts, which limits the chronological definition of the technocomplex, and thus the testing of which transition model (if any) applies best [@cascalheiraandbicho2013].
 
-Thus, following this framework, the Proto-Solutrean reveals itself as a moment of “creative destruction” [@holling2001], with moments of rupture and consolidation of technological innovations and social structures. In other words, the Proto-Solutrean might be understood as the moment where Gravettian cultural traditions were reconfigured to best adapt to climatic and landscape alterations, setting grounds for the emergence of another phase – the Solutrean [@cascalheiraandbicho2013].
+Addressing these issues, through the study of lithic assemblages from other areas in southwestern Europe, from sites with good stratigraphic preservation which allow absolute dating and accurate spatial tracking, will undoubtedly help further understand the transition, its patterns, stage transitions and possible regional variations.
 
-However, despite the existence of rather comprehensive literature about the technocomplex in the Portuguese Estremadura, which has allowed for a better understanding of the impacts of HE 2 in hunter-gatherer communities and the emergence of the Solutrean, there is still the need for further studies, in order to fill existing gaps. One of these gaps is the concentration of data regarding this technocomplex in the Estremadura, whereas the Proto-Solutrean is still relatively unknown in other places throughout southwestern Europe, in the case of Portugal, with only one site in the south (Figure \@ref(fig:protomap)). Another issue abovementioned is connected to the small amount of absolute datings for Proto-Solutrean contexts, which limits the chronological definition of the technocomplex, and thus the testing of which transition model (if any) applies best [@cascalheiraandbicho2013].
+By understanding the need to better comprehend the Proto-Solutrean and how abrupt climate change impacted these communities, this study's presents the results of the analysis of stone tool assemblages coming from levels attributed to the Gravettian-Solutrean transition timeframe, from two recently excavated sites - Vale Boi (southern Portugal) and Lapa do Picareiro (central Portugal).
 
-Addressing these issues, through the study of Proto-Solutrean lithic assemblages from other areas in the southwestern European territory, from sites with good stratigraphic preservation which allow absolute dating and accurate spatial tracking, will undoubtedly help further understand this technocomplex, its patterns, stage transitions and possible regional variations.
+Specificallt, by combining techno-typological information with stratigraphy and absolute chronology results, we present new data on: 1) the technological organization of levels 5/4E of Vale Boi, and levels U/T from Lapa do Picareiro; 2) a stratigraphical and chronological separation between Terminal Gravettian horizons and Proto-Solutrean occupations at both sites, revealing the application of the same general set of pattern to geographic areas outside of the Estremadura; 3) and, consequently, the validity of the three-stage model as the best suited for the currently available data.
 
-By understanding the need to better comprehend the Proto-Solutrean and how abrupt climate change impacted these communities, this study's primary goal was to answer provide additional details to answer the question: what impact did the HE 2 have on the technological organization of human communities, at the onset of the Last Glacial Maximum (LGM), in southwestern Iberia? To do so, an analysis of stone tool assemblages coming from levels attributed to the Gravettian-Solutrean transition timeframe, from two recently excavated sites - Vale Boi (southern Portugal) and Lapa do Picareiro (central Portugal) - was performed.
 
-To answer this question, the following goals were set: 1) understand the technological organization of Layers 5/4E of Vale Boi, and U/T from Lapa do Picareiro, by characterizing their technological patterns, reduction sequences and raw material use/preference patterns; 2) identify possible Terminal Gravettian horizons or facies within the Proto-Solutrean occupations in Vale Boi and Lapa do Picareiro and their respective chronologies; 3) test the Gravettian-Solutrean transition models (Two-phase and Three-phase), previously developed using data from the Portuguese Estremadura [@zilhao1997], to understand which model best explains the transition, but also if those patterns can be applied to other geographic areas outside of the Estremadura.
+# Materials and methods
 
-# 2 Archaeological sites
+The materials used for this analysis include all lithic artifacts from Vale Boi's layers 5 and 4E of the Terrace area and levels U and T from Lapa do Picareiro (see below).
 
-## 2.1 Vale Boi
+For lithic analysis we adopted an attribute-based methodology, which aims to describe morphological and metrical attributes of technological classes. The attributes analyzed followed those present in specialized literature, such as @brezillon1968 and @tixier1980, paired with apprcascalheira2010,hes used in o)ther Upper Paleolithic lithic attribute analysis (see e.g. @bicho1992, @zilhao1997, @cascalheira2010, @almeida2000).
 
-Vale Boi is an open-air site and rockshelter, located on the western coast of Algarve (Portugal), near a small homonymous village, within the municipality of Vila do Bispo (Figure \@ref(fig:protomap)). The site is situated in a small valley that runs south to the Atlantic coast, about 2 km distance, relatively open, with a natural boundary to the east and bordered by a limestone hill through all its extension. This hill is marked, at specific points, by limestone exposures that form rock shelters with faces facing west or southwest (Figure \@ref(fig:vbphoto))[@bicho2003; @cascalheira2010; @cascalheiraetal2008].
-
-```{r vbphoto, fig.cap="Vale Boi. Topographic plan, schematic profile and general view, with location of the excavation loci. After Cascalheira et al. (2017)."}
-
-knitr::include_graphics(here::here("analysis/figures/vb_plan.png"))
-
-```
-
-The site extends for more than 10 000 $m^2$ on the slope of this valley, which is marked by a series of steps that run parallel to the river, possibly the result of Middle Pleistocene fluviatile erosion [@bicho2003].
-
-The geological context of Vale Boi is marked by heterogeneity. In the north, there are schist and greywacke formations from the Carboniferous. In the south, Triassic and Jurassic dolomite and limestone formations, which are gradually covered by Holocene dunes further into the coastal area, until near St. Vincent’s cape where they appear uncovered once again, along with small occurrences of chert [@verissimo2004].
-
-Vale Boi shows a variety of human occupations, distributed across the three main areas, which have been interpreted differently in terms of functionality: Slope, Shelter, and Terrace.
-
-Although excavated since 2000, in 2012, a new 8 $m^2$ area was open in the Terrace (rows H and I), to understand the stratigraphic sequence in more detail and assess the existence of older cultural horizons, from the early Upper Paleolithic.
-
-## 2.2 Lapa do Picareiro
-
-Lapa do Picareiro is a cave site on the west facing slope of Serra d’Aire, a limestone massif north of the Tagus River valley and Lisbon, Portugal (Figure \@ref(fig:protomap)) [@benedettietal2019; @bicho2006]. The massif is underlain by the Serra d’Aire formation, a thick-bedded limestone of the Middle Jurassic age [@carvalho2018]. Serra d’Aire is part of a large limestone province (Maciço Calcário Estremenho), which accounts for several Palaeolithic occupations, both cave and open-air sites [@almeida2000; @benedettietal2019].
-
-The interior of the chamber is about 11 x 14 m, and has more than 10 m of coarse sedimentary infill in inclined beds, derived from roof collapse, gravity flows and fine sediment infiltration (Figure \@ref(fig:lpcave)) [@benedettietal2019]. The cave opening is marked by the existence of a large limestone cone of stone blocks [@bicho2006] while the sediment inside the cave consists of smaller and angular limestone clasts in a matrix of fine sediment [@benedettietal2019].
-
-Until the present year 34 layers have been identified within the cave, 20 of which have human occupations attributed to the Upper Paleolithic.
-
-```{r lpcave, fig.cap="Lapa do Picareiro. Generalized cross section showing surface topography, shape of the cave, and area excavated into sedimentary fill. After Benedetti et al. (2019)."}
-
-knitr::include_graphics(here::here("analysis/figures/lp_cross_section.jpg"))
-
-```
-
-# 3 Material and methods
-
-## 3.1 Materials
-
-The materials used for this analysis come for the abovementioned archaeological sites Vale Boi and Lapa do Picareiro. The materials from Vale Boi include all lithic artifacts from layers 5 and 4E, from the Terrace area and from units H to J, excavated from 2012 onwards. Lapa do Picareiro materials include all lithic artifacts from levels T, U and T/U.
-
-These materials are located at the laboratory of the Interdisciplinary Center for Archaeology and Evolution of Human Behaviour (ICArEHB), at the Universidade do Algarve, in Portugal.
-
-## 3.2 Attribute analysis
-
-The present study adopted an attribute analysis methodology, which aims to recover morphological and metrical attributes of technological classes. The attributes analyzed followed those previously used in European and Portuguese contexts for the Upper Paleolithic [see @bicho1992; @zilhao1997; @almeida2000; @cascalheira2013].
-
-For this study, all artifacts and their technological and morphological attributes were recorded using two different databases, thus dividing the analysis in two phases: basic and complete attribute-based analysis.
-
-In both cases, data collection was done through E4, a software developed by Dibble and McPherron (2003), available for download at http://www.oldstoneage.com/software/default.shtml. The software allows the user to program a database file which filters variables through conditions, defined by previous choices and attributes, which allows for better control of the database and homogeneous results. After recording, all information is gathered in one single database in an Access type output.
+Artifacts and their techno-morphological attributes were recorded using two different databases, thus dividing the analysis in two phases: basic and complete attribute-based analysis.
 
 The basic analysis was applied to all of Vale Boi’s quartz artifacts (layers 5 and 4E), since all lithics from the same assemblage in other raw-materials (*e.g.* chert and greywacke) had been previously analysed with the same database  [see @belmiro2018]. This database consists of a reduced set of variables which allow for the general classification of metric and morphologic characteristics of the artifacts, as well as the identification of raw material preference and preferential use.
 
 The complex analysis was applied to Vale Boi cores, debitage products and retouched pieces. Only pieces which were complete were chosen for this stage for two main reasons: 1) the collection is well preserved, with high percentages of complete cores and blanks (~80%), guaranteeing that the sample is representative; 2) only complete pieces gather all the necessary attributes for a thorough analysis. The same database was applied to the whole assemblage of Lapa do Picareiro, given its small sample size.
 
-The several attributes analysed in this database follow those present in specialized literature, such as @brezillon1968 and @tixier1980, paired with the methodologies used in Upper Paleolithic lithic attribute analysis works, such as @bicho1992, @zilhao1997 or @almeida2000. 
+Data collection was done through E4, a software developed by Dibble and McPherron (2003). The complete Data Dictionary with all variables, attributes, values and description, with reference to the consulted literature is available in our research compendium at https://doi.org/xxxx.
 
-The complete Data Dictionary with all variables, attributes, values and description, with reference to the consulted literature can be found in the supplementary material.
+After data collection, the databases were imported into R environment, where the information was processed through the creation of descriptive statistical analysis and writing of this article. We include the entire R code used for all the analysis and visualizations contained in this paper is in our online research compendium. To produce those files, we followed the procedures described by Marwick et al. (XXXX) for the creation of research compendiums to enhance the reproducibility of research. To enable maximum re-use, our code is released under the MIT license, our data as CC-0, and our figures as CC-BY (for more information, see Marwick XXXX).
 
-The measurements were registered equally for debitage products and cores, including maximum length, width (proximal, mesial and distal), thickness, platform width and thickness and platform angle according to @dibble1997.
-
-## 3.3 Data analysis
-
-After data collection, the databases, for both Vale Boi and Lapa do Picareiro, were imported into R environment, where the information was processed through the creation of descriptive statistical analysis. This was done in RStudio, an open source integrated development environment (IDE) for R, which can be downloaded at https://rstudio.com, also with resource to RMarkdown, which allows the production of fully reproducible documents (downloaded at https://rmarkdown.rstudio.com).
-
-The scripts used for all statistical analyses and the production of this paper can be found in the supplementary materials.
-
-# 4 Results
 
 ```{r VB_analysis_setup, include=FALSE}
 
@@ -283,9 +230,28 @@ datasetlp <- datasetlp %>%
 
 ```
 
-## 4.1 Vale Boi
+# Vale Boi
 
-### 4.1.1 Assemblage and raw materials
+## Stratigraphy and chronology
+
+Vale Boi is an open-air site and rockshelter, located on the western coast of Algarve (Portugal), near a small homonymous village, within the municipality of Vila do Bispo (Figure \@ref(fig:protomap)). The site is situated in a small valley that runs south to the Atlantic coast, about 2 km distance, relatively open, with a natural boundary to the east and bordered by a limestone hill through all its extension. This hill is marked, at specific points, by limestone exposures that form rock shelters with faces facing west or southwest (Figure \@ref(fig:vbphoto))[@bicho2003; @cascalheira2010; @cascalheiraetal2008].
+
+```{r vbphoto, fig.cap="Vale Boi. Topographic plan, schematic profile and general view, with location of the excavation loci. After Cascalheira et al. (2017)."}
+
+knitr::include_graphics(here::here("analysis/figures/vb_plan.png"))
+
+```
+
+The site extends for more than 10 000 $m^2$ on the slope of this valley, which is marked by a series of steps that run parallel to the river, possibly the result of Middle Pleistocene fluviatile erosion [@bicho2003].
+
+The geological context of Vale Boi is marked by heterogeneity. In the north, there are schist and greywacke formations from the Carboniferous. In the south, Triassic and Jurassic dolomite and limestone formations, which are gradually covered by Holocene dunes further into the coastal area, until near St. Vincent’s cape where they appear uncovered once again, along with small occurrences of chert [@verissimo2004].
+
+Vale Boi shows a variety of human occupations, distributed across the three main areas, which have been interpreted differently in terms of functionality: Slope, Shelter, and Terrace.
+
+Although excavated since 2000, in 2012, a new 8 $m^2$ area was open in the Terrace (rows H and I), to understand the stratigraphic sequence in more detail and assess the existence of older cultural horizons, attributable to an early Upper Paleolithic occupation.
+
+
+## Lithic assemblages
 
 Given the possible existence of two phases within the Proto-Solutrean occupations (Three-phase model), we calculated the percentages of the three most important raw materials by cubic meter of excavated sediment (Figure \@ref(fig:rmdispersion)) and plotted them by depth. There seem to be significant differences in raw material distribution over time. From around 24.1 m of depth upwards, there is an important shift in quartz and chert frequencies, the latter increasing more than 10%, and quartz dropping from c. 50% to nearly 30%. Greywacke frequencies follow those of quartz.
 
@@ -452,11 +418,11 @@ During the analysis, an unprecedented type of raw material in the whole site of 
 
 The absence of cores, with only one core fragment identified in the Lower 5 group, and low quantity of debitage waste may be explained by the importation of finished pieces or blanks to the site, suggesting that, most likely, no knapping activities occurred with this raw material at the site. This interpretation is, however, truncated by this study’s phase analysis. As the identification of the inner aspect of dolerite was only achieved at the start of the second phase, which as referred before, consisted of the analysis of all cores and debitage products with a more complete database, shatter, chips and fragments were not revisited, thus not allowing for the possible identification of unpatinated dolerite within those classes, which might have been mistaken for fine-grained greywacke. This caveat does not, however, seem to influence the patterns regarding complete blank and retouched tools frequency.
 
-### 4.1.2 Technology
+## Technological analysis
 
 The core assemblage from Vale Boi totals 123 pieces, with 46 total pieces coming from the Lower 5 levels, and 77 from the Upper 5/4E group.
 
-Excluding inform cores, which were not considered here because they do not possess all the recordable attributes, there is a clear dominance of single platform cores, for most raw materials and in both phases. Chert presents the highest variability of core types, with high frequencies for single platform (50% for Lower 5 and 33.3% in Upper 5/4E), but also prismatic (37.5% on Lower 5). On Upper 5/4E, there are also opposed, pyramidal, two single platforms and other types of platforms in percentages higher than 10%. In the Lower 5 group chert unidirectional prismatic cores are more frequent.
+Excluding inform cores,there is a clear dominance of single platform cores, for most raw materials and in both phases. Chert presents the highest variability of core types, with high frequencies for single platform (50% for Lower 5 and 33.3% in Upper 5/4E), but also prismatic (37.5% on Lower 5). On Upper 5/4E, there are also opposed, pyramidal, two single platforms and other types of platforms in percentages higher than 10%. In the Lower 5 group chert unidirectional prismatic cores are more frequent.
 
 Most of the cores were used for the extraction of flakes, although blade and bladelet scars also show relatively high frequencies associated with the exploitation of unidirectional prismatic cores in Lower 5 and Upper 5/4E groups.
 
@@ -540,9 +506,25 @@ One of these newly introduced retouched types is the Vale Comprido point, althou
 
 The analysed Vale Comprido points have been identified in chert (n=1), greywacke (n=1), dolerite (n=3) and chalcedony (n=1, which makes up 100% of retouched pieces made in this raw material). In fact, dolerite had already been identified as a preferred means for making these products (Marreiros 2009), a fact only strengthened by the fact this raw material has more Vale Comprido points than any other and only appears in one other typology: endscrapers. Comparatively, dolerite does not seem to be used for the production of any retouched piece in Lower 5.
 
-## 4.2 Lapa do Picareiro
 
-### 4.2.1 Assemblage and raw materials
+# Lapa do Picareiro
+
+## Stratigraphy and chronology
+
+Lapa do Picareiro is a cave site on the west facing slope of Serra d’Aire, a limestone massif north of the Tagus River valley and Lisbon, Portugal (Figure \@ref(fig:protomap)) [@benedettietal2019; @bicho2006]. The massif is underlain by the Serra d’Aire formation, a thick-bedded limestone of the Middle Jurassic age [@carvalho2018]. Serra d’Aire is part of a large limestone province (Maciço Calcário Estremenho), which accounts for several Palaeolithic occupations, both cave and open-air sites [@almeida2000; @benedettietal2019].
+
+The interior of the chamber is about 11 x 14 m, and has more than 10 m of coarse sedimentary infill in inclined beds, derived from roof collapse, gravity flows and fine sediment infiltration (Figure \@ref(fig:lpcave)) [@benedettietal2019]. The cave opening is marked by the existence of a large limestone cone of stone blocks [@bicho2006] while the sediment inside the cave consists of smaller and angular limestone clasts in a matrix of fine sediment [@benedettietal2019].
+
+So far, 34 layers have been identified within the cave, 20 of which have human occupations attributed to the Upper Paleolithic.
+
+```{r lpcave, fig.cap="Lapa do Picareiro. Generalized cross section showing surface topography, shape of the cave, and area excavated into sedimentary fill. After Benedetti et al. (2019)."}
+
+knitr::include_graphics(here::here("analysis/figures/lp_cross_section.jpg"))
+
+```
+
+
+## Lithic assemblages
 
 The materials from Lapa do Picareiro selected for this study come exclusively from Levels U and T. Based on chronological data and artifact distribution along the sequence, these levels had been previously organized into two distinct cultural horizons [@hawsetal2019], somehow similar to the Terminal Gravettian and Proto-Solutrean phases in the traditional transition model [@zilhao1997; @zilhaoetal1999].
 
@@ -581,7 +563,7 @@ The number of chips in quartz is extremely high, representing nearly 60% of this
 
 Chert is characterized by a high frequency of complete blanks (c. 53% for U/Lower T and c. 63% for Middle T), with frequencies of cumulative c. 22% and c. 15% for chips and shatters in the U/Lower T and Middle T phases, respectively. Blank fragments are poorly represented comparatively to quartz, with an absolute count of 4 elements for U/Lower T and 9 for the Middle T phase, representing c. 9% and c. 12% of the whole chert assemblage. Although there are few cores (n=2), retouched pieces have a relatively high frequency within chert (c. 11% on U/Lower T and c. 7% on Middle T) but also across all materials, suggesting that chert was preferentially used for the manufacture of formal tools.
 
-### 4.2.2 Technology
+## Technological analysis
 
 A total of 7 cores were recorded on the Lapa do Picareiro assemblages, two in the U/Lower T group (both in quartz) and five in the Middle T, of which 2 are in chert and 2 are in quartz.
 
@@ -663,9 +645,10 @@ U/Lower T shows four types of retouched piece types, the most present being the 
 
 For the Middle T group (Table \@ref(tab:retouchLP2)), there is a smaller variety of retouched pieces, all in chert: a notch, two retouched flakes, one truncation, and possibly a Vale Comprido point, although the thinning retouch at the platform questionable.
 
-# 5 Discussion
 
-The two phases identified in Vale Boi, Lower 5 and Upper 5/4E, show essentially the same technological patterns, characterized by the exploitation of simple or prismatic cores, with plain platforms and the use of unidirectional strategies for the production of bladelets and flakes.
+# Discussion
+
+The two phases identified at Vale Boi, Lower 5 and Upper 5/4E, show essentially the same technological patterns, characterized by the exploitation of simple or prismatic cores, with plain platforms and the use of unidirectional strategies for the production of bladelets and flakes.
 
 The differences between the two groups are essentially in raw material frequency and the presence of elements related to the production of Vale Comprido points and blanks. Raw material frequency differences happen mainly between quartz and chert. In Lower 5 a frequency of quartz higher than 50% is attested, which lowers to 30% on Upper 5/4E, where chert becomes the dominant raw material. The presence of quartz across the Terrace sequence of Vale Boi was highlited in previous works [@marreiros2009], and contrasts significantly with the results for other areas and chronologies of the site, such as the Solutrean occupations in the rockshelter, where quartz knapped materials do not reach more than 25% of the whole assemblage [@cascalheira2010]. While this difference could be related to the functional nature of each *loci*, the high presence of quartz (c. 40%) also attested for the madgalenian occupation in the rockshelter area [@mendonca2009] seems to indicate that quartz fluctuation may be a result of cultural preferences over time.
 
@@ -721,7 +704,8 @@ Despite the uncertainty of this attribution, the technological data obtained fro
 
 Instead of understanding the Terminal Gravettian as a functional facies, in both Vale Boi and Lapa do Picareiro, this cultural horizon seems to have chronological significance, indicating that the model which best applies, not only for the Portuguese Estremadura (as suggested by Almeida 2000), but also for the south of Portugal, is the Three-phase model. Here, the evolution from the Terminal Gravettian to the Proto-Solutrean is best explained not by overall technological changes, but by raw material frequency shifts and the addition of a reduction sequence, which brings an innovation into the tool kit of the Proto-Solutrean assemblages.
 
-# 6 Conclusion
+
+# Conclusion
 
 Phases U/Lower T and Middle T from Lapa do Picareiro and Levels 5 and 4E from Vale Boi have allowed the expansion of our understading on the Terminal Gravettian and Proto-Solutrean cultural horizons, not only testing the existing evolutionary models, as well as extending the geographical range of these technocomplexes in Portugal. 
 
