@@ -3,14 +3,19 @@ title: "Proto-Solutrean lithic technology of western Iberia: the sites of Vale B
 author:
   - Joana Belmiro: 
       email: jnetobelmiro@gmail.com
-      institute: [Ualg]
+      institute: [ICArEHB]
       correspondence: true
   - João Cascalheira:
       email: jmcascalheira@ualg.pt
-      institute: [Ualg]
+      institute: [ICArEHB]
       correspondence: false
-institute:
-  - Ualg: Universidade do Algarve, Portugal
+  - Nuno Bicho:
+      email:
+      institute: [ICArEHB]
+  - Jonathan Haws:
+    email:
+    institute: [UL] [ICArEHB]
+  - Ualg: ICArEHB, Universidade do Algarve, Portugal
   - UL: University of Louisville
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
@@ -33,8 +38,6 @@ keywords: |
   Upper Paleolithic; Stone tool analysis; Climate change; Portugal
 ---
 
-
-<!-- This is the format for text comments that will be ignored during renderings. Do not put R code in these comments because it will not be ignored. -->
 
 ```{r setup, echo = FALSE}
 knitr::opts_chunk$set(
@@ -77,9 +80,9 @@ library(ggalluvial)
 
 # 1 Introduction
 
-The replacement of the Gravettian technocomplex by the Solutrean, impacted by adverse climatic conditions during the Heinrich event 2 (HE2), continues to be an essential topic to understand the Upper Paleolithic evolution and human adaptations to climatic changes at the end of the Pleistocene.
+The trantion from the Gravettian technocomplex to the Solutrean, impacted by adverse climatic conditions during the Heinrich Event 2 (HE2) at the onset of the Last Glacial Maximum (LGM), continues to be an essential topic to understand the Upper Paleolithic evolution and human adaptations to climatic changes at the end of the Pleistocene.
 
-In fact, there has been a significant amount of proposals suggesting a full synchronism between the onset of each Upper Paleolithic technocomplex and the occurrence of the most severe climate events [@cascalheiraandbicho2013; @bichoetal2017]. Bradtmöller *et al.* [-@bradtmoller2012] suggest a direct relationship between three of the HEs (4, 3 and 2) and the substitution of Neanderthal populations with the emergence of the Aurignacian, the appearance of the Gravettian, and the development of the Solutrean, respectively (Table \@ref(tab:climatetable)). Based on the theoretical framework of Panarchy [@holling2002], the authors propose the Repeated Replacement Model (RRM), where the HEs are understood as the primary climatic triggers for population turnover, through the breakdown of communication networks and cultural traditions, which were subsequently reorganized under different socio-cultural conditions [@bradtmoller2012].
+There has been a significant amount of proposals suggesting a full synchronism between the onset of each Upper Paleolithic technocomplex and the occurrence of the most severe climate events [@cascalheiraandbicho2013; @bichoetal2017]. Bradtmöller et al. [-@bradtmoller2012] suggest a direct relationship between three of the HEs (4, 3 and 2) and the substitution of Neanderthal populations with the emergence of the Aurignacian, the appearance of the Gravettian, and the development of the Solutrean, respectively (Table \@ref(tab:climatetable)). Based on the theoretical framework of Panarchy [@holling2002], the authors propose the Repeated Replacement Model (RRM), where the HEs are understood as the primary climatic triggers for population turnover, through the breakdown of communication networks and cultural traditions, which were subsequently reorganized under different socio-cultural conditions [@bradtmoller2012].
 
 ```{r climatetable}
 climate_table <- as_tibble(read_csv(here::here("analysis/data/raw_data/climate_table.csv")))
@@ -87,23 +90,21 @@ knitr::kable(climate_table,
              caption = 'Correspondence between Upper Paleolithic cultural phases (Aurignacian, Gravettian and Solutrean), Heinrich Events and D-O cycles, with respective chronology. Following dates and chronologies from Bradtmöller et al. (2012), Cascalheira and Bicho (2013), Sanchéz-Goñi and Harrison (2010).')
 ```
 
-In this framework, the rapid climatic changes brought by the HE 2 were the trigger for the reorganization of human groups after the Gravettian. Records indicate that during HEs, and with particular severity in the HE 2, western and southern Iberia must have experienced abrupt environmental changes, which altered the location, abundance and availability of resources for the communities of hunter-gatherers [@cascalheiraandbicho2013]. This led to the development of the Solutrean, marked by harsher evironmental conditions at the onset of the LGM. A technological continuum with clear succession between the two technocomplexes is seen, at least in Iberia [@bradtmoller2012], making the comprehension of these rapid climatic events of extreme importance for the understanding of human cultural change, specifically for the Proto-Solutrean and Solutrean technocomplexes.
-
-However, in order to fully understand the impact of the HE 2 and the environmental changes on the replacement of the Gravettian technocomplex by the Solutrean as mentioned above, the Proto-Solutrean needs to be understood and regarded as an independent unit, as a means to understand its role in the RRM. This issue has been addressed by Cascalheira and Bicho (2013), where within the RRM, the authors suggest the Proto-Solutrean as a moment of creative destruction [@holling2001], which allowed the separation from the Gravettian cultural system to the development of a new structure, the Solutrean. There is, however, the need for more technological and chronological data in order to understand how the many different pieces fit together in this framework.
+In this framework, the rapid climatic changes brought by the HE 2 were the trigger for the reorganization of human groups at the end of the Gravettian. Records indicate that during HEs, and with particular severity in the HE 2, western and southern Iberia must have experienced abrupt environmental changes, which altered the location, abundance and availability of resources for the communities of hunter-gatherers [@cascalheiraandbicho2013]. In some parts of Iberia and southwestern France these changes seem to be accompanied by significant techno-typological modifications, combining both elements from the previous and succeeding phases, that for some author should be individualized into a different technocomplex - the Proto-Solutrean (@cascalheiraandbicho2013; @renard2011; @zilhaoetal1995; @zilhao1997).
 
 Although an essential piece to understand how hunter-gatherer communities adapted, reinvented and abandoned their social and technological organization, most of what is known for the Proto-Solutrean is still geographically constricted and lacking good chronological markers [@cascalheiraandbicho2013], which hampers the understanding of the Proto-Solutrean solutions and their role in the Gravettian-Solutrean transition.
 
-Result of the study of materials from old excavations by Manuel Heleno in Rio Maior (Portuguese Estremadura), and new archaeological works in the same region, in the 1980s, the Proto-Solutrean has thus been described as a transitional technocomplex from Gravettian to Solutrean technologies, through a process of local development, and synchronous to all of southwestern Europe [@zilhaoetal1999]. 
+Result of the study of materials from old excavations by Manuel Heleno in Rio Maior (Portuguese Estremadura) in the 1980s, and new archaeological works in the same region, the Proto-Solutrean has thus been described as a transitional technocomplex from Gravettian to Solutrean technologies, through a process of local development, and synchronous to all of southwestern Europe [@zilhaoetal1999]. 
 
-This technocomplex is best known in the Portuguese Estremadura (as abovementioned), encompassing open-air and cave sites (Figure \@ref(fig:protomap)).
+In the westermost edge of Iberia this technocomplex is best known from open-air and cave sites located in the Portuguese Estremadura (Figure \@ref(fig:protomap)).
 
 ```{r protomap, fig.cap="Location of Proto-Solutrean sites in Portugal or with Proto-Solutrean finds, including the two sites analysed in this study. Legend: 1-Buraca Escura; 2-Alecrim e Lagar Velho; 3-Caldeirão; 4-Lapa do Anecrial; 5-Lapa do Picareiro; 6-Terra do José Pereira; 7-Terra do Manuel; 8-Vales de Senhora da Luz; 9-Vale Comprido - encosta; 10-CPM III; 11-Gato Preto; 12-Gruta das Salemas; 13-Vale Boi"}
 knitr::include_graphics(here::here("analysis/figures/map_proto_solutrean.png"))
 ```
 
-The Gravettian-Solutrean transition has been described through several phases, each with its technological characteristics and patterns. Through the techno-typological characteristics of assemblages from key-sites, two models were created: the Two-stage model and Three-stage model [@zilhao1994; @zilhao1997; @zilhaoetal1999].
+Here, the Proto-Solutrean has been integrated into the Gravettian-Solutrean transition as part of a sequence of techno-typological mofications that could have happened across two or three different stages [@zilhao1994; @zilhao1997; @zilhaoetal1999].
 
-The Two-stage model starts with a final Gravettian stage, characterized by a moderate use of quartz (~15%), production of truncated backed bladelets and proto-magdalenian retouch blades [@zilhao1997]. The second stage is the Proto-Solutrean, frequently characterized by a high percentage of quartz use (~30%), rare presence of backed bladelets or, when retouch is present, being marginal, and the production of Vale Comprido points, the technocomplex’s index fossil [@almeida2000; @zilhao1997; @zilhaoetal1995]. For the production of these tools, the Proto-Solutrean shows three different operative sequences: one for the production of Vale Comprido points, through the removal of elongated blanks with convergent profiles and thick platforms; another for the production of blades, of Gravettian tradition; and another for the production of bladelets, probably obtained through the exploitation of thick endscapers or carinated elements [@zilhao1997].
+The Two-stage model starts with a Final Gravettian stage, characterized by a moderate use of quartz (~15%), production of truncated backed bladelets and proto-magdalenian retouched blades [@zilhao1997]. The second stage is the Proto-Solutrean, frequently characterized by a high percentage of quartz use (~30%), rare presence of backed bladelets or, when retouch is present, being marginal, and the production of Vale Comprido points, the technocomplex’s index fossil [@almeida2000; @zilhao1997; @zilhaoetal1995]. For the production of these tools, the Proto-Solutrean shows three different operative sequences: one for the production of Vale Comprido points, through the removal of elongated blanks with convergent profiles and thick platforms; another for the production of blades, of Gravettian tradition; and another for the production of bladelets, probably obtained through the exploitation of thick endscapers or carinated elements [@zilhao1997].
 
 Vale Comprido points are described as robust pieces, often characterized by convergent shapes, triangular cross-sections and plain platforms, often having a high elongation ratio, although not necessarily falling into the blade category. The Vale Comprido points have been used to describe the technological transition between the Proto-Solutrean and the Solutrean. In this case, these points are seen as an element of discontinuity with the previous technocomplex, where the organic points armed with microliths from the Gravettian are replaced by lithic points, with enough similarities to the *pointes à face plane* of the Middle Solutrean to be understood as a technological development [@zilhao2013].
 
@@ -113,13 +114,9 @@ Regardless of what model is accepted, the Proto-Solutrean, from the beginning of
 
 This variability has been interpreted as a technological race in response to the environmental modifications taking course during the HE 2 [@cascalheiraandbicho2013]. The authors suggest that, in order to correspond to the external pressures, there may have been the need to diversify the economic strategies in use until that moment. The high exploitation of quartz, for example, formerly a secondary raw material, and the use of similar reduction strategies between quartz and chert, might represent one such economic response. The same possibly applies to the use of unprecedented raw materials, as is the case of the Proto-Solutrean levels in Vale Boi, where there is the presence of previously unknown raw materials, used mainly in the manufacture of Vale Comprido points [@belmiro2017; @marreiros2009]. Likewise, alterations recorded in territoriality patterns for the Proto-Solutrean can be interpreted has extensive regional networks and may be related to modifications in the landscape that occurred during the HE 2 [@cascalheiraandbicho2013; @cascalheira2019].
 
-These technological and behavioral changes, when understood under the light of the Repeated Replacement Model previously discussed [@bradtmoller2012] and Panarchy [@holling2002; @allen2014], might be understood as moments of release and restructuration led by external pressures, in this case, climate changes [@cascalheiraandbicho2013], while maintaining a certain degree of resilience [@bicho2013; @walker2006]. 
+However, despite the existence of rather comprehensive literature about the technocomplex in the Portuguese Estremadura, which has allowed for a better understanding of the impacts of HE 2 in hunter-gatherer communities and the emergence of the Solutrean, there is still the need for further studies, in order to fill existing gaps. One of these gaps is the concentration of data regarding this technocomplex in the Estremadura, whereas the Proto-Solutrean is still relatively unknown in other places throughout southwestern Europe. In the case of Portugal, only one other site in the south (Figure \@ref(fig:protomap)) has so far revealed the presence of this techno-complex. Another issue abovementioned is connected to the small amount of absolute datings for Proto-Solutrean contexts, which limits the chronological definition of the technocomplex, and thus the testing of which transition model (if any) applies best [@cascalheiraandbicho2013].
 
-Thus, following this framework, the Proto-Solutrean reveals itself as a moment of “creative destruction” [@holling2001], with moments of rupture and consolidation of technological innovations and social structures. In other words, the Proto-Solutrean might be understood as the moment where Gravettian cultural traditions were reconfigured to best adapt to climatic and landscape alterations, setting grounds for the emergence of another phase – the Solutrean [@cascalheiraandbicho2013].
-
-However, despite the existence of rather comprehensive literature about the technocomplex in the Portuguese Estremadura, which has allowed for a better understanding of the impacts of HE 2 in hunter-gatherer communities and the emergence of the Solutrean, there is still the need for further studies, in order to fill existing gaps. One of these gaps is the concentration of data regarding this technocomplex in the Estremadura, whereas the Proto-Solutrean is still relatively unknown in other places throughout southwestern Europe, in the case of Portugal, with only one site in the south (Figure \@ref(fig:protomap)). Another issue abovementioned is connected to the small amount of absolute datings for Proto-Solutrean contexts, which limits the chronological definition of the technocomplex, and thus the testing of which transition model (if any) applies best [@cascalheiraandbicho2013].
-
-Addressing these issues, through the study of Proto-Solutrean lithic assemblages from other areas in the southwestern European territory, from sites with good stratigraphic preservation which allow absolute dating and accurate spatial tracking, will undoubtedly help further understand this technocomplex, its patterns, stage transitions and possible regional variations.
+Addressing these issues, through the study of lithic assemblages from other areas in southwestern Europe, from sites with good stratigraphic preservation which allow absolute dating and accurate spatial tracking, will undoubtedly help further understand this technocomplex, its patterns, stage transitions and possible regional variations.
 
 By understanding the need to better comprehend the Proto-Solutrean and how abrupt climate change impacted these communities, this study's primary goal was to answer provide additional details to answer the question: what impact did the HE 2 have on the technological organization of human communities, at the onset of the Last Glacial Maximum (LGM), in southwestern Iberia? To do so, an analysis of stone tool assemblages coming from levels attributed to the Gravettian-Solutrean transition timeframe, from two recently excavated sites - Vale Boi (southern Portugal) and Lapa do Picareiro (central Portugal) - was performed.
 
