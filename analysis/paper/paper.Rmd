@@ -250,6 +250,33 @@ Vale Boi shows a variety of human occupations, distributed across the three main
 
 Although excavated since 2000, in 2012, a new 8 $m^2$ area was open in the Terrace (rows H and I), to understand the stratigraphic sequence in more detail and assess the existence of older cultural horizons, attributable to an early Upper Paleolithic occupation.
 
+Since 2012, six layers have been identified (Table \@ref(tab:vbstrat)). In some of these layers, lateral sediment variations were identified, which were coded in the field through the concatenation of a letter to the layer number (*e.g.* 4E). In many of these cases, the isolation of this vertical variation did not show any patterns in terms of spatial concentration of materials, although in others, like the 4E facies, the subdivision of the layer correlated with the spatial distribution of Vale Comprido technology.
+
+In the new area, layers 1 and 2 represent Holocene levels, with the first layer being possibly disturbed by agricultural processes. Layer 2, with a thickness of 25-30 cm shows a Neolithic occupation.
+
+Layer 3 has a silt and clay matrix sediment, with some inclusions and showing interruptions of limestone clast depositional episodes, although there is the constant presence of fauna and lithic artifacts. As mentioned above, the different material and cultural characteristics within the same geologic package led to the subdivision of the layer in layer 3A, attributed to an Epipaleolithic occupation, and 3B, assigned to the Solutrean.
+
+Layer 4 is very similar to layer 3. However, it is separated from it by a gravel level. Similarly to layer 4, these layers have been subdivided regarding different degrees of sediment compaction and/or concentration of organic materials, showing two differing cultural horizons: Solutrean and Proto-Solutrean (limited to layer 4E).
+
+Layer 5 has a dark coloration and a silt and clay matrix characterized by an intense presence of organic elements, frequently calcinated. There is the presence of a Proto-Solutrean horizon within the top levels, although occupation intensity seems to diminish with depth.
+
+Finally, layer 6 is very similar to the previous layer, although it shows the presence of a larger quantity of small and medium-sized limestone clasts. A Gravettian horizon has been attributed to this layer, but the analysis of the materials is currently in progress.
+
+Regarding layers 4E and 5, although they are indeed layers with different sedimentary packages, they show similar technological and archaeological patterns, which led to the conclusion they were the same cultural horizon (the opposite, one single layer with different cultural horizons is equally present in the Terrace, as seen with the epipaleolithic and Solutrean occupations of layer 3). 
+
+These layers, 4E and 5, are vertically contiguous, separated by a relatively flat surface covered by large limestone blocks. Unlike what was expected, however, these levels did not reveal a Gravettian assemblage with characteristics similar to previous years [@marreiros2009], but rather materials with patterns similar to those expected in a Proto-Solutrean assemblage (the most noticeable of all being the Vale Comprido points and blanks). The context was dated using a charcoal sample to c. 24.7-25.3 ka cal BP, and a shell sample to c. 23.7-24.1 ka cal BP (Table \@ref(tab:protodates)).
+
+The bottom spits of layer 5, on the other hand, show a relatively dense concentration of *Littorina littoreia*, an unprecedented shell species at the site, and often associated with colder waters, having a high freezing tolerance [@murphy1979; @clarke2000]. This context was dated through a shell sample, showing dates ranging between the 26-26.3 ka cal BP, which corresponds to the first half of the HE 2 [@sanchez-goni2010].
+
+```{r c14VB, echo = FALSE, fig.cap = "Vale Boi. Radiocarbon results for layers 5 and 4. The results presented are modeled dates based on a Bayesian model (Ramsey et al. 2009) using all dates available for the stratigraphic sequence of the Terrace area. All dates were calibrated using the IntCal13 and Marine13 curves (Reimer et al. 2013), using a regional Delta value of 265+/- 107 in the case of marine shells. The Oxcal script bayesian model is provided as online supplementary materials.", fig.align= 'center', out.width = '60%', fig.pos="H"}
+
+knitr::include_graphics(here::here("/analysis/figures/c14_VB.png"))
+
+```
+
+One of the most noticeable features about the vertical distribution of pieces in the Terrace (row H and I; Figure \@ref(fig:spatialvbfig)) is the vertical constraint in the distribution of dolerite pieces, mostly concentrated on Layer 4E and upper levels of Layer 5, coinciding also with the higher concentration of lithic materials in these layers. Likewise, the presence of Vale Comprido points is also associated with Layer 4E and the top levels of Layer 5 [@belmiro2017], which seems to occur around 25 ka cal BP (Figure \@ref(fig:c14VB)). The WK-44416 date seems to show that, at least from around c. 26 ka cal BP, the site was occupied even if with lower intensity, a date that falls onto the Final Gravettian/Proto-Solutrean or Final Gravettian/Terminal Gravettian transition in the traditional models [@zilhao1997].
+
+The radiocarbon results represented on Figure \@ref(fig:c14VB) seem to show that there are three distinct chronological moments within layer 5. Given the horizontal distribution of the dates from upper layer 5, it may seem, however, that the dates which fall onto the c. 24 ka cal BP are intrusions from the upper layer.
 
 ## Lithic assemblages
 
@@ -515,20 +542,64 @@ Lapa do Picareiro is a cave site on the west facing slope of Serra d’Aire, a l
 
 The interior of the chamber is about 11 x 14 m, and has more than 10 m of coarse sedimentary infill in inclined beds, derived from roof collapse, gravity flows and fine sediment infiltration (Figure \@ref(fig:lpcave)) [@benedettietal2019]. The cave opening is marked by the existence of a large limestone cone of stone blocks [@bicho2006] while the sediment inside the cave consists of smaller and angular limestone clasts in a matrix of fine sediment [@benedettietal2019].
 
-So far, 34 layers have been identified within the cave, 20 of which have human occupations attributed to the Upper Paleolithic.
-
 ```{r lpcave, fig.cap="Lapa do Picareiro. Generalized cross section showing surface topography, shape of the cave, and area excavated into sedimentary fill. After Benedetti et al. (2019)."}
 
 knitr::include_graphics(here::here("analysis/figures/lp_cross_section.jpg"))
 
 ```
 
+Lapa do Picareiro shows a long sequence of occupations, from the Middle Palaeolithic, Upper Palaeolithic, Epipaleolithic, Neolithic and Bronze Age, the latter three mostly focused in the front of the cave, and adjacent outside areas [@benedettietal2019; @bicho2006].
+
+The palaeolithic finds were, so far, recovered from two main areas: the main chamber and a niche in the rear wall. The main chamber shows a sequence of Middle to Upper Palaeolithic occupations, centered on units E7 to F8 [@benedettietal2019]. The main feature in this area is a large Magdalenian hearth in level F/G with associated lithics and a large quantity of fauna, which was interpreted as a particular purpose occupation for processing animal carcasses [@bicho2006]. The niche finds, concentrated in units XX9 to ZZ11, present a series of smaller, stacked hearths, radiocarbon dated to the Magdalenian, Solutrean, Proto-Solutrean and Terminal Gravettian [@benedettietal2019].
+
+The large hearth and associated features are the only areas where human activity disturbed the sedimentary sequence. In all other areas, human activity is limited to thin hearths in association with sporadic lithic concentrations and modified bones. These periods of occupation appear in the sedimentary sequences as alternated with moments of culturally sterile faunal occupation [@benedettietal2019]. Thus, human activity at the site might be understood as several discontinuous occupations inside the cave throughout the late Middle and Upper Palaeolithic, which intensified through the latter with a significant peak during the Magdalenian.
+
+Table \@ref(tab:lpstrat) (Supplementary material), adapted from Benedetti et. al [-@benedettietal2019], shows the complete description of all currently identified levels in the site and, whenever existent, associated lithic assemblages. From the 34 levels described in the table, 23 show human occupations or association with a lithic assemblage, and 20 of these can be attributed to the Upper Paleolithic:
+
+Magdalenian occupations are divided into Late Magdalenian (levels E-J) and Early Magdalenian (levels K-L). Solutrean occupations occur in levels O, R, and S (level P showing neither bone fragments nor a lithic assemblage. 
+
+Level T, approximately 50 cm thick, is comprised of several lithic assemblages which have been attributed to differing technocomplexes: Solutrean in the upper level; Proto-Solutrean in the middle portion of T; and Terminal Gravettian in the lower portion of the level [@benedettietal2019].
+
+A Terminal Gravettian occupation was also identified in level U, a ~15 cm thick layer.
+
+Levels V, W, and X were associated with Gravettian occupations while levels BB, DD, and FF (each intercalated with culturally sterile levels), have an associated early Upper Paleolithic lithic assemblage. Finally, an Aurignacian occupation is present in level GG.
+
+The stratigraphic sequence, as mentioned before, shows an alternation between faunal occupations, rich in bones and bone fragments, and clearly defined cultural horizons. This is explained by the continuous long-term accumulation of sediments, a result of the cave setting and cave morphology. These factors not only allowed continuous deposition but also contributed to the preservation of fauna and lithics. The sequence also shows good stratigraphic integrity, without the presence of bioturbation in its interior (signs of bioturbation by the action of roots are only present at the entrance of the cave) [@benedettietal2019].
+
+Regarding the layers identified as Proto-Solutrean/Terminal Gravettian, the physical distinction between level U and the lower portion of T is hard to make near the niche. In this area, both levels show similar reddish muddy sediment and the presence of animal bones in level T increases. As such, in this area, the attributed level to the recovered artifacts was T/U instead.
+
+Layer T/U is about 15 cm thick, with the presence of possible combustion features and distinct activity areas. The recovered artifacts show a rich faunal assemblage, with a high presence of red deer, though ibex presence is also important, and a superabundance of rabbit bones. A few bone tools were also found. Other recovered artifacts also include a perforated marine shell and a perforated red deer canine tooth (Figure \@ref(fig:teeth)).
+
+The niche area was where most of the lithic assemblage from these levels was found. There is an apparent concentration of lithics, comprised mostly of quartz and rock crystal, and some chert, all raw materials appearing mostly in the shape of bladelets (Figure \@ref(fig:spatialut)).
+
+For U and lower T, radiocarbon dates (Figure \@ref(fig:c14LP)), all obtained from charcoal samples, show results of c. 27-26 cal ka BP, except for one of lower T dates which presents a result of c. 25-24 cal ka BP.
+
+The middle part of T shows the presence of circular concentrations of charcoals, about 10-15 cm thick, which have been interpreted as hearths. Aside from these features, there is a high frequency of animal bones, following the same species patterns as level U and lower T (although these results are preliminary).
+
+The lithic assemblage in this portion of level T is found in two areas: an accumulation of lithics surrounding the hearths and other scattered pieces in the same spits as the hearths but in different units. This assemblage is mostly comprised of chert, also with the presence of quartz and rock crystal, in the form of bladelets and flakes. Although the presence of traditionally-defined Vale Comprido points is not completely attested, there are several blanks which seem to resemble this type of technology, in the form of convergent elongated blanks.
+
+The dates for middle T (Figure \@ref(fig:c14LP)), obtained from charcoal and bone samples, provided results of c. 25-24 ka cal BP, with one date presenting a range of c. 23.4-23.6 ka cal BP.
+
+There is a clear separation between the two groups, one composed of levels U and lower T, and the other of middle T. This is also visible on the spatial dispersion of lithics and other artifacts (Figure \@ref(fig:spatialut) supplementary material), with an accumulation on the bottom left, correspondent to the U/T levels, and another aggregation in the middle portion, to the right, ranging from 20-40 cm of depth difference between the groups.
+
+The patterns in the lithic assemblages also indicate a clear difference between the groups: the high frequency of quartz/rock crystal bladelets of U/T shows a marked difference from the middle T, where chert frequencies are higher, and there is a more balanced frequency of bladelets and flakes.
+
+Finally, the dates for both U/T and middle T strengthen further the separation between the occupations, showing a gap of c. 2 ka years between the assemblages, and placing the U/lower T occupation somewhere around 27-26 cal ka BP and the middle T occupation at c. 25-24 cal ka BP.
+
+```{r c14LP, echo = FALSE, fig.cap = "Lapa do Picareiro. Radiocarbon results for layers U and T. The results presented are modeled dates based on a Bayesian model (Ramsey et al. 2009) using all dates available for the stratigraphic sequence of the cave. All dates were calibrated using the IntCal13 curve (Reimer et al. 2013). The Oxcal script bayesian model is provided as online supplementary materials.", fig.align= 'center', out.width = '60%', fig.pos="H"}
+
+knitr::include_graphics(here::here("analysis/figures/c14_LP.png"))
+
+```
+
+These clear spatial, raw-material and chronological differences, while maintaining some technological similarities, seem to be consistent with the Three-phase model developed for the evolution of the Proto-Solutrean in the Estremadura, where there are two distinct moments with chronological relevance which cannot be better explained by the existence of a functional facies.
+
+However, the dates are not in concordance with the models developed for the Proto-Solutrean in the Portuguese Estremadura [@zilhao1997]. The lower depth group, which has been determined as Terminal Gravettian, shows some concordance with dates for other sites placing these occupations in the transition between the Final Gravettian/Terminal Gravettian. The dates associated with the highest quantity of chert, however, seem to extend the supposed Proto-Solutrean chronological range to much younger dates.
+
 
 ## Lithic assemblages
 
-The materials from Lapa do Picareiro selected for this study come exclusively from Levels U and T. Based on chronological data and artifact distribution along the sequence, these levels had been previously organized into two distinct cultural horizons [@hawsetal2019], somehow similar to the Terminal Gravettian and Proto-Solutrean phases in the traditional transition model [@zilhao1997; @zilhaoetal1999].
-
-Given this geo-archaeological background, for the present analysis the materials were separated into two assemblages: **U/Lower T**, which included all artifacts with depths inferior to 566.9 m or (in case of artifacts lacking 3D coordinates) from all spits from Level U and spits 6 through 8 from Level T [@hawsetal2019]; **Middle T**, including all artifacts with depths equal or superior to 566.9 m, or from the top five spits of Level T. Any other artifact in the assemblage which did not have a depth value or level/spit was not considered in these results since it lacked the needed information to contextualize its technological attributes. Also excluded from this study are the materials found on top of Level T, undoubtedly attributable to the Solutrean [@hawsetal2019; @benedettietal2019].
+The materials from Lapa do Picareiro selected for this study come exclusively from Levels U and T. Given the aforementioned geo-archaeological background, for the present analysis the materials were separated into two assemblages: **U/Lower T**, which included all artifacts with depths inferior to 566.9 m or (in case of artifacts lacking 3D coordinates) from all spits from Level U and spits 6 through 8 from Level T [@hawsetal2019]; **Middle T**, including all artifacts with depths equal or superior to 566.9 m, or from the top five spits of Level T. Any other artifact in the assemblage which did not have a depth value or level/spit was not considered in these results since it lacked the needed information to contextualize its technological attributes. Also excluded from this study are the materials found on top of Level T, undoubtedly attributable to the Solutrean [@hawsetal2019; @benedettietal2019].
 
 A total of 376 pieces were analysed, 196 coming from the U/Lower T phase (Table \@ref(tab:general1lp)) and 180 from the Middle T group (Table \@ref(tab:general2lp)). In both groups, debitage waste is mostly composed of chips, which represents 49.5% of the U/Lower T group and 37.2% of the Middle T group. As in Vale Boi, these values for chippage can be mostly explained by quartz breakage patterns.
 
