@@ -127,7 +127,7 @@ Specificallt, by combining techno-typological information with stratigraphy and 
 
 The materials used for this analysis include all lithic artifacts from Vale Boi's layers 5 and 4E of the Terrace area and levels U and T from Lapa do Picareiro (see below).
 
-For lithic analysis we adopted an attribute-based methodology, which aims to describe morphological and metrical attributes of technological classes. The attributes analyzed followed those present in specialized literature, such as @brezillon1968 and @tixier1980, paired with the methodologies used in Upper Paleolithic lithic attribute analysis works, such as @bicho1992, @zilhao1997 or @almeida2000.
+For lithic analysis we adopted an attribute-based methodology, which aims to describe morphological and metrical attributes of technological classes. The attributes analyzed followed those present in specialized literature, such as @brezillon1968 and @tixier1980, paired with apprcascalheira2010,hes used in o)ther Upper Paleolithic lithic attribute analysis (see e.g. @bicho1992, @zilhao1997, @cascalheira2010, @almeida2000).
 
 Artifacts and their techno-morphological attributes were recorded using two different databases, thus dividing the analysis in two phases: basic and complete attribute-based analysis.
 
@@ -232,6 +232,8 @@ datasetlp <- datasetlp %>%
 
 # Vale Boi
 
+## Stratigraphy and chronology
+
 Vale Boi is an open-air site and rockshelter, located on the western coast of Algarve (Portugal), near a small homonymous village, within the municipality of Vila do Bispo (Figure \@ref(fig:protomap)). The site is situated in a small valley that runs south to the Atlantic coast, about 2 km distance, relatively open, with a natural boundary to the east and bordered by a limestone hill through all its extension. This hill is marked, at specific points, by limestone exposures that form rock shelters with faces facing west or southwest (Figure \@ref(fig:vbphoto))[@bicho2003; @cascalheira2010; @cascalheiraetal2008].
 
 ```{r vbphoto, fig.cap="Vale Boi. Topographic plan, schematic profile and general view, with location of the excavation loci. After Cascalheira et al. (2017)."}
@@ -249,7 +251,7 @@ Vale Boi shows a variety of human occupations, distributed across the three main
 Although excavated since 2000, in 2012, a new 8 $m^2$ area was open in the Terrace (rows H and I), to understand the stratigraphic sequence in more detail and assess the existence of older cultural horizons, attributable to an early Upper Paleolithic occupation.
 
 
-## Assemblage and raw materials
+## Lithic assemblages
 
 Given the possible existence of two phases within the Proto-Solutrean occupations (Three-phase model), we calculated the percentages of the three most important raw materials by cubic meter of excavated sediment (Figure \@ref(fig:rmdispersion)) and plotted them by depth. There seem to be significant differences in raw material distribution over time. From around 24.1 m of depth upwards, there is an important shift in quartz and chert frequencies, the latter increasing more than 10%, and quartz dropping from c. 50% to nearly 30%. Greywacke frequencies follow those of quartz.
 
@@ -506,6 +508,8 @@ The analysed Vale Comprido points have been identified in chert (n=1), greywacke
 
 # Lapa do Picareiro
 
+## Stratigraphy and chronology
+
 Lapa do Picareiro is a cave site on the west facing slope of Serra d’Aire, a limestone massif north of the Tagus River valley and Lisbon, Portugal (Figure \@ref(fig:protomap)) [@benedettietal2019; @bicho2006]. The massif is underlain by the Serra d’Aire formation, a thick-bedded limestone of the Middle Jurassic age [@carvalho2018]. Serra d’Aire is part of a large limestone province (Maciço Calcário Estremenho), which accounts for several Palaeolithic occupations, both cave and open-air sites [@almeida2000; @benedettietal2019].
 
 The interior of the chamber is about 11 x 14 m, and has more than 10 m of coarse sedimentary infill in inclined beds, derived from roof collapse, gravity flows and fine sediment infiltration (Figure \@ref(fig:lpcave)) [@benedettietal2019]. The cave opening is marked by the existence of a large limestone cone of stone blocks [@bicho2006] while the sediment inside the cave consists of smaller and angular limestone clasts in a matrix of fine sediment [@benedettietal2019].
@@ -519,7 +523,7 @@ knitr::include_graphics(here::here("analysis/figures/lp_cross_section.jpg"))
 ```
 
 
-## Assemblage and raw materials
+## Lithic assemblages
 
 The materials from Lapa do Picareiro selected for this study come exclusively from Levels U and T. Based on chronological data and artifact distribution along the sequence, these levels had been previously organized into two distinct cultural horizons [@hawsetal2019], somehow similar to the Terminal Gravettian and Proto-Solutrean phases in the traditional transition model [@zilhao1997; @zilhaoetal1999].
 
