@@ -1,5 +1,5 @@
 ---
-title: "Proto-Solutrean lithic technology of western Iberia: the sites of Vale Boi and Lapa do Picareiro"
+title: "The Gravettian-Solutrean transition in westernmost Iberia: new data from the sites of Vale Boi and Lapa do Picareiro"
 author:
   - Joana Belmiro: 
       email: jnetobelmiro@gmail.com
@@ -102,7 +102,7 @@ In the westermost edge of Iberia this technocomplex is best known from open-air 
 knitr::include_graphics(here::here("analysis/figures/map_proto_solutrean.png"))
 ```
 
-Here, the Proto-Solutrean has been integrated into the Gravettian-Solutrean transition as part of a sequence of techno-typological mofications that could have happened across two or three different stages [@zilhao1994; @zilhao1997; @zilhaoetal1999].
+Here, the Proto-Solutrean has been integrated into the Gravettian-Solutrean transition as part of a sequence of techno-typological mofications that could have occured across two or three different stages [@zilhao1994; @zilhao1997; @zilhaoetal1999].
 
 The Two-stage model starts with a Final Gravettian stage, characterized by a moderate use of quartz (~15%), production of truncated backed bladelets and proto-magdalenian retouched blades [@zilhao1997]. The second stage is the Proto-Solutrean, frequently characterized by a high percentage of quartz use (~30%), rare presence of backed bladelets or, when retouch is present, being marginal, and the production of Vale Comprido points, the technocomplex’s index fossil [@almeida2000; @zilhao1997; @zilhaoetal1995]. For the production of these tools, the Proto-Solutrean shows three different operative sequences: one for the production of Vale Comprido points, through the removal of elongated blanks with convergent profiles and thick platforms; another for the production of blades, of Gravettian tradition; and another for the production of bladelets, probably obtained through the exploitation of thick endscapers or carinated elements [@zilhao1997].
 
