@@ -807,7 +807,7 @@ I would like to express my sincere gratitude to Doctor João Cascalheira for the
 
 \newpage
 
-### Suplemmentary
+### Supplementary
 
 ```{r general1, echo=FALSE}
 
