@@ -1,9 +1,19 @@
 ---
 title: "Supplementary material"
+header-includes:
+  - \usepackage{caption}
+  - \captionsetup[figure]{name=Supplementary Figure,labelfont=it,labelsep = period}
+  - \captionsetup[table]{name=Supplementary Table,labelfont=it,labelsep = period}  
 output: 
   pdf_document: 
     latex_engine: xelatex
+    fig_caption: no
+
 ---
+
+\listoftables
+
+\listoffigures
 
 ```{r setup, echo = FALSE}
 knitr::opts_chunk$set(
@@ -12,6 +22,7 @@ knitr::opts_chunk$set(
   message = FALSE,
   echo = FALSE
   )
+
 ```
 
 ```{r callpackages, include=FALSE}
@@ -37,6 +48,7 @@ library(ggExtra)
 library(ggsci)
 library(ggalluvial)
 ```
+
 
 ```{r datadictionary, echo=FALSE}
 data_dictionary <- read_csv(here::here("analysis/data/raw_data/data_dictionary.csv"))
@@ -1227,7 +1239,7 @@ flakes_metp1lp <- flakes_metp1lp %>%
   dplyr::rename("Total" = "Overall") %>% 
   select(Measurements, Quartz, Chert, Other, Total)
 
-knitr::kable(flakes_metp1lp, booktabs=TRUE, caption = "Lapa do Picarerio - U/Lower T - mean and standard deviation of flake measurements (in mm).") %>% 
+knitr::kable(flakes_metp1lp, booktabs=TRUE, caption = "Lapa do Picareiro - U/Lower T - mean and standard deviation of flake measurements (in mm).") %>% 
   row_spec(0, bold = T, align = "c") %>% 
   kable_styling(position = "center", font_size = 9, latex_options = "hold_position")
 
