@@ -7,7 +7,6 @@ header-includes:
 output: 
   pdf_document: 
     latex_engine: xelatex
-    fig_caption: no
 
 ---
 
@@ -47,6 +46,8 @@ library(ggpubr)
 library(ggExtra)
 library(ggsci)
 library(ggalluvial)
+library(Bchron)
+library(plyr)
 ```
 
 
@@ -100,10 +101,46 @@ knitr::kable(head(layers_table [1:2], 6),  booktabs = TRUE, caption = "Vale Boi.
 
 ```
 
+\clearpage
+
 ```{r spatialvbfig, fig.cap="East profile stratigraphy in the Terrace area (above) and distribution of all tridimensionally coordenated lithics in the new excavation area until 2017 (under). Lithis from layers 4E and 5 are coloured in black. Blue crosses represent dolerite artefacts and stars mark the provenance of each radiocarbon date: A - WK-42830; B - WK-42831; C - WK-44416.", fig.align='center',out.width = '70%', echo=FALSE, fig.pos="H"}
 
 knitr::include_graphics(here::here("analysis/figures/SpatialanalysisVB.png"))
 
+```
+
+```{r datesproto, include=FALSE}
+
+####
+# Adapted from Marwick et al. 2017
+dates <- read_csv(here::here("analysis/data/raw_data/Dates (non cal).csv"))
+ages <- BchronCalibrate(ages=dates$`Age (BP)`,
+                        ageSds=dates$SD,
+                        calCurves=dates$Curve)
+#summary(ages)
+#plot(ages, withPositions=TRUE)
+age_samples = lapply(ages, function(x) sample(x$ageGrid,size=2000,replace=TRUE,prob=x$densities))
+df <- ldply(age_samples,quantile,prob=c(0.025,0.975))
+dates_table <- dates[, c("Site",  "Level", "Lab. Ref",  "Age (BP)", "SD",
+                         "Sample type")]
+dates_table <- cbind(dates_table, df[,-1])
+dates_table$`2.5%` <- round(dates_table$`2.5%`, 0)
+dates_table$`97.5%`  <- round(dates_table$`97.5%`, 0)
+
+row.names(dates_table) <- NULL
+
+names(dates_table) <- c("Site",  "Level", "Lab. Ref",  "Age (BP)", "SD",
+                        "Sample type", "Calibrated lower 95%", "Calibrated upper 95%")
+
+```
+
+\newpage
+
+```{r protodates, echo=FALSE}
+knitr::kable(dates_table, booktabs=TRUE, longtable = TRUE, caption = "Summary of radiocarbon dates from Portuguese Proto-Solutrean. Adapted from Zilhão (1997), Cascalheira and Bicho (2013), Belmiro (2018) and Benedetti et al. (2019). Calibration curves are IntCal13 and Marine13, using OxCal 4.1.7 (online).") %>% 
+  column_spec(1, bold = T) %>% 
+  kable_styling(latex_options = c("repeat_header"), font_size = 9) %>% 
+  landscape()
 ```
 
 ```{r VB_analysis_setup, include=FALSE}

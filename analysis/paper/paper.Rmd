@@ -80,7 +80,7 @@ library(ggalluvial)
 
 # Introduction
 
-The trantion from the Gravettian to the Solutrean, impacted by adverse climatic conditions during the Heinrich Event 2 (HE2) and the onset of the Last Glacial Maximum (LGM), continues to be an essential topic to understand the Upper Paleolithic evolution and human adaptations to climatic changes at the end of the Pleistocene in Westernmost Europe.
+The transition from the Gravettian to the Solutrean, impacted by adverse climatic conditions during the Heinrich Event 2 (HE2) and the onset of the Last Glacial Maximum (LGM), continues to be an essential topic to understand the Upper Paleolithic evolution and human adaptations to climatic changes at the end of the Pleistocene in Westernmost Europe.
 
 There has been a significant amount of proposals suggesting a full synchronism between the onset of each Upper Paleolithic technocomplex and the occurrence of the most severe climate events [@cascalheiraandbicho2013; @bichoetal2017]. Bradtmöller et al. [-@bradtmoller2012] suggest a direct relationship between three of the HEs (4, 3 and 2) and the substitution of Neanderthal populations with the emergence of the Aurignacian, the appearance of the Gravettian, and the development of the Solutrean, respectively (Table \@ref(tab:climatetable)). Based on the theoretical framework of Panarchy [@holling2002], the authors propose the Repeated Replacement Model (RRM), where the HEs are understood as the primary climatic triggers for population turnover, through the breakdown of communication networks and cultural traditions, which were subsequently reorganized under different socio-cultural conditions [@bradtmoller2012].
 
@@ -112,22 +112,22 @@ The Three-stage model maintains the Final Gravettian phase and its defining char
 
 Regardless of what model is accepted, the Proto-Solutrean, stands out for its technological innovations. These are reflected in the manufacture of Vale Comprido points and a complete operative sequence for their production, but marked by a high degree of technological variability in their lithic assemblages [@almeida2000; @zilhao1997; @zilhaoetal1999].
 
-This variability has been interpreted as a technological race in response to the environmental modifications taking course during the HE 2 [@cascalheiraandbicho2013]. The authors suggest that, in order to correspond to the external pressures, there may have been the need to diversify the economic strategies in use until that moment. The high exploitation of quartz, for example, formerly a secondary raw material, and the use of similar reduction strategies between quartz and chert, might represent one such economic response. The same possibly applies to the use of unprecedented raw materials, as is the case of the Proto-Solutrean levels in Vale Boi, where there is the presence of previously unknown raw materials, used mainly for the manufacture of Vale Comprido points [@belmiro2017; @marreiros2009]. Likewise, alterations recorded in territoriality patterns for the Proto-Solutrean can be interpreted has extensive regional networks and may be related to modifications in the landscape that occurred during the HE 2 [@cascalheiraandbicho2013; @cascalheira2019].
+This variability has been interpreted as a technological race in response to the environmental modifications taking course during the HE 2 [@cascalheiraandbicho2013]. The authors suggest that, in order to correspond to the external pressures, there may have been the need to diversify the economic strategies in use until that moment. The high exploitation of quartz, for example, formerly a secondary raw material, and the use of similar reduction strategies between quartz and chert, might represent one such economic response. The same possibly applies to the use of unprecedented raw materials, as is the case of the Proto-Solutrean levels in Vale Boi, where there is the presence of a previously unknown raw material, used mainly for the manufacture of Vale Comprido points [@belmiro2017; @marreiros2009]. Likewise, alterations recorded in territoriality patterns for the Proto-Solutrean can be interpreted has extensive regional networks and may be related to modifications in the landscape that occurred during the HE 2 [@cascalheiraandbicho2013; @cascalheira2019].
 
 However, despite the existence of rather comprehensive literature about the technocomplex in the Portuguese Estremadura, which has allowed for a better understanding of the impacts of HE 2 in hunter-gatherer communities and the emergence of the Solutrean, there is still the need for further studies, in order to fill existing gaps. One of these gaps is the concentration of data regarding this technocomplex in the Estremadura, whereas the Proto-Solutrean is still relatively unknown in other places throughout southwestern Europe. In the case of Portugal, only one other site in the south (Figure \@ref(fig:protomap)) has so far revealed the presence of this techno-complex. Another issue is the small amount of absolute datings for Proto-Solutrean contexts, which limits the chronological definition of the technocomplex, and thus the testing of which transition model (if any) applies best [@cascalheiraandbicho2013].
 
 Addressing these issues, through the study of lithic assemblages from other areas in southwestern Europe, from sites with good stratigraphic preservation which allow absolute dating and accurate spatial tracking, will undoubtedly help further understand the transition, its patterns, stage transitions and possible regional variations.
 
-By understanding the need to better comprehend the Proto-Solutrean and how abrupt climate change impacted these communities, this study's presents the results of the analysis of stone tool assemblages coming from levels attributed to the Gravettian-Solutrean transition timeframe, from two recently excavated sites - Vale Boi (southern Portugal) and Lapa do Picareiro (central Portugal).
+By understanding the need to better comprehend the Proto-Solutrean and how abrupt climate change impacted these communities, this study presents the results of the analysis of stone tool assemblages coming from levels attributed to the Gravettian-Solutrean transition timeframe, from two recently excavated sites - Vale Boi (southern Portugal) and Lapa do Picareiro (central Portugal).
 
-Specificallt, by combining techno-typological information with stratigraphy and absolute chronology results, we present new data on: 1) the technological organization of levels 5/4E of Vale Boi, and levels U/T from Lapa do Picareiro; 2) a stratigraphical and chronological separation between Terminal Gravettian horizons and Proto-Solutrean occupations at both sites, revealing the application of the same general set of pattern to geographic areas outside of the Estremadura; 3) and, consequently, the validity of the three-stage model as the best suited for the currently available data.
+Specifically, by combining techno-typological information with stratigraphy and absolute chronology results, we present new data on: 1) the technological organization of levels 5/4E of Vale Boi, and levels U/T from Lapa do Picareiro; 2) a stratigraphical and chronological separation between Terminal Gravettian horizons and Proto-Solutrean occupations at both sites, revealing the application of the same general set of pattern to geographic areas outside of the Estremadura; 3) and, consequently, the validity of the three-stage model as the best suited for the currently available data.
 
 
 # Materials and methods
 
 The materials used for this analysis include all lithic artifacts from Vale Boi's layers 5 and 4E of the Terrace area and levels U and T from Lapa do Picareiro (see below).
 
-For lithic analysis we adopted an attribute-based methodology, which aims to describe morphological and metrical attributes of technological classes. The attributes analyzed followed those present in specialized literature, such as @brezillon1968 and @tixier1980, paired with apprcascalheira2010,hes used in o)ther Upper Paleolithic lithic attribute analysis (see e.g. @bicho1992, @zilhao1997, @cascalheira2010, @almeida2000).
+For the lithic analysis we adopted an attribute-based methodology, which aims to describe morphological and metrical attributes of technological classes. The attributes analyzed followed those present in specialized literature, such as @brezillon1968 and @tixier1980, paired with other Upper Paleolithic lithic attribute analyses (see e.g. @bicho1992, @zilhao1997, @cascalheira2010, @almeida2000).
 
 Artifacts and their techno-morphological attributes were recorded using two different databases, thus dividing the analysis in two phases: basic and complete attribute-based analysis.
 
@@ -135,9 +135,9 @@ The basic analysis was applied to all of Vale Boi’s quartz artifacts (layers 5
 
 The complex analysis was applied to Vale Boi cores, debitage products and retouched pieces. Only pieces which were complete were chosen for this stage for two main reasons: 1) the collection is well preserved, with high percentages of complete cores and blanks (~80%), guaranteeing that the sample is representative; 2) only complete pieces gather all the necessary attributes for a thorough analysis. The same database was applied to the whole assemblage of Lapa do Picareiro, given its small sample size.
 
-Data collection was done through E4, a software developed by Dibble and McPherron (2003). The complete Data Dictionary with all variables, attributes, values and description, with reference to the consulted literature is available in our research compendium at https://doi.org/xxxx.
+Data collection was done through E4, a software developed by Dibble and McPherron (2003). The complete Data Dictionary with all variables, attributes, values and description, with reference to the consulted literature is available in our research compendium at https://doi.org/xxxx, and can be consulted in the supplementary material (Supplementary table 1).
 
-After data collection, the databases were imported into R environment, where the information was processed through the creation of descriptive statistical analysis and writing of this article. We include the entire R code used for all the analysis and visualizations contained in this paper is in our online research compendium. To produce those files, we followed the procedures described by Marwick et al. (XXXX) for the creation of research compendiums to enhance the reproducibility of research. To enable maximum re-use, our code is released under the MIT license, our data as CC-0, and our figures as CC-BY (for more information, see Marwick XXXX).
+After data collection, the databases were imported into R environment, where the information was processed through the creation of descriptive statistical analysis and writing of this article. We include the entire R code used for all the analysis and visualizations contained in this paper is in our online research compendium. To produce those files, we followed the procedures described by Marwick et al. [-@marwick2017] for the creation of research compendiums to enhance the reproducibility of research. To enable maximum re-use, our code is released under the MIT license, our data as CC-0, and our figures as CC-BY (for more information, see @marwick2018]. All result tables may also be found in the Supplementary Materials.
 
 
 ```{r VB_analysis_setup, include=FALSE}
@@ -234,7 +234,7 @@ datasetlp <- datasetlp %>%
 
 ## Stratigraphy and chronology
 
-Vale Boi is an open-air site and rockshelter, located on the western coast of Algarve (Portugal), near a small homonymous village, within the municipality of Vila do Bispo (Figure \@ref(fig:protomap)). The site is situated in a small valley that runs south to the Atlantic coast, about 2 km distance, relatively open, with a natural boundary to the east and bordered by a limestone hill through all its extension. This hill is marked, at specific points, by limestone exposures that form rock shelters with faces facing west or southwest (Figure \@ref(fig:vbphoto))[@bicho2003; @cascalheira2010; @cascalheiraetal2008].
+Vale Boi is an open-air site and rockshelter, located on the western coast of Algarve (Portugal), near a small homonymous village, within the municipality of Vila do Bispo (in the Supplementary Material). The site is situated in a small valley that runs south to the Atlantic coast, about 2 km distance, relatively open, with a natural boundary to the east and bordered by a limestone hill through all its extension. This hill is marked, at specific points, by limestone exposures that form rock shelters with faces facing west or southwest [@bicho2003; @cascalheira2010; @cascalheiraetal2008].
 
 ```{r vbphoto, fig.cap="Vale Boi. Topographic plan, schematic profile and general view, with location of the excavation loci. After Cascalheira et al. (2017)."}
 
@@ -250,7 +250,7 @@ Vale Boi shows a variety of human occupations, distributed across the three main
 
 Although excavated since 2000, in 2012, a new 8 $m^2$ area was open in the Terrace (rows H and I), to understand the stratigraphic sequence in more detail and assess the existence of older cultural horizons, attributable to an early Upper Paleolithic occupation.
 
-Since 2012, six layers have been identified (Table \@ref(tab:vbstrat)). In some of these layers, lateral sediment variations were identified, which were coded in the field through the concatenation of a letter to the layer number (*e.g.* 4E). In many of these cases, the isolation of this vertical variation did not show any patterns in terms of spatial concentration of materials, although in others, like the 4E facies, the subdivision of the layer correlated with the spatial distribution of Vale Comprido technology.
+Since 2012, six layers have been identified (Supplementary table 2). In some of these layers, lateral sediment variations were identified, which were coded in the field through the concatenation of a letter to the layer number (*e.g.* 4E). In many of these cases, the isolation of this vertical variation did not show any patterns in terms of spatial concentration of materials, although in others, like the 4E facies, the subdivision of the layer correlated with the spatial distribution of Vale Comprido technology.
 
 In the new area, layers 1 and 2 represent Holocene levels, with the first layer being possibly disturbed by agricultural processes. Layer 2, with a thickness of 25-30 cm shows a Neolithic occupation.
 
@@ -264,17 +264,17 @@ Finally, layer 6 is very similar to the previous layer, although it shows the pr
 
 Regarding layers 4E and 5, although they are indeed layers with different sedimentary packages, they show similar technological and archaeological patterns, which led to the conclusion they were the same cultural horizon (the opposite, one single layer with different cultural horizons is equally present in the Terrace, as seen with the epipaleolithic and Solutrean occupations of layer 3). 
 
-These layers, 4E and 5, are vertically contiguous, separated by a relatively flat surface covered by large limestone blocks. Unlike what was expected, however, these levels did not reveal a Gravettian assemblage with characteristics similar to previous years [@marreiros2009], but rather materials with patterns similar to those expected in a Proto-Solutrean assemblage (the most noticeable of all being the Vale Comprido points and blanks). The context was dated using a charcoal sample to c. 24.7-25.3 ka cal BP, and a shell sample to c. 23.7-24.1 ka cal BP (Table \@ref(tab:protodates)).
+These layers, 4E and 5, are vertically contiguous, separated by a relatively flat surface covered by large limestone blocks. Unlike what was expected, however, these levels did not reveal a Gravettian assemblage with characteristics similar to previous years [@marreiros2009], but rather materials with patterns similar to those expected in a Proto-Solutrean assemblage (the most noticeable of all being the Vale Comprido points and blanks). The context was dated using a charcoal sample to c. 24.7-25.3 ka cal BP, and a shell sample to c. 23.7-24.1 ka cal BP (complete table with calibrated radiocarbon dates may be found in the Supplementary Materials).
 
 The bottom spits of layer 5, on the other hand, show a relatively dense concentration of *Littorina littoreia*, an unprecedented shell species at the site, and often associated with colder waters, having a high freezing tolerance [@murphy1979; @clarke2000]. This context was dated through a shell sample, showing dates ranging between the 26-26.3 ka cal BP, which corresponds to the first half of the HE 2 [@sanchez-goni2010].
+
+One of the most noticeable features about the vertical distribution of pieces in the Terrace (row H and I; Supplementary Figure 4) is the vertical constraint in the distribution of dolerite pieces, mostly concentrated on Layer 4E and upper levels of Layer 5, coinciding also with the higher concentration of lithic materials in these layers. Likewise, the presence of Vale Comprido points is also associated with Layer 4E and the top levels of Layer 5 [@belmiro2017], which seems to occur around 25 ka cal BP (Figure \@ref(fig:c14VB)). The WK-44416 date seems to show that, at least from around c. 26 ka cal BP, the site was occupied even if with lower intensity, a date that falls onto the Final Gravettian/Proto-Solutrean or Final Gravettian/Terminal Gravettian transition in the traditional models [@zilhao1997].
 
 ```{r c14VB, echo = FALSE, fig.cap = "Vale Boi. Radiocarbon results for layers 5 and 4. The results presented are modeled dates based on a Bayesian model (Ramsey et al. 2009) using all dates available for the stratigraphic sequence of the Terrace area. All dates were calibrated using the IntCal13 and Marine13 curves (Reimer et al. 2013), using a regional Delta value of 265+/- 107 in the case of marine shells. The Oxcal script bayesian model is provided as online supplementary materials.", fig.align= 'center', out.width = '60%', fig.pos="H"}
 
 knitr::include_graphics(here::here("/analysis/figures/c14_VB.png"))
 
 ```
-
-One of the most noticeable features about the vertical distribution of pieces in the Terrace (row H and I; Figure \@ref(fig:spatialvbfig)) is the vertical constraint in the distribution of dolerite pieces, mostly concentrated on Layer 4E and upper levels of Layer 5, coinciding also with the higher concentration of lithic materials in these layers. Likewise, the presence of Vale Comprido points is also associated with Layer 4E and the top levels of Layer 5 [@belmiro2017], which seems to occur around 25 ka cal BP (Figure \@ref(fig:c14VB)). The WK-44416 date seems to show that, at least from around c. 26 ka cal BP, the site was occupied even if with lower intensity, a date that falls onto the Final Gravettian/Proto-Solutrean or Final Gravettian/Terminal Gravettian transition in the traditional models [@zilhao1997].
 
 The radiocarbon results represented on Figure \@ref(fig:c14VB) seem to show that there are three distinct chronological moments within layer 5. Given the horizontal distribution of the dates from upper layer 5, it may seem, however, that the dates which fall onto the c. 24 ka cal BP are intrusions from the upper layer.
 
@@ -398,7 +398,7 @@ rm_cubic_meter
 
 Given the chronological data, density of artifacts, and raw material preference patterns, it was decided that for this study the materials would be subdivided in two analytical units, to better understand any possible technological differences: **Lower 5**, including all artifacts with Z values under 24.1; **Upper 5/4E**, including all artifacts with Z values of 24.1 and above. The value 24.1 is arbitrary and was chosen for the reasons aforementioned: it seems to be where the separation between higher and lower densities of lithic materials occurs and, also, where the inversion of quartz and chert frequencies happens.
 
-A total of 26,703 pieces were analysed for both groups, 11,094 from Lower 5 group (Table \@ref(tab:general1)) and 15,609 for the Upper 5/4E (Table \@ref(tab:general2)). Most of these are chips (70.62% from Lower 5 and 65.68% from Upper 5/4E), followed by shatters, which make up c. 21% and c. 24% of the groups, respectively. These extremely high numbers for debris are mostly the result of quartz use, which can be explained not only by on-site knapping of this raw material but mostly by its breakage patterns (especially when coarser), which typically produces more waste than in other raw materials.
+A total of 26,703 pieces were analysed for both groups, 11,094 from Lower 5 group and 15,609 for the Upper 5/4E (both tables may be found in the Supplementary Materials). Most of these are chips (70.62% from Lower 5 and 65.68% from Upper 5/4E), followed by shatters, which make up c. 21% and c. 24% of the groups, respectively. These extremely high numbers for debris are mostly the result of quartz use, which can be explained not only by on-site knapping of this raw material but mostly by its breakage patterns (especially when coarser), which typically produces more waste than in other raw materials.
 
 For Lower 5, cores and debitage products represent a cumulative frequency of c. 8%. For Upper 5/4E, debitage products represent nearly 10% of the group's assemblage. Complete blanks are the most represented class for both groups, with 1,474 identified pieces, 4.59% for Lower 5 and 6.18% for Upper 5/4E, followed by blank fragments, with an absolute count of 248 for Lower 5 and 336 for Upper 5/4E. Cores are also relatively frequent within these assemblages, with an absolute count of 123 cores, 46 for Lower 5 and 77 for Upper 5/4E, while core fragments appear in much smaller numbers (n=11 and n=14, respectively).
 
@@ -453,11 +453,11 @@ Excluding inform cores,there is a clear dominance of single platform cores, for 
 
 Most of the cores were used for the extraction of flakes, although blade and bladelet scars also show relatively high frequencies associated with the exploitation of unidirectional prismatic cores in Lower 5 and Upper 5/4E groups.
 
-Most of the analysed core platforms are plain or cortical. On Upper 5/4E there is a small frequency of faceted platforms on both quartz and chert (3.4% and 18.5% respectively). Platforms width and thickness means show smaller platforms for chert on both phases, while greywacke shows the highest means for platform measurements (Tables \@ref(tab:coremetricsVB1) and \@ref(tab:coremetricsVB2), Appendix B). This pattern is similar for other measurements, for which chert and quartz exhibit the smaller means.
+Most of the analysed core platforms are plain or cortical. On Upper 5/4E there is a small frequency of faceted platforms on both quartz and chert (3.4% and 18.5% respectively). Platforms width and thickness means show smaller platforms for chert on both phases, while greywacke shows the highest means for platform measurements. This pattern is similar for other measurements, for which chert and quartz exhibit the smaller means.
 
-Regarding flakes, morphologically, Lower 5 flakes seem to have mostly irregular shapes, with frequencies over 45% for most raw materials, followed by convergent and parallel shapes in much lower frequencies (under 15%) (Table \@ref(tab:flakeattributeVB1), Appendix B). Dolerite, unlike other raw materials, shows only convergent and parallel shapes even if with low representativity (n=3). Cross sections are mostly irregular and triangular, varying slightly in frequency regarding each raw material. All raw materials, with exception of quartz, show high frequencies of straight profiles (over 40%), chert showing a similar percentage between straight and curved profiles (44.3% and 42.9% respectively). Quartz, however, has a frequency of 65% of straight profiles, showing much smaller frequencies for other types.
+Regarding flakes, morphologically, Lower 5 flakes seem to have mostly irregular shapes, with frequencies over 45% for most raw materials, followed by convergent and parallel shapes in much lower frequencies (under 15%). Dolerite, unlike other raw materials, shows only convergent and parallel shapes even if with low representativity (n=3). Cross sections are mostly irregular and triangular, varying slightly in frequency regarding each raw material. All raw materials, with exception of quartz, show high frequencies of straight profiles (over 40%), chert showing a similar percentage between straight and curved profiles (44.3% and 42.9% respectively). Quartz, however, has a frequency of 65% of straight profiles, showing much smaller frequencies for other types.
 
-On Upper 5/4E (Table \@ref(tab:flakeattributeVB2), Appendix B), irregular shapes are still frequent, representing over 25% on all raw materials. Convergent and parallel shapes show higher frequencies (over 20%) for quartz, chert and dolerite. Alike Lower 5, cross sections are mostly irregular (over 35% for most raw materials) or triangular (over 25% for all raw materials), and profile type show the same patterns and similar percentages as Lower 5.
+On Upper 5/4E, irregular shapes are still frequent, representing over 25% on all raw materials. Convergent and parallel shapes show higher frequencies (over 20%) for quartz, chert and dolerite. Alike Lower 5, cross sections are mostly irregular (over 35% for most raw materials) or triangular (over 25% for all raw materials), and profile type show the same patterns and similar percentages as Lower 5.
 
 Unidirectional scar patterns are dominant in both phases and all raw materials, with frequencies over 80%. Bidirectional patterns are slightly more relevant in chert (9.3%), and also in dolerite and chalcedony during Upper 5/4E. Dorsal patterns also show on both phases a dominance of 1, 2 and 3 scars for most raw materials, although chert shows higher scar counts.
 
@@ -519,13 +519,13 @@ Scar patterns show an evident tendency for unidirectional knapping strategies on
 
 Elongated blanks on both phases seem to be obtained without platform preparation, although quartz also shows a significant presence of crushed platforms. Only two faceted platforms were identified, in Upper 5/4E, on chert and dolerite pieces. The general tendency for both phases is for the absence of cortical platforms. Only chert and greywacke on Lower 5 (c. 10% and c. 17% respectively) and chert on Upper 5/4E (c. 13%) show completely cortical platforms.
 
-As seen before, retouched pieces make up a small percentage of the assemblage, with 167 identified pieces, from which 55 can be inserted in the Lower 5 group (Table \@ref(tab:general1)), while 112 in the Upper 5/4E group (Table \@ref(tab:general2)).
+As seen before, retouched pieces make up a small percentage of the assemblage, with 167 identified pieces, from which 55 can be inserted in the Lower 5 group, while 112 in the Upper 5/4E group.
 
-Lower 5 is comprised of several types, from which a few stand out by their high numbers, such as retouched flakes, corresponding to c. 27% of all retouched pieces, splintered pieces, with c. 25% of representativity, followed by notches with a frequency of 12.7%, the latter two occurring in similar numbers in chert (n=6 and n=4, respectively) and quartz (n=8 and n=3) (Table \@ref(tab:retouchVB1)).
+Lower 5 is comprised of several types, from which a few stand out by their high numbers, such as retouched flakes, corresponding to c. 27% of all retouched pieces, splintered pieces, with c. 25% of representativity, followed by notches with a frequency of 12.7%, the latter two occurring in similar numbers in chert (n=6 and n=4, respectively) and quartz (n=8 and n=3).
 
 There is also the presence of endscrapers (c. 10%) and burins (c. 7%), mostly on chert.
 
-For Upper 5/4E, splintered pieces are still very frequent (c. 24%), in both chert and quartz, followed by endscrapers, which represent c. 22% of the total retouched pieces assemblage. Most of the endscapers are chert, although it may be relevant to point out that two of them are made of dolerite. Notches are, once again, the third most frequent retouched typology, representing c. 12%. Every other retouched tool type has frequencies under 10% (Table \@ref(tab:retouchVB2)).
+For Upper 5/4E, splintered pieces are still very frequent (c. 24%), in both chert and quartz, followed by endscrapers, which represent c. 22% of the total retouched pieces assemblage. Most of the endscapers are chert, although it may be relevant to point out that two of them are made of dolerite. Notches are, once again, the third most frequent retouched typology, representing c. 12%. Every other retouched tool type has frequencies under 10%.
 
 Upper 5/4E thus shows not only a more significant number of retouched pieces, which might be the result of a more intensive occupation or series of occupations but also a wider variety of types, probably as a result of a more diverse set of activities occurring at the site. While Lower 5 shows 11 different retouched piece types, Upper 5/4E shows 15 types, introducing six new different types.
 
@@ -540,13 +540,7 @@ The analysed Vale Comprido points have been identified in chert (n=1), greywacke
 
 Lapa do Picareiro is a cave site on the west facing slope of Serra d’Aire, a limestone massif north of the Tagus River valley and Lisbon, Portugal (Figure \@ref(fig:protomap)) [@benedettietal2019; @bicho2006]. The massif is underlain by the Serra d’Aire formation, a thick-bedded limestone of the Middle Jurassic age [@carvalho2018]. Serra d’Aire is part of a large limestone province (Maciço Calcário Estremenho), which accounts for several Palaeolithic occupations, both cave and open-air sites [@almeida2000; @benedettietal2019].
 
-The interior of the chamber is about 11 x 14 m, and has more than 10 m of coarse sedimentary infill in inclined beds, derived from roof collapse, gravity flows and fine sediment infiltration (Figure \@ref(fig:lpcave)) [@benedettietal2019]. The cave opening is marked by the existence of a large limestone cone of stone blocks [@bicho2006] while the sediment inside the cave consists of smaller and angular limestone clasts in a matrix of fine sediment [@benedettietal2019].
-
-```{r lpcave, fig.cap="Lapa do Picareiro. Generalized cross section showing surface topography, shape of the cave, and area excavated into sedimentary fill. After Benedetti et al. (2019)."}
-
-knitr::include_graphics(here::here("analysis/figures/lp_cross_section.jpg"))
-
-```
+The interior of the chamber is about 11 x 14 m, and has more than 10 m of coarse sedimentary infill in inclined beds, derived from roof collapse, gravity flows and fine sediment infiltration (Supplementary Figure 9) [@benedettietal2019]. The cave opening is marked by the existence of a large limestone cone of stone blocks [@bicho2006] while the sediment inside the cave consists of smaller and angular limestone clasts in a matrix of fine sediment [@benedettietal2019].
 
 Lapa do Picareiro shows a long sequence of occupations, from the Middle Palaeolithic, Upper Palaeolithic, Epipaleolithic, Neolithic and Bronze Age, the latter three mostly focused in the front of the cave, and adjacent outside areas [@benedettietal2019; @bicho2006].
 
@@ -554,7 +548,7 @@ The palaeolithic finds were, so far, recovered from two main areas: the main cha
 
 The large hearth and associated features are the only areas where human activity disturbed the sedimentary sequence. In all other areas, human activity is limited to thin hearths in association with sporadic lithic concentrations and modified bones. These periods of occupation appear in the sedimentary sequences as alternated with moments of culturally sterile faunal occupation [@benedettietal2019]. Thus, human activity at the site might be understood as several discontinuous occupations inside the cave throughout the late Middle and Upper Palaeolithic, which intensified through the latter with a significant peak during the Magdalenian.
 
-Table \@ref(tab:lpstrat) (Supplementary material), adapted from Benedetti et. al [-@benedettietal2019], shows the complete description of all currently identified levels in the site and, whenever existent, associated lithic assemblages. From the 34 levels described in the table, 23 show human occupations or association with a lithic assemblage, and 20 of these can be attributed to the Upper Paleolithic:
+A complete description of all currently identified levels in the site and, whenever existent, associated lithic assemblages, may be found in the Supplementary Materials. From the 34 levels described in the table, 23 show human occupations or association with a lithic assemblage, and 20 of these can be attributed to the Upper Paleolithic:
 
 Magdalenian occupations are divided into Late Magdalenian (levels E-J) and Early Magdalenian (levels K-L). Solutrean occupations occur in levels O, R, and S (level P showing neither bone fragments nor a lithic assemblage. 
 
@@ -568,11 +562,11 @@ The stratigraphic sequence, as mentioned before, shows an alternation between fa
 
 Regarding the layers identified as Proto-Solutrean/Terminal Gravettian, the physical distinction between level U and the lower portion of T is hard to make near the niche. In this area, both levels show similar reddish muddy sediment and the presence of animal bones in level T increases. As such, in this area, the attributed level to the recovered artifacts was T/U instead.
 
-Layer T/U is about 15 cm thick, with the presence of possible combustion features and distinct activity areas. The recovered artifacts show a rich faunal assemblage, with a high presence of red deer, though ibex presence is also important, and a superabundance of rabbit bones. A few bone tools were also found. Other recovered artifacts also include a perforated marine shell and a perforated red deer canine tooth (Figure \@ref(fig:teeth)).
+Layer T/U is about 15 cm thick, with the presence of possible combustion features and distinct activity areas. The recovered artifacts show a rich faunal assemblage, with a high presence of red deer, though ibex presence is also important, and a superabundance of rabbit bones. A few bone tools were also found. Other recovered artifacts also include a perforated marine shell and a perforated red deer canine tooth.
 
-The niche area was where most of the lithic assemblage from these levels was found. There is an apparent concentration of lithics, comprised mostly of quartz and rock crystal, and some chert, all raw materials appearing mostly in the shape of bladelets (Figure \@ref(fig:spatialut)).
+The niche area was where most of the lithic assemblage from these levels was found. There is an apparent concentration of lithics, comprised mostly of quartz and rock crystal, and some chert, all raw materials appearing mostly in the shape of bladelets.
 
-For U and lower T, radiocarbon dates (Figure \@ref(fig:c14LP)), all obtained from charcoal samples, show results of c. 27-26 cal ka BP, except for one of lower T dates which presents a result of c. 25-24 cal ka BP.
+For U and lower T, radiocarbon dates (Supplementary Table 3), all obtained from charcoal samples, show results of c. 27-26 cal ka BP, except for one of lower T dates which presents a result of c. 25-24 cal ka BP.
 
 The middle part of T shows the presence of circular concentrations of charcoals, about 10-15 cm thick, which have been interpreted as hearths. Aside from these features, there is a high frequency of animal bones, following the same species patterns as level U and lower T (although these results are preliminary).
 
@@ -580,7 +574,7 @@ The lithic assemblage in this portion of level T is found in two areas: an accum
 
 The dates for middle T (Figure \@ref(fig:c14LP)), obtained from charcoal and bone samples, provided results of c. 25-24 ka cal BP, with one date presenting a range of c. 23.4-23.6 ka cal BP.
 
-There is a clear separation between the two groups, one composed of levels U and lower T, and the other of middle T. This is also visible on the spatial dispersion of lithics and other artifacts (Figure \@ref(fig:spatialut) supplementary material), with an accumulation on the bottom left, correspondent to the U/T levels, and another aggregation in the middle portion, to the right, ranging from 20-40 cm of depth difference between the groups.
+There is a clear separation between the two groups, one composed of levels U and lower T, and the other of middle T. This is also visible on the spatial dispersion of lithics and other artifacts (Supplementary Figure 11), with an accumulation on the bottom left, correspondent to the U/T levels, and another aggregation in the middle portion, to the right, ranging from 20-40 cm of depth difference between the groups.
 
 The patterns in the lithic assemblages also indicate a clear difference between the groups: the high frequency of quartz/rock crystal bladelets of U/T shows a marked difference from the middle T, where chert frequencies are higher, and there is a more balanced frequency of bladelets and flakes.
 
@@ -601,7 +595,7 @@ However, the dates are not in concordance with the models developed for the Prot
 
 The materials from Lapa do Picareiro selected for this study come exclusively from Levels U and T. Given the aforementioned geo-archaeological background, for the present analysis the materials were separated into two assemblages: **U/Lower T**, which included all artifacts with depths inferior to 566.9 m or (in case of artifacts lacking 3D coordinates) from all spits from Level U and spits 6 through 8 from Level T [@hawsetal2019]; **Middle T**, including all artifacts with depths equal or superior to 566.9 m, or from the top five spits of Level T. Any other artifact in the assemblage which did not have a depth value or level/spit was not considered in these results since it lacked the needed information to contextualize its technological attributes. Also excluded from this study are the materials found on top of Level T, undoubtedly attributable to the Solutrean [@hawsetal2019; @benedettietal2019].
 
-A total of 376 pieces were analysed, 196 coming from the U/Lower T phase (Table \@ref(tab:general1lp)) and 180 from the Middle T group (Table \@ref(tab:general2lp)). In both groups, debitage waste is mostly composed of chips, which represents 49.5% of the U/Lower T group and 37.2% of the Middle T group. As in Vale Boi, these values for chippage can be mostly explained by quartz breakage patterns.
+A total of 376 pieces were analysed, 196 coming from the U/Lower T phase and 180 from the Middle T group. In both groups, debitage waste is mostly composed of chips, which represents 49.5% of the U/Lower T group and 37.2% of the Middle T group. As in Vale Boi, these values for chippage can be mostly explained by quartz breakage patterns.
 
 The second most present class for both assemblages are complete blanks, which represent 13.7% of the U/Lower T group and 37.2% of the Middle T group, followed by blank fragments (13.7% and 15.5%, respectively). Retouched pieces have relatively small frequencies, representing c. 3% in both U/Lower T and Middle T. Cores are very scarce in both groups, 1% in the U/Lower T group (n=2) and c. 3% in the Middle T (n=5).
 
@@ -638,13 +632,13 @@ Chert is characterized by a high frequency of complete blanks (c. 53% for U/Lowe
 
 A total of 7 cores were recorded on the Lapa do Picareiro assemblages, two in the U/Lower T group (both in quartz) and five in the Middle T, of which 2 are in chert and 2 are in quartz.
 
-Single platform, prismatic and pyramidal cores were identified in the Middle T group (Table \@ref(tab:coreattributesLP2), Appendix B). These were mainly used to remove flakes and only prismatic cores showed evidence for the production of mixed blanks. Platforms tend to be unfacetted, although a small number of cores presented dihedral platforms (2 in Middle T, in quartz and chert). The number of debitage surfaces is greater on chert cores for the Middle T group, while quartz varies between single and three faces.
+Single platform, prismatic and pyramidal cores were identified in the Middle T group. These were mainly used to remove flakes and only prismatic cores showed evidence for the production of mixed blanks. Platforms tend to be unfacetted, although a small number of cores presented dihedral platforms (2 in Middle T, in quartz and chert). The number of debitage surfaces is greater on chert cores for the Middle T group, while quartz varies between single and three faces.
 
 There are a total of plotted 122 flakes, 46 attributed to the U/Lower T group, more than 50% being in quartz, and 67 attributed to the Middle T group, its vast majority in chert. On both groups, attributes are very similar.
 
-On the U/Lower T phase, for quartz, there seems to be the predominance of parallel shapes (35%) (Table \@ref(tab:flakeattributesLP1), Appendix B), followed by convergent ones (30%). Chert, however, shows higher percentages for irregular (28.6%) and divergent (42.9%) shapes. Cross sections are mostly triangular for all raw materials (over 40%), although chert also shows high frequencies of trapezoidal cross sections (42.9%). Profiles are, for all raw materials, mostly straight (60% on quartz and 85.7% on chert) and terminations show relevant raw material differences, with quartz having bigger frequencies of feathered and hinged terminations (35% and 40% respectively) and chert having a frequency of 42.9% on pointed terminations. For all raw materials, there is the predominance of unidirectional dorsal patterns, with high frequencies over 85%. Dorsal scars show higher frequencies for 2 and 3 scars on quartz (35% and 40% respectively), while other raw materials show higher frequencies for 3 dorsal scars only (42.9% on chert).
+On the U/Lower T phase, for quartz, there seems to be the predominance of parallel shapes (35%), followed by convergent ones (30%). Chert, however, shows higher percentages for irregular (28.6%) and divergent (42.9%) shapes. Cross sections are mostly triangular for all raw materials (over 40%), although chert also shows high frequencies of trapezoidal cross sections (42.9%). Profiles are, for all raw materials, mostly straight (60% on quartz and 85.7% on chert) and terminations show relevant raw material differences, with quartz having bigger frequencies of feathered and hinged terminations (35% and 40% respectively) and chert having a frequency of 42.9% on pointed terminations. For all raw materials, there is the predominance of unidirectional dorsal patterns, with high frequencies over 85%. Dorsal scars show higher frequencies for 2 and 3 scars on quartz (35% and 40% respectively), while other raw materials show higher frequencies for 3 dorsal scars only (42.9% on chert).
 
-On the Middle T phase (Table \@ref(tab:flakeattributesLP2), Appendix B), quartz shows higher frequencies for irregular shapes (53.8%), followed by convergent ones (38.5%). Contrary to the patterns seen on the previous group, chert shows higher frequencies for parallel shapes (40.6%). For all raw materials, cross sections are predominantly triangular (over 40%) with straight profiles (over 50%) and feathered terminations for chert (40.6%), whereas quartz shows higher values for hinged terminations (46.2%) followed by feathered (38.5%). Alike the U/Lower T group, there is the predominance of unidirectional dorsal scar patterns (over 90% for all raw materials), with high frequencies for 2 dorsal scars in quartz (61.5%) and 2-3 dorsal scars in chert (34.4% both).
+On the Middle T phase, quartz shows higher frequencies for irregular shapes (53.8%), followed by convergent ones (38.5%). Contrary to the patterns seen on the previous group, chert shows higher frequencies for parallel shapes (40.6%). For all raw materials, cross sections are predominantly triangular (over 40%) with straight profiles (over 50%) and feathered terminations for chert (40.6%), whereas quartz shows higher values for hinged terminations (46.2%) followed by feathered (38.5%). Alike the U/Lower T group, there is the predominance of unidirectional dorsal scar patterns (over 90% for all raw materials), with high frequencies for 2 dorsal scars in quartz (61.5%) and 2-3 dorsal scars in chert (34.4% both).
 
 Regarding platforms, for both groups, they are mostly plain for all raw materials (over 40%), followed by relatively high values of crushed platforms in quartz, with the presence of 1 faceted platform for quartz and chert in each group. Chert on the Middle T group also shows dihedral platforms (18.8%). Platforms seem to have barely any cortex, for all raw materials in both groups.
 
@@ -706,7 +700,7 @@ For the Middle T (Figure \@ref(fig:elongdisp2LP)), there is also a group of smal
 
 These patterns may represent different production strategies for specific chert elongated blank sizes, although, given the location of the site, it might merely reflect the truncated nature of the reduction sequences present at the site, only showing the presence of two groups of bladelets and blades.
 
-In fact, both blades and bladelets show a majority of parallel and convergent edge shapes, straight and curved profiles. Dorsal scars are unidirectional on the dorsal surfaces of all artifacts, with a majority of two previous removals for quartz and two to four scars for chert. Platforms are mostly plain, with no cortex (Tables \@ref(tab:elongtableLP1) and \@ref(tab:elongtableLP2), Appendix B).
+In fact, both blades and bladelets show a majority of parallel and convergent edge shapes, straight and curved profiles. Dorsal scars are unidirectional on the dorsal surfaces of all artifacts, with a majority of two previous removals for quartz and two to four scars for chert. Platforms are mostly plain, with no cortex.
 
 The total number of retouched pieces from Lapa do Picareiro with spatial information, allowing the identification of phase is 11, of which 6 belong to the U/Lower T group and 5 to the Middle T group.
 
@@ -714,7 +708,7 @@ The analysis of retouched pieces at Lapa do Picareiro is, however, possibly trun
 
 U/Lower T shows four types of retouched piece types, the most present being the retouched flakes (n=3) all in chert, and the only quartz retouched piece is a splintered piece.
 
-For the Middle T group (Table \@ref(tab:retouchLP2)), there is a smaller variety of retouched pieces, all in chert: a notch, two retouched flakes, one truncation, and possibly a Vale Comprido point, although the thinning retouch at the platform questionable.
+For the Middle T group, there is a smaller variety of retouched pieces, all in chert: a notch, two retouched flakes, one truncation, and possibly a Vale Comprido point, although the thinning retouch at the platform questionable.
 
 
 # Discussion
@@ -807,1125 +801,6 @@ I would like to express my sincere gratitude to Doctor João Cascalheira for the
 
 \newpage
 
-### Supplementary
-
-```{r general1, echo=FALSE}
-
-### General table Lower 5
-db_phase1 <- dataset %>% 
-  filter(Phase=="Lower 5")
-
-table1 <- db_phase1 %>% 
-  select(RawMaterial, Class) %>% 
-  filter(Class != "Chip") %>% 
-  dplyr::group_by(RawMaterial) 
-
-
-chip_table1 <- db_phase1 %>% 
-  filter(Class == "Chip") %>%
-  select(RawMaterial, ChipQuantity) %>% 
-  na.omit() %>% 
-  dplyr::group_by(RawMaterial) %>% 
-  dplyr::summarise(ChipQuantity = sum(ChipQuantity)) %>% 
-  tidyr::spread(RawMaterial, ChipQuantity) %>% 
-  mutate(Class = "Chip") %>% 
-  select(Class, Quartz, Chert, Greywacke, 
-         Dolerite, Chalcedony, Other)
-
-general_table1 <- table(table1$Class, table1$RawMaterial)
-general_table1 <- as.data.frame.matrix(general_table1)
-general_table1 <- general_table1 %>% 
-  select(Quartz, Chert, Greywacke, 
-         Dolerite, Chalcedony, Other) %>% 
-  tibble::rownames_to_column()
-general_table1 <- dplyr::rename(general_table1, "Class" = "rowname")
-general_table1 <- union(general_table1, chip_table1)
-
-
-general_table1 <- general_table1 %>% 
-  mutate("Quartz (%)" = paste0(round(100 * Quartz/sum(Quartz), 2), "%")) %>% 
-  mutate("Chert (%)" = paste0(round(100 * Chert/sum(Chert), 2), "%")) %>% 
-  mutate("Greywacke (%)" = paste0(round(100 * Greywacke/sum(Greywacke), 2), "%")) %>% 
-  mutate("Dolerite (%)" = paste0(round(100 * Dolerite/sum(Dolerite), 2), "%")) %>% 
-  mutate("Chalcedony (%)" = paste0(round(100 * Chalcedony/sum(Chalcedony), 2), "%")) %>% 
-  mutate("Other (%)" = paste0(round(100 * Other/sum(Other), 2), "%")) %>% 
-  select("Class", "Quartz", "Quartz (%)", "Chert", "Chert (%)", "Greywacke", "Greywacke (%)", "Dolerite",
-         "Dolerite (%)", "Chalcedony", "Chalcedony (%)", "Other", "Other (%)") %>% 
-  dplyr::rename("Quartz (n)" = "Quartz", "Chert (n)" = "Chert", "Greywacke (n)" = "Greywacke", "Dolerite (n)" = "Dolerite",
-                "Chalcedony (n)" = "Chalcedony", "Other (n)" = "Other") %>% 
-  adorn_totals(where = "col", name = "Total") %>% 
-  mutate("Total (%)" = paste0(round(100 * Total/sum(Total), 2), "%")) %>% 
-  adorn_totals(where = "row", name = "Total")
-  
-knitr::kable(head(general_table1[1:15], 12), booktabs=TRUE, caption="Vale Boi - Lower 5. Technological class by raw material.")
-
-```
-
-```{r general2, fig.cap="General table Upper 5/4E.", echo=FALSE}
-
-### General table for Upper 5/4E
-
-db_phase2 <- dataset %>% 
-  filter(Phase=="Upper 5/4E")
-
-table2 <- db_phase2 %>% 
-  select(RawMaterial, Class) %>% 
-  filter(Class != "Chip") %>% 
-  dplyr::group_by(RawMaterial) 
-
-
-chip_table2 <- db_phase2 %>% 
-  filter(Class == "Chip") %>%
-  select(RawMaterial, ChipQuantity) %>% 
-  na.omit() %>% 
-  dplyr::group_by(RawMaterial) %>% 
-  dplyr::summarise(ChipQuantity = sum(ChipQuantity)) %>% 
-  tidyr::spread(RawMaterial, ChipQuantity) %>% 
-  mutate(Class = "Chip")
-chip_table2$Dolerite=0
-chip_table2$Other=0
-chip_table2 <- chip_table2 %>%
-  select(Class,Quartz, Chert, Greywacke, 
-         Dolerite, Chalcedony, Other)
-
-general_table2 <- table(table2$Class, table2$RawMaterial)
-general_table2 <- as.data.frame.matrix(general_table2)
-general_table2 <- general_table2 %>% 
-  select(Quartz, Chert, Greywacke, 
-         Dolerite, Chalcedony, Other) %>% 
-  tibble::rownames_to_column()
-general_table2 <- dplyr::rename(general_table2, "Class" = "rowname")
-general_table2 <- union(general_table2, chip_table2)
-
-
-general_table2 <- general_table2 %>% 
-  mutate("Quartz (%)" = paste0(round(100 * Quartz/sum(Quartz), 2), "%")) %>% 
-  mutate("Chert (%)" = paste0(round(100 * Chert/sum(Chert), 2), "%")) %>% 
-  mutate("Greywacke (%)" = paste0(round(100 * Greywacke/sum(Greywacke), 2), "%")) %>% 
-  mutate("Dolerite (%)" = paste0(round(100 * Dolerite/sum(Dolerite), 2), "%")) %>% 
-  mutate("Chalcedony (%)" = paste0(round(100 * Chalcedony/sum(Chalcedony), 2), "%")) %>% 
-  mutate("Other (%)" = paste0(round(100 * Other/sum(Other), 2), "%")) %>% 
-  select("Class", "Quartz", "Quartz (%)", "Chert", "Chert (%)", "Greywacke", "Greywacke (%)", "Dolerite",
-         "Dolerite (%)", "Chalcedony", "Chalcedony (%)", "Other", "Other (%)") %>% 
-  dplyr::rename("Quartz (n)" = "Quartz", "Chert (n)" = "Chert", "Greywacke (n)" = "Greywacke", "Dolerite (n)" = "Dolerite",
-                "Chalcedony (n)" = "Chalcedony", "Other (n)" = "Other") %>% 
-  adorn_totals(where = "col", name = "Total") %>% 
-  mutate("Total (%)" = paste0(round(100 * Total/sum(Total), 2), "%")) %>% 
-  adorn_totals(where = "row", name = "Total")
-
-
-knitr::kable(head(general_table2[1:15], 12), booktabs=TRUE,caption="Vale Boi - Upper 5/4E. Technological class by raw material.")
-```
-
-```{r general1lp, echo=FALSE}
-
-## General table for U/Lower T
-db_phaseTG <- datasetlp %>% 
-  filter(Phase == "U/Lower T")
-
-table_TG <- db_phaseTG %>% 
-  select(RawMaterial, Class) %>% 
-  filter(Class != "Chip") %>% 
-  dplyr::group_by(RawMaterial) 
-
-chip_table_TG <- db_phaseTG %>% 
-  filter(Class == "Chip") %>%
-  select(RawMaterial, ChipQuantity) %>% 
-  na.omit() %>% 
-  dplyr::group_by(RawMaterial) %>% 
-  dplyr::summarise(ChipQuantity = sum(ChipQuantity)) %>% 
-  tidyr::spread(RawMaterial, ChipQuantity) %>% 
-  mutate(Class = "Chip") %>% 
-  select(Class, Quartz, Chert, Other)
-
-general_table_TG <- table(table_TG$Class, table_TG$RawMaterial)
-general_table_TG <- as.data.frame.matrix(general_table_TG)
-general_table_TG <- general_table_TG %>% 
-  select(Quartz, Chert, Other) %>% 
-  tibble::rownames_to_column()
-general_table_TG <- dplyr::rename(general_table_TG, "Class" = "rowname")
-general_table_TG <- union(general_table_TG, chip_table_TG)
-
-general_table_TG <- general_table_TG %>% 
-  mutate("Quartz (%)" = paste0(round(100 * Quartz/sum(Quartz), 2), "%")) %>% 
-  mutate("Chert (%)" = paste0(round(100 * Chert/sum(Chert), 2), "%")) %>% 
-  mutate("Other (%)" = paste0(round(100 * Other/sum(Other), 2), "%")) %>% 
-  select("Class", "Quartz", "Quartz (%)", "Chert", "Chert (%)", "Other", "Other (%)") %>% 
-  dplyr::rename("Quartz (n)" = "Quartz", "Chert (n)" = "Chert", "Other (n)" = "Other") %>% 
-  adorn_totals(where = "col", name = "Total") %>% 
-  mutate("Total (%)" = paste0(round(100 * Total/sum(Total), 2), "%")) %>% 
-  adorn_totals(where = "row", name = "Total (RM)")
-
-knitr::kable(head(general_table_TG[1:9], 9), booktabs=TRUE,caption="Lapa do Picareiro - U/Lower T. Technological class by raw material.")
-
-```
-
-```{r general2lp, echo=FALSE}
-
-### Middle T table
-db_phasePR <- datasetlp %>% 
-  filter(Phase == "Middle T")
-
-table_PR <- db_phasePR %>% 
-  select(RawMaterial, Class) %>% 
-  filter(Class != "Chip") %>% 
-  dplyr::group_by(RawMaterial) 
-
-chip_table_PR <- db_phasePR %>% 
-  filter(Class == "Chip") %>%
-  select(RawMaterial, ChipQuantity) %>% 
-  na.omit() %>% 
-  dplyr::group_by(RawMaterial) %>% 
-  dplyr::summarise(ChipQuantity = sum(ChipQuantity)) %>% 
-  tidyr::spread(RawMaterial, ChipQuantity) %>% 
-  mutate(Class = "Chip") %>% 
-  select(Class,Quartz, Chert, Other)
-
-general_table_PR <- table(table_PR$Class, table_PR$RawMaterial)
-general_table_PR <- as.data.frame.matrix(general_table_PR)
-general_table_PR <- general_table_PR %>% 
-  select(Quartz, Chert, Other) %>% 
-  tibble::rownames_to_column()
-general_table_PR <- dplyr::rename(general_table_PR, "Class" = "rowname")
-general_table_PR <- union(general_table_PR, chip_table_PR)
-
-general_table_PR <- general_table_PR %>% 
-  mutate("Quartz (%)" = paste0(round(100 * Quartz/sum(Quartz), 2), "%")) %>% 
-  mutate("Chert (%)" = paste0(round(100 * Chert/sum(Chert), 2), "%")) %>% 
-  mutate("Other (%)" = paste0(round(100 * Other/sum(Other), 2), "%")) %>% 
-  select("Class", "Quartz", "Quartz (%)", "Chert", "Chert (%)", "Other", "Other (%)") %>% 
-  dplyr::rename("Quartz (n)" = "Quartz", "Chert (n)" = "Chert", "Other (n)" = "Other") %>% 
-  adorn_totals(where = "col", name = "Total") %>% 
-  mutate("Total (%)" = paste0(round(100 * Total/sum(Total), 2), "%")) %>% 
-  adorn_totals(where = "row", name = "Total (RM)")
-
-knitr::kable(head(general_table_PR[1:9], 7), booktabs=TRUE,caption="Lapa do Picareiro - Middle T. Technological class by raw material.")
-
-```
-
-```{r doleritephoto, fig.cap="Dolerite flake removed from a debitage waste piece. Left: ventral side with interior colour and texture of the raw material; Right: dorsal side with patina.", fig.scap="Dolerite flake removed from a debitage waste piece."}
-
-knitr::include_graphics(here::here("analysis/figures/doleritephoto.jpg"))
-
-```
-
-```{r coretypeVB, echo = FALSE, fig.cap = "Vale Boi. Interaction of core type with type of extracted products by raw material and phase."}
-cores <- dataset %>% 
-  filter(Class == "Core" & !CoreType %in% c("Inform", "Other") & RawMaterial %in% c("Chert", "Quartz")) %>% 
-  dplyr::group_by(Phase, RawMaterial, CoreType, MainFaceCoreUse) %>% 
-  dplyr::summarise(N = n())
-ggplot(data = cores,
-       aes(axis1 = CoreType, axis2 = MainFaceCoreUse,
-           y = N)) +
-  scale_x_discrete(limits = c("Class", "MainFaceCoreUse"), expand = c(.1, .05)) +
-  xlab("") +
-  geom_alluvium(aes(fill = Phase)) +
-  geom_stratum() + 
-  geom_text(stat = "stratum", infer.label = TRUE, size = 2) +
-  theme_minimal() +
-  scale_fill_jco() +
-  facet_wrap("RawMaterial") +
-  ggtitle("")  +
-  theme(legend.position="bottom")
-```
-
-```{r corebloxplotVB, fig.cap="Vale Boi. Boxplots of core elongation and flattening by raw material and phase."}
-
-coreB <- dataset %>% 
-  filter(Class=="Core") %>% 
-  mutate(CoreElongation=Length/MaxWidth) %>% 
-  mutate(CoreFlattening=MaxWidth/Thickness) %>% 
-  mutate(CoreConvergence=MedWidth/DistWidth) %>% 
-  filter(RawMaterial!="Chalcedony") %>% ##filter out low representitivity 
-  filter(RawMaterial!="Greywacke" | Phase!="Upper 5/4E") %>% 
-  filter(RawMaterial!="Other" | Phase!="Lower 5")
-
-core_elongation <- coreB %>% 
-  mutate(RawMaterial = factor(RawMaterial, levels = c("Quartz", "Chert","Chalcedony", 
-                                                      "Greywacke", "Other"))) %>%
-  ggplot(aes(x=RawMaterial, y=CoreElongation, fill = Phase)) + 
-  geom_boxplot(outlier.shape = NA) +
-  theme_minimal() + #type of theme
-  theme(legend.title = element_blank()) +
-  labs(x = " ", y = "Elongation") +
-  theme(axis.title = element_text(size = 10, vjust = -1)) + # x axis size
-  scale_fill_jco()+
-  geom_point(pch = 21, position = position_jitterdodge(jitter.width = 0.2))
-
-
-core_flattening <- coreB %>% 
-  mutate(RawMaterial = factor(RawMaterial, levels = c("Quartz", "Chert","Chalcedony", 
-                                                      "Greywacke", "Other"))) %>%
-  ggplot(aes(x=RawMaterial, y=CoreFlattening, fill = Phase)) + 
-  geom_boxplot(outlier.shape = NA) +
-  theme_minimal() + #type of theme
-  theme(legend.title = element_blank()) +
-  labs(x = " ", y = "Flattening") +
-  theme(axis.title = element_text(size = 10, vjust = -1)) + # x axis size
-  scale_fill_jco()+
-  geom_point(pch = 21, position = position_jitterdodge(jitter.width = 0.2))
-
-ggarrange(core_elongation, core_flattening,
-          widths = c(8, 8),
-          heights = c(10, 10),
-          nrow = 2,
-          common.legend = TRUE,
-          legend = "right")
-```
-
-```{r coretypeLP, echo = FALSE, fig.cap="Lapa do Picareiro. Interaction of core type with type of extracted products by raw material and phase."}
-cores_lp <- datasetlp %>% 
-  filter(Class == "Core" & !CoreType %in% c("Inform", "Other") & RawMaterial %in% c("Chert", "Quartz")) %>% 
-  dplyr::group_by(Phase, RawMaterial, CoreType, MainFaceCoreUse) %>% 
-  dplyr::summarise(N = n())
-ggplot(cores_lp,
-       aes(axis1 = CoreType, axis2 = MainFaceCoreUse,
-           y = N)) +
-  scale_x_discrete(limits = c("Class", "MainFaceCoreUse"), expand = c(.1, .05)) +
-  xlab("") +
-  geom_alluvium(aes(fill = Phase)) +
-  geom_stratum() + geom_text(stat = "stratum", infer.label = TRUE) +
-  theme_minimal() +
-  scale_fill_jco() +
-  facet_wrap("RawMaterial") +
-  ggtitle("") +
-  theme(legend.position="bottom")
-```
-
-```{r corebloxplotLP, fig.cap="Lapa do Picareiro. Boxplots of core elongation and flattening by raw material and phase."}
-coreB_LP <- datasetlp %>% 
-  filter(Class=="Core") %>% 
-  mutate(CoreElongation=Length/MaxWidth) %>% 
-  mutate(CoreFlattening=MaxWidth/Thickness) %>% 
-  mutate(CoreConvergence=MedWidth/DistWidth) %>% 
-  filter(RawMaterial %in% c("Quartz", "Chert"))
-core_elongation_LP <- coreB_LP %>% 
-  mutate(RawMaterial = factor(RawMaterial, levels = c("Quartz", "Chert"))) %>%
-  ggplot(aes(x=RawMaterial, y=CoreElongation, fill = Phase)) + 
-  geom_boxplot(outlier.shape = NA) +
-  theme_minimal() + #type of theme
-  theme(legend.title = element_blank()) +
-  labs(x = " ", y = "Elongation") +
-  theme(axis.title = element_text(size = 10, vjust = -1)) + # x axis size
-  geom_point(pch = 21, position = position_jitterdodge(jitter.width = 0.2)) +
-  scale_fill_jco()
-core_flattening_LP <- coreB_LP %>% 
-  mutate(RawMaterial = factor(RawMaterial, levels = c("Quartz", "Chert","Chalcedony", 
-                                                      "Greywacke", "Other"))) %>%
-  ggplot(aes(x=RawMaterial, y=CoreFlattening, fill = Phase)) + 
-  geom_boxplot(outlier.shape = NA) +
-  theme_minimal() + #type of theme
-  theme(legend.title = element_blank()) +
-  labs(x = " ", y = "Flattening") +
-  theme(axis.title = element_text(size = 10, vjust = -1)) + # x axis size
-  geom_point(pch = 21, position = position_jitterdodge(jitter.width = 0.2)) +
-  scale_fill_jco()
-ggarrange(core_elongation_LP, core_flattening_LP,
-          widths = c(8, 8),
-          heights = c(10, 10),
-          nrow = 2,
-          common.legend = TRUE,
-          legend = "right")
-```
-
-```{r flakeboxplot, fig.cap="Vale Boi. Boxplots of flake elongation and flattening by raw material and phase."}
-  
-flakeB <- dataset %>%
-  filter(BlankType=="Flake") %>%
-  mutate(FlakeElongation=Length/MaxWidth) %>% 
-  mutate(FlakeFlattening=MaxWidth/Thickness) %>% 
-  select(Phase, RawMaterial, FlakeFlattening, FlakeElongation) %>% 
-  filter(FlakeFlattening < 15) %>% # removing 3 outliers which pull the tails up distorting the graph 
-  na.omit()
-
-flake_elongation <- flakeB %>% 
-  mutate(RawMaterial = factor(RawMaterial, levels = c("Quartz", "Chert", 
-                                                      "Greywacke","Dolerite","Chalcedony", "Other"))) %>%
-  ggplot(aes(x=RawMaterial, y=FlakeElongation, fill = Phase)) + 
-  geom_boxplot() +
-  theme_minimal() + #type of theme
-  theme(legend.title = element_blank()) +
-  labs(x = " ", y = "Elongation") +
-  theme(axis.title = element_text(size = 10, vjust = -1)) + # x axis size
-  scale_fill_jco() +
-  scale_color_jco() 
-#  geom_point(pch = 21, position = position_jitterdodge(jitter.width = 0.3))
-
-flake_flattening <- flakeB %>% 
-  mutate(RawMaterial = factor(RawMaterial, levels = c("Quartz", "Chert",   "Greywacke","Dolerite","Chalcedony", "Other"))) %>%
-  ggplot(aes(x=RawMaterial, y=FlakeFlattening, fill = Phase)) + 
-  geom_boxplot() +
-  theme_minimal() + #type of theme
-  theme(legend.title = element_blank()) +
-  labs(x = " ", y = "Flattening") +
-  theme(axis.title = element_text(size = 10, vjust = -1)) + # x axis size
-  scale_fill_jco()+
-  scale_color_jco() 
-#  geom_point(pch = 21, position = position_jitterdodge(jitter.width = 0.3))
-
-ggarrange(flake_elongation, flake_flattening,
-          widths = c(8, 8),
-          heights = c(10, 10),
-          nrow = 2,
-          common.legend = TRUE,
-          legend = "right")
-```
-
-```{r flakeboxplotLP, fig.cap="Lapa do Picareiro. Flake elongation and flattening by phase and raw material."}
-  
-flakeB_LP <- datasetlp %>%
-  filter(BlankType=="Flake") %>% 
-  filter(RawMaterial %in% c("Quartz", "Chert")) %>% 
-  mutate(FlakeElongation=Length/MaxWidth) %>% 
-  mutate(FlakeFlattening=MaxWidth/Thickness) %>% 
-  select(Phase, RawMaterial, FlakeFlattening, FlakeElongation) %>% 
-  na.omit()
-
-flake_elongation_LP <- flakeB_LP %>% 
-  mutate(RawMaterial = factor(RawMaterial, levels = c("Quartz", "Chert", 
-                                                      "Greywacke","Dolerite","Chalcedony", "Other"))) %>%
-  ggplot(aes(x=RawMaterial, y=FlakeElongation, fill = Phase)) + 
-  geom_boxplot() +
-  theme_minimal() + #type of theme
-  theme(legend.title = element_blank()) +
-  labs(x = " ", y = "Elongation") +
-  theme(axis.title = element_text(size = 10, vjust = -1)) + # x axis size
-  scale_fill_jco()+
-  scale_color_jco()
-
-flake_flattening_LP <- flakeB_LP %>% 
-  mutate(RawMaterial = factor(RawMaterial, levels = c("Quartz", "Chert",   "Greywacke","Dolerite","Chalcedony", "Other"))) %>%
-  ggplot(aes(x=RawMaterial, y=FlakeFlattening, fill = Phase)) + 
-  geom_boxplot() +
-  theme_minimal() + #type of theme
-  theme(legend.title = element_blank()) +
-  labs(x = " ", y = "Flattening") +
-  theme(axis.title = element_text(size = 10, vjust = -1)) + # x axis size
-  scale_fill_jco()+
-  scale_color_jco()
-
-ggarrange(flake_elongation_LP, flake_flattening_LP,
-          widths = c(8, 8),
-          heights = c(10, 10),
-          nrow = 2,
-          common.legend = TRUE,
-          legend = "right")
-```
-
-```{r retouchVB1, echo=FALSE}
-
-retouch1 <- dataset %>% 
-  filter(Class == "RetouchedPiece") %>%
-  filter(Phase=="Lower 5") %>% 
-  select(RawMaterial, RetouchedPieceTypology) %>% 
-  dplyr::group_by(RawMaterial)
-
-retouch_table1 <- table(retouch1$RetouchedPieceTypology, retouch1$RawMaterial)
-retouch_table1 <- as.data.frame.matrix(retouch_table1)
-retouch_table1 <- retouch_table1 %>% 
-  select(Quartz, Chert, Greywacke, 
-        Chalcedony) %>% 
-  tibble::rownames_to_column()
-retouch_table1 <- dplyr::rename(retouch_table1, "Typology" = "rowname")
-
-retouched_order <- c("Typology","Endscraper", "Dihedral Burin", "Burin on truncation", "Truncation", "Notch", "Denticulate", "Splintered piece", "Double backed bladelet", "Retouched blade", "Retouched bladelet", "Retouched flake", "Total")
-
-retouch_table1 <- retouch_table1 %>% 
-  mutate("Quartz (%)" = paste0(round(100 * Quartz/sum(Quartz), 2), "%")) %>% 
-  mutate("Chert (%)" = paste0(round(100 * Chert/sum(Chert), 2), "%")) %>% 
-  mutate("Greywacke (%)" = paste0(round(100 * Greywacke/sum(Greywacke), 2), "%")) %>% 
-  mutate("Chalcedony (%)" = paste0(round(100 * Chalcedony/sum(Chalcedony), 2), "%")) %>% 
-  select("Typology", "Quartz", "Quartz (%)", "Chert", "Chert (%)", "Greywacke", "Greywacke (%)", 
-         "Chalcedony", "Chalcedony (%)") %>% 
-  dplyr::rename("Quartz (n)" = "Quartz", "Chert (n)" = "Chert", "Greywacke (n)" = "Greywacke",
-         "Chalcedony (n)" = "Chalcedony") %>% 
-  adorn_totals(where = "col", name = "Total") %>% 
-  mutate("Total (%)" = paste0(round(100 * Total/sum(Total), 2), "%")) %>% 
-  adorn_totals(where = "row", name = "Total", fill = "100%") %>% 
-  as_tibble() %>% 
-  slice(match(retouched_order, Typology))
-
-knitr::kable(head(retouch_table1[1:11], 13), booktabs=TRUE, caption = "Vale Boi - Lower 5. Retouched piece typology by raw material.")
-
-```
-
-```{r retouchVB2, echo=FALSE}
-
-retouch2 <- dataset %>% 
-  filter(Class == "RetouchedPiece") %>%
-  filter(Phase=="Upper 5/4E") %>% 
-  select(RawMaterial, RetouchedPieceTypology) %>% 
-  dplyr::group_by(RawMaterial)
-
-retouch_table2 <- table(retouch2$RetouchedPieceTypology, retouch2$RawMaterial)
-retouch_table2 <- as.data.frame.matrix(retouch_table2)
-retouch_table2 <- retouch_table2 %>% 
-  select(Quartz, Chert, Greywacke, Dolerite,
-        Chalcedony) %>% 
-  tibble::rownames_to_column()
-retouch_table2 <- dplyr::rename(retouch_table2, "Typology" = "rowname")
-
-retouched_order2 <- c("Typology","Endscraper","Carinated endscraper","Perforator-endscraper","Perforator", "Dihedral Burin", "Burin on truncation", "Truncation", "Vale Comprido Point", "Notch", "Denticulate", "Splintered piece","Backed bladelet","Backed bladelet parcial", "Retouched blade", "Retouched bladelet", "Retouched flake", "Total")
-
-retouch_table2 <- retouch_table2 %>% 
-  mutate("Quartz (%)" = paste0(round(100 * Quartz/sum(Quartz), 2), "%")) %>% 
-  mutate("Chert (%)" = paste0(round(100 * Chert/sum(Chert), 2), "%")) %>% 
-  mutate("Greywacke (%)" = paste0(round(100 * Greywacke/sum(Greywacke), 2), "%")) %>%
-  mutate("Dolerite (%)" = paste0(round(100 * Dolerite/sum(Dolerite), 2), "%")) %>% 
-  mutate("Chalcedony (%)" = paste0(round(100 * Chalcedony/sum(Chalcedony), 2), "%")) %>% 
-  select("Typology", "Quartz", "Quartz (%)", "Chert", "Chert (%)", "Greywacke", "Greywacke (%)", "Dolerite", "Dolerite (%)",
-         "Chalcedony", "Chalcedony (%)") %>% 
-  dplyr::rename("Quartz (n)" = "Quartz", "Chert (n)" = "Chert", "Greywacke (n)" = "Greywacke", "Dolerite (n)" = "Dolerite",
-         "Chalcedony (n)" = "Chalcedony") %>% 
-  adorn_totals(where = "col", name = "Total") %>% 
-  mutate("Total (%)" = paste0(round(100 * Total/sum(Total), 2), "%")) %>% 
-  adorn_totals(where = "row", name = "Total", fill = "100%") %>% 
-  as_tibble() %>% 
-  slice(match(retouched_order2, Typology))
-
-knitr::kable(retouch_table2, booktabs=TRUE, caption = "Vale Boi - Upper 5/4E. Retouched piece typology by raw material.")
-
-```
-
-```{r retouchLP1, echo=FALSE}
-
-retouch1lp <- datasetlp %>% 
-  filter(Class == "RetouchedPiece") %>%
-  filter(Phase=="U/Lower T") %>% 
-  select(RawMaterial, RetouchedPieceTypology) %>% 
-  dplyr::group_by(RawMaterial)
-
-
-retouch_table1lp <- table(retouch1lp$RetouchedPieceTypology, retouch1lp$RawMaterial)
-retouch_table1lp <- as.data.frame.matrix(retouch_table1lp)
-retouch_table1lp <- retouch_table1lp %>% 
-  select(Quartz, Chert) %>% 
-  tibble::rownames_to_column()
-retouch_table1lp <- dplyr::rename(retouch_table1lp, "Typology" = "rowname")
-
-retouched_order3 <- c("Typology","Dihedral angle burin", "Notch", "Splintered piece", "Retouched flake")
-
-
-retouch_table1lp <- retouch_table1lp %>% 
-  mutate("Quartz (%)" = paste0(round(100 * Quartz/sum(Quartz), 2), "%")) %>% 
-  mutate("Chert (%)" = paste0(round(100 * Chert/sum(Chert), 2), "%")) %>% 
-  select("Typology", "Quartz", "Quartz (%)", "Chert", "Chert (%)") %>% 
-  dplyr::rename("Quartz (n)" = "Quartz", "Chert (n)" = "Chert") %>% 
-  adorn_totals(where = "col", name = "Total") %>% 
-  mutate("Total (%)" = paste0(round(100 * Total/sum(Total), 2), "%")) %>% 
-  adorn_totals(where = "row", name = "Total") %>% 
-  as_tibble() %>% 
-  slice(match(retouched_order3, Typology))
-
-
-knitr::kable(retouch_table1lp, booktabs=TRUE, caption = "Lapa do Picareiro - U/Lower T. Retouched piece typology by raw material.")
-
-```
-
-```{r retouchLP2, echo=FALSE}
-
-retouch2lp <- datasetlp %>% 
-  filter(Class == "RetouchedPiece") %>%
-  filter(Phase=="Middle T") %>% 
-  select(RawMaterial, RetouchedPieceTypology) %>% 
-  dplyr::group_by(RawMaterial)
-
-retouch_table2lp <- table(retouch2lp$RetouchedPieceTypology, retouch2lp$RawMaterial)
-retouch_table2lp <- as.data.frame.matrix(retouch_table2lp)
-retouch_table2lp <- retouch_table2lp %>% 
-  select(Chert) %>% 
-  tibble::rownames_to_column()
-retouch_table2lp <- dplyr::rename(retouch_table2lp, "Typology" = "rowname")
-
-retouched_order4 <- c("Typology","Concave truncation", "Vale Comprido point (?)", "Notch", "Retouched flake")
-
-retouch_table2lp <- retouch_table2lp %>% 
-  mutate("Chert (%)" = paste0(round(100 * Chert/sum(Chert), 2), "%")) %>% 
-  select("Typology", "Chert", "Chert (%)") %>% 
-  dplyr::rename("Chert (n)" = "Chert") %>% 
-  adorn_totals(where = "col", name = "Total") %>% 
-  adorn_totals(where = "row", name = "Total") %>% 
-  as_tibble() %>% 
-  slice(match(retouched_order4, Typology))
-
-knitr::kable(retouch_table2lp, booktabs=TRUE, caption = "Lapa do Picareiro - Middle T. Retouched piece typology by raw material.")
-
-```
-
-```{r coreattributesVB1, echo=FALSE, message=FALSE, warning=FALSE}
-
-# Subset cores and phases
-coreAT <- dataset %>% 
-  filter(Class=="Core")
-
-coreAT1 <- coreAT %>% 
-  filter(Phase=="Lower 5")
-
-core_tablep1 <- tabmulti(coreAT1, "RawMaterial", c("CoreType","NumberCoreFaces", 
-                                               "CorePlatform", "MainFaceCoreUse"),
-                        ymeasures = c("freq","freq","freq","freq","mean"),
-                        p.include = FALSE,
-                        n.headings = FALSE,
-                        bold.varnames = TRUE,
-                        bold.colnames = TRUE,
-                        variable.colname = "Tecnological attributes")
-core_tablep1 <- as.data.frame(core_tablep1)
-core_tablep1 <- core_tablep1 %>% 
-  select("Tecnological attributes", "Quartz", "Chert","Greywacke","Other")
-
-knitr::kable(core_tablep1, longtable= TRUE, booktabs = TRUE, caption = "Vale Boi - Lower 5 - core attributes frequencies.")
-
-```
-
-```{r coreattributesVB2, echo=FALSE, message=FALSE, warning=FALSE}
-
-coreAT2 <- coreAT %>% 
-  filter(Phase=="Upper 5/4E")
-
-core_tablep2 <- tabmulti(coreAT2, "RawMaterial", c("CoreType","NumberCoreFaces",
-                                               "CorePlatform", "MainFaceCoreUse"),
-                        ymeasures = c("freq","freq", "freq","freq"),
-                        p.include = FALSE,
-                        n.headings = FALSE,
-                        bold.varnames = TRUE,
-                        bold.colnames = TRUE,
-                        variable.colname = "Tecnological attributes")
-
-core_tablep2 <- core_tablep2 %>% 
-  as.data.frame() %>% 
-  dplyr::rename("Total" =  "Overall") %>% 
-  select("Tecnological attributes", "Quartz", "Chert","Other", "Total")
-
-
-knitr::kable(core_tablep2, longtable= TRUE, booktabs = TRUE, caption = "Vale Boi - Upper 5/4E - core attributes frequencies.")
-
-```
-
-```{r coremetricsVB1, echo=FALSE, message=FALSE, warning=FALSE}
-
-core_metp1 <- tabmulti(coreAT1, "RawMaterial", c("MedWidth", "Length", "Thickness",
-                                                 "PlatformWidth","PlatformThickness", 
-                                                 "MainFacePlatformAngle", "Weight"),
-                      ymeasures = c("mean", "mean", "mean", "mean", "mean", "mean", "mean"),
-                      p.include = FALSE,
-                      n.headings = FALSE,
-                      bold.varnames = TRUE,
-                      bold.colnames = TRUE,
-                      listwise.deletion = FALSE,
-                      variable.colname = "Core metrics")
-
-core_metp1 <- core_metp1 %>% 
-  as.data.frame() %>% 
-  dplyr::rename("Total" = "Overall") %>% 
-  select("Core metrics", "Quartz", "Chert","Greywacke","Other", "Total")
-
-knitr::kable(core_metp1, booktabs=TRUE, caption = "Vale Boi - Lower 5 - mean and standard deviation of core measurements (in mm).")
-
-```
-
-```{r coremetricsVB2, echo=FALSE, message=FALSE, warning=FALSE}
-
-core_metp2 <- tabmulti(coreAT2, "RawMaterial", c("MedWidth", "Length", "Thickness",
-                                                 "PlatformWidth","PlatformThickness", 
-                                                 "MainFacePlatformAngle", "Weight"),
-                      ymeasures = c("mean", "mean", "mean", "mean", "mean", "mean", "mean"),
-                      p.include = FALSE,
-                      n.headings = FALSE,
-                      bold.varnames = TRUE,
-                      bold.colnames = TRUE,
-                      listwise.deletion = FALSE,
-                      variable.colname = "Core metrics")
-
-
-core_metp2 <- core_metp2 %>% 
-  as.data.frame() %>% 
-  dplyr::rename("Total" = "Overall") %>% 
-  select("Core metrics", "Quartz", "Chert","Greywacke","Other", "Total")
-
-knitr::kable(core_metp2, booktabs=TRUE, caption = "Vale Boi - Upper 5/4E - mean and standard deviation of core measurements (in mm).")
-  
-
-```
-
-```{r flakeattributeVB1, echo=FALSE, message=FALSE, warning=FALSE}
-
-blanksAT <- dataset %>% 
-  filter(BlankType == "Flake")
-blanksAT1 <- blanksAT %>% 
-  filter(Phase=="Lower 5")
-
-
-blank_tablep1 <- tabmulti(dataset = blanksAT1,
-                          xvarname = "RawMaterial", 
-                          yvarname = c("CrossSection", "BlankShape", "Profile",
-                                       "BlankTip", "PlatformType", "PlatformCortex",
-                                       "ScarCount", "ScarPattern", "Cortex"),
-                          ymeasures = c("freq", "freq", "freq", "freq", 
-                                        "freq", "freq", "freq", "freq", "freq"),
-                          listwise.deletion = FALSE,
-                          p.include = FALSE,
-                          n.headings = FALSE,
-                          variable.colname = "Attributes")
-
-blank_tablep1<- blank_tablep1 %>% 
-  as.data.frame() %>% 
-  dplyr::rename("Total" = "Overall") %>% 
-  select(Attributes, Quartz, Chert, Greywacke, Dolerite, Chalcedony, Other, Total)
-
-
-knitr::kable(blank_tablep1, longtable= TRUE, booktabs = TRUE, caption = "Vale Boi - Lower 5 - flake attributes frequencies.")
-
-```
-
-```{r flakeattributeVB2, echo=FALSE, message=FALSE, warning=FALSE}
-
-blanksAT2 <- blanksAT %>% 
-  filter(Phase=="Upper 5/4E")
-
-blank_tablep2 <- tabmulti(dataset = blanksAT2,
-                          xvarname = "RawMaterial", 
-                          yvarname = c("CrossSection", "BlankShape", "Profile",
-                                       "BlankTip", "PlatformType", "PlatformCortex",
-                                       "ScarCount", "ScarPattern", "Cortex"),
-                          ymeasures = c("freq", "freq", "freq", "freq", 
-                                        "freq", "freq", "freq", "freq", "freq"),
-                          listwise.deletion = FALSE,
-                          p.include = FALSE,
-                          n.headings = FALSE,
-                          variable.colname = "Attributes")
-
-blank_tablep2<- blank_tablep2 %>% 
-  as.data.frame() %>% 
-  dplyr::rename("Total" = "Overall") %>% 
-  select(Attributes, Quartz, Chert, Greywacke, Dolerite, Chalcedony, Other, Total)
-
-
-knitr::kable(blank_tablep2, longtable= TRUE, booktabs = TRUE, caption = "Vale Boi - Upper 5/4E - flake attributes frequencies.")
-
-```
-
-```{r flakemetricsVB1, echo=FALSE, message=FALSE, warning=FALSE}
-
-blank_metp1 <- tabmulti(blanksAT1, "RawMaterial", c("MedWidth", "Length",
-                                                    "Thickness", "PlatformWidth",
-                                                    "PlatformThickness", "ExteriorPlatformAngle"),
-                        ymeasures = c("mean", "mean", "mean", "mean", "mean", "mean"),
-                        p.include = FALSE,
-                        n.headings = FALSE,
-                        listwise.deletion = FALSE,
-                        bold.varnames = TRUE,
-                        bold.colnames = TRUE,
-                        variable.colname = "Measurements")
-
-blank_metp1 <- blank_metp1 %>% 
-  as.data.frame() %>% 
-  dplyr::rename("Total" = "Overall") %>% 
-  select(Measurements, Quartz, Chert, Greywacke, Dolerite, Chalcedony, Other, Total)
-
-knitr::kable(blank_metp1, booktabs=TRUE, caption = "Vale Boi - Lower 5 - mean and standard deviation of flake measurements (in mm).")
-
-```
-
-```{r flakemetricsVB2, echo=FALSE, message=FALSE, warning=FALSE}
-
-blank_metp2 <- tabmulti(blanksAT2, "RawMaterial", c("MedWidth", "Length", 
-                                                    "Thickness", "PlatformWidth", "PlatformThickness", "ExteriorPlatformAngle"),
-                        ymeasures = c("mean", "mean", "mean", "mean", "mean", "mean"),
-                        p.include = FALSE,
-                        n.headings = FALSE,
-                        bold.varnames = TRUE,
-                        bold.colnames = TRUE,
-                        listwise.deletion = FALSE,
-                        variable.colname = "Measurements")
-
-blank_metp2 <- blank_metp2 %>% 
-  as.data.frame %>% 
-  dplyr::rename("Total" = "Overall") %>% 
-  select(Measurements, Quartz, Chert, Greywacke, Dolerite, Chalcedony, Other, Total)
-
-knitr::kable(blank_metp2, booktabs=TRUE, caption = "Vale Boi - Upper 5/4E - mean and standard deviation of flake measurements (in mm).")
-
-```
-
-```{r elongtableVB1, echo = FALSE, message=FALSE, warning=FALSE}
-
-elongAT <- dataset %>% 
-  filter(BlankType == "ElongatedProd")
-elongAT1 <- elongAT %>% 
-  filter(Phase=="Lower 5")
-
-
-elong_tablep1 <- tabmulti(dataset = elongAT1,
-                          xvarname = "RawMaterial", 
-                          yvarname = c("CrossSection", "BlankShape", "Profile",
-                                       "BlankTip", "PlatformType", "PlatformCortex",
-                                       "ScarCount","ScarPattern", "Cortex"),
-                          ymeasures = c("freq", "freq", "freq", "freq", 
-                                        "freq", "freq", "freq", "freq", "freq"),
-                          listwise.deletion = FALSE,
-                          p.include = FALSE,
-                          n.headings = FALSE,
-                          variable.colname = "Attributes")
-
-elong_tablep1<- elong_tablep1 %>% 
-  as.data.frame() %>% 
-  dplyr::rename("Total" = "Overall") %>% 
-  select(Attributes, Quartz, Chert, Greywacke, Chalcedony, Total)
-
-
-knitr::kable(elong_tablep1, longtable= TRUE, booktabs = TRUE, caption = "Vale Boi - Lower 5 - elongated products attributes frequencies.")
-
-```
-
-```{r elongtableVB2, echo = FALSE, message=FALSE, warning=FALSE}
-
-elongAT2 <- elongAT %>% 
-  filter(Phase=="Upper 5/4E")
-
-
-elong_tablep2 <- tabmulti(dataset = elongAT2,
-                          xvarname = "RawMaterial", 
-                          yvarname = c("CrossSection", "BlankShape", "Profile",
-                                       "BlankTip", "PlatformType", "PlatformCortex",
-                                       "ScarCount","ScarPattern", "Cortex"),
-                          ymeasures = c("freq", "freq", "freq", "freq", 
-                                        "freq", "freq", "freq", "freq", "freq"),
-                          listwise.deletion = FALSE,
-                          p.include = FALSE,
-                          n.headings = FALSE,
-                          variable.colname = "Attributes")
-
-elong_tablep2 <- elong_tablep2 %>% 
-  as.data.frame() %>% 
-  dplyr::rename("Total" = "Overall") %>% 
-  select(Attributes, Quartz, Chert, Greywacke, Dolerite, Other, Chalcedony, Total)
-
-knitr::kable(elong_tablep2, longtable= TRUE, booktabs = TRUE, caption = "Vale Boi - Upper 5/4E - elongated products attributes frequencies.")
-
-```
-
-```{r elongmetricsVB1, echo = FALSE, message=FALSE, warning=FALSE}
-
-elong_metp1 <- tabmulti(elongAT1, "RawMaterial", c("MaxWidth", "Length", "Thickness","PlatformWidth", "PlatformThickness", "ExteriorPlatformAngle"),
-                          ymeasures = c("mean", "mean", "mean", "mean", "mean", "mean"),
-                          p.include = FALSE,
-                          n.headings = FALSE,
-                          bold.varnames = TRUE,
-                          bold.colnames = TRUE,
-                          variable.colname = "Measurements")
-
-elong_metp1 <- elong_metp1 %>%
-  as.data.frame() %>% 
-  select(Measurements, Quartz, Chert, Greywacke)
-  
-  
-knitr::kable(elong_metp1, booktabs=TRUE, caption = "Vale Boi - Lower 5 - mean and standard deviation of elongated products measurements (in mm).")
-
-```
-
-
-```{r elongmtericsVB2, echo=FALSE, message=FALSE, warning=FALSE}
-
-elong_metp2 <- tabmulti(elongAT2, "RawMaterial", c("MaxWidth", "Length", "Thickness","PlatformWidth", "PlatformThickness", "ExteriorPlatformAngle"),
-                          ymeasures = c("mean", "mean", "mean", "mean", "mean", "mean"),
-                          p.include = FALSE,
-                          n.headings = FALSE,
-                          bold.varnames = TRUE,
-                          bold.colnames = TRUE,
-                          variable.colname = "Measurements")
-elong_metp2 <- as.data.frame(elong_metp2)
-elong_metp2 <- elong_metp2 %>% 
-  select(Measurements, Quartz, Chert, Greywacke, Dolerite, Chalcedony, Other)
-
-
-knitr::kable(elong_metp2, booktabs=TRUE, caption = "Vale Boi - Upper 5/4E - mean and standard deviation of elongated products measurements (in mm).")
-
-```
-
-```{r coreattributesLP1, echo=FALSE, message=FALSE, warning=FALSE}
-
-# Subset cores and phases
-coreATlp <- datasetlp %>% 
-  filter(Class=="Core")
-
-coreAT1lp <- coreATlp %>% 
-  filter(Phase== "U/Lower T")
-
-
-
-core_tablep1lp <- tabmulti(coreAT1lp, "RawMaterial", c("CoreType","NumberCoreFaces", 
-                                                         "CorePlatform", "MainFaceCoreUse"),
-                        ymeasures = c("freq","freq","freq","freq"),
-                        p.include = FALSE,
-                        n.headings = FALSE,
-                        bold.varnames = TRUE,
-                        bold.colnames = TRUE,
-                        listwise.deletion = FALSE,
-                        variable.colname = "Attributes")
-
-core_tablep1lp <- core_tablep1lp %>% 
-  as.data.frame() %>% 
-  select(Attributes, "n (%)") %>% 
-  dplyr::rename("Quartz n(%)" = "n (%)")
-
-knitr::kable(core_tablep1lp, booktabs = TRUE, caption = "Lapa do Picareiro - U/Lower T - core attributes frequencies.")
-
-```
-
-```{r coreattributesLP2, echo=FALSE, message=FALSE, warning=FALSE}
-
-coreAT2lp <- coreATlp %>% 
-  filter(Phase== "Middle T")
-
-core_tablep2lp <- tabmulti(coreAT2lp, "RawMaterial", c("CoreType","NumberCoreFaces", 
-                                                         "CorePlatform", "MainFaceCoreUse"),
-                        ymeasures = c("freq","freq","freq","freq"),
-                        p.include = FALSE,
-                        n.headings = FALSE,
-                        bold.varnames = TRUE,
-                        bold.colnames = TRUE,
-                        listwise.deletion = FALSE,
-                        variable.colname = "Attributes")
-
-core_tablep2lp <- core_tablep2lp %>% 
-  as.data.frame() %>% 
-  select(Attributes, Quartz, Chert, Other, Overall) %>% 
-  dplyr::rename("Total" = "Overall")
-
-
-knitr::kable(core_tablep2lp, booktabs = TRUE, caption = "Lapa do Picareiro - Middle T - core attributes frequencies.")
-```
-
-```{r coremetricsLP1, echo=FALSE, message=FALSE, warning=FALSE}
-
-core_metp1lp <- tabmulti(coreAT1lp, "RawMaterial", c("MedWidth", "Length", "Thickness",
-                                                 "PlatformWidth","PlatformThickness", 
-                                                 "MainFacePlatformAngle", "Weight"),
-                      ymeasures = c("mean", "mean", "mean", "mean", "mean", "mean", "mean"),
-                      p.include = FALSE,
-                      n.headings = FALSE,
-                      bold.varnames = TRUE,
-                      bold.colnames = TRUE,
-                      listwise.deletion = FALSE,
-                      variable.colname = "Core metrics")
-
-core_metp1lp <- core_metp1lp %>% 
-  as.data.frame() %>% 
-  select("Core metrics", "Quartz")
-
-knitr::kable(core_metp1lp, booktabs=TRUE, caption = "Lapa do Picareiro - U/Lower T - mean and standard deviation of core measurements (in mm).")
-
-```
-
-
-```{r coremetricsLP2, echo=FALSE, message=FALSE, warning=FALSE}
-
-core_metp2lp <- tabmulti(coreAT2lp, "RawMaterial", c("MedWidth", "Length", "Thickness",
-                                                 "PlatformWidth","PlatformThickness", 
-                                                 "MainFacePlatformAngle", "Weight"),
-                      ymeasures = c("mean", "mean", "mean", "mean", "mean", "mean", "mean"),
-                      p.include = FALSE,
-                      n.headings = FALSE,
-                      bold.varnames = TRUE,
-                      bold.colnames = TRUE,
-                      listwise.deletion = FALSE,
-                      variable.colname = "Core metrics")
-
-core_metp2lp <- core_metp2lp %>% 
-  as.data.frame() %>% 
-  dplyr::rename("Total" = "Overall") %>% 
-  select("Core metrics", "Quartz", "Chert","Other", "Total")
-
-knitr::kable(core_metp2lp, booktabs=TRUE, caption = "Lapa do Picareiro - Middle T - mean and standard deviation of core measurements (in mm).")
-
-```
-
-```{r flakeattributesLP1, echo=FALSE, message=FALSE, warning=FALSE}
-
-flakesATlp <- datasetlp %>% 
-  filter(BlankType == "Flake")
-
-flakesAT1lp <- flakesATlp %>% 
-  filter(Phase == "U/Lower T")
-
-
-flakes_tablep1lp <- tabmulti(dataset = flakesAT1lp,
-                          xvarname = "RawMaterial", 
-                          yvarname = c("CrossSection", "BlankShape", "Profile",
-                                       "BlankTip", "PlatformType", "PlatformCortex",
-                                       "ScarCount","ScarPattern", "Cortex"),
-                          ymeasures = c("freq", "freq", "freq", "freq", 
-                                        "freq", "freq", "freq", "freq", "freq"),
-                          listwise.deletion = FALSE,
-                          p.include = FALSE,
-                          n.headings = FALSE,
-                          variable.colname = "Attributes")
-
-flakes_tablep1lp<- flakes_tablep1lp %>% 
-  as.data.frame() %>% 
-  dplyr::rename("Total" = "Overall") %>% 
-  select(Attributes, Quartz, Chert, Other, Total)
-
-
-knitr::kable(flakes_tablep1lp, longtable= TRUE, booktabs = TRUE, caption = "Lapa do Picareiro - U/Lower T - flake attributes frequencies.")
-```
-
-```{r flakeattributesLP2, echo=FALSE, message=FALSE, warning=FALSE}
-
-flakesAT2lp <- flakesATlp %>% 
-  filter(Phase == "Middle T")
-
-
-flakes_tablep2lp <- tabmulti(dataset = flakesAT2lp,
-                          xvarname = "RawMaterial", 
-                          yvarname = c("CrossSection", "BlankShape", "Profile",
-                                       "BlankTip", "PlatformType", "PlatformCortex",
-                                       "ScarCount","ScarPattern", "Cortex"),
-                          ymeasures = c("freq", "freq", "freq", "freq", 
-                                        "freq", "freq", "freq", "freq", "freq"),
-                          listwise.deletion = FALSE,
-                          p.include = FALSE,
-                          n.headings = FALSE,
-                          variable.colname = "Attributes")
-
-flakes_tablep2lp <- flakes_tablep2lp %>% 
-  as.data.frame() %>% 
-  dplyr::rename("Total" = "Overall") %>% 
-  select(Attributes, Quartz, Chert, Other, Total)
-
-knitr::kable(flakes_tablep2lp, longtable= TRUE, booktabs = TRUE, caption = "Lapa do Picareiro - Middle T - flake attributes frequencies.")
-
-```
-
-```{r flakemetricsLP1, echo=FALSE, message=FALSE, warning=FALSE}
-
-flakes_metp1lp <- tabmulti(flakesAT1lp, "RawMaterial", c("MedWidth", "Length",
-                                                    "Thickness", "PlatformWidth",
-                                                    "PlatformThickness", "ExteriorPlatformAngle"),
-                        ymeasures = c("mean", "mean", "mean", "mean", "mean", "mean"),
-                        p.include = FALSE,
-                        n.headings = FALSE,
-                        listwise.deletion = FALSE,
-                        bold.varnames = TRUE,
-                        bold.colnames = TRUE,
-                        variable.colname = "Measurements")
-
-flakes_metp1lp <- flakes_metp1lp %>% 
-  as.data.frame() %>% 
-  dplyr::rename("Total" = "Overall") %>% 
-  select(Measurements, Quartz, Chert, Other, Total)
-
-knitr::kable(flakes_metp1lp, booktabs=TRUE, caption = "Lapa do Picarerio - U/Lower T - mean and standard deviation of flake measurements (in mm).")
-
-```
-
-
-```{r flakemetricsLP2, echo=FALSE, message=FALSE, warning=FALSE}
-
-flakes_metp2lp <- tabmulti(flakesAT2lp, "RawMaterial", c("MedWidth", "Length",
-                                                    "Thickness", "PlatformWidth",
-                                                    "PlatformThickness", "ExteriorPlatformAngle"),
-                        ymeasures = c("mean", "mean", "mean", "mean", "mean", "mean"),
-                        p.include = FALSE,
-                        n.headings = FALSE,
-                        listwise.deletion = FALSE,
-                        bold.varnames = TRUE,
-                        bold.colnames = TRUE,
-                        variable.colname = "Measurements")
-
-flakes_metp2lp <- flakes_metp2lp %>% 
-  as.data.frame() %>% 
-  dplyr::rename("Total" = "Overall") %>% 
-  select(Measurements, Quartz, Chert, Other, Total)
-
-knitr::kable(flakes_metp2lp, booktabs=TRUE, caption = "Lapa do Picarerio - Middle T - mean and standard deviation of flake measurements (in mm).")
-
-```
-
-```{r elongtableLP1, echo=FALSE, message=FALSE, warning=FALSE}
-#Elongated attribute table (all variables, by all raw materials)
-elong_tablep1lp <- tabmulti(elongAT1lp, "RawMaterial", c("CrossSection", "BlankShape", 
-                                                           "Profile", "BlankTip",
-                                                         "PlatformType", 
-                                                         "PlatformCortex","ScarCount",
-                                                         "ScarPattern", "Cortex"),
-                        ymeasures = c("freq", "freq", "freq",
-                                      "freq","freq","freq","freq","freq", "freq"),
-                        p.include = FALSE,
-                        n.headings = FALSE,
-                        listwise.deletion = FALSE,
-                        bold.varnames = TRUE,
-                        bold.colnames = TRUE,
-                        variable.colname = "Attributes")
-
-
-elong_tablep1lp <- elong_tablep1lp %>% 
-  as.data.frame() %>% 
-  select("Attributes", "Quartz", "Chert", "Overall") %>% 
-  dplyr::rename("Total" = "Overall")
-
-knitr::kable(elong_tablep1lp, longtable= TRUE, booktabs = TRUE, caption = "Lapa do Picareiro - U/Lower T - elongated blanks attributes frequencies.")
-
-```
-
-```{r elongtableLP2, echo = FALSE, message=FALSE, warning=FALSE}
-#Elongated attribute table (all variables, by all raw materials) - Upper 5/4E
-elong_tablep2lp <- tabmulti(elongAT2lp, "RawMaterial", c("CrossSection", "BlankShape", 
-                                                           "Profile", "BlankTip",
-                                                           "PlatformType", "PlatformCortex",
-                                                           "ScarCount", "ScarPattern", "Cortex"),
-                        ymeasures = c("freq", "freq", "freq", "freq","freq","freq","freq","freq", "freq"),
-                        p.include = FALSE,
-                        n.headings = FALSE,
-                        listwise.deletion = FALSE,
-                        bold.varnames = TRUE,
-                        bold.colnames = TRUE,
-                        variable.colname = "Attributes")
-elong_tablep2lp <- as.data.frame(elong_tablep2lp)
-elong_tablep2lp <- elong_tablep2lp %>% 
-  select("Attributes", "Quartz", "Chert","Overall") %>% 
-  dplyr::rename("Total" = "Overall")
-
-knitr::kable(elong_tablep2lp, longtable= TRUE, booktabs = TRUE, caption = "Lapa do Picareiro - Middle T -  elongated blanks attributes frequencies.")
-```
-
-```{r elongmetricsLP1, echo = FALSE, message=FALSE, warning=FALSE}
-#Elongated metrics (mean) by raw material
-elong_metp1lp <- tabmulti(elongAT1lp, "RawMaterial", c("MaxWidth", "Length", "Thickness","PlatformWidth", "PlatformThickness", "ExteriorPlatformAngle"),
-                          ymeasures = c("mean", "mean", "mean", "mean", "mean", "mean"),
-                          p.include = TRUE,
-                          n.headings = FALSE,
-                          listwise.deletion = FALSE,
-                          bold.varnames = TRUE,
-                          bold.colnames = TRUE,
-                          variable.colname = "Measurements")
-elong_metp1lp <- as.data.frame(elong_metp1lp)
-elong_metp1lp <- elong_metp1lp %>% 
-  select(Measurements, Quartz, Chert)
-
-knitr::kable(elong_metp1lp, booktabs=TRUE, caption = "Lapa do Picarerio - U/Lower T - mean and standard deviation of elongated blanks measurements (in mm).")
-
-```
-
-
-```{r elongmetricsLP2, echo=FALSE, message=FALSE, warning=FALSE}
-
-#Elongated metrics (mean) by raw material
-elong_metp2lp <- tabmulti(elongAT2lp, "RawMaterial", c("MaxWidth", "Length", "Thickness","PlatformWidth", "PlatformThickness", "ExteriorPlatformAngle"),
-                          ymeasures = c("mean", "mean", "mean", "mean", "mean", "mean"),
-                          p.include = FALSE,
-                          n.headings = FALSE,
-                          listwise.deletion = FALSE,
-                          bold.varnames = TRUE,
-                          bold.colnames = TRUE,
-                          variable.colname = "Measurements")
-elong_metp2lp <- as.data.frame(elong_metp2lp)
-elong_metp2lp <- elong_metp2lp %>% 
-  select(Measurements, Quartz, Chert)
-
-knitr::kable(elong_metp2lp, booktabs=TRUE, caption = "Lapa do Picarerio - Middle T - mean and standard deviation of elongated blanks measurements (in mm).")
-
-```
 
 ### Colophon
 

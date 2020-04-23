@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.4.22)  23 APR 2020 11:48
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.4.22)  23 APR 2020 14:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1106,121 +1106,124 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[6
+
+] [7]
 File: C:/Users/Valentine/Documents/Archaeo/Tese_mestrado/Article/proto.paper/an
 alysis/figures/SpatialanalysisVB.png Graphic file (type bmp)
 <C:/Users/Valentine/Documents/Archaeo/Tese_mestrado/Article/proto.paper/analysi
 s/figures/SpatialanalysisVB.png>
-[6
+[8
+
+] [9
 
 ]
-Overfull \vbox (470.26633pt too high) has occurred while \output is active []
-
-[7]
-Overfull \hbox (2.13725pt too wide) in paragraph at lines 247--247
+Overfull \hbox (2.13725pt too wide) in paragraph at lines 303--303
  []|\TU/lmr/m/n/10 Quartz
  []
 
 
-Overfull \hbox (2.13725pt too wide) in paragraph at lines 247--247
+Overfull \hbox (2.13725pt too wide) in paragraph at lines 303--303
 []|\TU/lmr/m/n/10 Quartz 
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 247--247
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 303--303
 []|\TU/lmr/m/n/10 15.86%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 247--247
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 303--303
 []|\TU/lmr/m/n/10 11.76%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 247--247
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 303--303
 []|\TU/lmr/m/n/10 22.36%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 247--247
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 303--303
 []|\TU/lmr/m/n/10 47.06%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 247--247
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 303--303
 []|\TU/lmr/m/n/10 21.43%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 247--247
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 303--303
 []|\TU/lmr/m/n/10 71.88%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 247--247
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 303--303
 []|\TU/lmr/m/n/10 32.35%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 247--247
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 303--303
 []|\TU/lmr/m/n/10 70.62%|  
  []
 
-[8]
-Overfull \hbox (2.13725pt too wide) in paragraph at lines 275--275
+[10]
+Overfull \hbox (2.13725pt too wide) in paragraph at lines 331--331
  []|\TU/lmr/m/n/10 Quartz
  []
 
 
-Overfull \hbox (2.13725pt too wide) in paragraph at lines 275--275
+Overfull \hbox (2.13725pt too wide) in paragraph at lines 331--331
 []|\TU/lmr/m/n/10 Quartz 
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 275--275
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 331--331
 []|\TU/lmr/m/n/10 19.53%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 275--275
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 331--331
 []|\TU/lmr/m/n/10 34.78%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 275--275
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 331--331
 []|\TU/lmr/m/n/10 26.81%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 275--275
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 331--331
 []|\TU/lmr/m/n/10 10.89%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 275--275
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 331--331
 []|\TU/lmr/m/n/10 52.17%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 275--275
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 331--331
 []|\TU/lmr/m/n/10 67.25%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 275--275
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 331--331
 []|\TU/lmr/m/n/10 55.57%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 275--275
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 331--331
 []|\TU/lmr/m/n/10 65.68%|  
  []
 
-[9]
+[11]
 File: C:/Users/Valentine/Documents/Archaeo/Tese_mestrado/Article/proto.paper/an
 alysis/figures/doleritephoto.jpg Graphic file (type bmp)
 <C:/Users/Valentine/Documents/Archaeo/Tese_mestrado/Article/proto.paper/analysi
 s/figures/doleritephoto.jpg>
-[10
+[12
+
 
 
 
@@ -1229,1247 +1232,832 @@ s/figures/doleritephoto.jpg>
 File: supplementary_files/figure-latex/coretypeVB-1.pdf Graphic file (type pdf)
 
 <use supplementary_files/figure-latex/coretypeVB-1.pdf>
-[11]
+[13]
 File: supplementary_files/figure-latex/corebloxplotVB-1.pdf Graphic file (type 
 pdf)
 <use supplementary_files/figure-latex/corebloxplotVB-1.pdf>
-[12]
-Overfull \hbox (25.63725pt too wide) in paragraph at lines 465--465
+[14]
+Overfull \hbox (25.63725pt too wide) in paragraph at lines 521--521
 []|\TU/lmr/m/n/9 CrossSection, 
  []
 
 
-Overfull \hbox (6.81825pt too wide) in paragraph at lines 466--466
+Overfull \hbox (6.81825pt too wide) in paragraph at lines 522--522
 []|\TU/lmr/m/n/9 Irregular|  
  []
 
 
-Overfull \hbox (12.56026pt too wide) in paragraph at lines 467--467
+Overfull \hbox (12.56026pt too wide) in paragraph at lines 523--523
 []|\TU/lmr/m/n/9 Lenticular|  
  []
 
 
-Overfull \hbox (27.60826pt too wide) in paragraph at lines 469--469
+Overfull \hbox (27.60826pt too wide) in paragraph at lines 525--525
 []|\TU/lmr/m/n/9 Quadrangular|  
  []
 
 
-Overfull \hbox (18.86026pt too wide) in paragraph at lines 471--471
+Overfull \hbox (18.86026pt too wide) in paragraph at lines 527--527
 []|\TU/lmr/m/n/9 Trapezoidal|  
  []
 
 
-Overfull \hbox (13.99126pt too wide) in paragraph at lines 472--472
+Overfull \hbox (13.99126pt too wide) in paragraph at lines 528--528
 []|\TU/lmr/m/n/9 Triangular|  
  []
 
 
-Overfull \hbox (22.30725pt too wide) in paragraph at lines 473--473
+Overfull \hbox (22.30725pt too wide) in paragraph at lines 529--529
 []|\TU/lmr/m/n/9 BlankShape, 
  []
 
 
-Overfull \hbox (4.48726pt too wide) in paragraph at lines 474--474
+Overfull \hbox (4.48726pt too wide) in paragraph at lines 530--530
 []|\TU/lmr/m/n/9 Circular|  
  []
 
 
-Overfull \hbox (17.29427pt too wide) in paragraph at lines 475--475
+Overfull \hbox (17.29427pt too wide) in paragraph at lines 531--531
 []|\TU/lmr/m/n/9 Convergent|  
  []
 
 
-Overfull \hbox (10.75125pt too wide) in paragraph at lines 478--478
+Overfull \hbox (10.75125pt too wide) in paragraph at lines 534--534
 []|\TU/lmr/m/n/9 Divergent|  
  []
 
 
-Overfull \hbox (6.81825pt too wide) in paragraph at lines 479--479
+Overfull \hbox (6.81825pt too wide) in paragraph at lines 535--535
 []|\TU/lmr/m/n/9 Irregular|  
  []
 
 
-Overfull \hbox (2.28226pt too wide) in paragraph at lines 480--480
+Overfull \hbox (2.28226pt too wide) in paragraph at lines 536--536
 []|\TU/lmr/m/n/9 Parallel|  
  []
 
 
-Overfull \hbox (0.85126pt too wide) in paragraph at lines 483--483
+Overfull \hbox (0.85126pt too wide) in paragraph at lines 539--539
 []|\TU/lmr/m/n/9 Curved|  
  []
 
 
-Overfull \hbox (6.81825pt too wide) in paragraph at lines 484--484
+Overfull \hbox (6.81825pt too wide) in paragraph at lines 540--540
 []|\TU/lmr/m/n/9 Irregular|  
  []
 
 
-Overfull \hbox (4.20825pt too wide) in paragraph at lines 485--485
+Overfull \hbox (4.20825pt too wide) in paragraph at lines 541--541
 []|\TU/lmr/m/n/9 Straight|  
  []
 
 
-Overfull \hbox (3.20026pt too wide) in paragraph at lines 486--486
+Overfull \hbox (3.20026pt too wide) in paragraph at lines 542--542
 []|\TU/lmr/m/n/9 Twisted|  
  []
 
 
-Overfull \hbox (12.28127pt too wide) in paragraph at lines 487--487
+Overfull \hbox (12.28127pt too wide) in paragraph at lines 543--543
 []|\TU/lmr/m/n/9 BlankTip, 
  []
 
 
-Overfull \hbox (2.02126pt too wide) in paragraph at lines 489--489
+Overfull \hbox (2.02126pt too wide) in paragraph at lines 545--545
 []|\TU/lmr/m/n/9 Feather|  
  []
 
 
-Overfull \hbox (12.98326pt too wide) in paragraph at lines 491--491
+Overfull \hbox (12.98326pt too wide) in paragraph at lines 547--547
 []|\TU/lmr/m/n/9 Overshoot|  
  []
 
 
-Overfull \hbox (2.50726pt too wide) in paragraph at lines 492--492
+Overfull \hbox (2.50726pt too wide) in paragraph at lines 548--548
 []|\TU/lmr/m/n/9 Pointed|  
  []
 
 
-Overfull \hbox (30.79427pt too wide) in paragraph at lines 495--495
+Overfull \hbox (30.79427pt too wide) in paragraph at lines 551--551
 []|\TU/lmr/m/n/9 PlatformType, 
  []
 
 
-Overfull \hbox (5.01826pt too wide) in paragraph at lines 496--496
+Overfull \hbox (5.01826pt too wide) in paragraph at lines 552--552
 []|\TU/lmr/m/n/9 Crushed|  
  []
 
 
-Overfull \hbox (6.39526pt too wide) in paragraph at lines 497--497
+Overfull \hbox (6.39526pt too wide) in paragraph at lines 553--553
 []|\TU/lmr/m/n/9 Dihedral|  
  []
 
 
-Overfull \hbox (2.51625pt too wide) in paragraph at lines 498--498
+Overfull \hbox (2.51625pt too wide) in paragraph at lines 554--554
 []|\TU/lmr/m/n/9 Faceted|  
  []
 
 
-Overfull \hbox (2.64226pt too wide) in paragraph at lines 503--503
+Overfull \hbox (2.64226pt too wide) in paragraph at lines 559--559
 []|\TU/lmr/m/n/9 Winged|  
  []
 
 
-Overfull \hbox (37.49927pt too wide) in paragraph at lines 504--504
+Overfull \hbox (37.49927pt too wide) in paragraph at lines 560--560
 []|\TU/lmr/m/n/9 PlatformCortex, 
  []
 
 
-Overfull \hbox (24.01726pt too wide) in paragraph at lines 507--507
+Overfull \hbox (24.01726pt too wide) in paragraph at lines 563--563
 []|\TU/lmr/m/n/9 YesComplete|  
  []
 
 
-Overfull \hbox (13.11826pt too wide) in paragraph at lines 508--508
+Overfull \hbox (13.11826pt too wide) in paragraph at lines 564--564
 []|\TU/lmr/m/n/9 YesPartial|  
  []
 
 
-Overfull \hbox (16.53825pt too wide) in paragraph at lines 509--509
+Overfull \hbox (16.53825pt too wide) in paragraph at lines 565--565
 []|\TU/lmr/m/n/9 ScarCount, 
  []
 
-[13]
-Overfull \hbox (22.34326pt too wide) in paragraph at lines 521--521
+[15]
+Overfull \hbox (22.34326pt too wide) in paragraph at lines 577--577
 []|\TU/lmr/m/n/9 ScarPattern, 
  []
 
 
-Overfull \hbox (23.36926pt too wide) in paragraph at lines 522--522
+Overfull \hbox (23.36926pt too wide) in paragraph at lines 578--578
 []|\TU/lmr/m/n/9 Bidirectional|  
  []
 
 
-Overfull \hbox (17.32126pt too wide) in paragraph at lines 523--523
+Overfull \hbox (17.32126pt too wide) in paragraph at lines 579--579
 []|\TU/lmr/m/n/9 Centripetal|  
  []
 
 
-Overfull \hbox (3.01126pt too wide) in paragraph at lines 525--525
+Overfull \hbox (3.01126pt too wide) in paragraph at lines 581--581
 []|\TU/lmr/m/n/9 Crossed|  
  []
 
 
-Overfull \hbox (28.89526pt too wide) in paragraph at lines 528--528
+Overfull \hbox (28.89526pt too wide) in paragraph at lines 584--584
 []|\TU/lmr/m/n/9 Unidirectional|  
  []
 
 
-Overfull \hbox (1.63426pt too wide) in paragraph at lines 529--529
+Overfull \hbox (1.63426pt too wide) in paragraph at lines 585--585
 []|\TU/lmr/m/n/9 Cortex, 
  []
 
-[14] [15]
-Overfull \hbox (25.63725pt too wide) in paragraph at lines 558--558
+[16] [17]
+Overfull \hbox (25.63725pt too wide) in paragraph at lines 614--614
 []|\TU/lmr/m/n/9 CrossSection, 
  []
 
 
-Overfull \hbox (6.81825pt too wide) in paragraph at lines 559--559
+Overfull \hbox (6.81825pt too wide) in paragraph at lines 615--615
 []|\TU/lmr/m/n/9 Irregular|  
  []
 
 
-Overfull \hbox (12.56026pt too wide) in paragraph at lines 560--560
+Overfull \hbox (12.56026pt too wide) in paragraph at lines 616--616
 []|\TU/lmr/m/n/9 Lenticular|  
  []
 
 
-Overfull \hbox (27.60826pt too wide) in paragraph at lines 562--562
+Overfull \hbox (27.60826pt too wide) in paragraph at lines 618--618
 []|\TU/lmr/m/n/9 Quadrangular|  
  []
 
 
-Overfull \hbox (18.86026pt too wide) in paragraph at lines 564--564
+Overfull \hbox (18.86026pt too wide) in paragraph at lines 620--620
 []|\TU/lmr/m/n/9 Trapezoidal|  
  []
 
 
-Overfull \hbox (13.99126pt too wide) in paragraph at lines 565--565
+Overfull \hbox (13.99126pt too wide) in paragraph at lines 621--621
 []|\TU/lmr/m/n/9 Triangular|  
  []
 
 
-Overfull \hbox (22.30725pt too wide) in paragraph at lines 566--566
+Overfull \hbox (22.30725pt too wide) in paragraph at lines 622--622
 []|\TU/lmr/m/n/9 BlankShape, 
  []
 
 
-Overfull \hbox (4.48726pt too wide) in paragraph at lines 567--567
+Overfull \hbox (4.48726pt too wide) in paragraph at lines 623--623
 []|\TU/lmr/m/n/9 Circular|  
  []
 
 
-Overfull \hbox (17.29427pt too wide) in paragraph at lines 568--568
+Overfull \hbox (17.29427pt too wide) in paragraph at lines 624--624
 []|\TU/lmr/m/n/9 Convergent|  
  []
 
 
-Overfull \hbox (10.75125pt too wide) in paragraph at lines 571--571
+Overfull \hbox (10.75125pt too wide) in paragraph at lines 627--627
 []|\TU/lmr/m/n/9 Divergent|  
  []
 
 
-Overfull \hbox (6.81825pt too wide) in paragraph at lines 572--572
+Overfull \hbox (6.81825pt too wide) in paragraph at lines 628--628
 []|\TU/lmr/m/n/9 Irregular|  
  []
 
 
-Overfull \hbox (2.28226pt too wide) in paragraph at lines 574--574
+Overfull \hbox (2.28226pt too wide) in paragraph at lines 630--630
 []|\TU/lmr/m/n/9 Parallel|  
  []
 
 
-Overfull \hbox (0.85126pt too wide) in paragraph at lines 577--577
+Overfull \hbox (0.85126pt too wide) in paragraph at lines 633--633
 []|\TU/lmr/m/n/9 Curved|  
  []
 
 
-Overfull \hbox (6.81825pt too wide) in paragraph at lines 578--578
+Overfull \hbox (6.81825pt too wide) in paragraph at lines 634--634
 []|\TU/lmr/m/n/9 Irregular|  
  []
 
 
-Overfull \hbox (4.20825pt too wide) in paragraph at lines 579--579
+Overfull \hbox (4.20825pt too wide) in paragraph at lines 635--635
 []|\TU/lmr/m/n/9 Straight|  
  []
 
 
-Overfull \hbox (3.20026pt too wide) in paragraph at lines 580--580
+Overfull \hbox (3.20026pt too wide) in paragraph at lines 636--636
 []|\TU/lmr/m/n/9 Twisted|  
  []
 
 
-Overfull \hbox (12.28127pt too wide) in paragraph at lines 582--582
+Overfull \hbox (12.28127pt too wide) in paragraph at lines 638--638
 []|\TU/lmr/m/n/9 BlankTip, 
  []
 
 
-Overfull \hbox (2.02126pt too wide) in paragraph at lines 583--583
+Overfull \hbox (2.02126pt too wide) in paragraph at lines 639--639
 []|\TU/lmr/m/n/9 Feather|  
  []
 
 
-Overfull \hbox (12.98326pt too wide) in paragraph at lines 585--585
+Overfull \hbox (12.98326pt too wide) in paragraph at lines 641--641
 []|\TU/lmr/m/n/9 Overshoot|  
  []
 
 
-Overfull \hbox (2.50726pt too wide) in paragraph at lines 586--586
+Overfull \hbox (2.50726pt too wide) in paragraph at lines 642--642
 []|\TU/lmr/m/n/9 Pointed|  
  []
 
 
-Overfull \hbox (30.79427pt too wide) in paragraph at lines 589--589
+Overfull \hbox (30.79427pt too wide) in paragraph at lines 645--645
 []|\TU/lmr/m/n/9 PlatformType, 
  []
 
 
-Overfull \hbox (5.01826pt too wide) in paragraph at lines 590--590
+Overfull \hbox (5.01826pt too wide) in paragraph at lines 646--646
 []|\TU/lmr/m/n/9 Crushed|  
  []
 
 
-Overfull \hbox (6.39526pt too wide) in paragraph at lines 591--591
+Overfull \hbox (6.39526pt too wide) in paragraph at lines 647--647
 []|\TU/lmr/m/n/9 Dihedral|  
  []
 
 
-Overfull \hbox (2.51625pt too wide) in paragraph at lines 592--592
+Overfull \hbox (2.51625pt too wide) in paragraph at lines 648--648
 []|\TU/lmr/m/n/9 Faceted|  
  []
 
 
-Overfull \hbox (2.64226pt too wide) in paragraph at lines 597--597
+Overfull \hbox (2.64226pt too wide) in paragraph at lines 653--653
 []|\TU/lmr/m/n/9 Winged|  
  []
 
 
-Overfull \hbox (37.49927pt too wide) in paragraph at lines 598--598
+Overfull \hbox (37.49927pt too wide) in paragraph at lines 654--654
 []|\TU/lmr/m/n/9 PlatformCortex, 
  []
 
 
-Overfull \hbox (24.01726pt too wide) in paragraph at lines 601--601
+Overfull \hbox (24.01726pt too wide) in paragraph at lines 657--657
 []|\TU/lmr/m/n/9 YesComplete|  
  []
 
 
-Overfull \hbox (13.11826pt too wide) in paragraph at lines 602--602
+Overfull \hbox (13.11826pt too wide) in paragraph at lines 658--658
 []|\TU/lmr/m/n/9 YesPartial|  
  []
 
 
-Overfull \hbox (16.53825pt too wide) in paragraph at lines 603--603
+Overfull \hbox (16.53825pt too wide) in paragraph at lines 659--659
 []|\TU/lmr/m/n/9 ScarCount, 
  []
 
 
-Overfull \hbox (22.34326pt too wide) in paragraph at lines 614--614
+Overfull \hbox (22.34326pt too wide) in paragraph at lines 670--670
 []|\TU/lmr/m/n/9 ScarPattern, 
  []
 
 
-Overfull \hbox (23.36926pt too wide) in paragraph at lines 615--615
+Overfull \hbox (23.36926pt too wide) in paragraph at lines 671--671
 []|\TU/lmr/m/n/9 Bidirectional|  
  []
 
 
-Overfull \hbox (17.32126pt too wide) in paragraph at lines 616--616
+Overfull \hbox (17.32126pt too wide) in paragraph at lines 672--672
 []|\TU/lmr/m/n/9 Centripetal|  
  []
 
 
-Overfull \hbox (28.89526pt too wide) in paragraph at lines 620--620
+Overfull \hbox (28.89526pt too wide) in paragraph at lines 676--676
 []|\TU/lmr/m/n/9 Unidirectional|  
  []
 
 
-Overfull \hbox (1.63426pt too wide) in paragraph at lines 621--621
+Overfull \hbox (1.63426pt too wide) in paragraph at lines 677--677
 []|\TU/lmr/m/n/9 Cortex, 
  []
 
-[16] [17] [18]
+[18] [19] [20]
 File: supplementary_files/figure-latex/flakeboxplot-1.pdf Graphic file (type pd
 f)
 <use supplementary_files/figure-latex/flakeboxplot-1.pdf>
-[19]
-Overfull \hbox (31.32771pt too wide) in paragraph at lines 703--703
+[21]
+Overfull \hbox (31.32771pt too wide) in paragraph at lines 759--759
 []|\TU/lmr/m/n/9 CrossSection, 
  []
 
 
-Overfull \hbox (12.50871pt too wide) in paragraph at lines 704--704
+Overfull \hbox (12.50871pt too wide) in paragraph at lines 760--760
 []|\TU/lmr/m/n/9 Irregular|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 704--704
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 760--760
 \TU/lmr/m/n/9 (27.3)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 704--704
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 760--760
 \TU/lmr/m/n/9 (33.3)|  
  []
 
 
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 704--704
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 760--760
 \TU/lmr/m/n/9 (100.0)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 704--705
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 760--761
 \TU/lmr/m/n/9 (20.7)|  
  []
 
 
-Overfull \hbox (18.25072pt too wide) in paragraph at lines 705--705
+Overfull \hbox (18.25072pt too wide) in paragraph at lines 761--761
 []|\TU/lmr/m/n/9 Lenticular|  
  []
 
 
-Overfull \hbox (33.29872pt too wide) in paragraph at lines 706--706
+Overfull \hbox (33.29872pt too wide) in paragraph at lines 762--762
 []|\TU/lmr/m/n/9 Quadrangular|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 706--706
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 762--762
 \TU/lmr/m/n/9 (16.7)|  
  []
 
 
-Overfull \hbox (24.55072pt too wide) in paragraph at lines 707--707
+Overfull \hbox (24.55072pt too wide) in paragraph at lines 763--763
 []|\TU/lmr/m/n/9 Trapezoidal|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 707--707
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 763--763
 \TU/lmr/m/n/9 (16.7)|  
  []
 
 
-Overfull \hbox (19.68172pt too wide) in paragraph at lines 709--709
+Overfull \hbox (19.68172pt too wide) in paragraph at lines 765--765
 []|\TU/lmr/m/n/9 Triangular|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 709--709
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 765--765
 \TU/lmr/m/n/9 (59.1)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 709--709
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 765--765
 \TU/lmr/m/n/9 (77.4)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 709--709
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 765--765
 \TU/lmr/m/n/9 (33.3)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 709--710
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 765--766
 \TU/lmr/m/n/9 (63.4)|  
  []
 
 
-Overfull \hbox (27.99771pt too wide) in paragraph at lines 710--710
+Overfull \hbox (27.99771pt too wide) in paragraph at lines 766--766
 []|\TU/lmr/m/n/9 BlankShape, 
  []
 
 
-Overfull \hbox (22.98473pt too wide) in paragraph at lines 711--711
+Overfull \hbox (22.98473pt too wide) in paragraph at lines 767--767
 []|\TU/lmr/m/n/9 Convergent|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 711--711
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 767--767
 \TU/lmr/m/n/9 (25.0)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 711--711
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 767--767
 \TU/lmr/m/n/9 (51.6)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 711--711
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 767--767
 \TU/lmr/m/n/9 (50.0)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 711--712
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 767--768
 \TU/lmr/m/n/9 (36.6)|  
  []
 
 
-Overfull \hbox (3.06772pt too wide) in paragraph at lines 712--712
+Overfull \hbox (3.06772pt too wide) in paragraph at lines 768--768
 []|\TU/lmr/m/n/9 Dejete|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 712--712
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 768--768
 \TU/lmr/m/n/9 (16.7)|  
  []
 
 
-Overfull \hbox (16.44171pt too wide) in paragraph at lines 713--713
+Overfull \hbox (16.44171pt too wide) in paragraph at lines 769--769
 []|\TU/lmr/m/n/9 Divergent|  
  []
 
 
-Overfull \hbox (12.50871pt too wide) in paragraph at lines 715--715
+Overfull \hbox (12.50871pt too wide) in paragraph at lines 771--771
 []|\TU/lmr/m/n/9 Irregular|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 715--715
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 771--771
 \TU/lmr/m/n/9 (12.9)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 715--715
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 771--771
 \TU/lmr/m/n/9 (16.7)|  
  []
 
 
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 715--715
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 771--771
 \TU/lmr/m/n/9 (100.0)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 715--716
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 771--772
 \TU/lmr/m/n/9 (12.2)|  
  []
 
 
-Overfull \hbox (7.97272pt too wide) in paragraph at lines 716--716
+Overfull \hbox (7.97272pt too wide) in paragraph at lines 772--772
 []|\TU/lmr/m/n/9 Parallel|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 716--716
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 772--772
 \TU/lmr/m/n/9 (63.6)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 716--716
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 772--772
 \TU/lmr/m/n/9 (29.0)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 716--716
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 772--772
 \TU/lmr/m/n/9 (16.7)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 716--717
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 772--773
 \TU/lmr/m/n/9 (46.3)|  
  []
 
 
-Overfull \hbox (6.17271pt too wide) in paragraph at lines 717--717
+Overfull \hbox (6.17271pt too wide) in paragraph at lines 773--773
 []|\TU/lmr/m/n/9 Profile, 
  []
 
 
-Overfull \hbox (6.54172pt too wide) in paragraph at lines 718--718
+Overfull \hbox (6.54172pt too wide) in paragraph at lines 774--774
 []|\TU/lmr/m/n/9 Curved|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 718--718
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 774--774
 \TU/lmr/m/n/9 (22.7)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 718--718
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 774--774
 \TU/lmr/m/n/9 (38.7)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 718--718
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 774--774
 \TU/lmr/m/n/9 (16.7)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 718--719
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 774--775
 \TU/lmr/m/n/9 (28.0)|  
  []
 
 
-Overfull \hbox (12.50871pt too wide) in paragraph at lines 719--719
+Overfull \hbox (12.50871pt too wide) in paragraph at lines 775--775
 []|\TU/lmr/m/n/9 Irregular|  
  []
 
 
-Overfull \hbox (9.89871pt too wide) in paragraph at lines 721--721
+Overfull \hbox (9.89871pt too wide) in paragraph at lines 777--777
 []|\TU/lmr/m/n/9 Straight|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 721--721
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 777--777
 \TU/lmr/m/n/9 (72.7)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 721--721
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 777--777
 \TU/lmr/m/n/9 (48.4)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 721--721
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 777--777
 \TU/lmr/m/n/9 (66.7)|  
  []
 
 
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 721--721
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 777--777
 \TU/lmr/m/n/9 (100.0)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 721--722
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 777--778
 \TU/lmr/m/n/9 (63.4)|  
  []
 
 
-Overfull \hbox (8.89072pt too wide) in paragraph at lines 722--722
+Overfull \hbox (8.89072pt too wide) in paragraph at lines 778--778
 []|\TU/lmr/m/n/9 Twisted|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 722--722
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 778--778
 \TU/lmr/m/n/9 (16.7)|  
  []
 
 
-Overfull \hbox (17.97173pt too wide) in paragraph at lines 723--723
+Overfull \hbox (17.97173pt too wide) in paragraph at lines 779--779
 []|\TU/lmr/m/n/9 BlankTip, 
  []
 
 
-Overfull \hbox (7.71172pt too wide) in paragraph at lines 724--724
+Overfull \hbox (7.71172pt too wide) in paragraph at lines 780--780
 []|\TU/lmr/m/n/9 Feather|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 724--724
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 780--780
 \TU/lmr/m/n/9 (36.4)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 724--724
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 780--780
 \TU/lmr/m/n/9 (16.1)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 724--724
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 780--780
 \TU/lmr/m/n/9 (33.3)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 724--725
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 780--781
 \TU/lmr/m/n/9 (28.0)|  
  []
 
 
-Overfull \hbox (0.62872pt too wide) in paragraph at lines 725--725
+Overfull \hbox (0.62872pt too wide) in paragraph at lines 781--781
 []|\TU/lmr/m/n/9 Hinge|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 725--725
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 781--781
 \TU/lmr/m/n/9 (29.5)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 725--725
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 781--781
 \TU/lmr/m/n/9 (22.6)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 725--725
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 781--781
 \TU/lmr/m/n/9 (66.7)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 725--726
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 781--782
 \TU/lmr/m/n/9 (29.3)|  
  []
 
 
-Overfull \hbox (8.19772pt too wide) in paragraph at lines 727--727
+Overfull \hbox (8.19772pt too wide) in paragraph at lines 783--783
 []|\TU/lmr/m/n/9 Pointed|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 727--727
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 783--783
 \TU/lmr/m/n/9 (25.0)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 727--727
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 783--783
 \TU/lmr/m/n/9 (35.5)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 727--728
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 783--784
 \TU/lmr/m/n/9 (26.8)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 728--728
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 784--784
 \TU/lmr/m/n/9 (25.8)|  
  []
 
 
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 728--728
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 784--784
 \TU/lmr/m/n/9 (100.0)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 728--729
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 784--785
 \TU/lmr/m/n/9 (15.9)|  
  []
 
 
-Overfull \hbox (36.48473pt too wide) in paragraph at lines 729--729
+Overfull \hbox (36.48473pt too wide) in paragraph at lines 785--785
 []|\TU/lmr/m/n/9 PlatformType, 
  []
 
 
-Overfull \hbox (10.70872pt too wide) in paragraph at lines 730--730
+Overfull \hbox (10.70872pt too wide) in paragraph at lines 786--786
 []|\TU/lmr/m/n/9 Crushed|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 730--730
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 786--786
 \TU/lmr/m/n/9 (40.9)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 730--730
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 786--786
 \TU/lmr/m/n/9 (16.1)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 730--730
-\TU/lmr/m/n/9 (16.7)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 730--731
-\TU/lmr/m/n/9 (29.3)|  
- []
-
-
-Overfull \hbox (12.08572pt too wide) in paragraph at lines 731--731
-[]|\TU/lmr/m/n/9 Dihedral|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 731--731
-\TU/lmr/m/n/9 (12.9)|  
- []
-
-
-Overfull \hbox (3.08572pt too wide) in paragraph at lines 733--733
-[]|\TU/lmr/m/n/9 Linear|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 734--734
-\TU/lmr/m/n/9 (45.5)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 734--734
-\TU/lmr/m/n/9 (61.3)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 734--734
-\TU/lmr/m/n/9 (83.3)|  
- []
-
-
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 734--734
-\TU/lmr/m/n/9 (100.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 734--735
-\TU/lmr/m/n/9 (54.9)|  
- []
-
-
-Overfull \hbox (22.86772pt too wide) in paragraph at lines 735--735
-[]|\TU/lmr/m/n/9 Punctiform|  
- []
-
-
-Overfull \hbox (8.33272pt too wide) in paragraph at lines 736--736
-[]|\TU/lmr/m/n/9 Winged|  
- []
-
-
-Overfull \hbox (43.18973pt too wide) in paragraph at lines 737--737
-[]|\TU/lmr/m/n/9 PlatformCortex, 
- []
-
-
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 739--739
-\TU/lmr/m/n/9 (100.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 739--739
-\TU/lmr/m/n/9 (87.1)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 739--739
-\TU/lmr/m/n/9 (83.3)|  
- []
-
-
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 739--739
-\TU/lmr/m/n/9 (100.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 739--740
-\TU/lmr/m/n/9 (93.9)|  
- []
-
-
-Overfull \hbox (29.70772pt too wide) in paragraph at lines 740--740
-[]|\TU/lmr/m/n/9 YesComplete|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 740--740
-\TU/lmr/m/n/9 (16.7)|  
- []
-
-
-Overfull \hbox (18.80872pt too wide) in paragraph at lines 741--741
-[]|\TU/lmr/m/n/9 YesPartial|  
- []
-
-
-Overfull \hbox (22.22871pt too wide) in paragraph at lines 742--742
-[]|\TU/lmr/m/n/9 ScarCount, 
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 743--743
-\TU/lmr/m/n/9 (15.9)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 743--743
-\TU/lmr/m/n/9 (50.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 743--744
-\TU/lmr/m/n/9 (15.9)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 745--745
-\TU/lmr/m/n/9 (59.1)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 745--745
-\TU/lmr/m/n/9 (38.7)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 745--746
-\TU/lmr/m/n/9 (46.3)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 746--746
-\TU/lmr/m/n/9 (22.7)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 746--746
-\TU/lmr/m/n/9 (35.5)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 746--746
-\TU/lmr/m/n/9 (33.3)|  
- []
-
-
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 746--746
-\TU/lmr/m/n/9 (100.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 746--747
-\TU/lmr/m/n/9 (29.3)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 747--747
-\TU/lmr/m/n/9 (12.9)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 747--747
-\TU/lmr/m/n/9 (16.7)|  
- []
-
-
-Overfull \hbox (28.03372pt too wide) in paragraph at lines 749--749
-[]|\TU/lmr/m/n/9 ScarPattern, 
- []
-
-
-Overfull \hbox (29.05972pt too wide) in paragraph at lines 751--751
-[]|\TU/lmr/m/n/9 Bidirectional|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 751--751
-\TU/lmr/m/n/9 (12.9)|  
- []
-
-
-Overfull \hbox (34.58572pt too wide) in paragraph at lines 752--752
-[]|\TU/lmr/m/n/9 Unidirectional|  
- []
-
-
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 752--752
-\TU/lmr/m/n/9 (100.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 752--752
-\TU/lmr/m/n/9 (87.1)|  
- []
-
-
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 752--752
-\TU/lmr/m/n/9 (100.0)|  
- []
-
-
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 752--752
-\TU/lmr/m/n/9 (100.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 752--753
-\TU/lmr/m/n/9 (95.1)|  
- []
-
-
-Overfull \hbox (7.32472pt too wide) in paragraph at lines 753--753
-[]|\TU/lmr/m/n/9 Cortex, 
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 754--754
-\TU/lmr/m/n/9 (95.5)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 754--754
-\TU/lmr/m/n/9 (74.2)|  
- []
-
-
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 754--754
-\TU/lmr/m/n/9 (100.0)|  
- []
-
-
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 754--754
-\TU/lmr/m/n/9 (100.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 754--755
-\TU/lmr/m/n/9 (87.8)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 757--757
-\TU/lmr/m/n/9 (19.4)|  
- []
-
-[20] [21]
-Overfull \hbox (31.32771pt too wide) in paragraph at lines 780--780
-[]|\TU/lmr/m/n/9 CrossSection, 
- []
-
-
-Overfull \hbox (12.50871pt too wide) in paragraph at lines 781--781
-[]|\TU/lmr/m/n/9 Irregular|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 781--781
-\TU/lmr/m/n/9 (27.5)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 781--781
-\TU/lmr/m/n/9 (25.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 781--781
-\TU/lmr/m/n/9 (25.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 781--782
-\TU/lmr/m/n/9 (16.1)|  
- []
-
-
-Overfull \hbox (18.25072pt too wide) in paragraph at lines 782--782
-[]|\TU/lmr/m/n/9 Lenticular|  
- []
-
-
-Overfull \hbox (0.89871pt too wide) in paragraph at lines 783--783
-[]|\TU/lmr/m/n/9 Other|  
- []
-
-
-Overfull \hbox (33.29872pt too wide) in paragraph at lines 784--784
-[]|\TU/lmr/m/n/9 Quadrangular|  
- []
-
-
-Overfull \hbox (24.55072pt too wide) in paragraph at lines 786--786
-[]|\TU/lmr/m/n/9 Trapezoidal|  
- []
-
-
 Overfull \hbox (0.88972pt too wide) in paragraph at lines 786--786
-\TU/lmr/m/n/9 (13.3)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 786--786
-\TU/lmr/m/n/9 (50.0)|  
+\TU/lmr/m/n/9 (16.7)|  
  []
 
 
 Overfull \hbox (0.88972pt too wide) in paragraph at lines 786--787
-\TU/lmr/m/n/9 (10.2)|  
+\TU/lmr/m/n/9 (29.3)|  
  []
 
 
-Overfull \hbox (19.68172pt too wide) in paragraph at lines 787--787
-[]|\TU/lmr/m/n/9 Triangular|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 787--787
-\TU/lmr/m/n/9 (56.9)|  
+Overfull \hbox (12.08572pt too wide) in paragraph at lines 787--787
+[]|\TU/lmr/m/n/9 Dihedral|  
  []
 
 
 Overfull \hbox (0.88972pt too wide) in paragraph at lines 787--787
-\TU/lmr/m/n/9 (72.0)|  
+\TU/lmr/m/n/9 (12.9)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 787--787
-\TU/lmr/m/n/9 (75.0)|  
+Overfull \hbox (3.08572pt too wide) in paragraph at lines 789--789
+[]|\TU/lmr/m/n/9 Linear|  
  []
 
 
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 787--787
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 790--790
+\TU/lmr/m/n/9 (45.5)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 790--790
+\TU/lmr/m/n/9 (61.3)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 790--790
+\TU/lmr/m/n/9 (83.3)|  
+ []
+
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 790--790
 \TU/lmr/m/n/9 (100.0)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 787--787
-\TU/lmr/m/n/9 (50.0)|  
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 790--791
+\TU/lmr/m/n/9 (54.9)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 787--787
-\TU/lmr/m/n/9 (75.0)|  
+Overfull \hbox (22.86772pt too wide) in paragraph at lines 791--791
+[]|\TU/lmr/m/n/9 Punctiform|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 787--788
-\TU/lmr/m/n/9 (66.4)|  
+Overfull \hbox (8.33272pt too wide) in paragraph at lines 792--792
+[]|\TU/lmr/m/n/9 Winged|  
  []
 
 
-Overfull \hbox (27.99771pt too wide) in paragraph at lines 788--788
-[]|\TU/lmr/m/n/9 BlankShape, 
+Overfull \hbox (43.18973pt too wide) in paragraph at lines 793--793
+[]|\TU/lmr/m/n/9 PlatformCortex, 
  []
 
 
-Overfull \hbox (22.98473pt too wide) in paragraph at lines 789--789
-[]|\TU/lmr/m/n/9 Convergent|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 789--789
-\TU/lmr/m/n/9 (27.5)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 789--789
-\TU/lmr/m/n/9 (37.3)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 789--789
-\TU/lmr/m/n/9 (25.0)|  
- []
-
-
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 789--789
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 795--795
 \TU/lmr/m/n/9 (100.0)|  
  []
 
 
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 789--789
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 795--795
+\TU/lmr/m/n/9 (87.1)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 795--795
+\TU/lmr/m/n/9 (83.3)|  
+ []
+
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 795--795
 \TU/lmr/m/n/9 (100.0)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 789--789
-\TU/lmr/m/n/9 (25.0)|  
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 795--796
+\TU/lmr/m/n/9 (93.9)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 789--790
-\TU/lmr/m/n/9 (34.3)|  
- []
-
-
-Overfull \hbox (3.06772pt too wide) in paragraph at lines 790--790
-[]|\TU/lmr/m/n/9 Dejete|  
- []
-
-
-Overfull \hbox (16.44171pt too wide) in paragraph at lines 792--792
-[]|\TU/lmr/m/n/9 Divergent|  
- []
-
-
-Overfull \hbox (12.50871pt too wide) in paragraph at lines 793--793
-[]|\TU/lmr/m/n/9 Irregular|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 793--793
-\TU/lmr/m/n/9 (13.3)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 793--793
-\TU/lmr/m/n/9 (75.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 793--794
-\TU/lmr/m/n/9 (10.9)|  
- []
-
-
-Overfull \hbox (7.97272pt too wide) in paragraph at lines 794--794
-[]|\TU/lmr/m/n/9 Parallel|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 794--794
-\TU/lmr/m/n/9 (58.8)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 794--794
-\TU/lmr/m/n/9 (41.3)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 794--794
-\TU/lmr/m/n/9 (75.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 794--795
-\TU/lmr/m/n/9 (46.7)|  
- []
-
-
-Overfull \hbox (6.17271pt too wide) in paragraph at lines 795--795
-[]|\TU/lmr/m/n/9 Profile, 
- []
-
-
-Overfull \hbox (6.54172pt too wide) in paragraph at lines 796--796
-[]|\TU/lmr/m/n/9 Curved|  
+Overfull \hbox (29.70772pt too wide) in paragraph at lines 796--796
+[]|\TU/lmr/m/n/9 YesComplete|  
  []
 
 
 Overfull \hbox (0.88972pt too wide) in paragraph at lines 796--796
-\TU/lmr/m/n/9 (11.8)|  
+\TU/lmr/m/n/9 (16.7)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 796--796
-\TU/lmr/m/n/9 (34.7)|  
+Overfull \hbox (18.80872pt too wide) in paragraph at lines 797--797
+[]|\TU/lmr/m/n/9 YesPartial|  
  []
 
 
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 796--796
-\TU/lmr/m/n/9 (100.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 796--797
-\TU/lmr/m/n/9 (24.1)|  
- []
-
-
-Overfull \hbox (12.50871pt too wide) in paragraph at lines 798--798
-[]|\TU/lmr/m/n/9 Irregular|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 798--798
-\TU/lmr/m/n/9 (50.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 798--798
-\TU/lmr/m/n/9 (50.0)|  
- []
-
-
-Overfull \hbox (9.89871pt too wide) in paragraph at lines 799--799
-[]|\TU/lmr/m/n/9 Straight|  
+Overfull \hbox (22.22871pt too wide) in paragraph at lines 798--798
+[]|\TU/lmr/m/n/9 ScarCount, 
  []
 
 
 Overfull \hbox (0.88972pt too wide) in paragraph at lines 799--799
-\TU/lmr/m/n/9 (76.5)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 799--799
-\TU/lmr/m/n/9 (46.7)|  
- []
-
-
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 799--799
-\TU/lmr/m/n/9 (100.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 799--799
-\TU/lmr/m/n/9 (50.0)|  
+\TU/lmr/m/n/9 (15.9)|  
  []
 
 
@@ -2479,545 +2067,960 @@ Overfull \hbox (0.88972pt too wide) in paragraph at lines 799--799
 
 
 Overfull \hbox (0.88972pt too wide) in paragraph at lines 799--800
+\TU/lmr/m/n/9 (15.9)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 801--801
 \TU/lmr/m/n/9 (59.1)|  
  []
 
 
-Overfull \hbox (8.89072pt too wide) in paragraph at lines 800--800
-[]|\TU/lmr/m/n/9 Twisted|  
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 801--801
+\TU/lmr/m/n/9 (38.7)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 800--800
-\TU/lmr/m/n/9 (12.0)|  
- []
-
-
-Overfull \hbox (17.97173pt too wide) in paragraph at lines 801--801
-[]|\TU/lmr/m/n/9 BlankTip, 
- []
-
-
-Overfull \hbox (7.71172pt too wide) in paragraph at lines 802--802
-[]|\TU/lmr/m/n/9 Feather|  
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 801--802
+\TU/lmr/m/n/9 (46.3)|  
  []
 
 
 Overfull \hbox (0.88972pt too wide) in paragraph at lines 802--802
-\TU/lmr/m/n/9 (21.6)|  
+\TU/lmr/m/n/9 (22.7)|  
  []
 
 
 Overfull \hbox (0.88972pt too wide) in paragraph at lines 802--802
-\TU/lmr/m/n/9 (36.0)|  
+\TU/lmr/m/n/9 (35.5)|  
  []
 
 
 Overfull \hbox (0.88972pt too wide) in paragraph at lines 802--802
-\TU/lmr/m/n/9 (25.0)|  
+\TU/lmr/m/n/9 (33.3)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 802--802
-\TU/lmr/m/n/9 (50.0)|  
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 802--802
+\TU/lmr/m/n/9 (100.0)|  
  []
 
 
 Overfull \hbox (0.88972pt too wide) in paragraph at lines 802--803
-\TU/lmr/m/n/9 (29.9)|  
+\TU/lmr/m/n/9 (29.3)|  
  []
 
 
-Overfull \hbox (0.62872pt too wide) in paragraph at lines 804--804
-[]|\TU/lmr/m/n/9 Hinge|  
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 803--803
+\TU/lmr/m/n/9 (12.9)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 804--804
-\TU/lmr/m/n/9 (47.1)|  
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 803--803
+\TU/lmr/m/n/9 (16.7)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 804--804
-\TU/lmr/m/n/9 (22.7)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 804--804
-\TU/lmr/m/n/9 (25.0)|  
- []
-
-
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 804--804
-\TU/lmr/m/n/9 (100.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 804--805
-\TU/lmr/m/n/9 (31.4)|  
- []
-
-
-Overfull \hbox (18.67372pt too wide) in paragraph at lines 805--805
-[]|\TU/lmr/m/n/9 Overshoot|  
- []
-
-
-Overfull \hbox (8.19772pt too wide) in paragraph at lines 806--806
-[]|\TU/lmr/m/n/9 Pointed|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 806--806
-\TU/lmr/m/n/9 (27.5)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 806--806
-\TU/lmr/m/n/9 (22.7)|  
- []
-
-
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 806--806
-\TU/lmr/m/n/9 (100.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 806--806
-\TU/lmr/m/n/9 (50.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 806--807
-\TU/lmr/m/n/9 (25.5)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 807--807
-\TU/lmr/m/n/9 (13.3)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 807--807
-\TU/lmr/m/n/9 (50.0)|  
- []
-
-
-Overfull \hbox (36.48473pt too wide) in paragraph at lines 808--808
-[]|\TU/lmr/m/n/9 PlatformType, 
- []
-
-
-Overfull \hbox (10.70872pt too wide) in paragraph at lines 810--810
-[]|\TU/lmr/m/n/9 Crushed|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 810--810
-\TU/lmr/m/n/9 (47.1)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 810--810
-\TU/lmr/m/n/9 (14.7)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 810--810
-\TU/lmr/m/n/9 (50.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 810--811
-\TU/lmr/m/n/9 (27.0)|  
- []
-
-
-Overfull \hbox (12.08572pt too wide) in paragraph at lines 811--811
-[]|\TU/lmr/m/n/9 Dihedral|  
- []
-
-
-Overfull \hbox (8.20671pt too wide) in paragraph at lines 812--812
-[]|\TU/lmr/m/n/9 Faceted|  
- []
-
-
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 812--812
-\TU/lmr/m/n/9 (100.0)|  
- []
-
-
-Overfull \hbox (3.08572pt too wide) in paragraph at lines 813--813
-[]|\TU/lmr/m/n/9 Linear|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 814--814
-\TU/lmr/m/n/9 (47.1)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 814--814
-\TU/lmr/m/n/9 (69.3)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 814--814
-\TU/lmr/m/n/9 (75.0)|  
- []
-
-
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 814--814
-\TU/lmr/m/n/9 (100.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 814--814
-\TU/lmr/m/n/9 (50.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 814--815
-\TU/lmr/m/n/9 (60.6)|  
- []
-
-
-Overfull \hbox (8.33272pt too wide) in paragraph at lines 816--816
-[]|\TU/lmr/m/n/9 Winged|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 816--816
-\TU/lmr/m/n/9 (25.0)|  
- []
-
-
-Overfull \hbox (43.18973pt too wide) in paragraph at lines 817--817
-[]|\TU/lmr/m/n/9 PlatformCortex, 
- []
-
-
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 818--818
-\TU/lmr/m/n/9 (100.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 818--818
-\TU/lmr/m/n/9 (86.7)|  
- []
-
-
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 818--818
-\TU/lmr/m/n/9 (100.0)|  
- []
-
-
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 818--818
-\TU/lmr/m/n/9 (100.0)|  
- []
-
-
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 818--818
-\TU/lmr/m/n/9 (100.0)|  
- []
-
-
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 818--818
-\TU/lmr/m/n/9 (100.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 818--819
-\TU/lmr/m/n/9 (92.7)|  
- []
-
-
-Overfull \hbox (29.70772pt too wide) in paragraph at lines 819--819
-[]|\TU/lmr/m/n/9 YesComplete|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 819--819
-\TU/lmr/m/n/9 (13.3)|  
- []
-
-
-Overfull \hbox (22.22871pt too wide) in paragraph at lines 820--820
-[]|\TU/lmr/m/n/9 ScarCount, 
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 823--823
-\TU/lmr/m/n/9 (11.8)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 823--823
-\TU/lmr/m/n/9 (25.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 824--824
-\TU/lmr/m/n/9 (68.6)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 824--824
-\TU/lmr/m/n/9 (45.3)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 824--824
-\TU/lmr/m/n/9 (50.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 824--824
-\TU/lmr/m/n/9 (50.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 824--825
-\TU/lmr/m/n/9 (53.3)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 825--825
-\TU/lmr/m/n/9 (15.7)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 825--825
-\TU/lmr/m/n/9 (42.7)|  
- []
-
-
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 825--825
-\TU/lmr/m/n/9 (100.0)|  
- []
-
-
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 825--825
-\TU/lmr/m/n/9 (100.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 825--825
-\TU/lmr/m/n/9 (50.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 825--826
-\TU/lmr/m/n/9 (32.8)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 829--829
-\TU/lmr/m/n/9 (25.0)|  
- []
-
-
-Overfull \hbox (28.03372pt too wide) in paragraph at lines 830--830
+Overfull \hbox (28.03372pt too wide) in paragraph at lines 805--805
 []|\TU/lmr/m/n/9 ScarPattern, 
  []
 
 
-Overfull \hbox (29.05972pt too wide) in paragraph at lines 831--831
+Overfull \hbox (29.05972pt too wide) in paragraph at lines 807--807
 []|\TU/lmr/m/n/9 Bidirectional|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 831--831
-\TU/lmr/m/n/9 (25.0)|  
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 807--807
+\TU/lmr/m/n/9 (12.9)|  
  []
 
 
-Overfull \hbox (34.58572pt too wide) in paragraph at lines 834--834
+Overfull \hbox (34.58572pt too wide) in paragraph at lines 808--808
 []|\TU/lmr/m/n/9 Unidirectional|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 834--834
-\TU/lmr/m/n/9 (98.0)|  
- []
-
-
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 834--834
-\TU/lmr/m/n/9 (94.7)|  
- []
-
-
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 834--834
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 808--808
 \TU/lmr/m/n/9 (100.0)|  
  []
 
 
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 834--834
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 808--808
+\TU/lmr/m/n/9 (87.1)|  
+ []
+
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 808--808
 \TU/lmr/m/n/9 (100.0)|  
  []
 
 
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 834--834
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 808--808
 \TU/lmr/m/n/9 (100.0)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 834--834
-\TU/lmr/m/n/9 (75.0)|  
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 808--809
+\TU/lmr/m/n/9 (95.1)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 834--835
-\TU/lmr/m/n/9 (95.6)|  
- []
-
-
-Overfull \hbox (7.32472pt too wide) in paragraph at lines 835--835
+Overfull \hbox (7.32472pt too wide) in paragraph at lines 809--809
 []|\TU/lmr/m/n/9 Cortex, 
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 836--836
-\TU/lmr/m/n/9 (94.1)|  
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 810--810
+\TU/lmr/m/n/9 (95.5)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 836--836
-\TU/lmr/m/n/9 (72.0)|  
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 810--810
+\TU/lmr/m/n/9 (74.2)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 836--836
-\TU/lmr/m/n/9 (75.0)|  
- []
-
-
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 836--836
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 810--810
 \TU/lmr/m/n/9 (100.0)|  
  []
 
 
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 836--836
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 810--810
 \TU/lmr/m/n/9 (100.0)|  
  []
 
 
-Overfull \hbox (5.51572pt too wide) in paragraph at lines 836--836
-\TU/lmr/m/n/9 (100.0)|  
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 810--811
+\TU/lmr/m/n/9 (87.8)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 836--837
-\TU/lmr/m/n/9 (81.8)|  
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 813--813
+\TU/lmr/m/n/9 (19.4)|  
+ []
+
+[22] [23]
+Overfull \hbox (31.32771pt too wide) in paragraph at lines 836--836
+[]|\TU/lmr/m/n/9 CrossSection, 
+ []
+
+
+Overfull \hbox (12.50871pt too wide) in paragraph at lines 837--837
+[]|\TU/lmr/m/n/9 Irregular|  
  []
 
 
 Overfull \hbox (0.88972pt too wide) in paragraph at lines 837--837
+\TU/lmr/m/n/9 (27.5)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 837--837
+\TU/lmr/m/n/9 (25.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 837--837
+\TU/lmr/m/n/9 (25.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 837--838
+\TU/lmr/m/n/9 (16.1)|  
+ []
+
+
+Overfull \hbox (18.25072pt too wide) in paragraph at lines 838--838
+[]|\TU/lmr/m/n/9 Lenticular|  
+ []
+
+
+Overfull \hbox (0.89871pt too wide) in paragraph at lines 839--839
+[]|\TU/lmr/m/n/9 Other|  
+ []
+
+
+Overfull \hbox (33.29872pt too wide) in paragraph at lines 840--840
+[]|\TU/lmr/m/n/9 Quadrangular|  
+ []
+
+
+Overfull \hbox (24.55072pt too wide) in paragraph at lines 842--842
+[]|\TU/lmr/m/n/9 Trapezoidal|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 842--842
 \TU/lmr/m/n/9 (13.3)|  
  []
 
 
-Overfull \hbox (0.88972pt too wide) in paragraph at lines 840--840
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 842--842
+\TU/lmr/m/n/9 (50.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 842--843
+\TU/lmr/m/n/9 (10.2)|  
+ []
+
+
+Overfull \hbox (19.68172pt too wide) in paragraph at lines 843--843
+[]|\TU/lmr/m/n/9 Triangular|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 843--843
+\TU/lmr/m/n/9 (56.9)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 843--843
+\TU/lmr/m/n/9 (72.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 843--843
+\TU/lmr/m/n/9 (75.0)|  
+ []
+
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 843--843
+\TU/lmr/m/n/9 (100.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 843--843
+\TU/lmr/m/n/9 (50.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 843--843
+\TU/lmr/m/n/9 (75.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 843--844
+\TU/lmr/m/n/9 (66.4)|  
+ []
+
+
+Overfull \hbox (27.99771pt too wide) in paragraph at lines 844--844
+[]|\TU/lmr/m/n/9 BlankShape, 
+ []
+
+
+Overfull \hbox (22.98473pt too wide) in paragraph at lines 845--845
+[]|\TU/lmr/m/n/9 Convergent|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 845--845
+\TU/lmr/m/n/9 (27.5)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 845--845
+\TU/lmr/m/n/9 (37.3)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 845--845
 \TU/lmr/m/n/9 (25.0)|  
  []
 
-[22] [23] [24] [25]
-Overfull \hbox (2.13725pt too wide) in paragraph at lines 912--912
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 845--845
+\TU/lmr/m/n/9 (100.0)|  
+ []
+
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 845--845
+\TU/lmr/m/n/9 (100.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 845--845
+\TU/lmr/m/n/9 (25.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 845--846
+\TU/lmr/m/n/9 (34.3)|  
+ []
+
+
+Overfull \hbox (3.06772pt too wide) in paragraph at lines 846--846
+[]|\TU/lmr/m/n/9 Dejete|  
+ []
+
+
+Overfull \hbox (16.44171pt too wide) in paragraph at lines 848--848
+[]|\TU/lmr/m/n/9 Divergent|  
+ []
+
+
+Overfull \hbox (12.50871pt too wide) in paragraph at lines 849--849
+[]|\TU/lmr/m/n/9 Irregular|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 849--849
+\TU/lmr/m/n/9 (13.3)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 849--849
+\TU/lmr/m/n/9 (75.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 849--850
+\TU/lmr/m/n/9 (10.9)|  
+ []
+
+
+Overfull \hbox (7.97272pt too wide) in paragraph at lines 850--850
+[]|\TU/lmr/m/n/9 Parallel|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 850--850
+\TU/lmr/m/n/9 (58.8)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 850--850
+\TU/lmr/m/n/9 (41.3)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 850--850
+\TU/lmr/m/n/9 (75.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 850--851
+\TU/lmr/m/n/9 (46.7)|  
+ []
+
+
+Overfull \hbox (6.17271pt too wide) in paragraph at lines 851--851
+[]|\TU/lmr/m/n/9 Profile, 
+ []
+
+
+Overfull \hbox (6.54172pt too wide) in paragraph at lines 852--852
+[]|\TU/lmr/m/n/9 Curved|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 852--852
+\TU/lmr/m/n/9 (11.8)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 852--852
+\TU/lmr/m/n/9 (34.7)|  
+ []
+
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 852--852
+\TU/lmr/m/n/9 (100.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 852--853
+\TU/lmr/m/n/9 (24.1)|  
+ []
+
+
+Overfull \hbox (12.50871pt too wide) in paragraph at lines 854--854
+[]|\TU/lmr/m/n/9 Irregular|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 854--854
+\TU/lmr/m/n/9 (50.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 854--854
+\TU/lmr/m/n/9 (50.0)|  
+ []
+
+
+Overfull \hbox (9.89871pt too wide) in paragraph at lines 855--855
+[]|\TU/lmr/m/n/9 Straight|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 855--855
+\TU/lmr/m/n/9 (76.5)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 855--855
+\TU/lmr/m/n/9 (46.7)|  
+ []
+
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 855--855
+\TU/lmr/m/n/9 (100.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 855--855
+\TU/lmr/m/n/9 (50.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 855--855
+\TU/lmr/m/n/9 (50.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 855--856
+\TU/lmr/m/n/9 (59.1)|  
+ []
+
+
+Overfull \hbox (8.89072pt too wide) in paragraph at lines 856--856
+[]|\TU/lmr/m/n/9 Twisted|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 856--856
+\TU/lmr/m/n/9 (12.0)|  
+ []
+
+
+Overfull \hbox (17.97173pt too wide) in paragraph at lines 857--857
+[]|\TU/lmr/m/n/9 BlankTip, 
+ []
+
+
+Overfull \hbox (7.71172pt too wide) in paragraph at lines 858--858
+[]|\TU/lmr/m/n/9 Feather|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 858--858
+\TU/lmr/m/n/9 (21.6)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 858--858
+\TU/lmr/m/n/9 (36.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 858--858
+\TU/lmr/m/n/9 (25.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 858--858
+\TU/lmr/m/n/9 (50.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 858--859
+\TU/lmr/m/n/9 (29.9)|  
+ []
+
+
+Overfull \hbox (0.62872pt too wide) in paragraph at lines 860--860
+[]|\TU/lmr/m/n/9 Hinge|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 860--860
+\TU/lmr/m/n/9 (47.1)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 860--860
+\TU/lmr/m/n/9 (22.7)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 860--860
+\TU/lmr/m/n/9 (25.0)|  
+ []
+
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 860--860
+\TU/lmr/m/n/9 (100.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 860--861
+\TU/lmr/m/n/9 (31.4)|  
+ []
+
+
+Overfull \hbox (18.67372pt too wide) in paragraph at lines 861--861
+[]|\TU/lmr/m/n/9 Overshoot|  
+ []
+
+
+Overfull \hbox (8.19772pt too wide) in paragraph at lines 862--862
+[]|\TU/lmr/m/n/9 Pointed|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 862--862
+\TU/lmr/m/n/9 (27.5)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 862--862
+\TU/lmr/m/n/9 (22.7)|  
+ []
+
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 862--862
+\TU/lmr/m/n/9 (100.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 862--862
+\TU/lmr/m/n/9 (50.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 862--863
+\TU/lmr/m/n/9 (25.5)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 863--863
+\TU/lmr/m/n/9 (13.3)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 863--863
+\TU/lmr/m/n/9 (50.0)|  
+ []
+
+
+Overfull \hbox (36.48473pt too wide) in paragraph at lines 864--864
+[]|\TU/lmr/m/n/9 PlatformType, 
+ []
+
+
+Overfull \hbox (10.70872pt too wide) in paragraph at lines 866--866
+[]|\TU/lmr/m/n/9 Crushed|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 866--866
+\TU/lmr/m/n/9 (47.1)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 866--866
+\TU/lmr/m/n/9 (14.7)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 866--866
+\TU/lmr/m/n/9 (50.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 866--867
+\TU/lmr/m/n/9 (27.0)|  
+ []
+
+
+Overfull \hbox (12.08572pt too wide) in paragraph at lines 867--867
+[]|\TU/lmr/m/n/9 Dihedral|  
+ []
+
+
+Overfull \hbox (8.20671pt too wide) in paragraph at lines 868--868
+[]|\TU/lmr/m/n/9 Faceted|  
+ []
+
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 868--868
+\TU/lmr/m/n/9 (100.0)|  
+ []
+
+
+Overfull \hbox (3.08572pt too wide) in paragraph at lines 869--869
+[]|\TU/lmr/m/n/9 Linear|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 870--870
+\TU/lmr/m/n/9 (47.1)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 870--870
+\TU/lmr/m/n/9 (69.3)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 870--870
+\TU/lmr/m/n/9 (75.0)|  
+ []
+
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 870--870
+\TU/lmr/m/n/9 (100.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 870--870
+\TU/lmr/m/n/9 (50.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 870--871
+\TU/lmr/m/n/9 (60.6)|  
+ []
+
+
+Overfull \hbox (8.33272pt too wide) in paragraph at lines 872--872
+[]|\TU/lmr/m/n/9 Winged|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 872--872
+\TU/lmr/m/n/9 (25.0)|  
+ []
+
+
+Overfull \hbox (43.18973pt too wide) in paragraph at lines 873--873
+[]|\TU/lmr/m/n/9 PlatformCortex, 
+ []
+
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 874--874
+\TU/lmr/m/n/9 (100.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 874--874
+\TU/lmr/m/n/9 (86.7)|  
+ []
+
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 874--874
+\TU/lmr/m/n/9 (100.0)|  
+ []
+
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 874--874
+\TU/lmr/m/n/9 (100.0)|  
+ []
+
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 874--874
+\TU/lmr/m/n/9 (100.0)|  
+ []
+
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 874--874
+\TU/lmr/m/n/9 (100.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 874--875
+\TU/lmr/m/n/9 (92.7)|  
+ []
+
+
+Overfull \hbox (29.70772pt too wide) in paragraph at lines 875--875
+[]|\TU/lmr/m/n/9 YesComplete|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 875--875
+\TU/lmr/m/n/9 (13.3)|  
+ []
+
+
+Overfull \hbox (22.22871pt too wide) in paragraph at lines 876--876
+[]|\TU/lmr/m/n/9 ScarCount, 
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 879--879
+\TU/lmr/m/n/9 (11.8)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 879--879
+\TU/lmr/m/n/9 (25.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 880--880
+\TU/lmr/m/n/9 (68.6)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 880--880
+\TU/lmr/m/n/9 (45.3)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 880--880
+\TU/lmr/m/n/9 (50.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 880--880
+\TU/lmr/m/n/9 (50.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 880--881
+\TU/lmr/m/n/9 (53.3)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 881--881
+\TU/lmr/m/n/9 (15.7)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 881--881
+\TU/lmr/m/n/9 (42.7)|  
+ []
+
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 881--881
+\TU/lmr/m/n/9 (100.0)|  
+ []
+
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 881--881
+\TU/lmr/m/n/9 (100.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 881--881
+\TU/lmr/m/n/9 (50.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 881--882
+\TU/lmr/m/n/9 (32.8)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 885--885
+\TU/lmr/m/n/9 (25.0)|  
+ []
+
+
+Overfull \hbox (28.03372pt too wide) in paragraph at lines 886--886
+[]|\TU/lmr/m/n/9 ScarPattern, 
+ []
+
+
+Overfull \hbox (29.05972pt too wide) in paragraph at lines 887--887
+[]|\TU/lmr/m/n/9 Bidirectional|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 887--887
+\TU/lmr/m/n/9 (25.0)|  
+ []
+
+
+Overfull \hbox (34.58572pt too wide) in paragraph at lines 890--890
+[]|\TU/lmr/m/n/9 Unidirectional|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 890--890
+\TU/lmr/m/n/9 (98.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 890--890
+\TU/lmr/m/n/9 (94.7)|  
+ []
+
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 890--890
+\TU/lmr/m/n/9 (100.0)|  
+ []
+
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 890--890
+\TU/lmr/m/n/9 (100.0)|  
+ []
+
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 890--890
+\TU/lmr/m/n/9 (100.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 890--890
+\TU/lmr/m/n/9 (75.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 890--891
+\TU/lmr/m/n/9 (95.6)|  
+ []
+
+
+Overfull \hbox (7.32472pt too wide) in paragraph at lines 891--891
+[]|\TU/lmr/m/n/9 Cortex, 
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 892--892
+\TU/lmr/m/n/9 (94.1)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 892--892
+\TU/lmr/m/n/9 (72.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 892--892
+\TU/lmr/m/n/9 (75.0)|  
+ []
+
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 892--892
+\TU/lmr/m/n/9 (100.0)|  
+ []
+
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 892--892
+\TU/lmr/m/n/9 (100.0)|  
+ []
+
+
+Overfull \hbox (5.51572pt too wide) in paragraph at lines 892--892
+\TU/lmr/m/n/9 (100.0)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 892--893
+\TU/lmr/m/n/9 (81.8)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 893--893
+\TU/lmr/m/n/9 (13.3)|  
+ []
+
+
+Overfull \hbox (0.88972pt too wide) in paragraph at lines 896--896
+\TU/lmr/m/n/9 (25.0)|  
+ []
+
+[24] [25] [26] [27]
+Overfull \hbox (2.13725pt too wide) in paragraph at lines 968--968
  []|\TU/lmr/m/n/10 Quartz
  []
 
 
-Overfull \hbox (2.13725pt too wide) in paragraph at lines 912--912
+Overfull \hbox (2.13725pt too wide) in paragraph at lines 968--968
 []|\TU/lmr/m/n/10 Quartz 
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 912--912
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 968--968
 []|\TU/lmr/m/n/10 10.53%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 912--912
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 968--968
 []|\TU/lmr/m/n/10 10.53%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 912--912
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 968--968
 []|\TU/lmr/m/n/10 12.73%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 912--912
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 968--968
 []|\TU/lmr/m/n/10 53.33%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 912--912
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 968--968
 []|\TU/lmr/m/n/10 15.79%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 912--912
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 968--968
 []|\TU/lmr/m/n/10 25.45%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 912--912
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 968--968
 []|\TU/lmr/m/n/10 28.95%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 912--912
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 968--968
 []|\TU/lmr/m/n/10 27.27%|  
  []
 
-[26]
-Overfull \hbox (2.13725pt too wide) in paragraph at lines 946--946
+[28]
+Overfull \hbox (2.13725pt too wide) in paragraph at lines 1002--1002
  []|\TU/lmr/m/n/10 Quartz
  []
 
 
-Overfull \hbox (2.13725pt too wide) in paragraph at lines 946--946
+Overfull \hbox (2.13725pt too wide) in paragraph at lines 1002--1002
 []|\TU/lmr/m/n/10 Quartz 
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 946--946
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 1002--1002
 []|\TU/lmr/m/n/10 22.32%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 946--946
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 1002--1002
 []|\TU/lmr/m/n/10 29.41%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 946--946
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 1002--1002
 []|\TU/lmr/m/n/10 11.61%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 946--946
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 1002--1002
 []|\TU/lmr/m/n/10 44.12%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 946--946
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 1002--1002
 []|\TU/lmr/m/n/10 17.14%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 946--946
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 1002--1002
 []|\TU/lmr/m/n/10 24.11%|  
  []
 
 
-Overfull \hbox (2.65726pt too wide) in paragraph at lines 946--946
+Overfull \hbox (2.65726pt too wide) in paragraph at lines 1002--1002
 []|\TU/lmr/m/n/10 11.76%|  
  []
 
-[27]
+[29]
 File: C:/Users/Valentine/Documents/Archaeo/Tese_mestrado/Article/proto.paper/an
 alysis/figures/picareiro_map.png Graphic file (type bmp)
 <C:/Users/Valentine/Documents/Archaeo/Tese_mestrado/Article/proto.paper/analysi
@@ -3026,50 +3029,50 @@ File: C:/Users/Valentine/Documents/Archaeo/Tese_mestrado/Article/proto.paper/an
 alysis/figures/lp_cross_section.jpg Graphic file (type bmp)
 <C:/Users/Valentine/Documents/Archaeo/Tese_mestrado/Article/proto.paper/analysi
 s/figures/lp_cross_section.jpg>
-[28
+[30
 
 
 
 
-] [29
+] [31
 
-] [30] [31]
+] [32] [33]
 File: C:/Users/Valentine/Documents/Archaeo/Tese_mestrado/Article/proto.paper/an
 alysis/figures/LPspatial.jpg Graphic file (type bmp)
 <C:/Users/Valentine/Documents/Archaeo/Tese_mestrado/Article/proto.paper/analysi
 s/figures/LPspatial.jpg>
-[32
+[34
 
 
-] [33
+] [35
 
-] [34]
+] [36]
 File: supplementary_files/figure-latex/coretypeLP-1.pdf Graphic file (type pdf)
 
 <use supplementary_files/figure-latex/coretypeLP-1.pdf>
 File: supplementary_files/figure-latex/corebloxplotLP-1.pdf Graphic file (type 
 pdf)
 <use supplementary_files/figure-latex/corebloxplotLP-1.pdf>
-[35] [36] [37] [38]
+[37] [38] [39] [40]
 File: supplementary_files/figure-latex/flakeboxplotLP-1.pdf Graphic file (type 
 pdf)
 <use supplementary_files/figure-latex/flakeboxplotLP-1.pdf>
-[39] [40] [41] [42]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1622.
-[43]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1622.
+[41] [42] [43] [44]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1678.
+[45]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1678.
 (./supplementary.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1622.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1622.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1622.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1678.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1678.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1678.
  ) 
 Here is how much of TeX's memory you used:
- 19542 strings out of 481384
- 355869 string characters out of 5925988
- 809517 words of memory out of 5000000
- 36627 multiletter control sequences out of 15000+600000
+ 19544 strings out of 481384
+ 355892 string characters out of 5925988
+ 808660 words of memory out of 5000000
+ 36629 multiletter control sequences out of 15000+600000
  539824 words of font info for 80 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  53i,12n,118p,554b,501s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on supplementary.pdf (43 pages).
+Output written on supplementary.pdf (45 pages).
