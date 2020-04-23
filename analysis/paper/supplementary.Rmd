@@ -1,14 +1,13 @@
 ---
 title: "Supplementary material"
-header-includes:
-  - \usepackage{caption}
-  - \captionsetup[figure]{name=Supplementary Figure,labelfont=it,labelsep = period}
-  - \captionsetup[table]{name=Supplementary Table,labelfont=it,labelsep = period}  
 output: 
   pdf_document: 
     latex_engine: xelatex
-
+header-includes: 
+  \newcommand{\beginsupplement}{\setcounter{table}{0}  \renewcommand{\thetable}{S\arabic{table}} \setcounter{figure}{0} \renewcommand{\thefigure}{S\arabic{figure}}}
+  
 ---
+\beginsupplement
 
 \listoftables
 
