@@ -375,9 +375,9 @@ rm_cubic_meter <- ggplot(rm_by_cubic_meter, (aes(spit_aver_depth, freq, colour =
   xlab("Depth (m)") +
   ylab("Artefact relative frequency by cubic meter of sediment (log10)") +
   theme(axis.text=element_text(size=12),
-        axis.title.x = element_text(size = 14),
+        axis.title.x = element_text(size = 10),
         axis.title.y = element_text(size = 14),
-        legend.text = element_text(size= 12),
+        legend.text = element_text(size = 12),
         legend.title = element_text(size = 14)) +
   scale_y_log10()+
   coord_flip() +
