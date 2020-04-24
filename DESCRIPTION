@@ -1,12 +1,12 @@
 Package: proto.paper
-Title: What the Package Does (One Line, Title Case)
+Title: Research Compendium for "The Gravettian-Solutrean transition in westernmost Iberia: new data from the sites of Vale Boi and Lapa do Picareiro"
 Version: 0.0.0.9000
 Authors@R:
-    person(given = "First",
-           family = "Last",
+    person(given = "Joana",
+           family = "Belmiro",
            role = c("aut", "cre"),
-           email = "first.last@example.com")
-Description: What the package does (one paragraph)
+           email = "jnetobelmiro@gmail.com")
+Description: Research Compendium for "The Gravettian-Solutrean transition in westernmost Iberia: new data from the sites of Vale Boi and Lapa do Picareiro"
 License: MIT + file LICENSE
 ByteCompile: true
 Encoding: UTF-8

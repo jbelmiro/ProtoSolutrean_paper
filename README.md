@@ -7,22 +7,26 @@
 
 This repository contains the data and code for our paper:
 
-> Authors, (YYYY). *Title of your paper goes here*. Name of journal/book
+> Belmiro, J., Cascalheira, J., Bicho, N. and Haws, J. (2020). *The
+> Gravettian-Solutrean transition in westernmost Iberia: new data from
+> the sites of Vale Boi and Lapa do Picareiro*. Name of journal/book
 > <https://doi.org/xxx/xxx>
 
 Our pre-print is online here:
 
-> Authors, (YYYY). *Title of your paper goes here*. Name of
-> journal/book, Accessed 22 Apr 2020. Online at
-> <https://doi.org/xxx/xxx>
+> Belmiro, J., Cascalheira, J., Bicho, N. and Haws, J. (2020). *The
+> Gravettian-Solutrean transition in westernmost Iberia: new data from
+> the sites of Vale Boi and Lapa do Picareiro*. Name of journal/book,
+> Accessed 23 Apr 2020. Online at <https://doi.org/xxx/xxx>
 
 ### How to cite
 
 Please cite this compendium as:
 
-> Authors, (2020). *Compendium of R code and data for Title of your
-> paper goes here*. Accessed 22 Apr 2020. Online at
-> <https://doi.org/xxx/xxx>
+> Belmiro, J., Cascalheira, J., Bicho, N. and Haws, J., (2020).
+> *Compendium of R code and data for The Gravettian-Solutrean transition
+> in westernmost Iberia: new data from the sites of Vale Boi and Lapa do
+> Picareiro*. Accessed 23 Apr 2020. Online at <https://doi.org/xxx/xxx>
 
 ## Contents
 
