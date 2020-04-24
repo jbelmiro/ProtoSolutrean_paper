@@ -63,24 +63,6 @@ knitr::kable(head
 
 ```
 
-```{r metric, fig.cap="Registered measurements scheme for debitage products and cores. Legend: 1- Maximum length; 2- Distal width; 3- Mesial width; 4- Maximum width; 5- Proximal width; 6- Mesial thickness; 7- Platform thickness; 8- Platform width.", out.width = '60%', fig.align='center', echo=FALSE}
-
-knitr::include_graphics(here::here("analysis/figures/Metrics-01.png"))
-
-```
-
-```{r vbmap, fig.cap="Vale Boi. Location.",fig.align='center', out.width = '60%', echo=FALSE}
-
-knitr::include_graphics(here::here("analysis/figures/vale_boi_map.png"))
-
-```
-
-```{r vbphoto, fig.cap="Vale Boi. Topographic plan, schematic profile and general view, with location of the excavation loci. After Cascalheira et al. (2017).", fig.align='center', out.width = '60%', echo=FALSE}
-
-knitr::include_graphics(here::here("analysis/figures/vb_plan.png"))
-
-```
-
 ```{r layertable, include=FALSE}
 
 layers_table <- read_csv(here::here("analysis/data/raw_data/VBlayers_table.csv"))
@@ -101,12 +83,6 @@ knitr::kable(head(layers_table [1:2], 6),  booktabs = TRUE, caption = "Vale Boi.
 ```
 
 \clearpage
-
-```{r spatialvbfig, fig.cap="East profile stratigraphy in the Terrace area (above) and distribution of all tridimensionally coordenated lithics in the new excavation area until 2017 (under). Lithis from layers 4E and 5 are coloured in black. Blue crosses represent dolerite artefacts and stars mark the provenance of each radiocarbon date: A - WK-42830; B - WK-42831; C - WK-44416.", fig.align='center',out.width = '70%', echo=FALSE, fig.pos="H"}
-
-knitr::include_graphics(here::here("analysis/figures/SpatialanalysisVB.png"))
-
-```
 
 ```{r datesproto, include=FALSE}
 
@@ -132,8 +108,6 @@ names(dates_table) <- c("Site",  "Level", "Lab. Ref",  "Age (BP)", "SD",
                         "Sample type", "Calibrated lower 95%", "Calibrated upper 95%")
 
 ```
-
-\newpage
 
 ```{r protodates, echo=FALSE}
 knitr::kable(dates_table, booktabs=TRUE, longtable = TRUE, caption = "Summary of radiocarbon dates from Portuguese Proto-Solutrean. Adapted from Zilhão (1997), Cascalheira and Bicho (2013), Belmiro (2018) and Benedetti et al. (2019). Calibration curves are IntCal13 and Marine13, using OxCal 4.1.7 (online).") %>% 
@@ -232,137 +206,13 @@ datasetlp <- datasetlp %>%
 
 ```
 
-```{r general1, echo=FALSE}
-
-
-### General table Lower 5
-db_phase1 <- dataset %>% 
-  filter(Phase=="Lower 5")
-
-table1 <- db_phase1 %>% 
-  select(RawMaterial, Class) %>% 
-  filter(Class != "Chip") %>% 
-  dplyr::group_by(RawMaterial) 
-
-
-chip_table1 <- db_phase1 %>% 
-  filter(Class == "Chip") %>%
-  select(RawMaterial, ChipQuantity) %>% 
-  na.omit() %>% 
-  dplyr::group_by(RawMaterial) %>% 
-  dplyr::summarise(ChipQuantity = sum(ChipQuantity)) %>% 
-  tidyr::spread(RawMaterial, ChipQuantity) %>% 
-  mutate(Class = "Chip") %>% 
-  select(Class, Quartz, Chert, Greywacke, 
-         Dolerite, Chalcedony, Other)
-
-general_table1 <- table(table1$Class, table1$RawMaterial)
-general_table1 <- as.data.frame.matrix(general_table1)
-general_table1 <- general_table1 %>% 
-  select(Quartz, Chert, Greywacke, 
-         Dolerite, Chalcedony, Other) %>% 
-  tibble::rownames_to_column()
-general_table1 <- dplyr::rename(general_table1, "Class" = "rowname")
-general_table1 <- union(general_table1, chip_table1)
-
-
-general_table1 <- general_table1 %>% 
-  mutate("Quartz (%)" = paste0(round(100 * Quartz/sum(Quartz), 2), "%")) %>% 
-  mutate("Chert (%)" = paste0(round(100 * Chert/sum(Chert), 2), "%")) %>% 
-  mutate("Greywacke (%)" = paste0(round(100 * Greywacke/sum(Greywacke), 2), "%")) %>% 
-  mutate("Dolerite (%)" = paste0(round(100 * Dolerite/sum(Dolerite), 2), "%")) %>% 
-  mutate("Chalcedony (%)" = paste0(round(100 * Chalcedony/sum(Chalcedony), 2), "%")) %>% 
-  mutate("Other (%)" = paste0(round(100 * Other/sum(Other), 2), "%")) %>% 
-  select("Class", "Quartz", "Quartz (%)", "Chert", "Chert (%)", "Greywacke", "Greywacke (%)", "Dolerite",
-         "Dolerite (%)", "Chalcedony", "Chalcedony (%)", "Other", "Other (%)") %>% 
-  dplyr::rename("Quartz (n)" = "Quartz", "Chert (n)" = "Chert", "Greywacke (n)" = "Greywacke", "Dolerite (n)" = "Dolerite",
-                "Chalcedony (n)" = "Chalcedony", "Other (n)" = "Other") %>% 
-  adorn_totals(where = "col", name = "Total") %>% 
-  mutate("Total (%)" = paste0(round(100 * Total/sum(Total), 2), "%")) %>% 
-  adorn_totals(where = "row", name = "Total")
-  
-knitr::kable(head(general_table1[1:15], 12), booktabs=TRUE,caption="Vale Boi - Lower 5. Technological class by raw material.") %>% 
-  column_spec(1, bold = T) %>% 
-  kable_styling(latex_options = "scale_down") %>% 
-  kableExtra::landscape() %>% 
-  column_spec(2:5, width = "1cm") %>% 
-  column_spec(6:7, width = "2cm") %>% 
-  column_spec(8:9, width = "1.5cm") %>% 
-  column_spec(10:11, width = "2cm") %>% 
-  column_spec(12:15, width = "1cm")
-
-```
-
-```{r general2, fig.cap="General table Upper 5/4E.", echo=FALSE}
-
-### General table for Upper 5/4E
-
-db_phase2 <- dataset %>% 
-  filter(Phase=="Upper 5/4E")
-
-table2 <- db_phase2 %>% 
-  select(RawMaterial, Class) %>% 
-  filter(Class != "Chip") %>% 
-  dplyr::group_by(RawMaterial) 
-
-
-chip_table2 <- db_phase2 %>% 
-  filter(Class == "Chip") %>%
-  select(RawMaterial, ChipQuantity) %>% 
-  na.omit() %>% 
-  dplyr::group_by(RawMaterial) %>% 
-  dplyr::summarise(ChipQuantity = sum(ChipQuantity)) %>% 
-  tidyr::spread(RawMaterial, ChipQuantity) %>% 
-  mutate(Class = "Chip")
-chip_table2$Dolerite=0
-chip_table2$Other=0
-chip_table2 <- chip_table2 %>%
-  select(Class,Quartz, Chert, Greywacke, 
-         Dolerite, Chalcedony, Other)
-
-general_table2 <- table(table2$Class, table2$RawMaterial)
-general_table2 <- as.data.frame.matrix(general_table2)
-general_table2 <- general_table2 %>% 
-  select(Quartz, Chert, Greywacke, 
-         Dolerite, Chalcedony, Other) %>% 
-  tibble::rownames_to_column()
-general_table2 <- dplyr::rename(general_table2, "Class" = "rowname")
-general_table2 <- union(general_table2, chip_table2)
-
-
-general_table2 <- general_table2 %>% 
-  mutate("Quartz (%)" = paste0(round(100 * Quartz/sum(Quartz), 2), "%")) %>% 
-  mutate("Chert (%)" = paste0(round(100 * Chert/sum(Chert), 2), "%")) %>% 
-  mutate("Greywacke (%)" = paste0(round(100 * Greywacke/sum(Greywacke), 2), "%")) %>% 
-  mutate("Dolerite (%)" = paste0(round(100 * Dolerite/sum(Dolerite), 2), "%")) %>% 
-  mutate("Chalcedony (%)" = paste0(round(100 * Chalcedony/sum(Chalcedony), 2), "%")) %>% 
-  mutate("Other (%)" = paste0(round(100 * Other/sum(Other), 2), "%")) %>% 
-  select("Class", "Quartz", "Quartz (%)", "Chert", "Chert (%)", "Greywacke", "Greywacke (%)", "Dolerite",
-         "Dolerite (%)", "Chalcedony", "Chalcedony (%)", "Other", "Other (%)") %>% 
-  dplyr::rename("Quartz (n)" = "Quartz", "Chert (n)" = "Chert", "Greywacke (n)" = "Greywacke", "Dolerite (n)" = "Dolerite",
-                "Chalcedony (n)" = "Chalcedony", "Other (n)" = "Other") %>% 
-  adorn_totals(where = "col", name = "Total") %>% 
-  mutate("Total (%)" = paste0(round(100 * Total/sum(Total), 2), "%")) %>% 
-  adorn_totals(where = "row", name = "Total")
-
-
-knitr::kable(head(general_table2[1:15], 12), booktabs=TRUE,caption="Vale Boi - Upper 5/4E. Technological class by raw material.") %>% 
-  column_spec(1, bold = T) %>% 
-  kable_styling(latex_options = "scale_down") %>% 
-  kableExtra::landscape() %>% 
-  column_spec(2:5, width = "1cm") %>% 
-  column_spec(6:7, width = "2cm") %>% 
-  column_spec(8:9, width = "1.5cm") %>% 
-  column_spec(10:11, width = "2cm") %>% 
-  column_spec(12:15, width = "1cm")
-
-```
-
 ```{r doleritephoto, fig.cap="Dolerite flake removed from a debitage waste piece. Left: ventral side with interior colour and texture of the raw material; Right: dorsal side with patina.", fig.scap="Dolerite flake removed from a debitage waste piece.", out.width = '70%', fig.align='center', echo=FALSE, fig.pos="H"}
 
 knitr::include_graphics(here::here("analysis/figures/doleritephoto.jpg"))
 
 ```
+
+\clearpage
 
 ```{r coreattributesVB1, echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -418,6 +268,8 @@ knitr::kable(core_tablep2, longtable= TRUE, booktabs = TRUE, caption = "Vale Boi
   kable_styling(position = "center", font_size = 9, latex_options = c("repeat_header", "hold_position"))
 
 ```
+
+\clearpage
 
 ```{r coretypeVB, echo = FALSE, fig.cap = "Vale Boi. Interaction of core type with type of extracted products by raw material and phase.", fig.align= 'center', out.width = '90%', fig.pos="H"}
 cores <- dataset %>% 
@@ -535,6 +387,8 @@ knitr::kable(core_metp2, booktabs=TRUE, caption = "Vale Boi - Upper 5/4E - mean 
 
 ```
 
+\clearpage
+
 ```{r flakeattributeVB1, echo=FALSE, message=FALSE, warning=FALSE}
 
 blanksAT <- dataset %>% 
@@ -648,6 +502,8 @@ knitr::kable(blank_metp2, booktabs=TRUE, caption = "Vale Boi - Upper 5/4E - mean
   kable_styling(latex_options = c("scale_down", "hold_position"), font_size = 9)
 
 ```
+
+\clearpage
 
 ```{r flakeboxplot, fig.cap="Vale Boi. Boxplots of flake elongation and flattening by raw material and phase.", echo=FALSE, fig.align= 'center', out.width = '80%', fig.pos="H"}
   
@@ -782,7 +638,6 @@ knitr::kable(elong_metp1, booktabs=TRUE, caption = "Vale Boi - Lower 5 - mean an
 
 ```
 
-
 ```{r elongmtericsVB2, echo=FALSE, message=FALSE, warning=FALSE}
 
 elong_metp2 <- tabmulti(elongAT2, "RawMaterial", c("MaxWidth", "Length", "Thickness","PlatformWidth", "PlatformThickness", "ExteriorPlatformAngle"),
@@ -803,108 +658,7 @@ knitr::kable(elong_metp2, booktabs=TRUE, caption = "Vale Boi - Upper 5/4E - mean
 
 ```
 
-```{r retouchVB1, echo=FALSE}
-
-retouch1 <- dataset %>% 
-  filter(Class == "RetouchedPiece") %>%
-  filter(Phase=="Lower 5") %>% 
-  select(RawMaterial, RetouchedPieceTypology) %>% 
-  dplyr::group_by(RawMaterial)
-
-retouch_table1 <- table(retouch1$RetouchedPieceTypology, retouch1$RawMaterial)
-retouch_table1 <- as.data.frame.matrix(retouch_table1)
-retouch_table1 <- retouch_table1 %>% 
-  select(Quartz, Chert, Greywacke, 
-        Chalcedony) %>% 
-  tibble::rownames_to_column()
-retouch_table1 <- dplyr::rename(retouch_table1, "Typology" = "rowname")
-
-retouched_order <- c("Typology","Endscraper", "Dihedral Burin", "Burin on truncation", "Truncation", "Notch", "Denticulate", "Splintered piece", "Double backed bladelet", "Retouched blade", "Retouched bladelet", "Retouched flake", "Total")
-
-retouch_table1 <- retouch_table1 %>% 
-  mutate("Quartz (%)" = paste0(round(100 * Quartz/sum(Quartz), 2), "%")) %>% 
-  mutate("Chert (%)" = paste0(round(100 * Chert/sum(Chert), 2), "%")) %>% 
-  mutate("Greywacke (%)" = paste0(round(100 * Greywacke/sum(Greywacke), 2), "%")) %>% 
-  mutate("Chalcedony (%)" = paste0(round(100 * Chalcedony/sum(Chalcedony), 2), "%")) %>% 
-  select("Typology", "Quartz", "Quartz (%)", "Chert", "Chert (%)", "Greywacke", "Greywacke (%)", 
-         "Chalcedony", "Chalcedony (%)") %>% 
-  dplyr::rename("Quartz (n)" = "Quartz", "Chert (n)" = "Chert", "Greywacke (n)" = "Greywacke",
-         "Chalcedony (n)" = "Chalcedony") %>% 
-  adorn_totals(where = "col", name = "Total") %>% 
-  mutate("Total (%)" = paste0(round(100 * Total/sum(Total), 2), "%")) %>% 
-  adorn_totals(where = "row", name = "Total", fill = "100%") %>% 
-  as_tibble() %>% 
-  slice(match(retouched_order, Typology))
-
-knitr::kable(head(retouch_table1[1:11], 13), booktabs=TRUE, caption = "Vale Boi - Lower 5. Retouched piece typology by raw material.") %>% 
-  kable_styling(latex_options = "scale_down") %>%
-  column_spec(1, bold = T) %>% 
-  column_spec(2:5, width = "1cm") %>% 
-  column_spec(6:9, width = "2cm") %>% 
-  column_spec(10:11, width = "1cm") %>% 
-  landscape()
-
-```
-
-```{r retouchVB2, echo=FALSE}
-
-retouch2 <- dataset %>% 
-  filter(Class == "RetouchedPiece") %>%
-  filter(Phase=="Upper 5/4E") %>% 
-  select(RawMaterial, RetouchedPieceTypology) %>% 
-  dplyr::group_by(RawMaterial)
-
-retouch_table2 <- table(retouch2$RetouchedPieceTypology, retouch2$RawMaterial)
-retouch_table2 <- as.data.frame.matrix(retouch_table2)
-retouch_table2 <- retouch_table2 %>% 
-  select(Quartz, Chert, Greywacke, Dolerite,
-        Chalcedony) %>% 
-  tibble::rownames_to_column()
-retouch_table2 <- dplyr::rename(retouch_table2, "Typology" = "rowname")
-
-retouched_order2 <- c("Typology","Endscraper","Carinated endscraper","Perforator-endscraper","Perforator", "Dihedral Burin", "Burin on truncation", "Truncation", "Vale Comprido Point", "Notch", "Denticulate", "Splintered piece","Backed bladelet","Backed bladelet parcial", "Retouched blade", "Retouched bladelet", "Retouched flake", "Total")
-
-retouch_table2 <- retouch_table2 %>% 
-  mutate("Quartz (%)" = paste0(round(100 * Quartz/sum(Quartz), 2), "%")) %>% 
-  mutate("Chert (%)" = paste0(round(100 * Chert/sum(Chert), 2), "%")) %>% 
-  mutate("Greywacke (%)" = paste0(round(100 * Greywacke/sum(Greywacke), 2), "%")) %>%
-  mutate("Dolerite (%)" = paste0(round(100 * Dolerite/sum(Dolerite), 2), "%")) %>% 
-  mutate("Chalcedony (%)" = paste0(round(100 * Chalcedony/sum(Chalcedony), 2), "%")) %>% 
-  select("Typology", "Quartz", "Quartz (%)", "Chert", "Chert (%)", "Greywacke", "Greywacke (%)", "Dolerite", "Dolerite (%)",
-         "Chalcedony", "Chalcedony (%)") %>% 
-  dplyr::rename("Quartz (n)" = "Quartz", "Chert (n)" = "Chert", "Greywacke (n)" = "Greywacke", "Dolerite (n)" = "Dolerite",
-         "Chalcedony (n)" = "Chalcedony") %>% 
-  adorn_totals(where = "col", name = "Total") %>% 
-  mutate("Total (%)" = paste0(round(100 * Total/sum(Total), 2), "%")) %>% 
-  adorn_totals(where = "row", name = "Total", fill = "100%") %>% 
-  as_tibble() %>% 
-  slice(match(retouched_order2, Typology))
-
-knitr::kable(retouch_table2, booktabs=TRUE, caption = "Vale Boi - Upper 5/4E. Retouched piece typology by raw material.") %>% 
-  kable_styling(latex_options = "scale_down") %>% 
-  column_spec(1, bold = T) %>%
-  column_spec(2:5, width = "1cm") %>% 
-  column_spec(6:7, width = "2cm") %>% 
-  column_spec(8:9, width = "1.5cm") %>% 
-  column_spec(10:11, width = "2cm") %>% 
-  column_spec(12:13, width = "1cm") %>% 
-  landscape()
-
-```
-
 \newpage
-
-```{r lpmap, fig.cap="Lapa do Picareiro. Location.", fig.align='center', out.width = '60%', echo=FALSE}
-
-knitr::include_graphics(here::here("analysis/figures/picareiro_map.png"))
-
-```
-
-```{r lpcave, fig.cap="Lapa do Picareiro. Generalized cross section showing surface topography, shape of the cave, and area excavated into sedimentary fill. After Benedetti et al. (2019).", fig.align='center', out.width = '60%', fig.pos="H", echo=FALSE}
-
-knitr::include_graphics(here::here("analysis/figures/lp_cross_section.jpg"))
-
-```
 
 ```{r lpstrat, echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -923,104 +677,6 @@ knitr::kable(head(lp_strat [1:6], 35),  booktabs = TRUE, longtable = TRUE, capti
   kable_styling(latex_options = c("repeat_header"), font_size = 9) %>% 
   landscape()
   
-```
-
-\begin{landscape}
-```{r spatialut, fig.cap="Lapa do Picareiro. Spatial distribution of all plotted artefacts from levels T-U (in grey), lithic artefacts in colours and shapes refering to raw material and class. After Haws et al. (2019).", out.width = '80%', fig.align='center', echo=FALSE}
-
-knitr::include_graphics(here::here("analysis/figures/LPspatial.jpg"))
-
-```
-\end{landscape}
-
-```{r general1lp, echo=FALSE}
-
-## General table for U/Lower T
-db_phaseTG <- datasetlp %>% 
-  filter(Phase == "U/Lower T")
-
-table_TG <- db_phaseTG %>% 
-  select(RawMaterial, Class) %>% 
-  filter(Class != "Chip") %>% 
-  dplyr::group_by(RawMaterial) 
-
-chip_table_TG <- db_phaseTG %>% 
-  filter(Class == "Chip") %>%
-  select(RawMaterial, ChipQuantity) %>% 
-  na.omit() %>% 
-  dplyr::group_by(RawMaterial) %>% 
-  dplyr::summarise(ChipQuantity = sum(ChipQuantity)) %>% 
-  tidyr::spread(RawMaterial, ChipQuantity) %>% 
-  mutate(Class = "Chip") %>% 
-  select(Class, Quartz, Chert, Other)
-
-general_table_TG <- table(table_TG$Class, table_TG$RawMaterial)
-general_table_TG <- as.data.frame.matrix(general_table_TG)
-general_table_TG <- general_table_TG %>% 
-  select(Quartz, Chert, Other) %>% 
-  tibble::rownames_to_column()
-general_table_TG <- dplyr::rename(general_table_TG, "Class" = "rowname")
-general_table_TG <- union(general_table_TG, chip_table_TG)
-
-general_table_TG <- general_table_TG %>% 
-  mutate("Quartz (%)" = paste0(round(100 * Quartz/sum(Quartz), 2), "%")) %>% 
-  mutate("Chert (%)" = paste0(round(100 * Chert/sum(Chert), 2), "%")) %>% 
-  mutate("Other (%)" = paste0(round(100 * Other/sum(Other), 2), "%")) %>% 
-  select("Class", "Quartz", "Quartz (%)", "Chert", "Chert (%)", "Other", "Other (%)") %>% 
-  dplyr::rename("Quartz (n)" = "Quartz", "Chert (n)" = "Chert", "Other (n)" = "Other") %>% 
-  adorn_totals(where = "col", name = "Total") %>% 
-  mutate("Total (%)" = paste0(round(100 * Total/sum(Total), 2), "%")) %>% 
-  adorn_totals(where = "row", name = "Total (RM)")
-
-knitr::kable(head(general_table_TG[1:9], 9), booktabs=TRUE,caption="Lapa do Picareiro - U/Lower T. Technological class by raw material.") %>% 
-  column_spec(1, bold = T) %>% 
-  kable_styling(latex_options = c("scale_down", "hold_position"))
-
-```
-
-```{r general2lp, echo=FALSE}
-
-### Middle T table
-db_phasePR <- datasetlp %>% 
-  filter(Phase == "Middle T")
-
-table_PR <- db_phasePR %>% 
-  select(RawMaterial, Class) %>% 
-  filter(Class != "Chip") %>% 
-  dplyr::group_by(RawMaterial) 
-
-chip_table_PR <- db_phasePR %>% 
-  filter(Class == "Chip") %>%
-  select(RawMaterial, ChipQuantity) %>% 
-  na.omit() %>% 
-  dplyr::group_by(RawMaterial) %>% 
-  dplyr::summarise(ChipQuantity = sum(ChipQuantity)) %>% 
-  tidyr::spread(RawMaterial, ChipQuantity) %>% 
-  mutate(Class = "Chip") %>% 
-  select(Class,Quartz, Chert, Other)
-
-general_table_PR <- table(table_PR$Class, table_PR$RawMaterial)
-general_table_PR <- as.data.frame.matrix(general_table_PR)
-general_table_PR <- general_table_PR %>% 
-  select(Quartz, Chert, Other) %>% 
-  tibble::rownames_to_column()
-general_table_PR <- dplyr::rename(general_table_PR, "Class" = "rowname")
-general_table_PR <- union(general_table_PR, chip_table_PR)
-
-general_table_PR <- general_table_PR %>% 
-  mutate("Quartz (%)" = paste0(round(100 * Quartz/sum(Quartz), 2), "%")) %>% 
-  mutate("Chert (%)" = paste0(round(100 * Chert/sum(Chert), 2), "%")) %>% 
-  mutate("Other (%)" = paste0(round(100 * Other/sum(Other), 2), "%")) %>% 
-  select("Class", "Quartz", "Quartz (%)", "Chert", "Chert (%)", "Other", "Other (%)") %>% 
-  dplyr::rename("Quartz (n)" = "Quartz", "Chert (n)" = "Chert", "Other (n)" = "Other") %>% 
-  adorn_totals(where = "col", name = "Total") %>% 
-  mutate("Total (%)" = paste0(round(100 * Total/sum(Total), 2), "%")) %>% 
-  adorn_totals(where = "row", name = "Total (RM)")
-
-knitr::kable(head(general_table_PR[1:9], 7), booktabs=TRUE,caption="Lapa do Picareiro - Middle T. Technological class by raw material.") %>% 
-  column_spec(1, bold = T) %>% 
-  kable_styling(latex_options = c("scale_down", "hold_position"))
-
 ```
 
 \newpage
@@ -1109,7 +765,6 @@ knitr::kable(core_metp1lp, booktabs=TRUE, caption = "Lapa do Picareiro - U/Lower
 
 ```
 
-
 ```{r coremetricsLP2, echo=FALSE, message=FALSE, warning=FALSE}
 
 core_metp2lp <- tabmulti(coreAT2lp, "RawMaterial", c("MedWidth", "Length", "Thickness",
@@ -1133,6 +788,8 @@ knitr::kable(core_metp2lp, booktabs=TRUE, caption = "Lapa do Picareiro - Middle 
   kable_styling(position = "center", font_size = 9, latex_options = "hold_position")
 
 ```
+
+\clearpage
 
 ```{r coretypeLP, echo = FALSE, fig.cap="Lapa do Picareiro. Interaction of core type with type of extracted products by raw material and phase.", fig.align= 'center', out.width = '60%', fig.pos="H"}
 cores_lp <- datasetlp %>% 
@@ -1281,7 +938,6 @@ knitr::kable(flakes_metp1lp, booktabs=TRUE, caption = "Lapa do Picareiro - U/Low
 
 ```
 
-
 ```{r flakemetricsLP2, echo=FALSE, message=FALSE, warning=FALSE}
 
 flakes_metp2lp <- tabmulti(flakesAT2lp, "RawMaterial", c("MedWidth", "Length",
@@ -1347,7 +1003,7 @@ ggarrange(flake_elongation_LP, flake_flattening_LP,
           legend = "right")
 ```
 
-\newpage
+\clearpage
 
 ```{r elongtableLP1, echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -1437,7 +1093,6 @@ knitr::kable(elong_metp1lp, booktabs=TRUE, caption = "Lapa do Picareiro - U/Lowe
 
 ```
 
-
 ```{r elongmetricsLP2, echo=FALSE, message=FALSE, warning=FALSE}
 
 #Elongated metrics (mean) by raw material
@@ -1458,73 +1113,3 @@ knitr::kable(elong_metp2lp, booktabs=TRUE, caption = "Lapa do Picareiro - Middle
   kable_styling(latex_options = "hold_position", font_size = 9)
 
 ```
-
-```{r retouchLP1, echo=FALSE}
-
-retouch1lp <- datasetlp %>% 
-  filter(Class == "RetouchedPiece") %>%
-  filter(Phase=="U/Lower T") %>% 
-  select(RawMaterial, RetouchedPieceTypology) %>% 
-  dplyr::group_by(RawMaterial)
-
-
-retouch_table1lp <- table(retouch1lp$RetouchedPieceTypology, retouch1lp$RawMaterial)
-retouch_table1lp <- as.data.frame.matrix(retouch_table1lp)
-retouch_table1lp <- retouch_table1lp %>% 
-  select(Quartz, Chert) %>% 
-  tibble::rownames_to_column()
-retouch_table1lp <- dplyr::rename(retouch_table1lp, "Typology" = "rowname")
-
-retouched_order3 <- c("Typology","Dihedral angle burin", "Notch", "Splintered piece", "Retouched flake")
-
-
-retouch_table1lp <- retouch_table1lp %>% 
-  mutate("Quartz (%)" = paste0(round(100 * Quartz/sum(Quartz), 2), "%")) %>% 
-  mutate("Chert (%)" = paste0(round(100 * Chert/sum(Chert), 2), "%")) %>% 
-  select("Typology", "Quartz", "Quartz (%)", "Chert", "Chert (%)") %>% 
-  dplyr::rename("Quartz (n)" = "Quartz", "Chert (n)" = "Chert") %>% 
-  adorn_totals(where = "col", name = "Total") %>% 
-  mutate("Total (%)" = paste0(round(100 * Total/sum(Total), 2), "%")) %>% 
-  adorn_totals(where = "row", name = "Total") %>% 
-  as_tibble() %>% 
-  slice(match(retouched_order3, Typology))
-
-
-knitr::kable(retouch_table1lp, booktabs=TRUE, caption = "Lapa do Picareiro - U/Lower T. Retouched piece typology by raw material.") %>% 
-  row_spec(0, bold = T, align = "c") %>% 
-  kable_styling(font_size = 9, latex_options = "hold_position")
-
-```
-
-```{r retouchLP2, echo=FALSE}
-
-retouch2lp <- datasetlp %>% 
-  filter(Class == "RetouchedPiece") %>%
-  filter(Phase=="Middle T") %>% 
-  select(RawMaterial, RetouchedPieceTypology) %>% 
-  dplyr::group_by(RawMaterial)
-
-retouch_table2lp <- table(retouch2lp$RetouchedPieceTypology, retouch2lp$RawMaterial)
-retouch_table2lp <- as.data.frame.matrix(retouch_table2lp)
-retouch_table2lp <- retouch_table2lp %>% 
-  select(Chert) %>% 
-  tibble::rownames_to_column()
-retouch_table2lp <- dplyr::rename(retouch_table2lp, "Typology" = "rowname")
-
-retouched_order4 <- c("Typology","Concave truncation", "Vale Comprido point (?)", "Notch", "Retouched flake")
-
-retouch_table2lp <- retouch_table2lp %>% 
-  mutate("Chert (%)" = paste0(round(100 * Chert/sum(Chert), 2), "%")) %>% 
-  select("Typology", "Chert", "Chert (%)") %>% 
-  dplyr::rename("Chert (n)" = "Chert") %>% 
-  adorn_totals(where = "col", name = "Total") %>% 
-  adorn_totals(where = "row", name = "Total") %>% 
-  as_tibble() %>% 
-  slice(match(retouched_order4, Typology))
-
-knitr::kable(retouch_table2lp, booktabs=TRUE, caption = "Lapa do Picareiro - Middle T. Retouched piece typology by raw material.") %>% 
-  row_spec(0, bold = T, align = "c") %>% 
-  kable_styling(font_size = 9, latex_options = "hold_position")
-
-```
-
