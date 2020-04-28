@@ -681,6 +681,14 @@ knitr::kable(head(lp_strat [1:6], 35),  booktabs = TRUE, longtable = TRUE, capti
 
 \newpage
 
+```{r lpplan, fig.cap="Lapa do Picareiro excavation plan with identification of exposed deposits.", out.width = '70%', fig.align='center', echo=FALSE, fig.pos="H"}
+
+knitr::include_graphics(here::here("analysis/figures/lp-plan.jpg"))
+
+```
+
+\newpage
+
 ```{r coreattributesLP1, echo=FALSE, message=FALSE, warning=FALSE}
 
 # Subset cores and phases
