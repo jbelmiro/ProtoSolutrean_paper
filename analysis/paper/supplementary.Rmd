@@ -1121,3 +1121,44 @@ knitr::kable(elong_metp2lp, booktabs=TRUE, caption = "Lapa do Picareiro - Middle
   kable_styling(latex_options = "hold_position", font_size = 9)
 
 ```
+
+
+```{r quartzbladelet, fig.cap="Lapa do Picareiro - U/Lower T - Fine quartz and rock crystal blanks and blank fragments.", out.width = '60%', fig.align='center', echo=FALSE, fig.pos="H"}
+
+knitr::include_graphics(here::here("analysis/figures/prancha_bladelets.jpg"))
+
+```
+
+\newpage
+
+```{r corelower, echo = FALSE, fig.cap = "Vale Boi - Lower 5. Chert and iron oxide (upper right) cores with vectorized scar negatives and scar directionality.", fig.align= 'center', out.width = '80%', fig.pos="H"}
+
+knitr::include_graphics(here::here("analysis/figures/coreL.jpg"))
+
+```
+
+```{r coreupper, echo = FALSE, fig.cap = "Vale Boi - Upper 5/4E. Chert cores with vectorized scar negatives and scar directionality.", fig.align= 'center', out.width = '80%', fig.pos="H"}
+
+knitr::include_graphics(here::here("analysis/figures/coreU.jpg"))
+
+```
+
+\newpage
+
+```{r vct, fig.cap="Vale Boi - Vale Comprido points in dolerite, chert and chalcedony.", out.width = '70%', fig.align='center', echo=FALSE}
+
+knitr::include_graphics(here::here("analysis/figures/prancha_vct.jpg"))
+
+```
+
+```{r vct2, fig.cap="Vale Boi - Vale Comprido points in dolerite.", out.width = '60%', fig.align='center', echo=FALSE}
+
+knitr::include_graphics(here::here("analysis/figures/prancha_vct2.jpg"))
+
+```
+
+```{r lpblades, fig.cap="Lapa do Picareiro - Middle T - Chert blades with similarities to Vale Comprido technology.", out.width = '60%', fig.align='center', echo=FALSE}
+
+knitr::include_graphics(here::here("analysis/figures/prancha_blades.jpg"))
+
+```
