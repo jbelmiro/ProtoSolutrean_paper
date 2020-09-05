@@ -37,7 +37,7 @@
    {
     Curve("Marine13","Marine13.14c");
     Delta_R("LocalMarine",265,107);
-    R_Date("", 20554, 75);
+    R_Date("Wk-50390", 20554, 75);
    };
    Boundary("5");
    Phase("Epipaleolithic")
