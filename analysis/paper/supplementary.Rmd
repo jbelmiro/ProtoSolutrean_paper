@@ -291,7 +291,7 @@ ggplot(data = cores,
   theme(legend.position="bottom")
 ```
 
-```{r corebloxplotVB, fig.cap="Vale Boi. Boxplots of core elongation and flattening by raw material and phase.", out.width='80%', fig.align='center', echo=FALSE}
+```{r corebloxplotVB, fig.cap="Vale Boi. Boxplots of core elongation and flattening by raw material and phase.", out.width='80%', fig.align='center', echo=FALSE, include=FALSE}
 
 coreB <- dataset %>% 
   filter(Class=="Core") %>% 
@@ -505,7 +505,7 @@ knitr::kable(blank_metp2, booktabs=TRUE, caption = "Vale Boi - Upper 5/4E - mean
 
 \clearpage
 
-```{r flakeboxplot, fig.cap="Vale Boi. Boxplots of flake elongation and flattening by raw material and phase.", echo=FALSE, fig.align= 'center', out.width = '80%', fig.pos="H"}
+```{r flakeboxplot, fig.cap="Vale Boi. Boxplots of flake elongation and flattening by raw material and phase.", echo=FALSE, include=FALSE, fig.align= 'center', out.width = '80%', fig.pos="H"}
   
 flakeB <- dataset %>%
   filter(BlankType=="Flake") %>%
@@ -818,7 +818,7 @@ ggplot(cores_lp,
   theme(legend.position="bottom")
 ```
 
-```{r corebloxplotLP, fig.cap="Lapa do Picareiro. Boxplots of core elongation and flattening by raw material and phase.", echo=FALSE, fig.align= 'center', out.width = '60%', fig.pos="H"}
+```{r corebloxplotLP, fig.cap="Lapa do Picareiro. Boxplots of core elongation and flattening by raw material and phase.", echo=FALSE, fig.align= 'center', out.width = '60%', fig.pos="H", include=FALSE}
 coreB_LP <- datasetlp %>% 
   filter(Class=="Core") %>% 
   mutate(CoreElongation=Length/MaxWidth) %>% 
@@ -970,7 +970,7 @@ knitr::kable(flakes_metp2lp, booktabs=TRUE, caption = "Lapa do Picarerio - Middl
 
 ```
 
-```{r flakeboxplotLP, fig.cap="Lapa do Picareiro. Flake elongation and flattening by phase and raw material.", echo=FALSE, fig.align= 'center', out.width = '80%'}
+```{r flakeboxplotLP, fig.cap="Lapa do Picareiro. Flake elongation and flattening by phase and raw material.", echo=FALSE, include=FALSE, fig.align= 'center', out.width = '80%'}
   
 flakeB_LP <- datasetlp %>%
   filter(BlankType=="Flake") %>% 
@@ -1123,7 +1123,7 @@ knitr::kable(elong_metp2lp, booktabs=TRUE, caption = "Lapa do Picareiro - Middle
 ```
 
 
-```{r quartzbladelet, fig.cap="Lapa do Picareiro - U/Lower T - Fine quartz and rock crystal blanks and blank fragments.", out.width = '60%', fig.align='center', echo=FALSE, fig.pos="H"}
+```{r quartzbladelet, fig.cap="Lapa do Picareiro - U/Lower T - Fine quartz and rock crystal blanks and blank fragments.", out.width = '60%', fig.align='center', echo=FALSE, fig.pos="H", include=FALSE}
 
 knitr::include_graphics(here::here("analysis/figures/prancha_bladelets.jpg"))
 
@@ -1131,13 +1131,13 @@ knitr::include_graphics(here::here("analysis/figures/prancha_bladelets.jpg"))
 
 \newpage
 
-```{r corelower, echo = FALSE, fig.cap = "Vale Boi - Lower 5. Chert and iron oxide (upper right) cores with vectorized scar negatives and scar directionality.", fig.align= 'center', out.width = '80%', fig.pos="H"}
+```{r corelower, echo = FALSE, fig.cap = "Vale Boi - Lower 5. Chert and iron oxide (upper right) cores with vectorized scar negatives and scar directionality.", fig.align= 'center', out.width = '80%', fig.pos="H", include=FALSE}
 
 knitr::include_graphics(here::here("analysis/figures/coreL.jpg"))
 
 ```
 
-```{r coreupper, echo = FALSE, fig.cap = "Vale Boi - Upper 5/4E. Chert cores with vectorized scar negatives and scar directionality.", fig.align= 'center', out.width = '80%', fig.pos="H"}
+```{r coreupper, echo = FALSE, fig.cap = "Vale Boi - Upper 5/4E. Chert cores with vectorized scar negatives and scar directionality.", fig.align= 'center', out.width = '80%', fig.pos="H", include=FALSE}
 
 knitr::include_graphics(here::here("analysis/figures/coreU.jpg"))
 
@@ -1145,19 +1145,19 @@ knitr::include_graphics(here::here("analysis/figures/coreU.jpg"))
 
 \newpage
 
-```{r vct, fig.cap="Vale Boi - Vale Comprido points in dolerite, chert and chalcedony.", out.width = '70%', fig.align='center', echo=FALSE}
+```{r vct, fig.cap="Vale Boi - Vale Comprido points in dolerite, chert and chalcedony.", out.width = '70%', fig.align='center', echo=FALSE, include=FALSE}
 
 knitr::include_graphics(here::here("analysis/figures/prancha_vct.jpg"))
 
 ```
 
-```{r vct2, fig.cap="Vale Boi - Vale Comprido points in dolerite.", out.width = '60%', fig.align='center', echo=FALSE}
+```{r vct2, fig.cap="Vale Boi - Vale Comprido points in dolerite.", out.width = '60%', fig.align='center', echo=FALSE, include=FALSE}
 
 knitr::include_graphics(here::here("analysis/figures/prancha_vct2.jpg"))
 
 ```
 
-```{r lpblades, fig.cap="Lapa do Picareiro - Middle T - Chert blades with similarities to Vale Comprido technology.", out.width = '60%', fig.align='center', echo=FALSE}
+```{r lpblades, fig.cap="Lapa do Picareiro - Middle T - Chert blades with similarities to Vale Comprido technology.", out.width = '60%', fig.align='center', echo=FALSE, include=FALSE}
 
 knitr::include_graphics(here::here("analysis/figures/prancha_blades.jpg"))
 
