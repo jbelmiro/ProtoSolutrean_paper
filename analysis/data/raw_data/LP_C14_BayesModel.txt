@@ -56,11 +56,11 @@
     R_Date("UGAMS-23726", 20530, 50);
     R_Date("UGAMS-23718", 20240, 50);
     R_Date("UGAMS-23725",20320, 50);
-    R_Date("Wk-37655c", 18960, 80);
    };
    Boundary();
    Phase()
    {
+    R_Date("Wk-37655c", 18960, 80);
     R_Date("S", 19290, 80);
     R_Date("S", 18930, 50);
     R_Date("R", 19100, 70);

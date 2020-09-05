@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# proto.paper
+# The Gravettian-Solutrean transition in westernmost Iberia: new data from the sites of Vale Boi and Lapa do Picareiro
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh///master?urlpath=rstudio)
 
@@ -9,15 +9,8 @@ This repository contains the data and code for our paper:
 
 > Belmiro, J., Cascalheira, J., Bicho, N. and Haws, J. (2020). *The
 > Gravettian-Solutrean transition in westernmost Iberia: new data from
-> the sites of Vale Boi and Lapa do Picareiro*. Name of journal/book
-> <https://doi.org/xxx/xxx>
-
-Our pre-print is online here:
-
-> Belmiro, J., Cascalheira, J., Bicho, N. and Haws, J. (2020). *The
-> Gravettian-Solutrean transition in westernmost Iberia: new data from
-> the sites of Vale Boi and Lapa do Picareiro*. Name of journal/book,
-> Accessed 23 Apr 2020. Online at <https://doi.org/xxx/xxx>
+> the sites of Vale Boi and Lapa do Picareiro*. Quaternary International
+> <https://doi.org/10.1016/j.quaint.2020.08.027>
 
 ### How to cite
 
@@ -26,7 +19,8 @@ Please cite this compendium as:
 > Belmiro, J., Cascalheira, J., Bicho, N. and Haws, J., (2020).
 > *Compendium of R code and data for The Gravettian-Solutrean transition
 > in westernmost Iberia: new data from the sites of Vale Boi and Lapa do
-> Picareiro*. Accessed 23 Apr 2020. Online at <https://doi.org/xxx/xxx>
+> Picareiro*. Accessed 04 Sep 2020. Online at
+> <https://doi.org/10.17605/OSF.IO/456EG>
 
 ## Contents
 
