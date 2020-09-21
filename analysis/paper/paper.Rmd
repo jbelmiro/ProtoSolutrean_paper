@@ -30,9 +30,7 @@ output:
 bibliography: bibliography.bib
 csl: "../templates/journal-of-archaeological-science.csl" # Insert path for the bib-style
 abstract: |
-  This study presents the analysis of the lithic assemblages from Layers 5 and 4E (Terrace) of the site of Vale Boi (southern Portugal) and Levels U and T from Lapa do Picareiro (central Portugal). We aimed to understand the technological patterns and raw material exploitation during the Gravettian-Solutrean transition in westernmost Iberia, and test the traditional models with assemblages from recently excavated sites, while expanding the geographic range.
-  Results show the existence of two discrete phases in each site. The first, with high frequency of quartz use for bladelet production, seems to reflect the presence, in both sites, of a Terminal Gravettian horizon, as defined by Almeida (2000). The second, with some significant differences between sites, attests the presence of Vale Comprido technology and lower quartz frequencies at Vale Boi, representing a Proto-Solutrean occupation; and the presence of a blade component in Lapa do Picareiro that, together with the respective absolute chronology, may be attributed to a Proto-Solutrean or an Early Solutrean horizon.
-  In general terms, this study allowed to confirm that the Terminal Gravettian and the Proto-Solutrean are discrete phases across the transiton, in concordance with the Three-Phase model presented by Zilhão [-@zilhao1997]. It further consolidates the expansion of similar techno-cultural patterns to southern Portugal, that may be explained by the growth of social networks [@cascalheiraandbicho2013].
+  This study presents the analysis of the lithic assemblages from Layers 5 and 4E (Terrace) of the site of Vale Boi (southern Portugal) and Levels U and T from Lapa do Picareiro (central Portugal). We aimed to understand the technological patterns and raw material exploitation during the Gravettian-Solutrean transition in westernmost Iberia and test the traditional models with assemblages from recently excavated sites, while expanding the geographic range. Results show the existence of two discrete phases in each site. The first, with high frequency of quartz use for bladelet production, seems to reflect the presence of a Terminal Gravettian horizon, as defined by Almeida (2000).The second, with some significant differences between sites, attests the presence of Vale Comprido technology and lower quartz frequencies at Vale Boi, representing a Proto-Solutrean occupation; and the presence of a blade component in Lapa do Picareiro that, together with the respective absolute chronology, may be attributed to a Proto-Solutrean or an Early Solutrean horizon. In general terms, this study allowed to confirm that the Terminal Gravettian and the Proto-Solutrean are discrete phases across the transition, in agreement with the Three-Phase model presented by Zilhão [-@zilhao1997]. It further consolidates the expansion of similar techno-cultural patterns to southern Portugal, which may be explained by the significant changes in the dynamic of social networks [@cascalheiraandbicho2013].
 
 keywords: |
   Upper Paleolithic; Lithic technology; Environmental change; Portugal
@@ -81,46 +79,40 @@ library(ggalluvial)
 
 # Introduction
 
-The transition from the Gravettian to the Solutrean, impacted by adverse climatic conditions during the Heinrich Event 2 (HE2) and the onset of the Last Glacial Maximum (LGM), continues to be a critical topic to understand Upper Paleolithic human adaptations to environmental changes in Westernmost Europe.
+The transition from the Gravettian to the Solutrean and its correlation with the environmental changes occurred during the Heinrich Event 2 (HE2) at the onset of the Last Glacial Maximum (LGM – ca. 26.5-19 ka cal BP), continues to be a critical topic to understand Upper Paleolithic human ecodynamics in westernmost Europe. 
 
-There has been a significant amount of proposals suggesting a full synchronism between the onset of each Upper Paleolithic technocomplex and the occurrence of the most severe climate events [e.g., @bradtmoller2012;@cascalheiraandbicho2013; @bichoetal2017]. Bradtmöller et al. [-@bradtmoller2012] suggest a direct relationship between three of the Heinrich Events (4, 3 and 2) and the substitution of Neanderthal populations with the emergence of the Aurignacian, the appearance of the Gravettian, and the development of the Solutrean, respectively. Based on the theoretical framework of Panarchy [@holling2002], the authors propose the Repeated Replacement Model (RRM), where the HEs are understood as the primary climatic triggers for population turnover, through the breakdown of communication networks and cultural traditions, which were subsequently reorganized under different socio-cultural conditions [@bradtmoller2012].
+However, most of what is known for this timeframe is geographically constricted and/or lacking good chronological markers (Cascalheira and Bicho, 2013). In southern France and the western edge of Iberia, for example, this period is marked by the presence of the so-called Proto-Solutrean (Renard, 2011; Zilhão 1997). This has been described as a transitional technocomplex to the Solutrean technologies, through a process of local development, but synchronous across southwestern Europe (Zilhão et al., 1999). Although present in and southern Iberia (Alcaraz-Castaño et al., 2013; Aura et al., 2009), evidence of typical Proto-Solutrean industries is yet to be found in different regions of Iberia, such as the case of Cantabria, where the transition is poorly characterized (Cascalheira et al., in press).
 
-In this framework, the rapid climatic changes brought by the HE2 (c. 26.4-24.3 ka cal BP - [@sanchez-goni2010]) were the trigger for the reorganization of human groups at the end of the Gravettian. Records indicate that during HEs, and with particular severity in the HE2, western and southern Iberia must have experienced abrupt environmental changes, which altered the location, abundance and availability of resources for the communities of hunter-gatherers [@cascalheiraandbicho2013]. In some parts of Iberia and southwestern France these changes seem to be accompanied by significant techno-typological modifications, combining both elements from the previous and succeeding phases. For some authors, the temporal and spatial patterning of the elements that mark the transiton is, however, sufficiently significant to individualized different technocomplexes - such as the case of the Proto-Solutrean [@cascalheiraandbicho2013; @renard2011; @zilhaoetal1995; @zilhao1997]. Still, although the Proto-Solutrean is an essential piece to understand how hunter-gatherer communities adapted, reinvented and abandoned their social and technological organization, most of what is known for the this technocomplex is geographically constricted and lacking good chronological markers [@cascalheiraandbicho2013]. This in turn  hampers the understanding of the Proto-Solutrean technological solutions and their role in the Gravettian-Solutrean transition.
-
-Result of the study of materials from old excavations by Manuel Heleno in Rio Maior (Portuguese Estremadura) in the 1980s, and new archaeological work in the same region, the Proto-Solutrean has been described as a transitional technocomplex from Gravettian to Solutrean technologies, through a process of local development, but synchronous across southwestern Europe [@zilhaoetal1999].
-
-In the westermost edge of Iberia this technocomplex is best known from both open-air and cave sites located in the Portuguese Estremadura (Figure \@ref(fig:protomap)).
+In Portugal, the Proto-Solutrean was recognized as a result of the study of materials from old excavations by Manuel Heleno in the Rio Maior region (central Portugal) in the 1930s and 1940s, and from new archaeological work in the same region beginning in the late 1980s. From both phases, several open-air and cave sites are now known, and only one other site in southern Portugal (Vale Boi) has revealed typical Proto-Solutrean assemblages (Figure \@ref(fig:protomap)).
 
 ```{r protomap, fig.cap="Location of Proto-Solutrean sites in Portugal or with Proto-Solutrean finds, including the two sites analysed in this study. Sites with a star correspond to the sites analysed in this study. Legend: 1-Buraca Escura; 2-Alecrim e Lagar Velho; 3-Caldeirão; 4-Lapa do Anecrial; 5-Lapa do Picareiro; 6-Terra do José Pereira; 7-Terra do Manuel; 8-Vales de Senhora da Luz; 9-Vale Comprido - encosta; 10-CPM III; 11-Gato Preto; 12-Gruta das Salemas; 13-Vale Boi"}
 knitr::include_graphics(here::here("analysis/figures/map_proto_solutrean.png"))
 ```
 
-Here, the Proto-Solutrean has been integrated into the Gravettian-Solutrean transition as part of a sequence of techno-typological modifications that could have occurred across two or three different stages [@zilhao1994; @zilhao1997; @zilhaoetal1999].
+There, the Proto-Solutrean has been integrated into the Gravettian-Solutrean transition as part of a sequence of techno-typological modifications that could have occurred across two or three different stages (Zilhão, 1997, 1994; Zilhão et al., 1999).
 
-The Two-stage model starts with a Final Gravettian phase, characterized by a moderate use of quartz (~15%), production of truncated backed bladelets and proto-magdalenian retouched blades [@zilhao1997]. The second phase is the Proto-Solutrean, frequently characterized by a high percentage of quartz use (~30%), rare presence of backed bladelets, and the production of Vale Comprido points, the technocomplex’s index fossil [@almeida2000; @zilhao1997; @zilhaoetal1995]. For the production of these tools, the Proto-Solutrean shows three different operative sequences: one for the production of Vale Comprido points, through the removal of elongated blanks with convergent profiles and thick platforms; another for the production of blades, of Gravettian tradition; and another for the production of bladelets, probably obtained through the exploitation of thick endscrapers or carinated elements [@zilhao1997].
+The Two-stage model starts with a Final Gravettian phase, characterized by moderate use of quartz (~15%), production of truncated backed bladelets, and proto-magdalenian retouched blades (Zilhão, 1997). The second phase is the Proto-Solutrean, frequently characterized by a high percentage of quartz use (~30%), rare presence of backed bladelets, and the production of Vale Comprido points, the technocomplex’s index fossil (Almeida, 2000; Zilhão, 1997; Zilhão and Aubry, 1995). For the production of these tools, the Proto-Solutrean shows two different operative sequences: one for the production of Vale Comprido points, through the removal of elongated blanks with convergent profiles and thick platforms; another for the production of blades, of Gravettian tradition; and another for the production of bladelets, probably obtained through the exploitation of thick endscrapers or carinated elements (Zilhão, 1997). Vale Comprido points are described as robust pieces, often characterized by convergent shapes, triangular cross-sections, and plain platforms, often having a high elongation ratio, although not necessarily falling into the blade category (Zilhão and Aubry, 1995). These points are seen as an element of discontinuity with the previous technocomplex, where the organic points armed with microliths from the Gravettian are replaced by lithic points, with enough similarities to the pointes à face plane of the Middle Solutrean to be understood as a technological development (Zilhão, 2013).
 
-Vale Comprido points are described as robust pieces, often characterized by convergent shapes, triangular cross-sections and plain platforms, often having a high elongation ratio, although not necessarily falling into the blade category. The Vale Comprido points have been used to describe the technological transition between the Proto-Solutrean and the Solutrean. In this case, these points are seen as an element of discontinuity with the previous technocomplex, where the organic points armed with microliths from the Gravettian are replaced by lithic points, with enough similarities to the *pointes à face plane* of the Middle Solutrean to be understood as a technological development [@zilhao2013].
+The Three-stage model, on the other hand, maintains the Final Gravettian phase and its defining characteristics but subdivides the following Proto-Solutrean stage in two. As such, there is an intermediate stage characterized by the intensive use of quartz (~30%), which corresponds to Laugerie-Haute’s Aurignacian V, and named Terminal Gravettian. The third stage is the Proto-Solutrean, where quartz use diminishes. In this model, the Vale Comprido points and associated reduction sequence may appear in either of the last two stages (Zilhão, 1997). Alternatively, in the Two-phase model, the Terminal Gravettian is understood as a functional facies of the Proto-Solutrean phase, related to specialized occupations and production activities within the technocomplex.
 
-The Three-stage model maintains the Final Gravettian phase and its defining characteristics but subdivides the following Proto-Solutrean stage in two. As such, there is an intermediate stage characterized by the intensive use of quartz (~30%), which corresponds to Laugerie-Haute’s Aurignatian V, and named Terminal Gravettian. The third stage is the Proto-Solutrean, where quartz use diminishes. In this model, the Vale Comprido points and associated reduction sequence may appear in either of the last two stages [@zilhao1997]. Alternatively, in the Two-phase model, the Terminal Gravettian is understood as a functional facies of the Proto-Solutrean phase, related to specialized occupations and production activities within the technocomplex.
+Regardless of which model is accepted, a high degree of lithic technological variability seems to be present across the transition (Almeida, 2000; Zilhão, 1997; Zilhão et al., 1999). This variability has been interpreted by Cascalheira and Bicho (2013) as a technological race in response to the environmental modifications taking course during the HE2. In this framework, the authors suggest that, in order to correspond to the external pressures, there may have been the need to diversify the economic strategies in use until that moment. The high exploitation of quartz, for example, formerly a secondary raw material, and the use of similar reduction strategies between quartz and chert, might represent one such economic response. The same possibly applies to the use of new raw materials, as is the case of the Proto-Solutrean levels in Vale Boi, where dolerite starts to be used mainly for the manufacture of Vale Comprido points (see below and Belmiro et al., 2017; Marreiros, 2009). 
 
-Regardless of which model is accepted, a high degree of lithic technological variability seems to be present across the transition [@almeida2000; @zilhao1997; @zilhaoetal1999]. This variability has been interpreted by Cascalheira and Bicho [-@cascalheiraandbicho2013] as a technological race in response to the environmental modifications taking course during the HE2. The authors suggest that, in order to correspond to the external pressures, there may have been the need to diversify the economic strategies in use until that moment. The high exploitation of quartz, for example, formerly a secondary raw material, and the use of similar reduction strategies between quartz and chert, might represent one such economic response. The same possibly applies to the use of unprecedented raw materials, as is the case of the Proto-Solutrean levels in Vale Boi, where a new raw material starts to be used mainly for the manufacture of Vale Comprido points [@belmiro2017; @marreiros2009]. Likewise, alterations recorded in territoriality patterns during the Proto-Solutrean can be interpreted has extensive regional networks and may be related to modifications in the landscape [@cascalheiraandbicho2013; @cascalheira2019].
+However, despite the existence of a rather comprehensive set of literature about the technocomplex in central Portugal, which has allowed for a better understanding of  the transition between the Gravettian and the Solutrean, further studies are needed to fill the existing gaps. One of these gaps is the concentration of data regarding this technocomplex in the Portuguese Estremadura, whereas the Proto-Solutrean is still relatively unknown in other areas throughout southwestern Europe. In the case of Portugal, only one other site in the south (Figure 1) has so far revealed the presence of this techno-complex. Another issue is the small number of absolute dates available for the transition, which limits the chronological definition of the technocomplexes, and thus the testing of which of the abovementioned models (if any) applies best (Cascalheira and Bicho, 2013).
 
-However, despite the existence of a rather comprehensive set of literature about the technocomplex in Central Portugal, which has allowed for a better understanding of the impacts of HE2 in hunter-gatherer communities, further studies are needed to fill the existing gaps. One of these gaps is the concentration of data regarding this technocomplex in the Portuguese Estremadura, whereas the Proto-Solutrean is still relatively unknown in other places throughout southwestern Europe. In the case of Portugal, only one other site in the south (Figure \@ref(fig:protomap)) has so far revealed the presence of this techno-complex. Another issue is the small amount of absolute dating for the Gravettian-Solutrean transition, which limits the chronological definition of the technocomplexes, and thus the testing of which transition model (if any) applies best [@cascalheiraandbicho2013].
+Addressing these issues, through the study of lithic assemblages from sites with good stratigraphic preservation, allowing accurate absolute dating and spatial tracking, will undoubtedly help further understand the Gravettian-Solutrean transition, its patterns, stages, and possible regional variations.
 
-Addressing these issues, through the study of lithic assemblages from sites with good stratigraphic preservation, allowing accurate absolute dating and spatial tracking, will undoubtedly help further understand the Gravettian-Solutrean transition, its patterns, stages and possible regional variations.
+This study presents the results of the analysis of stone tool assemblages coming from levels attributed to the transition timeframe, from two recently excavated sites - Vale Boi (southern Portugal) and Lapa do Picareiro (central Portugal).
 
-This study presents the results of the analysis of stone tool assemblages coming from levels attributed to the transition timeframe, from two recently excavated sites - Vale Boi (southern Portugal) and Lapa do Picareiro (central Portugal). 
-
-By combining techno-typological information with stratigraphy data and absolute chronology, we present new data on: 1) the technological organization of levels 5/4E of Vale Boi, and levels U/T from Lapa do Picareiro; and 2) a stratigraphical and chronological separation between Terminal Gravettian horizons and more recent occupations at both sites, revealing the application of the same general set of patterns to geographic areas outside of the Portuguese Estremadura.
+By combining techno-typological information with stratigraphic data and absolute chronology, we present new data on: 1) the technological organization of levels 5 and 4E of Vale Boi, and levels U and T from Lapa do Picareiro; and 2) a stratigraphical and chronological separation between Terminal Gravettian horizons and more recent occupations at both sites, revealing the application of the same general set of patterns to geographic areas outside of the Portuguese Estremadura.
 
 
 # Materials and methods
 
-For the lithic analysis we adopted an attribute-based methodology, which aims to describe morphological and metrical attributes of technological classes. The attributes analyzed followed those present in specialized literature, such as @brezillon1968 and @tixier1980, paired with other Upper Paleolithic lithic attribute analyses [see e.g. @bicho1992, @zilhao1997, @cascalheira2010, @almeida2000].
+For the lithic analysis we adopted an attribute-based methodology, which aims to describe morphological and metrical attributes of technological classes. The attributes analyzed followed those present in specialized literature, such as Brézillon (1968), and Tixier and Inizan (1980), paired with other Paleolithic lithic attribute analyses (see e.g., Bicho, 1992; Zilhão, 1997; Cascalheira, 2019; Almeida, 2000; Scerri et al., 2014; Tostevin, 2013).
 
-The complete Data Dictionary with all variables, attributes, values and description, with reference to the consulted literature is available in our research compendium at https://doi.org/10.17605/OSF.IO/456EG, and can be also consulted in the Supplementary Materials (Table S1).
+A complete data dictionary with all variables, attributes, and descriptions, with reference to the consulted literature, is available in our research compendium at https://www.doi.org/10.17605/OSF.IO/456EG, and can be also consulted in the Supplementary Materials (Table S1).
 
-After data collection, the databases were imported into R environment, where the information was processed through the creation of descriptive statistical analysis and writing of this article. We include the entire R code used for all the analysis and visualizations contained in this paper in our online research compendium. To produce those files, we followed the procedures described by Marwick et al. [-@marwick2017] for the creation of research compendiums to enhance the reproducibility of research. To enable maximum re-use, our code is released under the MIT license, our data as CC-0, and our figures as CC-BY (for more information, see @marwick2018]. All attribute analysis result tables may also be found in the Supplementary Materials.
+After data collection, the databases were imported into R Programming Environment, where the information was processed through the creation of descriptive statistical analysis and writing of this article. We include the entire R code used for all the analyses and visualizations contained in this paper in our online research compendium. To produce those files, we followed the procedures described by Marwick et al. (2017) for the creation of research compendiums to enhance the reproducibility of research. To enable maximum re-use, our code is released under the MIT license, our data as CC-0, and our figures as CC-BY (for more information, see Marwick et al. 2018). 
 
 
 ```{r VB_analysis_setup, include=FALSE}
@@ -217,33 +209,33 @@ datasetlp <- datasetlp %>%
 
 ## Stratigraphy and chronology
 
-Vale Boi is an open-air site and rockshelter, located on the western coast of Algarve (southern Portugal), near a small homonymous village, within the municipality of Vila do Bispo (Figure \@ref(fig:protomap)). The site is situated in a small valley that runs south to the Atlantic coast, about 2 km distance, relatively open, bordered, to the east, by a limestone hill. This hill is marked, at specific points, by limestone exposures that form rock shelters with faces facing west or southwest [@bicho2003; @cascalheira2010; @cascalheiraetal2008].
+Vale Boi is an open-air site and rockshelter, located on the western coast of Algarve (southern Portugal), near a small homonymous village, within the municipality of Vila do Bispo (Figure \@ref(fig:protomap)). The site is situated in a small valley that runs south to the Atlantic coast, about 2 km distance, relatively open, bordered, to the east, by a limestone hill. This hill is marked, at specific points, by limestone exposures that form rock shelters with faces facing west or southwest (Bicho et al., 2003; Cascalheira, 2010; Cascalheira et al., 2008).
 
-The site extends for more than 10 000 $m^2$ on the slope of this valley, which is marked by a series of steps that run parallel to the river, possibly the result of Middle Pleistocene fluviatile erosion [@bicho2003].
+Human occupation extends for more than 10 000 sq. meters on the slope of this valley, which is marked by a series of steps that run parallel to the river, possibly as a result of Middle Pleistocene fluviatile erosion (Bicho et al., 2003).
 
-The geological context of Vale Boi is marked by heterogeneity. In the north, there are schist and greywacke formations from the Carboniferous. In the south, Triassic and Jurassic dolomite and limestone formations, which are gradually covered by Holocene dunes further into the coastal area, until near St. Vincent’s cape where they appear uncovered once again, along with small occurrences of chert [@verissimo2004].
+The geological context of Vale Boi is marked by heterogeneity. In the north, there are schist and greywacke formations from the Carboniferous. In the south, Triassic and Jurassic dolomite and limestone formations, which are gradually covered by Holocene dunes further into the coastal area, until near St. Vincent’s cape where they appear uncovered once again, along with small occurrences of chert (Veríssimo, 2004).
 
-Vale Boi shows a variety of human occupations, distributed across the three main areas: Slope, Shelter, and Terrace.
+Vale Boi shows a variety of human occupations, distributed across the three main excavation areas: Slope, Shelter, and Terrace (Bicho et al., 2012).
 
-Although excavated since 2000, in 2012, a new 8 $m^2$ area was open in the Terrace (rows H and I), to understand the stratigraphic sequence in more detail and assess the existence of older cultural horizons, attributable to an early Upper Paleolithic occupation.
+Although excavated since 2000, in 2012 a new 8 sq. meters area was open in the Terrace (rows H and I), to understand the stratigraphic sequence in more detail and assess the existence of older cultural horizons, attributable to an early Upper Paleolithic occupation.
 
-From 2012 to 2016, six litho-stratigraphic layers have been identified (Table S2). In some of these layers, lateral sediment variations were identified, which were coded in the field through the concatenation of a letter to the layer number (*e.g.* 4E). In many of these cases, the isolation of this variation did not show any patterns in terms of spatial concentration of materials, although in others, like the 4E facies, the subdivision of the layer correlated with the spatial distribution of Vale Comprido technology.
+From 2012 to 2016, six litho-stratigraphic layers have been identified (Table S2). In some of these layers, lateral sediment variations were detected, which were coded in the field through the concatenation of a letter to the layer number (e.g., 4E). In many of these cases, the isolation of this variation did not show any patterns in terms of spatial concentration of materials, although in others, like the 4E facies, the subdivision of the layer correlated with the spatial distribution of Vale Comprido technology.
 
-In the new area, layers 1 and 2 represent Holocene levels, with the first being disturbed by recent agricultural processes. Layer 2, with a thickness of 25-30 cm shows a Neolithic occupation.
+In the new area, layers 1 and 2 represent Holocene levels, with the first being disturbed by recent agricultural processes. Layer 2, with a thickness of 25-30 cm, shows a Neolithic occupation.
 
 Layer 3 has a silt and clay matrix sediment, with some inclusions and showing interruptions of limestone clast depositional episodes, although there is the constant presence of fauna and lithic artifacts. As mentioned above, the different material and cultural characteristics within the same geologic package led to the subdivision of the layer in layer 3A, attributed to an Epipaleolithic occupation, and 3B, assigned to the Solutrean.
 
-Layer 4 is very similar to layer 3. However, it is separated from it by a gravel horizon. Similarly to layer 4, these layers have been subdivided regarding different degrees of sediment compaction and/or concentration of organic materials, showing two differing cultural horizons: Solutrean and Proto-Solutrean (limited to layer 4E).
+Layer 4 is very similar to layer 3. However, it is separated from it by a gravel horizon. Similarly, layer 4 have been subdivided regarding different degrees of sediment compaction and/or concentration of organic materials, showing two differing cultural horizons: Solutrean and Proto-Solutrean (limited to layer 4E).
 
 Layer 5 has a dark coloration and a silt and clay matrix characterized by an intense presence of organic elements, frequently calcinated. A Proto-Solutrean horizon was detected within the top levels, and occupation intensity seems to diminish with depth.
 
 Finally, layer 6 is very similar to the previous layer, although it shows the presence of a larger quantity of small and medium-sized limestone clasts. A Gravettian horizon has been attributed to this layer, but the analysis of the materials is currently in progress.
 
-Regarding layers 4E and 5, although they are indeed layers with different sedimentary characteristics, they show similar technological and archaeological patterns, which led to the conclusion they were the same cultural horizon.The most evident of all is the presence of Vale Comprido points and blanks. This context was dated using a charcoal sample to c. 24.7-25.3 ka cal BP, and a shell sample to c. 23.7-24.1 ka cal BP (Figure \@ref(fig:c14VB) and Table S3).
+Regarding layers 4E and 5, although they are indeed layers with different sedimentary characteristics, they partially show similar technological and archaeological patterns, which led to the conclusion they in part represent similar cultural horizons. The most evident of all is the presence of Vale Comprido points and blanks in Layer 4E e the top of Layer 5. This context was dated using a charcoal sample to c. 24.7-25.3 ka cal BP, and a shell sample to c. 23.7-24.1 ka cal BP (Figure 3 and Table S3).
 
-That both layers are representative of the same cultural horizon is also the is the vertical constraint in the distribution of dolerite pieces, mostly concentrated on Layer 4E and upper levels of Layer 5, coinciding also with the higher concentration of lithic materials (Figure \@ref(fig:spatialvbfig)).
+That both layers are representative of the same cultural horizon is also seen in the vertical constraint in the distribution of dolerite pieces, mostly concentrated on Layer 4E and upper levels of Layer 5, coinciding also with an higher concentration of lithic materials (Figure \@ref(fig:spatialvbfig)).
 
-The bottom spits of layer 5, on the other hand, show a relatively dense concentration of *Littorina littoreia*, an unprecedented shell species at the site, and often associated with colder waters, having a high freezing tolerance [@murphy1979; @clarke2000]. This context was dated through a shell sample to c. 26.2-25.7 ka cal BP and thus within the time interval estimated for the HE2.
+The bottom spits of Layer 5, on the other hand, show a relatively dense concentration of **Littorina littorea**, an unprecedented shell species at the site, and often associated with colder waters, having a high freezing tolerance (Clarke et al., 2000; Murphy, 1979). This context was dated through a shell sample to c. 26.2-25.7 ka cal BP and thus within the time interval estimated for the HE2 in westernmost Iberia (Sánchez-Goñi et al. 2008).
 
 
 ```{r spatialvbfig, fig.cap="East profile stratigraphy in the Terrace area (above) and distribution of all tridimensionally coordenated lithics in the new excavation area until 2017 (under). Lithics from layers 4E and 5 are coloured in black. Blue crosses represent dolerite artefacts and stars mark the provenance of each radiocarbon date: A - WK-42830; B - WK-42831; C - WK-44416."}
@@ -261,9 +253,9 @@ knitr::include_graphics(here::here("/analysis/figures/c14_VB.png"))
 
 ## Lithic assemblages
 
-Taking in consideration the models available for the Gravettian-Solutrean transition in western Europe, particularly, the differences proposed for raw material exploitation (i.e. high vs. low use of quartz) our first approach was to check for the existence of raw materials differences across the layers just defined. For this we calculated the percentages of the three most important raw materials by cubic meter of excavated sediment (Figure \@ref(fig:rmdispersion)) and plotted them by elevation. There seems to be significant differences in raw material distribution over time. From around 24.1 m upwards, there is an important shift in quartz and chert frequencies, the latter increasing more than 10%, and quartz dropping from c. 50% to nearly 30%.
+Taking into consideration the models available for the Gravettian-Solutrean transition in westernmost Europe, particularly the differences proposed for raw material exploitation (i.e., high vs. low use of quartz) our first approach was to check for the existence of raw material differences across the layers just defined. For this, we calculated the percentages of the three most important raw materials by cubic meter of excavated sediment (Figure 4) and plotted them by elevation. There seems to exist significant differences in raw material distribution over time. From around 24.1 m upwards, there is an important shift in quartz and chert frequencies, the latter increasing more than 10%, and quartz dropping from c. 50% to nearly 30%.
 
-This shift seems to be associated with other abovementioned changes in the Terrace sequence, such as an increase in the amount of lithic materials in top of Layer 5 and Layer 4E, but also the appearance of Vale Comprido technology. Additionally, these two moments are stratigraphically correlated with the two different chronological horizons defined above: the first, dated to c. 26 ka cal BP, at c. 23.9 m in elevation, and associated with higher frequencies of quartz, and the second, dated to c. 24.7 ka cal BP, at around 24.1 m, associated with higher frequencies of chert and a reduction in quartz presence.
+This shift seems to be associated with other abovementioned changes in the Terrace sequence, such as an increase in the amount of lithic materials in the top of Layer 5 and Layer 4E, but also the appearance of Vale Comprido technology. Additionally, these two moments are stratigraphically correlated with the two different chronological horizons defined above: the first, dated to c. 26 ka cal BP, at c. 23.9 m in elevation, and associated with higher frequencies of quartz, and the second, dated to c. 24.7 ka cal BP, after around 24.1 m, associated with higher frequencies of chert and a reduction in quartz presence.
 
 ```{r rmdispersion, fig.cap = "Vale Boi. Raw material discard rates over time. Each point is an excavation unit (spit). The lines are locally weighted regression lines (span ¼ 0.4) to aid in visualising the trend of increased discard in the upper part of the deposit.", echo = FALSE, message=FALSE, warning=FALSE}
 
@@ -377,9 +369,9 @@ rm_cubic_meter <- ggplot(rm_by_cubic_meter, (aes(spit_aver_depth, freq, colour =
 rm_cubic_meter
 ```
 
-Given the chronological data, density of artifacts, and raw material preference patterns, it was decided that for this study the materials would be subdivided in two analytical units, to better understand any possible technological differences: **Lower 5**, including all artifacts with elevation values under 24.1; **Upper 5/4E**, including all artifacts with elevation values of 24.1 and above. The value 24.1 is arbitrary and was chosen for the reasons aforementioned.
+Given the chronological data, density of artifacts, and raw material preference patterns, it was decided that for this study the materials would be subdivided into two analytical units, to better understand any possible technological differences: Lower 5, including all artifacts with elevation values under 24.1; Upper 5/4E, including all artifacts with elevation values of 24.1 and above. The value 24.1 is arbitrary and was chosen for the aforementioned reasons.
 
-A total of 26,703 pieces were analysed for both groups, 11,094 from the Lower 5 group and 15,609 for the Upper 5/4E (Tables \@ref(tab:general1) and \@ref(tab:general2)). Most of these are chips (70.62% from Lower 5 and 65.68% from Upper 5/4E), followed by shatters, which make up c. 21% and c. 24% of the groups, respectively. These extremely high numbers for debris are mostly the result of quartz use, which can be explained not only by on-site knapping of this raw material but mostly by its breakage patterns (especially when coarser), which typically produces more waste than in other raw materials.
+A total of 26,703 pieces were analyzed for both groups, 11,094 from the Lower 5 group and 15,609 for the Upper 5/4E (Tables 1 and 2). For both groups, more than 70% of the artifacts are debitage waste, which is mostly the result of quartz use and can be explained by on-site knapping and breakage patterns.
 
 ```{r general1, echo=FALSE}
 
@@ -491,11 +483,9 @@ knitr::kable(head(general_table2[1:15], 12), booktabs=TRUE,caption="Vale Boi - U
 
 ```
 
-For Lower 5, cores and debitage products represent a cumulative frequency of c. 8%. For Upper 5/4E, debitage products represent nearly 10% of the assemblage. Complete blanks are the most represented class for both groups, with 1,474 identified pieces, 4.59% for Lower 5 and 6.18% for Upper 5/4E, followed by blank fragments, with an absolute count of 248 for Lower 5 and 336 for Upper 5/4E. Cores are also relatively frequent within these assemblages, with an absolute count of 123 cores, 46 for Lower 5 and 77 for Upper 5/4E.
+Debitage products represent nearly 10% of both assemblages. Complete blanks are the most represented class, with 4.59% for Lower 5 and 6.18% for Upper 5/4E. Cores are also relatively frequent within these assemblages, with an absolute count of 123 cores, 46 for Lower 5, and 77 for Upper 5/4E. A total of 167 complete retouched pieces were identified, 55 on Lower 5 and 112 on Upper 5/4E.
 
-During the analysis, 167 complete retouched pieces were identified, 55 on Lower 5, representing 0.5% of the group, and 112 on Upper 5/4E, representing 0.72% of the assemblage. Retouched piece fragments appear in much smaller numbers (n=7 for Lower 5 and n=16 for Upper 5/4E).
-
-One of the most relevant raw materials in both of Vale Boi's analytical units used for this study is quartz (encompassing rock crystal, fine, medium and coarse qualities), which represents c. 43% of the total assemblage for the Upper 5/4E group, and c. 51% for Lower 5. Chert, on the other hand, represents c. 46% of the Upper 5/4E phase and 38% of the Lower 5. Finally, greywacke, dolerite, chalcedony, and other raw materials that due to their low frequencies were collapsed in the category “Other”, together represent c. 11% of both assemblages (Figure \@ref(fig:rmvb)).
+The most relevant raw materials in both Vale Boi’s analytical units for this study are quartz (c. 43% of the total assemblage for the Upper 5/4E group, and c. 51% for Lower 5) and chert (c. 46% of the Upper 5/4E phase and 38% of the Lower 5; Figure 5).
 
 ```{r rmvb, fig.cap="Vale Boi. Frequencies of raw materials by phase. Chips and shatters not included.", echo=FALSE}
 
@@ -522,41 +512,277 @@ dfRM_vb %>%
 
 ```
 
-The number of chips and shatter in quartz are extremely high, both in its representativity within the raw material, with c. 94% for both Lower 5 and Upper 5/4E, and when compared to the relative frequencies of other raw materials.
+The number of chips and shatter in quartz is extremely high, both in its representativity within the raw material, with c. 94% for both Lower 5 and Upper 5/4E, and when compared to the relative frequencies of other raw materials. These are followed by blanks, cores, and retouched pieces, although in smaller numbers. Chert shows high frequencies of blanks (15.8% for Lower 5 and 19.6% for Upper 5/4E) when compared to every other class, excluding chips. The latter represents more than 50% of the chert assemblages. Cores represent in both groups around 2% of the total assemblage.
 
-There is a relatively large number of quartz blanks (n=281 for Lower 5 and n=438 for Upper 5/4E) compared to the rest of the classes, as well as cores (n=18 for Lower 5 and n=32 for Upper 5/4E) and retouched pieces (n=15 for Lower 5 and n=34 for Upper 5/4E).
+Retouched pieces represent more than 3% of chert for both phases, a number far higher than those in other raw materials. This shows that chert was preferentially used for formal tool production.
 
-Chert shows high frequencies of blanks (15.8% for Lower 5 and 19.6% for Upper 5/4E) when compared to every other class, excluding chips. The latter represents more than 50% of the chert assemblages, with an absolute frequency of 649 chips for Lower 5 and 1,158 for Upper 5/4E.
+Dolerite is only present in layers 4E and 5 of the Terrace (Figure S1), but also in other Proto-Solutrean levels of the Slope area. The most striking characteristic of this raw material in the assemblages under study is the low presence of chips and shatter (n=1 each), but high frequencies of blanks (Table 1). Unlike Lower 5, in Upper 5/4E, dolerite is represented by five retouched tools, some of which are Vale Comprido technology (Figure 6).
 
-Although chert shows smaller absolute numbers for blanks (n=171 for Lower 5 and n=407 for Upper 5/4E) and blank fragments (n=90 for Lower 5 and n=155 for Upper 5/4E) compared to quartz, there is a large quantity of cores representing 2.1% of total chert in Lower 5 and 2% in Upper 5/4E. However, there is a noticeable difference in the ratio between chert blanks and quartz blanks in Lower 5 and Upper 5/4E, with the latter showing a higher frequency of chert blanks compared to Upper 5/4E.
+```{r vct, fig.cap="Vale Boi - Vale Comprido points in dolerite, chert and chalcedony.", out.width = '70%', fig.align='center', echo=FALSE}
 
-Regarding retouched pieces, these represent more than 3% of chert for both phases, a number far higher than those in other raw materials. This shows that chert, although less present than quartz in blank absolute count (although barely in Upper 5/4E), might have been preferentially used for formal tool production.
+knitr::include_graphics("figure/prancha_vct.jpg")
 
-Dolerite seems to appear only in layers 4E and 5 of the Terrace and Proto-Solutrean levels of the Slope area. The most striking characteristic of this raw material in the assemblages under study is the low presence of chips or shatter (n=1 each), but high frequencies of blanks (50% in Lower 5 and 60.8% in Upper 5/4E) and blank fragments (16.6% in Lower 5 and 13% in Upper 5/4E). Unlike Lower 5, in Upper 5/4E dolerite is represented by five retouched tools, some of which are Vale Comprido points. This raw material seems to have been used preferentially at Vale Boi for the production of these types of points, a pattern already observed in previous works [@marreiros2009], where three out of five Vale Comprido points were identified as dolerite but originally thought to be jasper.
+```
 
-The almost complete absence of cores, with only one core fragment identified in the Lower 5 group, and low quantity of debitage waste may be explained by the importation of finished pieces or blanks to the site, suggesting that, most likely, no knapping activities occurred with this raw material at the site. 
+The almost complete absence of dolerite cores, with only one core fragment identified in the Lower 5 group, and low quantity of debitage waste may be explained by the importation of finished pieces or blanks to the site, suggesting that, most likely, no knapping activities occurred with this raw material at the site. 
 
 ## Techno-typological analysis
 
-### Cores
+Excluding informal cores, there is a clear dominance of single platform cores, for most raw materials and in both phases (Tables S4 and S5). Chert presents the highest variability of core types (Figure 7), with high frequencies for single platform (50% for Lower 5 and 33.3% in Upper 5/4E), but also unidirectional prismatic on Lower 5. 
 
-Excluding inform cores, there is a clear dominance of single platform cores, for most raw materials and in both phases. Chert presents the highest variability of core types, with high frequencies for single platform (50% for Lower 5 and 33.3% in Upper 5/4E), but also prismatic (37.5% on Lower 5). On Upper 5/4E, there are also opposed, pyramidal, two single platforms and other types of platforms in percentages higher than 10%. In the Lower 5 group chert unidirectional prismatic cores are more frequent (Tables S4 and S5).
+Most cores were used for the extraction of flakes, although blade and bladelet scars also show relatively high frequencies associated with the exploitation of unidirectional prismatic cores (Figure S2).
 
-Most cores were used for the extraction of flakes, although blade and bladelet scars also show relatively high frequencies associated with the exploitation of unidirectional prismatic cores in Lower 5 and Upper 5/4E groups (Figure S2).
+Most of the analyzed core platforms are plain or cortical. On Upper 5/4E there is a small frequency of faceted platforms on chert (18.5%). Platform width and thickness means show smaller platforms for chert on both phases, while greywacke shows the highest means for platform measurements. This pattern is similar for other measurements, for which chert and quartz exhibit the smaller means (Tables S6 and S7). 
+Regarding elongation, Figure 8 shows wider range and higher elongation values for chert cores in both phases. Upper 5/4E seems to have less elongated cores in both chert and quartz, but the T-test results indicate no significant difference between sets (Chert t(41) = -0.68, p = 0.5; Quartz t(21)=1.03, p = 0.32).
 
-Most of the analysed core platforms are plain or cortical. On Upper 5/4E there is a small frequency of faceted platforms on both quartz and chert (3.4% and 18.5% respectively). Platforms width and thickness means show smaller platforms for chert on both phases, while greywacke shows the highest means for platform measurements. This pattern is similar for other measurements, for which chert and quartz exhibit the smaller means (Figure S3, Tables S6 and S7).
+Core flattening (Figure 8), calculated by dividing maximum width by thickness, reveals that greywacke and other raw materials show higher values, while quartz and chert cores have statistically similar values for both phases (Chert t(41) = -0.20, p = 0.85; Quartz t(19) = 1.15, p = 0.27).
 
-### Flakes
+```{r coreupper, echo = FALSE, fig.cap = "Vale Boi - Upper 5/4E. Chert cores with vectorized scar negatives and scar directionality.", fig.align= 'center', out.width = '80%', fig.pos="H"}
 
-Lower 5 flakes seem to have mostly irregular shapes (Tables S8 and S9), with frequencies over 45% for most raw materials, followed by convergent and parallel edge morphologies in much lower frequencies (under 15%). Dolerite, unlike other raw materials, shows only convergent and parallel shapes even if with low representativity (n=3). Cross sections are mostly irregular and triangular, varying slightly in frequency regarding each raw material. All raw materials, with exception of quartz, show high frequencies of straight profiles (over 40%), chert showing a similar percentage between straight and curved profiles (44.3% and 42.9% respectively). Quartz, however, has a frequency of 65% of straight profiles, showing much smaller frequencies for other types.
+knitr::include_graphics("figure/coreU.jpg")
 
-On Upper 5/4E, irregular shapes are still frequent, representing over 25% on all raw materials. Convergent and parallel shapes show higher frequencies (over 20%) for quartz, chert and dolerite. Alike Lower 5, cross sections are mostly irregular (over 35% for most raw materials) or triangular (over 25% for all raw materials), and profile type show the same patterns and similar percentages as Lower 5.
+```
 
-Unidirectional scar patterns on blanks' dorsal faces are dominant in both phases and all raw materials, with frequencies over 80%. Bidirectional patterns are slightly more relevant in chert (9.3%), and also in dolerite and chalcedony during Upper 5/4E. Dorsal patterns also show on both phases a dominance of 1, 2 and 3 scars for most raw materials, although chert shows higher scar counts.
+```{r ttestcoresVB, include = FALSE}
 
-Flakes have mostly plain platforms, although for certain raw materials, such as quartz, there is a relevant presence of crushed platforms (33.3% for Lower 5 and 35.9% for Upper 5/4E). Faceted platforms are present in both phases but in low frequencies, in chert for both Lower 5 (1.4%) and Upper 5/4E (2.4%), but in no other raw material. Platforms are also mostly non-cortical (between 80% and 100% depending on raw material) in both phases.
+# CORE ELONGATION TESTING
 
-A total of 219 elongated products (length twice the width) were recorded. 82 of these blanks are from Lower 5, while 137 are from the Upper 5/4E group. Comparatively to the whole group of blanks, there is a more significant number of chert pieces (n=106), this number only changing in Lower 5, where quartz elongated blank numbers (n=44) supersede chert ones (n=31). Figures \@ref(fig:elongdisp1) and \@ref(fig:elongdisp2) show the scatterplots for width and length of elongated blanks of the two main raw materials present at both phases identified at Vale Boi. Following the traditional subdivision between blade and bladelet [@tixier1963], both charts clearly show that the main goal of the reduction sequences for elongated products were bladelets. Only in the Upper 5/4E group, there seems to be a bimodal distribution in the width variable for chert artifacts.
+cores_chert <- dataset %>% 
+  filter(Class == "Core" & RawMaterial == "Chert" & CoreType != "Inform") %>% 
+  mutate(CoreElongation=Length/MaxWidth) %>% 
+  mutate(CoreFlattening=MaxWidth/Thickness) %>% 
+  mutate(CoreConvergence=MedWidth/DistWidth)
+
+var.test(CoreElongation ~ Phase, data = cores_chert)
+
+ttest_elong_cores_chert <- t.test(CoreElongation ~ Phase, var.equal = TRUE, data = cores_chert)
+
+cores_quartz <- dataset %>% 
+  filter(Class == "Core" & RawMaterial == "Quartz" & CoreType != "Inform") %>% 
+  mutate(CoreElongation=Length/MaxWidth) %>% 
+  mutate(CoreFlattening=MaxWidth/Thickness) %>% 
+  mutate(CoreConvergence=MedWidth/DistWidth)
+
+var.test(CoreElongation ~ Phase, data = cores_quartz)
+
+ttest_elong_cores_quartz <- t.test(CoreElongation ~ Phase, var.equal = FALSE, data = cores_quartz)
+
+
+# CORE FLATTENING TESTING
+
+
+var.test(CoreFlattening ~ Phase, data = cores_chert)
+
+ttest_flat_cores_chert <- t.test(CoreFlattening ~ Phase, var.equal = TRUE, data = cores_chert)
+
+
+var.test(CoreFlattening ~ Phase, data = cores_quartz)
+
+ttest_flat_cores_quartz <- t.test(CoreFlattening ~ Phase, var.equal = FALSE, data = cores_quartz)
+
+
+```
+
+```{r corebloxplotVB, fig.cap="Vale Boi. Boxplots of core elongation and flattening by raw material and phase.", out.width='80%', fig.align='center', echo=FALSE}
+
+coreB <- dataset %>% 
+  filter(Class=="Core") %>% 
+  mutate(CoreElongation=Length/MaxWidth) %>% 
+  mutate(CoreFlattening=MaxWidth/Thickness) %>% 
+  mutate(CoreConvergence=MedWidth/DistWidth) %>% 
+  filter(RawMaterial!="Chalcedony") %>% ##filter out low representitivity 
+  filter(RawMaterial!="Greywacke" | Phase!="Upper 5/4E") %>% 
+  filter(RawMaterial!="Other" | Phase!="Lower 5")
+
+core_elongation <- coreB %>% 
+  mutate(RawMaterial = factor(RawMaterial, levels = c("Quartz", "Chert","Chalcedony", 
+                                                      "Greywacke", "Other"))) %>%
+  ggplot(aes(x=RawMaterial, y=CoreElongation, fill = Phase)) + 
+  geom_boxplot(outlier.shape = NA) +
+  theme_minimal() + #type of theme
+  theme(legend.title = element_blank()) +
+  labs(x = " ", y = "Elongation") +
+  theme(axis.title = element_text(size = 10, vjust = -1)) + # x axis size
+  scale_fill_jco()+
+  geom_point(pch = 21, position = position_jitterdodge(jitter.width = 0.2))
+
+
+core_flattening <- coreB %>% 
+  mutate(RawMaterial = factor(RawMaterial, levels = c("Quartz", "Chert","Chalcedony", 
+                                                      "Greywacke", "Other"))) %>%
+  ggplot(aes(x=RawMaterial, y=CoreFlattening, fill = Phase)) + 
+  geom_boxplot(outlier.shape = NA) +
+  theme_minimal() + #type of theme
+  theme(legend.title = element_blank()) +
+  labs(x = " ", y = "Flattening") +
+  theme(axis.title = element_text(size = 10, vjust = -1)) + # x axis size
+  scale_fill_jco()+
+  geom_point(pch = 21, position = position_jitterdodge(jitter.width = 0.2))
+
+ggarrange(core_elongation, core_flattening,
+          widths = c(8, 8),
+          heights = c(10, 10),
+          nrow = 2,
+          common.legend = TRUE,
+          legend = "right")
+```
+
+```{r ttestflakesVB, include = FALSE}
+
+# flake ELONGATION TESTING
+
+flake_chert <- dataset %>% 
+  filter(BlankType == "Flake" & RawMaterial == "Chert")  %>% 
+  mutate(FlakeElongation=Length/MaxWidth) %>% 
+  mutate(FlakeFlattening=MaxWidth/Thickness) %>% 
+  mutate(FlakeConvergence=MedWidth/DistWidth)
+
+var.test(FlakeElongation ~ Phase, data = flake_chert)
+
+ttest_elong_flake_chert <- t.test(FlakeElongation ~ Phase, var.equal = TRUE, data = flake_chert)
+
+
+flake_quartz <- dataset %>% 
+  filter(BlankType == "Flake" & RawMaterial == "Quartz") %>% 
+  mutate(FlakeElongation=Length/MaxWidth) %>% 
+  mutate(FlakeFlattening=MaxWidth/Thickness) %>% 
+  mutate(FlakeConvergence=MedWidth/DistWidth)
+
+var.test(FlakeElongation ~ Phase, data = flake_quartz)
+
+ttest_elong_flake_quartz <- t.test(FlakeElongation ~ Phase, var.equal = FALSE, data = flake_quartz)
+
+
+# CORE FLATTENING TESTING
+
+
+var.test(FlakeFlattening ~ Phase, data = flake_chert)
+
+ttest_flat_flake_chert <- t.test(FlakeFlattening ~ Phase, var.equal = TRUE, data = flake_chert)
+
+
+var.test(FlakeFlattening ~ Phase, data = flake_quartz)
+
+ttest_flat_flake_quartz <- t.test(FlakeFlattening ~ Phase, var.equal = FALSE, data = flake_quartz)
+
+
+```
+
+Both groups show similar patterns for flakes, with little variance between raw materials (Tables S8 and S9). These are mostly composed of irregular, convergent, and parallel shapes, irregular and triangular cross-sections, and straight and curved profiles (quartz showing higher frequencies of straight profiles).
+
+Unidirectional scar patterns on blanks’ dorsal faces are dominant in both phases and all raw materials (Tables S8 and S9). Bidirectional patterns are slightly more relevant in chert (9.3%), and also in dolerite and chalcedony during Upper 5/4E. Dorsal patterns also show on both phases a dominance of 1, 2, and 3 scars for most raw materials, although chert shows higher scar counts. For both phases, and in all raw materials, flakes show high frequencies for 0% cortex on the dorsal face.
+
+Flakes have mostly plain platforms. Faceted platforms are present in both phases but in rather low frequencies only in chert: Lower 5 (1.4%) and Upper 5/4E (2.4%). Platforms are also mostly non-cortical (between 80% and 100% depending on raw material) in both phases.
+
+Regarding elongation (Figure 9), quartz, chert, and chalcedony show the highest values. Despite having similar elongation ranges in both groups, quartz shows relatively different medians in Lower 5. In comparison, Upper 5/4E shows a larger number of elongated quartz flakes in Upper 5/4E (Chert t(470) = -2.42, p = 0.02; Quartz t(522) = -1.68, p = 0.09). For chert, Upper 5/4E also seems to show higher elongation values for flakes, though once again, there is a wide range of variability regarding elongation in the assemblage.
+
+As for flattening (Figure 9), quartz shows very low values for flake flattening, compared to other raw materials. The data, however, also shows that for all raw materials, except for quartz, flake flattening is extremely variable within assemblages. With the exception of dolerite, there does not seem to be much difference in elongation ratios between phases (Chert t(470) = -0.08, p = 0.94; Quartz t(568) = -0.51, p = 0.61).
+
+```{r flakeboxplot, fig.cap="Vale Boi. Boxplots of flake elongation and flattening by raw material and phase.", echo=FALSE, fig.align= 'center', out.width = '80%', fig.pos="H"}
+  
+flakeB <- dataset %>%
+  filter(BlankType=="Flake") %>%
+  mutate(FlakeElongation=Length/MaxWidth) %>% 
+  mutate(FlakeFlattening=MaxWidth/Thickness) %>% 
+  select(Phase, RawMaterial, FlakeFlattening, FlakeElongation) %>% 
+  filter(FlakeFlattening < 15) %>% # removing 3 outliers which pull the tails up distorting the graph 
+  na.omit()
+
+flake_elongation <- flakeB %>% 
+  mutate(RawMaterial = factor(RawMaterial, levels = c("Quartz", "Chert", 
+                                                      "Greywacke","Dolerite","Chalcedony", "Other"))) %>%
+  ggplot(aes(x=RawMaterial, y=FlakeElongation, fill = Phase)) + 
+  geom_boxplot() +
+  theme_minimal() + #type of theme
+  theme(legend.title = element_blank()) +
+  labs(x = " ", y = "Elongation") +
+  theme(axis.title = element_text(size = 10, vjust = -1)) + # x axis size
+  scale_fill_jco() +
+  scale_color_jco() 
+#  geom_point(pch = 21, position = position_jitterdodge(jitter.width = 0.3))
+
+flake_flattening <- flakeB %>% 
+  mutate(RawMaterial = factor(RawMaterial, levels = c("Quartz", "Chert",   "Greywacke","Dolerite","Chalcedony", "Other"))) %>%
+  ggplot(aes(x=RawMaterial, y=FlakeFlattening, fill = Phase)) + 
+  geom_boxplot() +
+  theme_minimal() + #type of theme
+  theme(legend.title = element_blank()) +
+  labs(x = " ", y = "Flattening") +
+  theme(axis.title = element_text(size = 10, vjust = -1)) + # x axis size
+  scale_fill_jco()+
+  scale_color_jco() 
+#  geom_point(pch = 21, position = position_jitterdodge(jitter.width = 0.3))
+
+ggarrange(flake_elongation, flake_flattening,
+          widths = c(8, 8),
+          heights = c(10, 10),
+          nrow = 2,
+          common.legend = TRUE,
+          legend = "right")
+```
+
+A total of 219 elongated products (i.e., blanks with length at least twice the width) were recorded. 82 of these blanks are from Lower 5, while 137 are from the Upper 5/4E group. Comparatively to the whole group of blanks, there is a more significant number of chert pieces (n=106), this number only changing in Lower 5, where quartz elongated blank numbers (n=44) supersede chert ones (n=31). Figures 10 and 11 show the scatterplots for width and length of elongated blanks of the two main raw materials present at both phases identified at Vale Boi. Following the traditional subdivision between blade and bladelet (Tixier, 1963), both charts clearly show that the main goal of the reduction sequences for elongated products were bladelets. Only in the Upper 5/4E group, there seems to be a bimodal distribution in the width variable for chert artifacts.
+
+Testing this apparent division (artifacts wider than 12.5 mm and those with less than 12.5 mm in width) against all other relevant morphological variables revealed, however, no significant difference between the two groups for almost all variables, except for cortex, scar count and scar patterns (Table 3).
+
+```{r fishertestelongVB, include=FALSE}
+
+elongAT <- dataset %>% 
+  filter(BlankType=="ElongatedProd")
+
+elong_groups_AT2 <- elongAT %>% 
+  mutate(elong_group = case_when(MedWidth < 12.5 ~ "Bladelet",
+                                  MedWidth >= 12.5 ~ "Blade")) %>% 
+  filter(RawMaterial == "Chert" & Phase == "Upper 5/4E")
+
+
+plat <- fisher.test(table(elong_groups_AT2$PlatformType, elong_groups_AT2$elong_group))
+prof <- fisher.test(table(elong_groups_AT2$Profile, elong_groups_AT2$elong_group))
+cross <- fisher.test(table(elong_groups_AT2$CrossSection, elong_groups_AT2$elong_group))
+shape <- fisher.test(table(elong_groups_AT2$BlankShape, elong_groups_AT2$elong_group))
+
+```
+
+```{r fisherelongVB2, echo = FALSE, warning=FALSE, message=FALSE}
+
+elongAT <- dataset %>% 
+  filter(BlankType=="ElongatedProd")
+
+elong_groups_AT2 <- elongAT %>% 
+  mutate(elong_group = case_when(MedWidth < 12.5 ~ "Bladelet",
+                                  MedWidth >= 12.5 ~ "Blade")) %>% 
+  filter(RawMaterial == "Chert" & Phase == "Upper 5/4E")
+
+
+elong_test_AT2 <- tabmulti(elong_groups_AT2, "elong_group", c("CrossSection",
+                                                              "BlankShape", "Profile",
+                                                              "BlankTip", 
+                                                              "PlatformType", 
+                                                         "PlatformCortex", "Cortex",
+                                                         "ScarCount", "ScarPattern"),
+                        ymeasures = c("freq", "freq", "freq",
+                                      "freq","freq","freq","freq","freq", "freq"),
+                        p.include = TRUE,
+                        freq.tests = 'fisher',
+                        n.headings = FALSE,
+                        bold.varnames = TRUE,
+                        bold.colnames = TRUE,
+                        overall.column = FALSE,
+                        variable.colname = "Attributes")
+elong_test_AT2 <- as.data.frame(elong_test_AT2)
+elong_test_AT2 <- elong_test_AT2 %>% 
+  filter(Attributes %in% c("CrossSection, n (%)", "BlankShape, n (%)", "2	Profile, n (%)", "BlankTip, n (%)", "PlatformType, n (%)",
+                           "PlatformCortex, n (%)", "Cortex, n (%)", "ScarCount, n (%)", "ScarPattern, n (%)"))
+elong_test_AT2 <- elong_test_AT2 %>% 
+  select(1,4)
+
+
+knitr::kable(elong_test_AT2,booktabs=TRUE, caption = "Vale Boi - Upper5/4E. Results of Fisher exact tests to evaluate whether the distribution of technological variables differed across metric groups (blades and bladelets) of chert elongated artifacts.") %>% 
+  kable_styling(font_size = 9, latex_options = "hold_position")
+
+```
+
+The results seem to indicate that the difference between the two classes is likely not related with the existence of two distinct reduction sequences but of a single reduction sequence with cortical or partially cortical elongated products at the beginning of core exploitation, when bidirectional strategies were used to perform decortication and core configuration. Together with the reasonably linear positive correlation showed by the chert tendency line displayed in Figure 11, the results seem enough to do the technological description of all elongated products as a single category.
 
 ```{r elongVBsetup, include=FALSE}
 
@@ -606,27 +832,20 @@ disp_2 <- ggplot(elong_disp2, aes(MedWidth, Length, color = RawMaterial)) +
 ggMarginal(disp_2, type = "density", groupColour = TRUE, groupFill = TRUE)
 ```
 
-### Elongated blanks
+Elongated blanks have mostly parallel and convergent shapes, on both phases. Cross-sections are mostly triangular, with straight and curved profiles (Tables S12 and S13). Differences in profile types are rather significant between both phases, but only for quartz artifacts. While in Lower 5, quartz elongated blanks present a percentage of curved profiles of c. 23%, in Upper 5/4E, this percentage drops to c. 12%. Curved and twisted profiles in bladelets are usually associated with the exploitation of carinated cores, particularly in the Gravettian-Solutrean transition, as presented by Almeida (2000) for the Terminal Gravettian of the Portuguese Estremadura. Although no carinated cores were identified in the Lower 5 assemblage, the presence of a significant number of bladelets with curved profiles might suggest the use of such reduction strategy.
 
-Elongated blanks have mostly parallel and convergent shapes, on both phases, although Lower 5 shows significant differences across the different raw materials, since c. 64% of quartz has parallel shapes, whereas c. 52% of chert has convergent ones. Cross sections are mostly triangular, with straight and curved profiles (Tables S12 and S13). Differences in profile types are rather significant between both phases, but only for quartz artifacts. While in Lower 5, quartz elongated blanks present a percentage of curved profiles of c. 23%, in Upper 5/4E, this percentage drops to c. 12%. Curved and twisted profiles in bladelets are usually associated with the exploitation of carinated cores, particularly in the Gravettian-Solutrean transition as presented by @almeida2000 for the Terminal Gravettian of the Portuguese Estremadura. Although no carinated cores were identified in the Lower 5 assemblage, the presence of a significant number of bladelets with curved profiles might suggest the use of such reduction strategy.
+Scar patterns show an evident tendency for unidirectional knapping strategies on all raw materials. Once again, there is little cortex on the dorsal face of the pieces, although chert shows, for both groups, the highest variability of cortex percentage frequencies.
 
-Scar patterns show an evident tendency for unidirectional knapping strategies on all raw materials. For Lower 5, however, bidirectional scar patterns are present on 4 chert artifacts (c. 13%). Upper 5/4E shows much lower values for this type of scar pattern, with c. 2% on quartz and c. 4% on chert. Scar count shows a tendency for 1 to 3 dorsal scars on both phases and all raw materials.
+Elongated blanks in both phases seem to be obtained without platform preparation. The general tendency for both phases is for the absence of cortical platforms. 
 
-Elongated blanks on both phases seem to be obtained without platform preparation, although quartz also shows a significant presence of crushed platforms. Only two faceted platforms were identified, in Upper 5/4E, on chert and dolerite pieces. The general tendency for both phases is for the absence of cortical platforms. Only chert and greywacke on Lower 5 (c. 10% and c. 17% respectively) and chert on Upper 5/4E (c. 13%) show completely cortical platforms.
+Regarding retouched tools, Lower 5 is comprised of several types, from which a few stand out by their high numbers, such as retouched flakes, splintered pieces, and notches (Table 4 and 5).
 
-### Retouched tools
+For Upper 5/4E, splintered pieces are still common (c. 24%), in both chert and quartz, followed by endscrapers and notches. Every other retouched tool type has frequencies under 10%.
 
-Lower 5 is comprised of several types, from which a few stand out by their high numbers, such as retouched flakes, corresponding to c. 27% of all retouched pieces, splintered pieces, with c. 25% of representativity, followed by notches with a frequency of 12.7%, the latter two occurring in similar numbers in chert (n=6 and n=4, respectively) and quartz (n=8 and n=3).
+Upper 5/4E shows not only a more significant number of retouched tools, which might be the result of a more intensive occupation, but also a wider variety of types, probably as a result of a more diverse set of activities occurring at the site. 
 
-There is also the presence of endscrapers (c. 10%) and burins (c. 7%), mostly on chert.
+One of these newly introduced retouched types is the Vale Comprido point (Figure 6). Vale Comprido points have been identified in chert (n=1), greywacke (n=1), dolerite (n=3) and chalcedony (n=1). In fact, dolerite had already been identified as a preferred blank for producing these types of tools (Marreiros, 2009). Comparatively, dolerite was not used for the production of any retouched pieces in Lower 5.
 
-For Upper 5/4E, splintered pieces are still very frequent (c. 24%), in both chert and quartz, followed by endscrapers, which represent c. 22% of the total retouched pieces assemblage. Most of the endscrapers are chert, although it may be relevant to point out that two of them are made of dolerite. Notches are, once again, the third most frequent retouched typology, representing c. 12%. Every other retouched tool type has frequencies under 10%.
-
-Upper 5/4E thus shows not only a more significant number of retouched pieces, which might be the result of a more intensive occupation or series of occupations but also a wider variety of types, probably as a result of a more diverse set of activities occurring at the site. While Lower 5 shows 11 different retouched piece types, Upper 5/4E shows 15 types, introducing six new different types.
-
-One of these newly introduced retouched types is the Vale Comprido point, although only representing c. 5% of retouched pieces for Upper 5/4E. As mentioned before, Vale Comprido points have been identified as a Proto-Solutrean only technological solution, which seems to appear during the Proto-Solutrean in the Two-phase and Three-phase model. Thus, its presence in Upper 5/4E not only conforms to the data already presented for the Portuguese Estremadura (Zilhão 1997), and it further strengthens the separation of the two defined phases as two discrete temporal and cultural occupation horizons.
-
-The analysed Vale Comprido points have been identified in chert (n=1), greywacke (n=1), dolerite (n=3) and chalcedony (n=1, which makes up 100% of retouched pieces made in this raw material). In fact, dolerite had already been identified as a preferred means for making these products [@marreiros2009], a fact only strengthened by the fact that this raw material has more Vale Comprido points than any other and only appears in one other typology: endscrapers. Comparatively, dolerite was not used for the production of any retouched piece in Lower 5.
 
 ```{r retouchVB1, echo=FALSE}
 
@@ -707,37 +926,48 @@ knitr::kable(retouch_table2, booktabs=TRUE, caption = "Vale Boi - Upper 5/4E. Re
 
 ## Stratigraphy and chronology
 
-Lapa do Picareiro is a cave site on the west facing slope of Serra d’Aire, a limestone massif north of the Tagus River valley and Lisbon (Figure \@ref(fig:protomap)) [@benedettietal2019; @bicho2006]. The massif is underlain by the Serra d’Aire formation, a thick-bedded limestone of the Middle Jurassic age [@carvalho2018]. Serra d’Aire is part of a large limestone region (Maciço Calcário Estremenho), with several Palaeolithic sites [@almeida2000; @benedettietal2019].
+Lapa do Picareiro is a cave site on the west-facing slope of Serra d’Aire, a limestone massif north of the Tagus River valley and Lisbon (Figure 1) (Benedetti et al., 2019; Bicho et al., 2006). The massif is underlain by the Serra d’Aire formation, a thick-bedded limestone of the Middle Jurassic age (Carvalho, 2018). Serra d’Aire is part of a large limestone region (Maciço Calcário Estremenho), with several Paleolithic sites (Almeida, 2000; Benedetti et al., 2019).
 
-The interior of the chamber is about 11 x 14 m, and has more than 10 m of coarse sedimentary infill in inclined beds, derived from roof collapse, gravity flows and fine sediment infiltration [@benedettietal2019]. The cave opening is marked by the existence of a large limestone cone of stone blocks [@bicho2006] while the sediment inside the cave consists of smaller and angular limestone clasts in a matrix of fine sediment [@benedettietal2019].
+The interior of the chamber is about 11 x 14 m, and has more than 10 m of coarse sedimentary infill in inclined beds, derived from roof collapse, gravity flows and fine sediment infiltration (Benedetti et al., 2019). The cave opening is marked by the existence of a large limestone cone of stone blocks (Bicho et al., 2006), while the sediment inside the cave consists of smaller and angular limestone clasts in a matrix of fine sediment (Benedetti et al., 2019).
 
-Lapa do Picareiro shows a long sequence of occupations, from the Middle Palaeolithic, Upper Palaeolithic, Epipaleolithic, Neolithic and Bronze Age, the latter two mostly in the front of the cave, and adjacent outside areas [@benedettietal2019; @bicho2006].
+Lapa do Picareiro shows a long sequence of occupations, from the Middle Paleolithic, Upper Paleolithic, Epipaleolithic, Neolithic and Bronze Age, the latter two mostly in the front of the cave, and adjacent outside areas (Benedetti et al., 2019; Bicho et al., 2006).
 
-The Palaeolithic finds were, so far, recovered from two main areas: the main chamber and a niche in the rear wall. A plan with excavation units may be found on the Supplementary material (Figure S5). The main chamber shows a sequence of Middle to Upper Palaeolithic occupations, centered on units E7 to F8 [@benedettietal2019]. The main feature in this area is a large Magdalenian hearth in level F/G with associated lithics and a large quantity of fauna, which was interpreted as a particular purpose occupation for processing animal carcasses [@bicho2006]. The niche finds, concentrated in units XX9 to ZZ11, present a series of smaller, stacked hearths, radiocarbon dated to the Magdalenian, Solutrean, Proto-Solutrean and Terminal Gravettian [@benedettietal2019].
+The Paleolithic finds were, so far, recovered from two main areas: the main chamber and a niche in the rear wall. A plan with excavation units may be found in the Supplementary Materials (Figure S3). The main chamber shows a sequence of Middle to Upper Paleolithic occupations, centered on units E7 to F8 (Benedetti et al., 2019). The main feature in this area is a large Magdalenian hearth in level F/G with associated lithics and a large quantity of fauna, which was interpreted as a particular purpose occupation for processing animal carcasses (Bicho et al., 2006). The niche finds, concentrated in units XX9 to ZZ11, present a series of smaller, stacked hearths, radiocarbon dated to the Magdalenian, Solutrean, Proto-Solutrean and Terminal Gravettian (Benedetti et al., 2019).
 
-The large hearth and associated features are the only areas where human activity largely disturbed the sedimentary sequence. In all other areas, human activity is limited to thin hearths in association with sporadic lithic concentrations and modified bones. These periods of occupation appear in the sedimentary sequences as alternated with moments of culturally sterile faunal occupation [@benedettietal2019]. Thus, human activity at the site might be understood as several discontinuous occupations inside the cave throughout the late Middle and Upper Palaeolithic, which intensified through the latter with a significant peak during the Magdalenian.
+The large hearth and associated features are the only areas where human activity largely disturbed the sedimentary sequence. In all other areas, human activity is limited to thin hearths in association with sporadic lithic concentrations and modified bones. These periods of occupation appear in the sedimentary sequences as alternated with moments of culturally sterile faunal occupation (Benedetti et al., 2019). Thus, human activity at the site might be understood as several discontinuous occupations inside the cave throughout the late Middle and Upper Paleolithic, which intensified through the latter with a significant peak during the Magdalenian.
 
-A complete description of all currently identified levels in the site and, whenever existent, associated lithic assemblages, may be found in @benedettietal2019  and Table S16. From the 34 levels described, 23 show human occupations or association with a lithic assemblages, and 20 of these can be attributed to the Upper Paleolithic.
+A complete description of all currently identified levels in the site and, whenever existent, associated lithic assemblages, may be found in Benedetti et al. (2019) and Table S16. From the 34 levels described, 23 show human occupations or association with lithic assemblages, and 20 of these can be attributed to the Upper Paleolithic.
 
-Magdalenian occupations are divided into Late Magdalenian (levels E-J) and Early Magdalenian (levels K-L). Solutrean occupations occur in levels O, R, and S (level P showing neither bone fragments nor a lithic assemblage). 
+Magdalenian occupations are divided into Late Magdalenian (levels E-J) and Early Magdalenian (levels K-L). Solutrean occupations occur in levels O, R, and S (level P showing neither bone fragments nor a lithic assemblage).
 
-Level T, approximately 50 cm thick, is comprised of several lithic assemblages which have been attributed to differing technocomplexes: Solutrean in the upper level; Proto-Solutrean in the middle portion of T; and Terminal Gravettian in the lower portion of the level T, the latter technocomplex also identified in level U, with a ~15 cm thick layer [@benedettietal2019].
-
+Level T, approximately 50 cm thick, is comprised of several lithic assemblages which have been attributed to differing technocomplexes: Solutrean in the upper level; Proto-Solutrean in the middle portion of T; and Terminal Gravettian in the lower portion of the level T, the latter technocomplex also identified in level U, with a ~15 cm thick layer (Benedetti et al., 2019).
 Levels V, W, and X were associated with Gravettian occupations while levels BB, DD, and FF (each intercalated with culturally sterile levels), have early Upper Paleolithic lithic assemblages. Finally, an Aurignacian occupation is present in level GG.
 
 Regarding the layers identified as Terminal Gravettian/Proto-Solutrean, the physical distinction between level U and the lower portion of T is hard to make near the back of the cave. In this area, both levels show similar reddish muddy sediment and clast, with the presence of abundant animal bones in level T. Level U/lower T is about 30 cm thick, incorporating the entire 15 cm of level U and the lower 15 cm of level T, with the presence of possible combustion features and distinct activity areas.
 
-The lithic assemblage from U/ lower T derives from back left side of the cave. There is an apparent concentration of lithics, comprised mostly of quartz and rock crystal, and some chert, all raw materials appearing mostly in the shape of bladelets. A few bone tools were also found. Other recovered artifacts also include perforated marine shells and perforated red deer canine teeth. The recovered artifacts show a rich faunal assemblage, with a high presence of red deer, though ibex presence is also important, and a superabundance of rabbit bones.
+The lithic assemblage from U/ lower T derives from back left side of the cave. There is an apparent concentration of lithics, comprised mostly of quartz and rock crystal, and some chert, all raw materials appearing mostly in the shape of bladelets (Figure 12). A few bone tools were also found. Other recovered artifacts also include perforated marine shells and perforated red deer canine teeth. The recovered artifacts show a rich faunal assemblage, with a high presence of red deer, though ibex presence is also important, and a superabundance of rabbit bones.
+
+```{r quartzbladelet, fig.cap="Lapa do Picareiro - U/Lower T - Fine quartz and rock crystal blanks and blank fragments.", out.width = '60%', fig.align='center', echo=FALSE, fig.pos="H"}
+
+knitr::include_graphics("figure/prancha_bladelets.jpg")
+
+```
 
 For U and lower T, radiocarbon dates (Table S3), all obtained from charcoal samples, show results of c. 27-26 cal ka BP, except for one of lower T dates which presents a result of c. 25-24 cal ka BP.
 
-The middle part of T shows the presence of circular concentrations of charcoals, about 10-15 cm thick, which have been interpreted as hearths in and around the wall niche on the right side. The lithic assemblage in this portion of level T is found in two areas: an accumulation of lithics surrounding the hearths and other scattered pieces in the same spits as the hearths but in different units. This assemblage is mostly comprised of chert, also with the presence of quartz and rock crystal, in the form of bladelets and flakes. Although the presence of traditionally-defined Vale Comprido points is not completely attested, there are several blanks which seem to resemble this type of technology, in the form of convergent elongated blanks.
+The middle part of T shows the presence of circular concentrations of charcoals, about 10-15 cm thick, which have been interpreted as hearths in and around the wall niche on the right side. The lithic assemblage in this portion of level T is found in two areas: an accumulation of lithics surrounding the hearths and other scattered pieces in the same spits as the hearths but in different units. This assemblage is mostly comprised of chert, with rare presence of quartz and rock crystal bladelets and flakes. Although the presence of traditionally-defined Vale Comprido points is not completely attested, there are several blanks which seem to resemble this type of technology, in the form of convergent elongated blanks (Figure 13).
+
+```{r lpblades, fig.cap="Lapa do Picareiro - Middle T - Chert blades with similarities to Vale Comprido technology.", out.width = '60%', fig.align='center', echo=FALSE}
+
+knitr::include_graphics("figure/prancha_blades.jpg")
+
+```
 
 Artifacts also include bone points as in the U/lower T assemblage. There is also a high frequency of animal bones, following the same species patterns as lower T and level U (although these results are preliminary).
 
-The dates for middle T (Figure \@ref(fig:c14LP)), obtained from charcoal and bone samples, provided results of c. 25-24 ka cal BP, with one date presenting a range of c. 23.4-23.6 ka cal BP.
+The dates for middle T (Figure 15), obtained from charcoal and bone samples, provided results of c. 25-24 ka cal BP, with one date presenting a range of c. 23.4-23.6 ka cal BP.
 
-There is a clear separation between the two groups, one composed of levels U and lower T, and the other of middle T. This is also visible on the spatial dispersion of lithics and other artifacts (Figure \@ref(fig:spatialut)), with an accumulation on the bottom left, correspondent to the U/lower T, and another aggregation in the middle portion, to the right, ranging from 20-40 cm of depth difference between the groups.
+There is a clear separation between the two groups, one composed of levels U and lower T, and the other of middle T. This is also visible on the spatial dispersion of lithics and other artifacts (Figure 14), with an accumulation on the bottom left, correspondent to the U/lower T, and another aggregation in the middle portion, to the right, ranging from 20-40 cm of depth difference between the groups.
 
 ```{r spatialut, fig.cap="Lapa do Picareiro. Spatial distribution of all plotted artefacts from levels T-U (in grey), lithic artefacts in colours and shapes referring to raw material and class. After Haws et al. (2019).", echo=FALSE}
 
@@ -758,9 +988,10 @@ knitr::include_graphics(here::here("analysis/figures/c14_LP.png"))
 
 ## Lithic assemblages
 
-The materials from Lapa do Picareiro selected for this study come exclusively from Levels U and T. Given the aforementioned geo-archaeological background, for the present analysis the materials were separated into two assemblages: **U/Lower T**, which included all artifacts with depths inferior to 566.9 m or (in case of artifacts lacking 3D coordinates) from all spits from Level U and spits 6 through 8 from Level T [@hawsetal2019]; **Middle T**, including all artifacts with depths equal or superior to 566.9 m, or from the top five spits of Level T. Any other artifact in the assemblage which did not have a depth value or level/spit was not considered in these results since it lacked the required information to contextualize its technological attributes. Also excluded from this study are the materials found on top of Level T, undoubtedly attributable to the Solutrean [@hawsetal2019; @benedettietal2019].
+The materials from Lapa do Picareiro selected for this study come exclusively from Levels U and T. Given the aforementioned geo-archaeological background, for the present analysis the materials were separated into two assemblages: *U/Lower T*, which included all artifacts with depths inferior to 566.9 m or, in case of artifacts lacking 3D coordinates, from all spits from Level U and spits 6 through 8 from Level T (Haws et al., 2019); *Middle T*, including all artifacts with depths equal or superior to 566.9 m, or from the top five spits of Level T. Any other artifact in the assemblage which did not have a depth value or level/spit was not considered in these results since it lacked the required information to contextualize its technological attributes. Also excluded from this study are the materials found on top of Level T, undoubtedly attributable to the Solutrean (Benedetti et al., 2019; Haws et al., 2019).
 
-A total of 376 pieces were analysed, 196 coming from the U/Lower T phase and 180 from the Middle T group (Tables \@ref(tab:general1lp) and \@ref(tab:general2lp)). In both groups, debitage waste is mostly composed of chips, which represents 49.5% of the U/Lower T group and 37.2% of the Middle T group. As in Vale Boi, these values for chippage can be mostly explained by quartz breakage patterns.
+A total of 376 pieces were analyzed, 196 coming from the U/Lower T phase and 180 from the Middle T group (Tables 6 and 7). In both groups, debitage waste is mostly composed of chips (more than 35% in both groups). As in Vale Boi, these values for chippage can be mostly explained by quartz breakage patterns.
+
 
 ```{r general1lp, echo=FALSE}
 
@@ -848,11 +1079,9 @@ knitr::kable(head(general_table_PR[1:9], 7), booktabs=TRUE,caption="Lapa do Pica
 
 ```
 
-The second most present class for both assemblages are complete blanks, which represent 13.7% of the U/Lower T group and 37.2% of the Middle T group, followed by blank fragments (13.7% and 15.5%, respectively). Retouched pieces have relatively small frequencies, representing c. 3% in both U/Lower T and Middle T. Cores are very scarce in both groups, 1% in the U/Lower T group (n=2) and c. 3% in the Middle T (n=5).
+The second most present class for both assemblages are complete blanks, followed by blank fragments. Retouched pieces and cores show small frequencies in both groups.
 
-Comparatively to Vale Boi, Lapa do Picareiro shows less raw material variability, which might be explained by the lithological characteristics of the area, already explored in other studies that showed similar raw material presence patterns [@almeida2000; @zilhao1997], but can also be related to the location of the site in a high altitude environment with significant implications to the functional nature of the occupations [see @cascalheirabicho2017].
-
-The main raw materials identified were quartz and chert (Figure \@ref(fig:rmlp)). Quartz is dominant in the U/Lower T phase, representing c. 60% of the assemblage, while chert is dominant in the Middle T phase, representing c. 59%. The sporadic occurrence of other raw materials is the result of the identification of some quartzite artifacts on both phases.
+The main raw materials identified were quartz and chert (Figure 16). Quartz is dominant in the U/Lower T phase, representing c. 60% of the assemblage (Figure 12), while chert is dominant in the Middle T phase, representing c. 59%. The sporadic occurrence of other raw materials is the result of the identification of some quartzite artifacts in both phases.
 
 ```{r rmlp, fig.cap = "Lapa do Picareiro. Frequencies of raw material by phase. Chips and shatters not included.", echo=FALSE}
 dfRM_lp <- datasetlp %>% 
@@ -875,33 +1104,151 @@ dfRM_lp %>%
   scale_fill_jco()
 ```
 
-The number of chips in quartz is extremely high, representing nearly 60% of this raw material in both phases. Other waste products, i.e. shatters, show much smaller numbers (n=4 for U/Lower T and n=3 for Middle T). Comparatively, complete blanks are the second most present class in quartz, with a frequency of 20% (n=30) for the U/Lower T group, followed by blank fragments which represent 15.2% of that assemblage. For the Middle T group, complete blanks and blank fragments show similar frequencies, representing c. 19% each. Although in small numbers, quartz shows the highest number of cores (n=4, 2 in each group) from all raw materials, but a small number of retouched tools (n=1).
+The number of chips in quartz is extremely high, representing nearly 60% of this raw material in both phases, while complete blanks are the second most present class in quartz, with a frequency of c. 20%.
 
-Chert is characterized by a high frequency of complete blanks (c. 53% for U/Lower T and c. 63% for Middle T), with frequencies of cumulative c. 22% and c. 15% for chips and shatters in the U/Lower T and Middle T phases, respectively. Blank fragments are poorly represented comparatively to quartz, with an absolute count of 4 elements for U/Lower T and 9 for the Middle T phase, representing c. 9% and c. 12% of the whole chert assemblage. Although there are few cores (n=2), retouched pieces have a relatively high frequency within chert (c. 11% on U/Lower T and c. 7% on Middle T) but also across all materials, suggesting that chert was preferentially used for the manufacture of formal tools.
+Chert is characterized by a high frequency of complete blanks (c. 53% for U/Lower T and c. 63% for Middle T), with frequencies of c. 22% and c. 15% for chips and shatters in the U/Lower T and Middle T phases, respectively. Although there are few cores (n=2), retouched pieces have a relatively high frequency within chert (c. 11% on U/Lower T and c. 7% on Middle T) but also across all materials, suggesting that chert was preferentially used for the manufacture of formal tools.
 
 ## Techno-typological analysis
 
-### Cores
+A total of 7 cores were recorded on the Lapa do Picareiro assemblages, two in the U/Lower T group (both in quartz), and five in the Middle T (Tables 6 and 7).
 
-A total of 7 cores were recorded on the Lapa do Picareiro assemblages, two in the U/Lower T group (both in quartz) and five in the Middle T, of which 2 are in chert and 2 are in quartz (Tables S17 and S18).
+Single platform, prismatic and pyramidal cores were identified in the Middle T group. These were mainly used to remove flakes, and only prismatic cores showed evidence for the production of a mixture of blank types (Figure S4). Core platforms tend to be plain. The number of debitage surfaces is greater on chert cores for the Middle T group, while quartz varies between single and three faces. 
 
-Single platform, prismatic and pyramidal cores were identified in the Middle T group. These were mainly used to remove flakes and only prismatic cores showed evidence for the production of mixed blanks. Platforms tend to be unfacetted, although a small number of cores presented dihedral platforms (2 in Middle T, in quartz and chert). The number of debitage surfaces is greater on chert cores for the Middle T group, while quartz varies between single and three faces.
+Metrically, chert has smaller mean values for all core measurements when compared to other raw materials (Tables S29 and S20), showing, however, higher elongation ratios (Figure 17). Regarding quartz cores, the differences between the U/Lower T phase and the Middle T phase are pronounced, with the first group showing more elongated cores with low flattening values. However, these differences may simply be the result of the rather small number of cores present in the assemblage and a consequent low intra-assemblage variability.
 
-### Flakes
+```{r corebloxplotLP, fig.cap="Lapa do Picareiro. Boxplots of core elongation and flattening by raw material and phase.", echo=FALSE, fig.align= 'center', out.width = '60%', fig.pos="H"}
+coreB_LP <- datasetlp %>% 
+  filter(Class=="Core") %>% 
+  mutate(CoreElongation=Length/MaxWidth) %>% 
+  mutate(CoreFlattening=MaxWidth/Thickness) %>% 
+  mutate(CoreConvergence=MedWidth/DistWidth) %>% 
+  filter(RawMaterial %in% c("Quartz", "Chert"))
+core_elongation_LP <- coreB_LP %>% 
+  mutate(RawMaterial = factor(RawMaterial, levels = c("Quartz", "Chert"))) %>%
+  ggplot(aes(x=RawMaterial, y=CoreElongation, fill = Phase)) + 
+  geom_boxplot(outlier.shape = NA) +
+  theme_minimal() + #type of theme
+  theme(legend.title = element_blank()) +
+  labs(x = " ", y = "Elongation") +
+  theme(axis.title = element_text(size = 10, vjust = -1)) + # x axis size
+  geom_point(pch = 21, position = position_jitterdodge(jitter.width = 0.2)) +
+  scale_fill_jco()
+core_flattening_LP <- coreB_LP %>% 
+  mutate(RawMaterial = factor(RawMaterial, levels = c("Quartz", "Chert","Chalcedony", 
+                                                      "Greywacke", "Other"))) %>%
+  ggplot(aes(x=RawMaterial, y=CoreFlattening, fill = Phase)) + 
+  geom_boxplot(outlier.shape = NA) +
+  theme_minimal() + #type of theme
+  theme(legend.title = element_blank()) +
+  labs(x = " ", y = "Flattening") +
+  theme(axis.title = element_text(size = 10, vjust = -1)) + # x axis size
+  geom_point(pch = 21, position = position_jitterdodge(jitter.width = 0.2)) +
+  scale_fill_jco()
+ggarrange(core_elongation_LP, core_flattening_LP,
+          widths = c(8, 8),
+          heights = c(10, 10),
+          nrow = 2,
+          common.legend = TRUE,
+          legend = "right")
+```
 
-A total of 122 flakes were analyzed, 46 attributed to the U/Lower T group, more than 50% being in quartz, and 67 attributed to the Middle T group, its vast majority in chert. On both groups, attributes are very similar (Tables S21 and S22).
+```{r ttestflakesLP, include = FALSE}
 
-On the U/Lower T phase, for quartz, there seems to be the predominance of parallel shapes (35%), followed by convergent ones (30%). Chert, however, shows higher percentages for irregular (28.6%) and divergent (42.9%) shapes. Cross sections are mostly triangular for all raw materials (over 40%), although chert also shows high frequencies of trapezoidal cross sections (42.9%). Profiles are, for all raw materials, mostly straight (60% on quartz and 85.7% on chert) and terminations show relevant raw material differences, with quartz having bigger frequencies of feathered and hinged terminations (35% and 40% respectively) and chert having a frequency of 42.9% on pointed terminations. For all raw materials, there is the predominance of unidirectional dorsal patterns, with high frequencies over 85%. Dorsal scars show higher frequencies for 2 and 3 scars on quartz (35% and 40% respectively), while other raw materials show higher frequencies for 3 dorsal scars only (42.9% on chert).
+# flake ELONGATION TESTING
 
-On the Middle T phase, quartz shows higher frequencies for irregular shapes (53.8%), followed by convergent ones (38.5%). Contrary to the patterns seen on the previous group, chert shows higher frequencies for parallel shapes (40.6%). For all raw materials, cross sections are predominantly triangular (over 40%) with straight profiles (over 50%) and feathered terminations for chert (40.6%), whereas quartz shows higher values for hinged terminations (46.2%) followed by feathered (38.5%). Alike the U/Lower T group, there is the predominance of unidirectional dorsal scar patterns (over 90% for all raw materials), with high frequencies for 2 dorsal scars in quartz (61.5%) and 2-3 dorsal scars in chert (34.4% both).
+flake_chertlp <- datasetlp %>% 
+  filter(BlankType == "Flake" & RawMaterial == "Chert")  %>% 
+  mutate(FlakeElongation=Length/MaxWidth) %>% 
+  mutate(FlakeFlattening=MaxWidth/Thickness) %>% 
+  mutate(FlakeConvergence=MedWidth/DistWidth)
 
-Regarding platforms, for both groups, they are mostly plain for all raw materials (over 40%), followed by relatively high values of crushed platforms in quartz, with the presence of 1 faceted platform for quartz and chert in each group. Chert on the Middle T group also shows dihedral platforms (18.8%). Platforms seem to have barely any cortex, for all raw materials in both groups.
+var.test(FlakeElongation ~ Phase, data = flake_chertlp)
 
-### Elongated blanks
+ttest_elong_flake_chertlp <- t.test(FlakeElongation ~ Phase, var.equal = TRUE, data = flake_chertlp)
 
-A total of 47 elongated blanks were recorded for Lapa do Picareiro. U/Lower T phase contains 27 in total, of which more than 50% are on chert. For the Middle T phase, 20 elongated blanks were recorded, with also more than 50% on chert.
 
-When plotting width and length for elongated blanks, for chert and quartz, there seem to be two groups of different dimensions in both phases. Concerning the U/Lower T (Figure \@ref(fig:elongdisp1LP)), there is a group of smaller blanks, ranging between 2-10 mm of width and 5-25 mm of length, thus falling into the traditional category of bladelet, and a group that although more disperse is composed mostly of chert, with width and length ranging between 13-26 mm and 40-60 mm, respectively, and that may be classified, according to the traditional definition, as blades.
+flake_quartzlp <- datasetlp %>% 
+  filter(BlankType == "Flake" & RawMaterial == "Quartz") %>% 
+  mutate(FlakeElongation=Length/MaxWidth) %>% 
+  mutate(FlakeFlattening=MaxWidth/Thickness) %>% 
+  mutate(FlakeConvergence=MedWidth/DistWidth)
+
+var.test(FlakeElongation ~ Phase, data = flake_quartzlp)
+
+ttest_elong_flake_quartzlp <- t.test(FlakeElongation ~ Phase, var.equal = FALSE, data = flake_quartzlp)
+
+
+# CORE FLATTENING TESTING
+
+
+var.test(FlakeFlattening ~ Phase, data = flake_chertlp)
+
+ttest_flat_flake_chertlp <- t.test(FlakeFlattening ~ Phase, var.equal = TRUE, data = flake_chertlp)
+
+
+var.test(FlakeFlattening ~ Phase, data = flake_quartzlp)
+
+ttest_flat_flake_quartzlp <- t.test(FlakeFlattening ~ Phase, var.equal = FALSE, data = flake_quartzlp)
+
+
+```
+
+A total of 122 flakes were analyzed, 46 attributed to the U/Lower T group, more than 50% being in quartz, and 67 attributed to the Middle T group, its vast majority in chert. In both groups, attributes are very similar (Tables S21 and S22).
+
+There is a predominance of parallel and convergent shapes, triangular cross-sections (although chert shows high frequencies for trapezoidal), and straight profiles. Terminations show, on group U/Lower T, relevant raw material differences, with quartz having more significant frequencies of feathered and hinged terminations and chert showing mostly pointed terminations. In Middle T terminations are mostly feathered.
+
+In both groups and for all raw materials, unidirectional dorsal patterns are predominant. For both groups, pieces have mostly 0% cortex on the dorsal face, with exception of U/Lower T where chert shows some variability in cortex percentages.
+
+Regarding platforms, for both groups, they are mostly plain for all raw materials (over 40%). Platforms also show small amounts of cortex, for all raw materials and in both groups.
+
+Regarding elongation (Figure 18), values between quartz and chert and even between phases seem to be fairly similar (Chert t(37) = -0.60, p = 0.56; Quartz t(27) = -0.12, p = 0.91), all with sekewed elongation ratios, showing less elongation variability above the 1.5 cm threshold.
+
+Flake flattening, however, shows more apparent differences between raw materials, with quartz showing lower flattening ratios than chert. Within chert, however, there also seems to be a difference in general flattening variability and interquartile skewness, showing a larger number of flakes with similar flattening values. Flattening seems to be higher in U/Lower T, although without statistical meaning (Chert t(37) = -0.73, p = 0.47; Quartz t(29) = 0.18, p = 0.86).
+
+```{r flakeboxplotLP, fig.cap="Lapa do Picareiro. Flake elongation and flattening by phase and raw material.", echo=FALSE, fig.align= 'center', out.width = '80%'}
+  
+flakeB_LP <- datasetlp %>%
+  filter(BlankType=="Flake") %>% 
+  filter(RawMaterial %in% c("Quartz", "Chert")) %>% 
+  mutate(FlakeElongation=Length/MaxWidth) %>% 
+  mutate(FlakeFlattening=MaxWidth/Thickness) %>% 
+  select(Phase, RawMaterial, FlakeFlattening, FlakeElongation) %>% 
+  na.omit()
+
+flake_elongation_LP <- flakeB_LP %>% 
+  mutate(RawMaterial = factor(RawMaterial, levels = c("Quartz", "Chert", 
+                                                      "Greywacke","Dolerite","Chalcedony", "Other"))) %>%
+  ggplot(aes(x=RawMaterial, y=FlakeElongation, fill = Phase)) + 
+  geom_boxplot() +
+  theme_minimal() + #type of theme
+  theme(legend.title = element_blank()) +
+  labs(x = " ", y = "Elongation") +
+  theme(axis.title = element_text(size = 10, vjust = -1)) + # x axis size
+  scale_fill_jco()+
+  scale_color_jco()
+
+flake_flattening_LP <- flakeB_LP %>% 
+  mutate(RawMaterial = factor(RawMaterial, levels = c("Quartz", "Chert",   "Greywacke","Dolerite","Chalcedony", "Other"))) %>%
+  ggplot(aes(x=RawMaterial, y=FlakeFlattening, fill = Phase)) + 
+  geom_boxplot() +
+  theme_minimal() + #type of theme
+  theme(legend.title = element_blank()) +
+  labs(x = " ", y = "Flattening") +
+  theme(axis.title = element_text(size = 10, vjust = -1)) + # x axis size
+  scale_fill_jco()+
+  scale_color_jco()
+
+ggarrange(flake_elongation_LP, flake_flattening_LP,
+          widths = c(8, 8),
+          heights = c(10, 10),
+          nrow = 2,
+          common.legend = TRUE,
+          legend = "right")
+```
+
+A total of 47 elongated blanks were recorded for Lapa do Picareiro. U/Lower T phase contains 27 in total, and Middle T phase contains a total of 20 artifacts.
+
+When plotting width and length for elongated blanks, two groups of different dimensions are apparent in both phases (Figures 19 and 20). Concerning the U/Lower T (Figure 19), there is a group of smaller blanks, ranging between 2-10 mm of width and 5-25 mm of length, thus falling into the traditional category of bladelet, and a group that although more disperse is composed mostly of chert, with width and length ranging between 13-26 mm and 40-60 mm, respectively. These may be classified, according to the traditional definition, as blades.
 
 ```{r elongdisp1LP, fig.cap="Lapa do Picareiro - U/Lower T. Elongated product width and length dispersion by raw material.", echo=FALSE}
 
@@ -953,22 +1300,145 @@ ggMarginal(disp_2_LP, type = "density", groupColour = TRUE, groupFill = TRUE)
 
 ```
 
-For the Middle T (Figure \@ref(fig:elongdisp2LP)), there is also a group of smaller blanks, with widths ranging from 3 to 10 mm, and highly variable length values, ranging from between 5 to 30 mm, from which the higher values represent mostly chert artifacts. Even so, these pieces may be characterized through the traditional classification as bladelets. The second group is made up entirely of chert, although it has fewer blanks and is very disperse in terms of width (>15 mm), and length (>45 mm), and thus classified as blades.
+For the Middle T (Figure 20), there is also a group of smaller blanks, with widths ranging from 3 to 10 mm, and highly variable length values, ranging from between 5 to 30 mm, from which the higher values represent mostly chert artifacts. Even so, these pieces may be characterized through the traditional classification as bladelets. The second group is entirely composed of chert, although it has fewer blanks and is very disperse in terms of width (>15 mm), and length (>45 mm), and thus classified as blades.
 
 These patterns may represent different production strategies for specific chert elongated blank sizes, although, given the location of the site, it might merely reflect the truncated nature of the reduction sequences present at the site, only showing the presence of two groups of bladelets and blades.
 
-In fact, both blades and bladelets show a majority of parallel and convergent edge shapes, straight and curved profiles. Dorsal scars are unidirectional on the dorsal surfaces of all artifacts, with a majority of two previous removals for quartz and two to four scars for chert. Platforms are mostly plain, with no cortex (Tables S25 and S26).
+Tables 8 and 9 show the results of Fisher exact tests to evaluate whether the distribution of all the relevant technological variables differed across groups of chert artifacts. No significant statistical differences were detected for most of the technological variables in both phases.
 
-### Retouched tools
+```{r elongdisp1LP, fig.cap="Lapa do Picareiro - U/Lower T. Elongated product width and length dispersion by raw material.", echo=FALSE, fig.align= 'center', out.width = '80%'}
 
-The total number of retouched pieces from Lapa do Picareiro with spatial information, allowing the identification of phase is 11, of which 6 belong to the U/Lower T group and 5 to the Middle T group (Tables \@ref(tab:retouchLP1) and \@ref(tab:retouchLP2)).
+elongATlp <- datasetlp %>% 
+  filter(BlankType=="ElongatedProd")
 
-The analysis of retouched pieces at Lapa do Picareiro is, however, possibly truncated by the abundant edge damage identified. In all levels, many pieces, both quartz, and chert, although in larger quantities in the latter, show variable degrees of edge damage, from light to extensive. Although some edges were damaged by either trampling or impact of clasts coming from roof collapsing, since there was no homogeneity in its distribution or directionality, some other edges show dubious marks. As such, we opted for a more reserved approach regarding the classification of retouch, understanding the caveats of the decision. Thus, retouched pieces, especially the retouched flakes, were only identified as such whenever they displayed homogeneous, localized and unidirectional retouch, which could not be mistaken for edge damage.
+elongAT1lp <- elongATlp %>% 
+  filter(Phase=="U/Lower T") 
+
+elong_disp1_LP <- elongAT1lp %>% 
+  filter(RawMaterial %in% c("Chert","Quartz")) %>% 
+  mutate(RawMaterial = factor(RawMaterial, levels = c("Quartz",
+                                                      "Chert")))
+
+disp_1_LP <- ggplot(elong_disp1_LP, aes(MedWidth, Length, color = RawMaterial)) +
+  geom_point() +
+  theme_minimal() + #type of theme
+  labs(x = "Width", y = "Length") + # change labels
+  theme(axis.title = element_text(size = 10, vjust = -1), legend.position="bottom") +
+  labs(color = "Raw Material") + # x axis size
+  scale_color_jco()  + # set colours
+  geom_smooth(method = "lm", se = FALSE)
+
+ggMarginal(disp_1_LP, type = "density", groupColour = TRUE, groupFill = TRUE)
+
+
+```
+
+```{r elongdisp2LP,fig.cap="Lapa do Picareiro - Middle T. Elongated product width and length dispersion by raw material.", echo=FALSE, fig.align= 'center', out.width = '80%', fig.pos="H"}
+
+elongAT2lp <- elongATlp %>% 
+  filter(Phase=="Middle T")
+
+elong_disp2_LP <- elongAT2lp %>% 
+  filter(RawMaterial %in% c("Chert","Quartz","Greywacke")) %>% 
+  mutate(RawMaterial = factor(RawMaterial, levels = c("Quartz",
+                                                      "Chert", "Greywacke")))
+
+disp_2_LP <- ggplot(elong_disp2_LP, aes(MedWidth, Length, color = RawMaterial)) +
+  geom_point() +
+  theme_minimal() + #type of theme
+  labs(x = "Width", y = "Length") + # change labels
+  theme(axis.title = element_text(size = 10, vjust = -1), legend.position="bottom") +
+  labs(color = "Raw Material") + # x axis size
+  scale_color_jco() + # set colours
+  geom_smooth(method = "lm", se = FALSE)
+
+ggMarginal(disp_2_LP, type = "density", groupColour = TRUE, groupFill = TRUE)
+
+```
+
+\  
+
+```{r fisherelongLP1, echo = FALSE, warning=FALSE, message=FALSE}
+
+elong_groups_LP1 <- elongATlp %>% 
+  mutate(elong_group = case_when(MedWidth < 12.5 ~ "Bladelet",
+                                  MedWidth >= 12.5 ~ "Blade")) %>% 
+  filter(RawMaterial == "Chert" & Phase == "U/Lower T")
+
+
+elong_test_LP1 <- tabmulti(elong_groups_LP1, "elong_group", c("CrossSection", "BlankShape", 
+                                                           "Profile", "BlankTip",
+                                                         "PlatformType", 
+                                                         "PlatformCortex","Cortex", "ScarCount",
+                                                         "ScarPattern"),
+                        ymeasures = c("freq", "freq", "freq",
+                                      "freq","freq","freq","freq", "freq", "freq"),
+                        p.include = TRUE,
+                        freq.tests = 'fisher',
+                        n.headings = FALSE,
+                        bold.varnames = TRUE,
+                        bold.colnames = TRUE,
+                        overall.column = FALSE,
+                        variable.colname = "Attributes")
+elong_test_LP1 <- as.data.frame(elong_test_LP1)
+elong_test_LP1 <- elong_test_LP1 %>% 
+  filter(Attributes %in% c("CrossSection, n (%)", "BlankShape, n (%)", "2	Profile, n (%)", "BlankTip, n (%)", "PlatformType, n (%)",
+                           "PlatformCortex, n (%)", "Cortex, n (%)", "ScarCount, n (%)", "ScarPattern, n (%)"))
+elong_test_LP1 <- elong_test_LP1 %>% 
+  select(1,4)
+
+
+knitr::kable(elong_test_LP1, booktabs = TRUE, longtable = TRUE, caption = "Lapa do Picareiro - U/Lower T. Results of Fisher exact tests to evaluate whether the distribution of technological variables differed across metric groups (blades and bladelets) of chert elongated artifacts.") %>% 
+  row_spec(1, bold = T) %>%
+  kable_styling(position = "center", font_size = 9, latex_options = "hold_position")
+
+```
+
+```{r fisherelongLP2, echo = FALSE, warning=FALSE, message=FALSE}
+
+elong_groups_LP2 <- elongATlp %>% 
+   mutate(elong_group = case_when(MedWidth < 12.5 ~ "Bladelet",
+                                  MedWidth >= 12.5 ~ "Blade")) %>%
+  filter(RawMaterial == "Chert" & Phase == "Middle T")
+
+
+elong_test_LP2 <- tabmulti(elong_groups_LP2, "elong_group", c("CrossSection", "BlankShape", 
+                                                           "Profile", "BlankTip",
+                                                         "PlatformType", 
+                                                         "PlatformCortex", "Cortex", "ScarCount",
+                                                         "ScarPattern"),
+                        ymeasures = c("freq", "freq", "freq",
+                                      "freq","freq","freq","freq","freq", "freq"),
+                        p.include = TRUE,
+                        freq.tests = 'fisher',
+                        n.headings = FALSE,
+                        bold.varnames = TRUE,
+                        bold.colnames = TRUE,
+                        overall.column = FALSE,
+                        variable.colname = "Attributes")
+
+elong_test_LP2 <- as.data.frame(elong_test_LP2)
+elong_test_LP2 <- elong_test_LP2 %>% 
+  filter(Attributes %in% c("CrossSection, n (%)", "BlankShape, n (%)", "2	Profile, n (%)", "BlankTip, n (%)", "PlatformType, n (%)",
+                           "PlatformCortex, n (%)", "Cortex, n (%)", "ScarCount, n (%)", "ScarPattern, n (%)"))
+elong_test_LP2 <- elong_test_LP2 %>% 
+  select(1,4)
+
+knitr::kable(elong_test_LP2, longtable= TRUE, booktabs = TRUE, caption = "Lapa do Picareiro - Middle T. Results of Fisher exact tests to evaluate whether the distribution of technological variables differed across metric groups (blades and bladelets) of chert elongated artifacts.") %>% 
+  row_spec(1, bold = T) %>% 
+  kable_styling(position = "center", font_size = 9, latex_options = "hold_position")
+
+```
+
+In fact, both blades and bladelets show a majority of parallel and convergent edge shapes, straight and curved profiles. Dorsal scars are unidirectional on the dorsal surfaces of all artifacts, with a majority of two previous removals for quartz and two to four scars for chert. Platforms are mostly plain, with no cortex, similarly to the dorsal faces which show, for both groups, mostly no cortex (Tables S25 and S26).
+
+The total number of retouched pieces from Lapa do Picareiro with spatial information, allowing the identification of phase, is 11, of which 6 belong to the U/Lower T group and 5 to the Middle T group (Tables 10 and 11).
+
+The analysis of retouched pieces at Lapa do Picareiro is, however, possibly truncated by the abundant edge damage identified. In all levels, many pieces, both quartz and chert, although in larger quantities in the latter, show variable degrees of edge damage, from light to extensive. Although some edges were damaged by either trampling or impact of clasts coming from roof collapsing, since there was no homogeneity in its distribution or directionality, some other edges show dubious marks. As such, we opted for a more reserved approach regarding the classification of retouch, understanding the caveats of the decision. Thus, retouched pieces, especially the retouched flakes, were only identified as such whenever they displayed homogeneous, localized, and unidirectional retouch, which could not be mistaken for edge damage.
 
 U/Lower T shows four types of retouched piece types, the most present being the retouched flakes (n=3) all in chert, and the only quartz retouched piece is a splintered piece.
 
 For the Middle T group, there is a smaller variety of retouched pieces, all in chert: a notch, two retouched flakes, one truncation, and possibly a Vale Comprido point, although the thinning retouch at the platform is questionable.
-
 
 ```{r retouchLP1, echo=FALSE}
 
@@ -1037,63 +1507,55 @@ knitr::kable(retouch_table2lp, booktabs=TRUE, caption = "Lapa do Picareiro - Mid
 
 # Discussion
 
-The two phases identified at each site, Lower 5 and Upper 5/4E at Vale Boi, and U/Lower T and Middle T at Lapa do Picareiro, show essentially the same technological patterns, characterized by the exploitation of simple or prismatic cores, with plain platforms and the use of unidirectional strategies for the production of most blanks. Differences between the two sets of groups (Lower 5 and U/Lower T vs. Upper 5/4E and Middle T) are mostly visible in terms of raw material frequencies and the presence of elements related to the production of Vale Comprido points and/or blade-size blanks, which are essentially two of the three main characteristics presented by the traditional transition models [@zilhao1997].
+The two phases identified at each site, Lower 5 and Upper 5/4E at Vale Boi, and U/Lower T and Middle T at Lapa do Picareiro, show essentially the same technological patterns, characterized by the exploitation of simple or prismatic cores, with plain platforms and the use of unidirectional strategies for the production of most blanks. Differences between the two sets of groups (Lower 5 and U/Lower T vs. Upper 5/4E and Middle T) are mostly visible in terms of raw material frequencies and the presence of elements related to the production of Vale Comprido points and/or blade-size blanks, which are essentially two of the three main characteristics presented by the traditional transition models (Zilhão, 1997). Raw material frequency differences are present mainly for quartz and chert. In Lower 5 and U/Lower T the frequency of quartz is higher than 50%, dropping in the overlaying occupations when chert becomes the dominant raw material. The presence of quartz across the Terrace sequence at Vale Boi was highlighted in previous works (Marreiros, 2009), and contrasts significantly with the results for other areas and chronologies of the site, such as the Solutrean occupations in the rockshelter, where quartz knapped materials do not reach more than 25% of the whole assemblage (Cascalheira, 2010). The same holds true for Lapa do Picareiro, where the Magdalenian and Solutrean occupations are marked by a clear dominance of chert (Bicho et al., 2006; Haws et al., 2019).
 
-Raw material frequency differences are present mainly for quartz and chert. In Lower 5 and U/Lower T the frequency of quartz is higher than 50%, dropping in the overlaying occupations, when chert becomes the dominant raw material. The presence of quartz across the Terrace sequence at Vale Boi was highlighted in previous works [@marreiros2009], and contrasts significantly with the results for other areas and chronologies of the site, such as the Solutrean occupations in the rockshelter, where quartz knapped materials do not reach more than 25% of the whole assemblage [@cascalheira2010]. The same holds true for Lapa do Picareiro, where the Magdalenian and Solutrean occupations are marked by a clear dominance of chert [bichoetal2006; hawsetal2019].
+What is rather interesting in these contexts is that similar reduction strategies seem to have been used for both quartz and chert. Such aspects as the high exploitation of quartz and application of similar reduction strategies to both raw materials can be integrated in a perspective of cultural diversification and techno-economical intensification as suggested elsewhere (Cascalheira and Bicho, 2013). For the Gravettian-Solutrean transition, these patterns have been interpreted as preferences resulting from tradition, more than technical or economic reasons (Almeida, 2006). This interpretation stems from the understanding that, for the Portuguese Estremadura, good quality chert is ubiquitous (Zilhão, 1997), and even during times when quartz was highly used, chert continued to frequently appear in the archaeological record as a preference for formal tool production (Almeida, 2006). The same seems to apply for Vale Boi and Lapa do Picareiro, where the assemblages of both phases show the existence of fairly good quality chert, that was used to produce a vast majority of the retouched tools. However, associating the transition to the timeframe of an abrupt climate event such as the HE2, and to the onset of LGM-related environmental transformations, these preferences might be also explained by growing pressures and stress in the economic system, rather than by tradition alone (see Pereira and Benedetti, 2013). Similarly, the isolated presence of dolerite at Vale Boi’s Proto-Solutrean levels might also be explained by the same factors, further implying that the exploitation of different ecological niches was part of the strategies to cope with environmental changes in southern Portugal.
 
-What is rather interesting in these contexts is that similar reduction strategies seem to have been used for both quartz and chert. Such aspects as the high exploitation of quartz and application of similar reduction strategies to both raw materials can be integrated in a perspective of cultural diversification and techno-economical intensification as suggested elsewhere [@cascalheiraandbicho2013]. For the Gravettian-Solutrean transition these patterns have been interpreted as preferences resulting from tradition, more than technical or economic reasons [@almeida2006]. This interpretation stems from the understanding that, for the Portuguese Estremadura, good quality chert is ubiquitous [@zilhao1997], and even during times when quartz was highly used, chert continued to frequently appear in the archaeological record as a preference for formal tool production [@almeida2006]. The same seems to apply for Vale Boi and Lapa do Picareiro, where the assemblages of both phases show the existence of fairly good quality chert, that was used to produce a great majority of the retouched tools. However, associating the transition to the timeframe of an abrupt climate event such as the HE2, and to the onset of LGM-related environmental transformations, these preferences might be also explained by growing pressures and stress in the economic system, rather than by tradition alone [see @pereira2013]. Similarly, the isolated presence of dolerite at Vale Boi’s Proto-Solutrean levels might also be explained by the same factors, further implying that the exploitation of different ecological niches was part of the strategies to cope with environmental changes in southern Portugal.
+The presence of dolerite is also indicative of a glaring difference between Vale Boi and Lapa do Picareiro. Lapa do Picareiro shows less raw material variability comparatively to Vale Boi, which might be explained by the lithological characteristics of the area, already explored in other studies that showed similar raw material presence patterns (Almeida, 2000; Zilhão, 1997), but can also be related to the location of Picareiro in a high altitude environment with significant implications to the functional nature of the occupations (see Cascalheira and Bicho, 2018).
 
-Overall, the identification of homologous phases at Lapa do Picareiro and Vale Boi, correlates well with the patterns already identified in the Portuguese Estremadura.
-In fact, the technological and raw material patterns observed in both U/Lower T and Lower 5 seem to correspond to the Terminal Gravettian as described for Central Portugal [@almeida2000]. Perhaps one of the most striking differences between both Vale Boi and Lapa do Picareiro assemblages and the other Terminal Gravettian sites, is the notorious lack of carinated elements. These have been described as a dominant element in the tool kits, serving as cores for bladelets [@almeida2000; @zilhao1997]. In neither levels U/Lower T nor Lower 5 carinated elements have been identified, although the presence of curved bladelets may indicate the use of this reduction sequence at both sites. Their absence may be either explained through site functionality (given the high altitude location of Picareiro and the rather sparse occupations at the bottom half of Vale Boi's layer 5) or exportation of those carinated elements, since the bladelet component, primarily in quartz, seems to be present in high frequencies, without a clearly associated core type.
-Likewise, the Middle T horizon from Lapa do Picareiro and Upper 5/4E phase from Vale Boi seem to follow homologous shifts in raw material frequency, which correlate to the third stage of the Three-phase model, where there seems to be a decrease in quartz, although many technological patterns remain the same [@zilhao1997]. The presence of Vale Comprido technology in Vale Boi further strengthens this association, since Vale Comprido reduction strategies do not seem be present in Terminal Gravettian assemblages [@almeida2000], but are found in high numbers in other sites, dated to the transition but without a strong "Aurignacian V" component.
+Overall, the identification of homologous phases at Lapa do Picareiro and Vale Boi, correlates well with the patterns already identified in the Portuguese Estremadura. In fact, the technological and raw material patterns observed in both U/Lower T and Lower 5 seem to correspond to the Terminal Gravettian as described for central Portugal (Almeida, 2000). Perhaps one of the most striking differences between both Vale Boi and Lapa do Picareiro assemblages and the other Terminal Gravettian sites is the notorious lack of carinated elements. These have been described as a dominant element in the tool kits, serving as cores for bladelets (Almeida, 2000; Zilhão, 1997). In neither levels, U/Lower T or Lower 5, carinated elements have been identified, although the presence of curved bladelets may indicate the use of this reduction sequence at both sites. Their absence may be either explained through site functionality (given the high altitude location of Picareiro and the rather sparse occupations at the bottom half of Vale Boi’s layer 5) or exportation of those carinated elements, since the bladelet component, primarily in quartz, seems to be present in high frequencies, without a clearly associated core type. 
 
-Notwithstanding, despite the technological and raw material similarities between Lapa do Picareiro and Vale Boi in the more recent phase, the identification of the blade products in level Middle T as part of a Vale Comprido technology is more problematic [see also @hawsetal2019]. The identified pieces do reveal the presence of convergent edge shapes, mostly with plain platforms and with unidirectional dorsal scars. Yet, there are sufficient morphological differences, between Middle T’s blanks, Upper 5/4E’s Vale Comprido points and the materials from the original site of Vale Comprido – Encosta [@zilhao1997], to question the identification of these products from Lapa do Picareiro as part of a Vale Comprido technological strategy (see below). Further, the attribution of a Proto-Solutrean chronology to these levels is not straightforward, not only due to the atypical attributes of the possibly Vale Comprido implements, but also due to the rather young radiocarbon dates obtained for that part of the sequence.
+Likewise, the Middle T horizon from Lapa do Picareiro and Upper 5/4E phase from Vale Boi seem to follow homologous shifts in raw material frequency, which correlate to the third stage of the Three-phase model, where there seems to be a decrease in quartz, although many technological patterns remain the same (Zilhão, 1997). The presence of Vale Comprido technology in Vale Boi further strengthens this association, since Vale Comprido reduction strategies do not seem to be present in Terminal Gravettian assemblages (Almeida, 2000), but are found in high numbers in other sites, dated to the transition but without an “Aurignacian V” component.
 
-Figure \@ref(fig:datesall) shows all radiocarbon dates for archaeological contexts within the Gravettian-Solutrean transition in the Portuguese Estremadura, plus the sum probabilities of the dates from the four contexts included in this study. For Vale Boi and Lapa do Picareiro, there seems to be two groups of dates: a group of older results, at around 27 ka cal BP for Lapa do Picareiro and 26 ka cal BP for Vale Boi; and a second group of younger dates, starting in Vale Boi at around 25 ka cal BP, and extending into the c. 24.5-24 ka cal BP timeframe at Lapa do Picareiro. All the Estremadura results seem to either overlap with the older dates for Vale Boi or fit in between the two groups, clearly indicating that the dates from the two sites here presented currently establish the chronological limits for the Gravettian-Solutrean transition in westernmost Iberia.
+Notwithstanding, despite the technological and raw material similarities between Lapa do Picareiro and Vale Boi in the more recent phase, the identification of the blade products in level Middle T as part of a Vale Comprido technology is more problematic (see also Haws et al., 2019). The identified pieces do reveal the presence of convergent edge shapes, mostly with plain platforms and with unidirectional dorsal scars (Figure 13). However, there are sufficient morphological differences, between Middle T’s blanks, Upper 5/4E’s Vale Comprido points and the materials from the original site of Vale Comprido – Encosta (Zilhão, 1997), to question the identification of these products from Lapa do Picareiro as part of a Vale Comprido technological strategy (see below). Further, the attribution of a Proto-Solutrean chronology to these levels is not straightforward, not only due to the atypical attributes of the possibly Vale Comprido implements but also due to the rather young radiocarbon dates obtained for that part of the sequence (but see Alcaraz-Castaño et al., 2013 for possible even younger dates for a Vale Comprido component in Inland Iberia).
+
+Figure 21 shows all radiocarbon dates for archaeological contexts within the Gravettian-Solutrean transition in the Portuguese Estremadura, plus the sum probabilities of the dates from the four contexts included in this study. For Vale Boi and Lapa do Picareiro, there seems to be two groups of dates: a group of older results, at around 27 ka cal BP for Lapa do Picareiro and 26 ka cal BP for Vale Boi; and a second group of younger dates, starting in Vale Boi at around 25 ka cal BP, and extending into the c. 24.5-24 ka cal BP timeframe at Lapa do Picareiro. All the Estremadura results seem to either overlap with the older dates for Vale Boi or fit in between the two groups, clearly indicating that the dates from the two sites here presented currently establish the chronological limits for the Gravettian-Solutrean transition in westernmost Iberia.
 
 ```{r datesall, fig.cap="Comparison of the summed probability of radiocarbon dates from each studied archaeological context with the individual results from sites located in the Portuguese Estremadura and attributed to the Gravettian-Solutrean transition (Zilhão 1997a). The summed probabilities are calculated based on the individual modeled dates of the Bayesian approach used in Chapter 3. All calibrations were done using IntCal13 and Marine13, in OxCal 4.1.7 online (Reimer et al. 2013)."}
 knitr::include_graphics(here::here("analysis/figures/c14_all.png"))
 ```
 
-More importantly, the two groups of dates, combined with the abovementioned differences in technology and raw material use, seem to reflect at least two discrete phases within the transition, once again in accordance with the Three-stage model [@zilhao1997]. As such, the older group of dates, concomitant with high use of quartz, is representative of a Terminal Gravettian moment, while the younger group, accompanied by a decrease in quartz and the appearance of Vale Comprido points, at least in Vale Boi, represents a Proto-Solutrean occupation.
+More importantly, the two groups of dates, combined with the abovementioned differences in technology and raw material use, seem to reflect at least two discrete phases within the transition, following the Three-stage model (Zilhão, 1997). As such, the older group of dates, concomitant with high use of quartz, is representative of a Terminal Gravettian moment, while the younger group, accompanied by a decrease in quartz and the appearance of Vale Comprido points, at least in Vale Boi, represents a Proto-Solutrean occupation.
 
-However, some interesting noteworthy patterns occur when comparing the results of all absolute dates available.
+However, some interesting, noteworthy patterns occur when comparing the results of all absolute dates available.
 
-First, dates for the U/Lower T occupations at Lapa do Picareiro seem to be older than all other known sites in Portugal, falling completely outside of the HE2 time span. The implications of these results are that the dominant use of quartz during the Terminal Gravettian may not be related to environmental change, as suggested above and elsewhere [@cascalheiraandbicho2013], but to cultural dynamics and their influence on raw material preferences [@almeida2000].
+First, dates for the U/Lower T occupations at Lapa do Picareiro seem to be older than all other known sites in Portugal, falling entirely outside of the HE2 time span (as recorded in core MD95-2042 – Sánchez-Goñi et al., 2008). These results imply that the dominant use of quartz during the Terminal Gravettian may not be related to environmental change, as suggested above and elsewhere (Cascalheira and Bicho, 2013), but to cultural dynamics and their influence on raw material preferences (Almeida, 2000).
 
-Second, an interesting aspect at Lapa do Picareiro is the obvious occupational gap of around two thousand years between the two occupations here presented. Since both phases are marked by raw material use differences, but similar technological patterns, some cultural continuity seems to occur, although the cave was not in use (or perhaps a different area of the site was being used) during the temporal gap which roughly corresponds to the first half of the HE2. If confirmed by future works, complete site abandonment during this timeframe might be justified by significant environmental deterioration of high-altitude contexts, such as the one of Lapa do Picareiro, that became unsuitable for human occupation.
+Second, an interesting aspect at Lapa do Picareiro is the noticeable occupational gap of around two thousand years between the two occupations here presented. Since both phases are marked by raw material use differences, but similar technological patterns, some cultural continuity seems to occur, although the cave was not in use (or perhaps a different area of the site was being used) during the temporal gap which roughly corresponds to the first half of the HE2. If confirmed by future works, complete site abandonment during this timeframe might be justified by significant environmental deterioration of high-altitude contexts, such as the one of Lapa do Picareiro, that became unsuitable for human occupation (see also Cascalheira and Bicho, 2018).
 
-Third, another particularity of the new set of dates is the concomitance of Vale Boi's results with most of the other know sites in Central Portugal. Given the geographic distance and significantly different chronological and technological patterns showed during the Gravettian [@marreiros2009], it would be expected that Vale Boi showed also some type of gap during the transition. Instead, what we find is a significant level of similarity both in absolute dating and in the general organization of the techno-cultural phases. This seems to corroborate the idea that the transition between the Gravettian and the Solutrean was marked by a significant expansion of the social networks, leading to a higher degree of homogeneity of lithic assemblages across the territory [@cascalheiraandbicho2013], and culminating in the broad geographical range known for the Solutrean techno-types. This seems to be the case for other sites outside of the Iberian Peninsula as well, where Proto-Solutrean assemblages with similar techno-typological characteristics as those identified in the Portuguese Estremadura have been recognized within similar time ranges [@renard2011]. Understanding the end of the Gravettian as a moment of cultural change triggered by deteriorated environmental conditions, the expansion of social networks and the spread of techno-economic solutions across larger territories may have guaranteed the reproductive success of human communities [@cascalheiraandbicho2013].
+Third, another particularity of the new set of dates is the concomitance of Vale Boi’s results with most of the other know sites in central Portugal. Given the geographic distance and significantly different chronological and technological patterns showed during the Gravettian (Marreiros, 2009), it would be expected that Vale Boi also showed some type of gap during the transition. Instead, what we find is a significant level of similarity both in absolute dating and in the general organization of the techno-cultural phases. This seems to corroborate the idea that the transition between the Gravettian and the Solutrean was marked by a significant expansion of the social networks, leading to a higher degree of homogeneity of lithic assemblages across the territory (Cascalheira and Bicho, 2013), and culminating in the broad geographical range known for the Solutrean techno-types. This seems to be the case for other sites outside of the Iberian Peninsula as well, where Proto-Solutrean assemblages with similar techno-typological characteristics as those identified in the Portuguese Estremadura have been recognized within similar time ranges (Renard, 2011; Alcaraz-Castaño et al. 2013; Aura Tortosa et al., 2009). Understanding the end of the Gravettian as a moment of cultural change triggered by deteriorated environmental conditions, the expansion of social networks and the spread of techno-economic solutions across larger territories may have guaranteed the reproductive success of human communities.
 
-Finally, at Lapa do Picareiro, alongside the technological differences and the doubts in cultural attribution to Middle T, the summed probability of the several radiocarbon results extend that phase into a slightly younger time span, for which no absolute dating was previously available in the region [@zilhao1997].  This, until now, “black hole” in the LGM chronostratigraphic sequence of central Portugal has been considered by Zilhão [-@zilhao2013] to represent a Lower Solutrean moment, that in most sites is either denoted by stratigraphic discontinuities or undistinguishably merged in thick palimpsest deposits. The dates for Picareiro fill this chronological gap but leave some uncertainties on whether the assemblages are part of (1) a Proto-Solutrean occupation with no typical Vale Comprido elements; (2) a Lower Solutrean occupation without the typical pointes a face plan with invasive unifacial retouch. In favor of the first hypotheses is the fact that the blades from Middle T may be products of a separate reduction sequence for the production of gracile elongated blanks, which has been, in fact, also identified in the original site of Vale Comprido – Encosta alongside the typical Vale Comprido technology [@zilhao1997]. Also in favor of that same hypothesis is the fact that Middle T assemblage does not show the specific characteristics of a Solutrean assemblage, such as the presence of the typical flat invasive retouch, present in other regions right from the early stages of the technocomplex [@renard2011]. Naturally, this latter absence may also be related to a fragmentation of the reduction sequences and functional nature of Lapa do Picareiro as a logistic high-altitude context.
-
+Finally, at Lapa do Picareiro, alongside the technological differences and the doubts in cultural attribution to Middle T, the summed probability of the several radiocarbon results extend that phase into a slightly younger time span, for which no absolute dating was previously available in the region (Zilhão, 1997). This “black hole” present until now in the LGM chronostratigraphic sequence of central Portugal has been considered by Zilhão (2013) to represent a Lower Solutrean moment, that in most sites is either denoted by stratigraphic discontinuities or undistinguishably merged in thick palimpsest deposits. The dates for Lapa do Picareiro fill this chronological gap but leave some uncertainties on whether the assemblages are part of (1) a Proto-Solutrean occupation with no typical Vale Comprido elements; (2) a Lower Solutrean occupation missing the typical pointes a face plan with invasive unifacial retouch. In favor of the first hypotheses is the fact that the blades from Middle T may be products of a separate reduction sequence for the production of gracile elongated blanks, which has been, in fact, also identified in the original site of Vale Comprido – Encosta alongside the typical Vale Comprido technology (Zilhão, 1997). Also, in favor of that same hypothesis is the fact that Middle T assemblage does not show the specific characteristics of a Solutrean assemblage, such as the presence of the typical flat invasive retouch, present in other regions right from the early stages of the technocomplex (Renard, 2011). Again, this latter absence may also be related to a fragmentation of the reduction sequences and functional nature of Lapa do Picareiro as a logistic high-altitude context.
 
 # Conclusion
 
-Phases U/Lower T and Middle T from Lapa do Picareiro and Levels 5 and 4E from Vale Boi have allowed the expansion of our understanding on the transition between the Gravettian and the Solutrean, not only testing the existing evolutionary models, as well as extending the geographical range of the traditional models to southern Portugal. 
+Phases U/Lower T and Middle T from Lapa do Picareiro and Levels 5 and 4E from Vale Boi have allowed the expansion of our understanding on the transition between the Gravettian and the Solutrean, not only testing the existing evolutionary models, as well as extending the geographical range of the traditional models to southern Portugal.
 
-As such, through the data obtained from these two sites, both recently excavated, with resource to the most advanced field methods, and for which a contextualized, well-restricted, set of radiocarbon dates are available, the present study has reached the following main conclusions:
+As such, through the data obtained from these two sites, both recently excavated using the most advanced field methods, and for which a contextualized, well-restricted, set of radiocarbon dates are available, the present study has reached the following main conclusions:
 
 *	Technological patterns are similar in the analyzed assemblages, dominated by reduction sequences, equally applied to chert and quartz, focused on the obtention of elongated blanks (mostly bladelets for Lower 5 and U/Lower T) and flakes, through prismatic cores, with little platform preparation and using unidirectional strategies.
 
-*	Differences between phases within each site are mostly explained by differences in raw material use and presence/absence of Vale Comprido or blade technologies. In a first phase, quartz is used in high frequencies mainly for the production of bladelets and flakes. In a second moment chert is dominant and blade or elongated flake production are more common.
+*	Differences between phases within each site are mostly explained by differences in raw material use and presence/absence of Vale Comprido or blade technologies. In a first phase, quartz is used in high frequencies mainly for the production of bladelets and flakes. In a second moment, chert is dominant, and blade or elongated flake production are more common.
 
-*	This first phase (U/Lower T and Lower 5), corresponding to a Terminal Gravettian occupation, seems to occur around 27-26 ka cal BP at Lapa do Picareiro and Vale Boi, respectively. The second phase (Upper 5/4E and Middle T) occurs at around 25.5 ka cal BP, corresponding to a Proto-Solutrean in Vale Boi but with some reservations in the case of Lapa do Picareiro. 
+*	This first phase (U/Lower T and Lower 5), corresponding to a Terminal Gravettian occupation, seems to occur around 27 and 26 ka cal BP at Lapa do Picareiro and Vale Boi, respectively. The second phase (Upper 5/4E and Middle T) occurs at, respectively, around 25.5 and 24.5 ka cal BP, corresponding to a Proto-Solutrean in Vale Boi but with some reservations in the case of Lapa do Picareiro. 
 
-* The technological and raw material patterns correlated with the absolute chronology and separation of the stratigraphic contexts show that the Three-phase model seems to apply best to sites in the Portuguese Estremadura and the south of Portugal. Consequently, the Terminal Gravettian is likely not a functional facies of the Proto-Solutrean, but an independent cultural horizon [as already suggested by @almeida2000].
+* The technological and raw material patterns correlated with the absolute chronology and separation of the stratigraphic contexts show that the Three-phase model seems to apply best to sites in the Portuguese Estremadura and southern Portugal. Consequently, the Terminal Gravettian is likely not a functional facies of the Proto-Solutrean, but an independent cultural horizon (as already suggested by Almeida, 2000).
 
-*	Middle T from Lapa do Picareiro presents similarities with other Proto-Solutrean sites, but lacks both typical Vale Comprido implements and typical Solutrean points. Radiocarbon dates place this occupation as covering the timeframe supposedly occupied by a never-before-isolated Lower Solutrean phase.
-
-This particularity about Middle T needs further studies. This may be achieved through the analysis of Vale Comprido technology using a more complete set of morpho-metrical data (avoiding as much as possible subjective typological attributions), and through the analysis of blade reduction schemes for the sites dated to the transition, as well as Middle Solutrean blanks and *pointes à face plan* production.
-
-Assessing these patterns is important to understand a link that seems to be missing in the Upper Paleolithic in Portugal and that connects the Proto-Solutrean to the Solutrean, further building onto the existing models for the Gravettian-Solutrean transition. Still, it should be kept in mind that the lack of chronological resolution from most of the currently available radiocarbon dates, as well as the contextual problems of most of the sites attributed to the transition, hampers the identification of small chronological differences and of rapid cultural changes in the archaeological record.
-
-
+*	Middle T from Lapa do Picareiro presents similarities with other Proto-Solutrean sites but lacks both typical Vale Comprido implements and typical Solutrean points. Radiocarbon dates place this occupation as covering the timeframe supposedly occupied by a never-before-isolated Lower Solutrean phase.
 
 # Acknowledgements
 
-We would like to thank U.S. National Science Foundation (awards to Haws BCS-1420299, BCS-1724997; and Benedetti BCS-1420453, BCS-1725015) for the work in Picareiro and to Fundação para a Ciência e Tecnologia (Grant # PTDC/HAR-ARQ/27833/2017) for the work in Vale Boi.
-
+We would like to thank U.S. National Science Foundation (awards to Haws BCS-1420299, BCS-1724997; and Benedetti BCS-1420453, BCS-1725015) for the work in Picareiro and to Fundação para a Ciência e Tecnologia (Grant # PTDC/HAR-ARQ/27833/2017) for the work in Vale Boi. Cascalheira is funded by the Fundação para a Ciência e Tecnologia, contract ref. DL 57/2016/CP1361/CT0026.
 
 <!-- The following line inserts a page break  -->
 \newpage
